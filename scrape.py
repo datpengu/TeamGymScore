@@ -11,9 +11,7 @@ container = soup.find("div", id="TabContent")
 results = []
 
 def parse_score(text):
-    """
-    Parses a string like '12,100D: 2,000E: 8,100C: 2,000' into a dict.
-    """
+    """Parse score with D/E/C into dict"""
     text = text.replace(",", ".")
     score_match = re.match(r"[\d.]+", text)
     score = float(score_match.group()) if score_match else None
@@ -23,41 +21,52 @@ def parse_score(text):
     return {"score": score, "D": D, "E": E, "C": C}
 
 if container:
+    # Get all text lines inside TabContent, skip empty
     lines = [div.get_text(strip=True) for div in container.find_all("div", recursive=True) if div.get_text(strip=True)]
+
+    # Skip header line
+    header_keywords = ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]
+    while lines and any(k in lines[0] for k in header_keywords):
+        print(f"Skipping header line: {lines[0]}")
+        lines.pop(0)
+
+    rank_counter = 1
     i = 0
     while i < len(lines):
-        if re.match(r"^\d+", lines[i]):
-            try:
-                rank = lines[i]
-                name = lines[i+1]
-                club = lines[i+2]
+        try:
+            # Extract rank + start position from start of line
+            line = lines[i]
+            rank_len = len(str(rank_counter))
+            rank = rank_counter
+            start_pos = int(line[rank_len:rank_len+1])  # assumes start pos is 1 digit; adjust if necessary
+            name = line[rank_len+1:].strip()
 
-                fx = parse_score(lines[i+3])
-                tu = parse_score(lines[i+4])
-                tr = parse_score(lines[i+5])
+            fx = parse_score(lines[i+1])
+            tu = parse_score(lines[i+2])
+            tr = parse_score(lines[i+3])
 
-                total_text = lines[i+6].replace(",", ".")
-                total = float(total_text) if re.match(r"^[\d.]+$", total_text) else None
+            total_text = lines[i+4].replace(",", ".")
+            total = float(total_text) if re.match(r"^[\d.]+$", total_text) else None
 
-                results.append({
-                    "rank": rank,
-                    "name": name,
-                    "club": club,
-                    "fx": fx,
-                    "tu": tu,
-                    "tr": tr,
-                    "total": total
-                })
-                i += 7
-            except IndexError:
-                print(f"⚠️ Skipped incomplete competitor block starting at line {i}: {lines[i:i+7]}")
-                break
-            except Exception as e:
-                print(f"⚠️ Error parsing competitor block starting at line {i}: {lines[i:i+7]} — {e}")
-                i += 7
-        else:
-            # log skipped lines not starting with rank
-            print(f"ℹ️ Skipped line {i} (not a rank): {lines[i]}")
+            gap_text = lines[i+5].replace(",", ".")
+            gap = float(gap_text) if re.match(r"^[\d.]+$", gap_text) else None
+
+            results.append({
+                "rank": rank,
+                "start_position": start_pos,
+                "name": name,
+                "fx": fx,
+                "tu": tu,
+                "tr": tr,
+                "total": total,
+                "gap": gap
+            })
+
+            i += 6
+            rank_counter += 1
+
+        except Exception as e:
+            print(f"⚠️ Skipped lines {i}-{i+5} due to error: {e}")
             i += 1
 
 # Save JSON
