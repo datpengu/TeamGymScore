@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 
-URL = "https://live.sporteventsystems.se/Score/WebScore/3303?f=7545&country=swe&year=-1&utm_source=chatgpt.com"
+URL = "https://raw.githubusercontent.com/datpengu/TeamGymScore/refs/heads/main/site.html"
 response = requests.get(URL)
 soup = BeautifulSoup(response.text, "html.parser")
 
@@ -11,9 +11,9 @@ container = soup.find("div", id="TabContent")
 results = []
 
 def parse_score(text):
-    """Parse score with D/E/C into dict"""
+    """Parse a line containing a score with optional D/E/C"""
     text = text.replace(",", ".")
-    score_match = re.match(r"[\d.]+", text)
+    score_match = re.search(r"[\d]+\.[\d]{3}", text)
     score = float(score_match.group()) if score_match else None
     D = float(re.search(r"D:\s*([\d.]+)", text).group(1)) if re.search(r"D:\s*([\d.]+)", text) else None
     E = float(re.search(r"E:\s*([\d.]+)", text).group(1)) if re.search(r"E:\s*([\d.]+)", text) else None
@@ -21,9 +21,10 @@ def parse_score(text):
     return {"score": score, "D": D, "E": E, "C": C}
 
 if container:
+    # Get all non-empty div texts
     lines = [div.get_text(strip=True) for div in container.find_all("div", recursive=True) if div.get_text(strip=True)]
 
-    # Skip header
+    # Remove header lines
     header_keywords = ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]
     while lines and any(k in lines[0] for k in header_keywords):
         lines.pop(0)
@@ -34,28 +35,38 @@ if container:
         try:
             line = lines[i]
 
-            # Dynamic rank length
-            rank_str = str(rank_counter)
-            rank_len = len(rank_str)
-
-            # Extract start position digits after rank
-            rest = line[rank_len:]
-            start_pos_match = re.match(r"(\d+)", rest)
+            # Rank is sequential
+            start_pos_match = re.match(r"(\d+)", line)
             if not start_pos_match:
-                raise ValueError(f"Cannot parse start position from '{line}'")
+                i += 1
+                continue
             start_pos = int(start_pos_match.group(1))
 
-            # Team name ends at first score (3 decimal pattern)
-            name = re.split(r"\d+,\d{3}", rest[start_pos_match.end():])[0].strip()
+            # Team name is everything after start position digits up to next score line
+            name = line[start_pos_match.end():].strip()
+            if not name:
+                # fallback if empty, pick next non-score line
+                for j in range(i+1, len(lines)):
+                    if re.match(r"^\D", lines[j]):
+                        name = lines[j].strip()
+                        break
 
+            # Parse fx, tu, tr lines
             fx = parse_score(lines[i+1])
             tu = parse_score(lines[i+2])
             tr = parse_score(lines[i+3])
 
-            total_text = lines[i+4].replace(",", ".")
-            total = float(total_text) if re.match(r"^[\d.]+$", total_text) else None
-
-            gap = None if rank_counter == 1 else float(lines[i+5].replace(",", ".")) if re.match(r"^[\d.]+$", lines[i+5]) else None
+            # Total: first line with three decimals
+            total = None
+            gap = None
+            for j in range(i+4, i+6):
+                if j < len(lines) and re.match(r"^\d+\.\d{3}$", lines[j].replace(",", ".")):
+                    total = float(lines[j].replace(",", "."))
+                elif j < len(lines) and re.match(r"^\d+\.\d{3}$", lines[j].replace(",", ".")) is None:
+                    try:
+                        gap = float(lines[j].replace(",", "."))
+                    except:
+                        gap = None
 
             results.append({
                 "rank": rank_counter,
@@ -68,15 +79,16 @@ if container:
                 "gap": gap
             })
 
-            # Increment lines correctly
-            i += 6 if rank_counter == 1 else 7
+            # Increment counters
+            i += 5
             rank_counter += 1
 
         except Exception as e:
-            print(f"⚠️ Skipped lines {i}-{i+5} due to error: {e}")
+            print(f"⚠️ Skipped lines {i}-{i+4} due to error: {e}")
             i += 1
 
-with open("results.json", "w", encoding="utf-8") as f:
+# Save clean JSON
+with open("clean_results.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Parsed {len(results)} competitors.")
+print(f"✅ Parsed {len(results)} teams.")
