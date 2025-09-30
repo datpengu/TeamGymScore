@@ -21,10 +21,10 @@ def parse_score(text):
     return {"score": score, "D": D, "E": E, "C": C}
 
 if container:
-    # Get all text lines inside TabContent, skip empty
+    # Extract all non-empty div text lines
     lines = [div.get_text(strip=True) for div in container.find_all("div", recursive=True) if div.get_text(strip=True)]
 
-    # Skip header line
+    # Skip header
     header_keywords = ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]
     while lines and any(k in lines[0] for k in header_keywords):
         print(f"Skipping header line: {lines[0]}")
@@ -34,12 +34,21 @@ if container:
     i = 0
     while i < len(lines):
         try:
-            # Extract rank + start position from start of line
             line = lines[i]
-            rank_len = len(str(rank_counter))
-            rank = rank_counter
-            start_pos = int(line[rank_len:rank_len+1])  # assumes start pos is 1 digit; adjust if necessary
-            name = line[rank_len+1:].strip()
+
+            # Determine rank length dynamically
+            rank_str = str(rank_counter)
+            rank_len = len(rank_str)
+
+            # Extract start position digits until first non-digit after rank
+            rest = line[rank_len:]
+            start_pos_match = re.match(r"(\d+)", rest)
+            if not start_pos_match:
+                raise ValueError(f"Cannot parse start position from '{line}'")
+            start_pos = int(start_pos_match.group(1))
+
+            # Team name is the rest after start position digits
+            name = rest[start_pos_match.end():].strip()
 
             fx = parse_score(lines[i+1])
             tu = parse_score(lines[i+2])
@@ -48,11 +57,15 @@ if container:
             total_text = lines[i+4].replace(",", ".")
             total = float(total_text) if re.match(r"^[\d.]+$", total_text) else None
 
-            gap_text = lines[i+5].replace(",", ".")
-            gap = float(gap_text) if re.match(r"^[\d.]+$", gap_text) else None
+            # Gap: rank 1 has no gap
+            if rank_counter == 1:
+                gap = None
+            else:
+                gap_text = lines[i+5].replace(",", ".")
+                gap = float(gap_text) if re.match(r"^[\d.]+$", gap_text) else None
 
             results.append({
-                "rank": rank,
+                "rank": rank_counter,
                 "start_position": start_pos,
                 "name": name,
                 "fx": fx,
@@ -62,7 +75,8 @@ if container:
                 "gap": gap
             })
 
-            i += 6
+            # Increment counters
+            i += 6 if rank_counter == 1 else 7
             rank_counter += 1
 
         except Exception as e:
