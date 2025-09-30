@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-URL = "https://live.sporteventsystems.se/Score/WebScore/3303?f=7545&country=swe&year=-1"
+# Use your raw HTML file URL
+URL = "https://raw.githubusercontent.com/datpengu/TeamGymScore/refs/heads/main/site.html"
 response = requests.get(URL)
 soup = BeautifulSoup(response.text, "html.parser")
 
@@ -10,34 +11,39 @@ container = soup.find("div", id="TabContent")
 results = []
 
 if container:
-    # Each competitor is a div with class "row" (adjust if needed)
-    competitors = container.find_all("div", class_="row")  
-
-    for comp in competitors:
+    children = container.find_all("div", recursive=False)
+    i = 0
+    while i < len(children):
         try:
-            rank = comp.find("div", class_="pl").get_text(strip=True)
-            name = comp.find("div", class_="name").get_text(strip=True)
-            # Extract FX, TU, TR scores
-            fx = comp.find("div", class_="FX").get_text(strip=True)
-            tu = comp.find("div", class_="TU").get_text(strip=True)
-            tr = comp.find("div", class_="TR").get_text(strip=True)
-            total = comp.find("div", class_="total").get_text(strip=True)
+            rank = children[i].get_text(strip=True)
+            name = children[i+1].get_text(strip=True)
+            club = children[i+2].get_text(strip=True)
 
-            # Optional: extract D, E, C per event if needed
-            # This may require more parsing of the nested text
+            # FX, TU, TR scores
+            fx = children[i+3].get_text(strip=True)
+            tu = children[i+4].get_text(strip=True)
+            tr = children[i+5].get_text(strip=True)
+
+            # Total score
+            total = children[i+6].get_text(strip=True)
 
             results.append({
                 "rank": rank,
                 "name": name,
+                "club": club,
                 "fx": fx,
                 "tu": tu,
                 "tr": tr,
                 "total": total
             })
-        except AttributeError:
-            continue  # skip divs that don't match
 
-# Write JSON
+            # Move to the next competitor block
+            i += 7
+
+        except IndexError:
+            break  # end of container
+
+# Save JSON
 with open("results.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
