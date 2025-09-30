@@ -2,7 +2,7 @@
   {
     "rank": 1,
     "start_position": 9,
-    "name": "Sandvikens GA12,100D: 2,000E: 8,100C: 2,00011,650D: 2,400E: 7,250C: 2,00012,550D: 2,100E: 8,550C: 1,90036,300",
+    "name": "Sandvikens GA",
     "fx": {
       "score": 19.0,
       "D": null,
@@ -27,7 +27,7 @@
   {
     "rank": 2,
     "start_position": 2,
-    "name": ",100D: 2,000E: 8,100C: 2,00011,650D: 2,400E: 7,250C: 2,00012,550D: 2,100E: 8,550C: 1,900",
+    "name": ",100D:",
     "fx": {
       "score": 12.1,
       "D": 2.0,
@@ -52,7 +52,7 @@
   {
     "rank": 3,
     "start_position": 2,
-    "name": ",550D: 2,100E: 8,550C: 1,900",
+    "name": ",550D:",
     "fx": {
       "score": 12.55,
       "D": null,
@@ -72,7 +72,7 @@
       "C": 1.9
     },
     "total": 36.3,
-    "gap": 36.3
+    "gap": null
   },
   {
     "rank": 4,
@@ -102,7 +102,7 @@
   {
     "rank": 5,
     "start_position": 1,
-    "name": "GF Kungälvsgymnasterna11,950D: 2,100E: 7,850C: 2,00011,500D: 2,400E: 7,100C: 2,00012,500D: 2,200E: 8,300C: 2,00035,9500,350",
+    "name": "GF Kungälvsgymnasterna",
     "fx": {
       "score": 21.0,
       "D": null,
@@ -127,7 +127,7 @@
   {
     "rank": 6,
     "start_position": 1,
-    "name": ",950D: 2,100E: 7,850C: 2,00011,500D: 2,400E: 7,100C: 2,00012,500D: 2,200E: 8,300C: 2,000",
+    "name": ",950D:",
     "fx": {
       "score": 11.95,
       "D": 2.1,
@@ -152,7 +152,7 @@
   {
     "rank": 7,
     "start_position": 5,
-    "name": ",9500,350",
+    "name": ",",
     "fx": {
       "score": 35.95,
       "D": null,
@@ -202,7 +202,7 @@
   {
     "rank": 9,
     "start_position": 7,
-    "name": "SOL GF Juniortruppen Grå12,450D: 1,900E: 8,550C: 2,00010,800D: 2,400E: 6,700C: 1,70011,950D: 2,200E: 7,750C: 2,00035,2001,100",
+    "name": "SOL GF Juniortruppen Grå",
     "fx": {
       "score": 37.0,
       "D": null,
@@ -252,7 +252,7 @@
   {
     "rank": 11,
     "start_position": 10,
-    "name": ",800D: 2,400E: 6,700C: 1,700",
+    "name": ",800D:",
     "fx": {
       "score": null,
       "D": null,
@@ -277,7 +277,7 @@
   {
     "rank": 12,
     "start_position": 0,
-    "name": "Järfällagymnasterna12,050D: 1,900E: 8,150C: 2,00011,400D: 2,400E: 7,000C: 2,00011,650D: 2,200E: 7,450C: 2,00035,1001,200",
+    "name": "Järfällagymnasterna",
     "fx": {
       "score": 410.0,
       "D": null,
@@ -327,7 +327,7 @@
   {
     "rank": 14,
     "start_position": 11,
-    "name": ",400D: 2,400E: 7,000C: 2,000",
+    "name": ",400D:",
     "fx": {
       "score": null,
       "D": null,
@@ -377,7 +377,7 @@
   {
     "rank": 16,
     "start_position": 11,
-    "name": ",300D: 2,400E: 6,900C: 2,000",
+    "name": ",300D:",
     "fx": {
       "score": null,
       "D": null,
@@ -427,7 +427,7 @@
   {
     "rank": 18,
     "start_position": 11,
-    "name": ",500D: 2,400E: 7,100C: 2,000",
+    "name": ",500D:",
     "fx": {
       "score": null,
       "D": null,
@@ -477,7 +477,7 @@
   {
     "rank": 20,
     "start_position": 11,
-    "name": ",450D: 2,400E: 7,050C: 2,000",
+    "name": ",450D:",
     "fx": {
       "score": null,
       "D": null,
@@ -527,7 +527,7 @@
   {
     "rank": 22,
     "start_position": 11,
-    "name": ",050D: 2,200E: 6,850C: 2,000",
+    "name": ",050D:",
     "fx": {
       "score": null,
       "D": null,
@@ -577,7 +577,7 @@
   {
     "rank": 24,
     "start_position": 10,
-    "name": ",750D: 2,400E: 6,350C: 2,000",
+    "name": ",750D:",
     "fx": {
       "score": null,
       "D": null,
@@ -602,7 +602,7 @@
   {
     "rank": 25,
     "start_position": 2,
-    "name": "Dackegymnasterna lag Turkos10,800D: 1,800E: 7,000C: 2,00011,500D: 2,400E: 7,100C: 2,00011,350D: 2,000E: 7,450C: 1,90033,6502,650",
+    "name": "Dackegymnasterna lag Turkos",
     "fx": {
       "score": 102.0,
       "D": null,
@@ -652,7 +652,7 @@
   {
     "rank": 27,
     "start_position": 11,
-    "name": ",500D: 2,400E: 7,100C: 2,000",
+    "name": ",500D:",
     "fx": {
       "score": null,
       "D": null,
@@ -677,7 +677,7 @@
   {
     "rank": 28,
     "start_position": 9008,
-    "name": ",5502,000",
+    "name": ",",
     "fx": {
       "score": 1.9,
       "D": null,
@@ -697,7 +697,7 @@
       "C": null
     },
     "total": 12.45,
-    "gap": 12.45
+    "gap": null
   },
   {
     "rank": 29,
@@ -927,7 +927,7 @@
   {
     "rank": 38,
     "start_position": 4007,
-    "name": ",2502,000",
+    "name": ",",
     "fx": {
       "score": 2.4,
       "D": null,
@@ -947,7 +947,7 @@
       "C": null
     },
     "total": 11.65,
-    "gap": 11.65
+    "gap": null
   },
   {
     "rank": 39,
@@ -1177,7 +1177,7 @@
   {
     "rank": 48,
     "start_position": 1008,
-    "name": ",5501,900",
+    "name": ",",
     "fx": {
       "score": 2.1,
       "D": null,
@@ -1197,7 +1197,7 @@
       "C": null
     },
     "total": 12.55,
-    "gap": 12.55
+    "gap": null
   },
   {
     "rank": 49,
