@@ -1,74 +1,90 @@
+import requests
+from bs4 import BeautifulSoup
+import json
 import re
 
-raw_data = """<your_raw_json_snippet_here>"""  # paste the snippet here
+URL = "https://live.sporteventsystems.se/Score/WebScore/3303?f=7545&country=swe&year=2025"
+response = requests.get(URL)
+soup = BeautifulSoup(response.text, "html.parser")
 
-teams = []
-rank_counter = 1
-previous_total = None
+container = soup.find("div", id="TabContent")
+results = []
 
-# Pattern to find a team block: numeric prefix + team name + scores
-pattern = re.compile(r'(\d+)([A-Za-zÅÄÖåäö\s]+)(.*)')
+def parse_score(text):
+    """Parse score with D/E/C into dict"""
+    text = text.replace(",", ".")
+    score_match = re.match(r"[\d.]+", text)
+    score = float(score_match.group()) if score_match else None
+    D = float(re.search(r"D:\s*([\d.]+)", text).group(1)) if re.search(r"D:\s*([\d.]+)", text) else None
+    E = float(re.search(r"E:\s*([\d.]+)", text).group(1)) if re.search(r"E:\s*([\d.]+)", text) else None
+    C = float(re.search(r"C:\s*([\d.]+)", text).group(1)) if re.search(r"C:\s*([\d.]+)", text) else None
+    return {"score": score, "D": D, "E": E, "C": C}
 
-# Pattern to extract scores for each apparatus
-score_pattern = re.compile(r'(\d+,\d+)D: (\d+,\d+)E: (\d+,\d+)C: (\d+,\d+)')
+if container:
+    # Extract all non-empty div text lines
+    lines = [div.get_text(strip=True) for div in container.find_all("div", recursive=True) if div.get_text(strip=True)]
 
-for line in raw_data.splitlines():
-    match = pattern.match(line.strip())
-    if match:
-        num_prefix = match.group(1)
-        team_name = match.group(2).strip()
-        scores_str = match.group(3).strip()
+    # Skip header
+    header_keywords = ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]
+    while lines and any(k in lines[0] for k in header_keywords):
+        print(f"Skipping header line: {lines[0]}")
+        lines.pop(0)
 
-        # Calculate start_position
-        start_position = int(num_prefix) - rank_counter
+    rank_counter = 1
+    i = 0
+    while i < len(lines):
+        try:
+            line = lines[i]
 
-        # Extract scores for fx, tu, tr
-        scores = score_pattern.findall(scores_str)
-        fx = tu = tr = {"score": None, "D": None, "E": None, "C": None}
-        if len(scores) >= 1:
-            fx = {
-                "score": float(scores[0][0].replace(',', '.')),
-                "D": float(scores[0][1].replace(',', '.')),
-                "E": float(scores[0][2].replace(',', '.')),
-                "C": float(scores[0][3].replace(',', '.'))
-            }
-        if len(scores) >= 2:
-            tu = {
-                "score": float(scores[1][0].replace(',', '.')),
-                "D": float(scores[1][1].replace(',', '.')),
-                "E": float(scores[1][2].replace(',', '.')),
-                "C": float(scores[1][3].replace(',', '.'))
-            }
-        if len(scores) >= 3:
-            tr = {
-                "score": float(scores[2][0].replace(',', '.')),
-                "D": float(scores[2][1].replace(',', '.')),
-                "E": float(scores[2][2].replace(',', '.')),
-                "C": float(scores[2][3].replace(',', '.'))
-            }
+            # Determine rank length dynamically
+            rank_str = str(rank_counter)
+            rank_len = len(rank_str)
 
-        # Total is the last numeric value in scores_str
-        total_match = re.findall(r'(\d+,\d+)$', scores_str)
-        total = float(total_match[0].replace(',', '.')) if total_match else None
+            # Extract start position digits until first non-digit after rank
+            rest = line[rank_len:]
+            start_pos_match = re.match(r"(\d+)", rest)
+            if not start_pos_match:
+                raise ValueError(f"Cannot parse start position from '{line}'")
+            start_pos = int(start_pos_match.group(1))
 
-        # Gap calculation
-        gap = None if rank_counter == 1 else round(total - previous_total, 2) if total is not None and previous_total is not None else None
-        previous_total = total if total is not None else previous_total
+            # Team name is the rest after start position digits
+            name = rest[start_pos_match.end():].strip()
 
-        team_data = {
-            "rank": rank_counter,
-            "start_position": start_position,
-            "name": team_name,
-            "fx": fx,
-            "tu": tu,
-            "tr": tr,
-            "total": total,
-            "gap": gap
-        }
+            fx = parse_score(lines[i+1])
+            tu = parse_score(lines[i+2])
+            tr = parse_score(lines[i+3])
 
-        teams.append(team_data)
-        rank_counter += 1
+            total_text = lines[i+4].replace(",", ".")
+            total = float(total_text) if re.match(r"^[\d.]+$", total_text) else None
 
-# Example output
-import json
-print(json.dumps(teams, indent=2, ensure_ascii=False))
+            # Gap: rank 1 has no gap
+            if rank_counter == 1:
+                gap = None
+            else:
+                gap_text = lines[i+5].replace(",", ".")
+                gap = float(gap_text) if re.match(r"^[\d.]+$", gap_text) else None
+
+            results.append({
+                "rank": rank_counter,
+                "start_position": start_pos,
+                "name": name,
+                "fx": fx,
+                "tu": tu,
+                "tr": tr,
+                "total": total,
+                "gap": gap
+            })
+
+            # Increment counters
+            i += 6 if rank_counter == 1 else 7
+            rank_counter += 1
+
+        except Exception as e:
+            print(f"⚠️ Skipped lines {i}-{i+5} due to error: {e}")
+            i += 1
+
+# Save JSON
+with open("results.json", "w", encoding="utf-8") as f:
+    json.dump(results, f, ensure_ascii=False, indent=2)
+
+print(f"✅ Parsed {len(results)} competitors.")
