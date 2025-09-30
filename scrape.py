@@ -11,9 +11,8 @@ container = soup.find("div", id="TabContent")
 results = []
 
 def parse_score(text):
-    """Parse a line containing a score with optional D/E/C"""
     text = text.replace(",", ".")
-    score_match = re.search(r"[\d]+\.[\d]{3}", text)
+    score_match = re.search(r"\d+\.\d+", text)
     score = float(score_match.group()) if score_match else None
     D = float(re.search(r"D:\s*([\d.]+)", text).group(1)) if re.search(r"D:\s*([\d.]+)", text) else None
     E = float(re.search(r"E:\s*([\d.]+)", text).group(1)) if re.search(r"E:\s*([\d.]+)", text) else None
@@ -21,9 +20,8 @@ def parse_score(text):
     return {"score": score, "D": D, "E": E, "C": C}
 
 if container:
-    # Get all non-empty div texts
-    lines = [div.get_text(strip=True) for div in container.find_all("div", recursive=True) if div.get_text(strip=True)]
-
+    lines = [div.get_text(strip=True) for div in container.find_all("div") if div.get_text(strip=True)]
+    
     # Remove header lines
     header_keywords = ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]
     while lines and any(k in lines[0] for k in header_keywords):
@@ -35,38 +33,39 @@ if container:
         try:
             line = lines[i]
 
-            # Rank is sequential
+            # Start position is first number
             start_pos_match = re.match(r"(\d+)", line)
-            if not start_pos_match:
-                i += 1
-                continue
-            start_pos = int(start_pos_match.group(1))
+            if start_pos_match:
+                start_pos = int(start_pos_match.group(1))
+                name = line[start_pos_match.end():].strip()
+            else:
+                start_pos = None
+                name = line.strip()
 
-            # Team name is everything after start position digits up to next score line
-            name = line[start_pos_match.end():].strip()
-            if not name:
-                # fallback if empty, pick next non-score line
+            # Skip lines that are clearly not team names
+            if not name or name.startswith(","):
+                # Find next non-score line
                 for j in range(i+1, len(lines)):
-                    if re.match(r"^\D", lines[j]):
+                    if not re.match(r"[\d.,]+", lines[j]):
                         name = lines[j].strip()
                         break
 
-            # Parse fx, tu, tr lines
-            fx = parse_score(lines[i+1])
-            tu = parse_score(lines[i+2])
-            tr = parse_score(lines[i+3])
+            fx = parse_score(lines[i+1]) if i+1 < len(lines) else {"score": None, "D": None, "E": None, "C": None}
+            tu = parse_score(lines[i+2]) if i+2 < len(lines) else {"score": None, "D": None, "E": None, "C": None}
+            tr = parse_score(lines[i+3]) if i+3 < len(lines) else {"score": None, "D": None, "E": None, "C": None}
 
-            # Total: first line with three decimals
             total = None
             gap = None
             for j in range(i+4, i+6):
-                if j < len(lines) and re.match(r"^\d+\.\d{3}$", lines[j].replace(",", ".")):
-                    total = float(lines[j].replace(",", "."))
-                elif j < len(lines) and re.match(r"^\d+\.\d{3}$", lines[j].replace(",", ".")) is None:
+                if j < len(lines):
                     try:
-                        gap = float(lines[j].replace(",", "."))
+                        val = float(lines[j].replace(",", "."))
+                        if total is None:
+                            total = val
+                        else:
+                            gap = val
                     except:
-                        gap = None
+                        continue
 
             results.append({
                 "rank": rank_counter,
@@ -79,7 +78,6 @@ if container:
                 "gap": gap
             })
 
-            # Increment counters
             i += 5
             rank_counter += 1
 
@@ -87,8 +85,7 @@ if container:
             print(f"⚠️ Skipped lines {i}-{i+4} due to error: {e}")
             i += 1
 
-# Save clean JSON
-with open("clean_results.json", "w", encoding="utf-8") as f:
+with open("results.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 print(f"✅ Parsed {len(results)} teams.")
