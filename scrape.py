@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 
-URL = "https://raw.githubusercontent.com/datpengu/TeamGymScore/refs/heads/main/site.html"
+URL = "https://live.sporteventsystems.se/Score/WebScore/3303?f=7545&country=swe&year=-1"
 response = requests.get(URL)
 soup = BeautifulSoup(response.text, "html.parser")
 
