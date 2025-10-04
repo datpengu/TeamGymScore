@@ -2,7 +2,7 @@
   {
     "rank": 1,
     "start_position": null,
-    "name": "#",
+    "name": "Sij#",
     "fx": {
       "score": null,
       "D": null,
@@ -27,7 +27,7 @@
   {
     "rank": 2,
     "start_position": null,
-    "name": "Tumbling",
+    "name": "VapaaohjelmaVolttirataTrampetti",
     "fx": {
       "score": null,
       "D": null,
@@ -51,8 +51,8 @@
   },
   {
     "rank": 3,
-    "start_position": 19,
-    "name": "Sandvikens GA12,100D: 2,000E: 8,100C: 2,00011,650D: 2,400E: 7,250C: 2,00012,550D: 2,100E: 8,550C: 1,90036,300",
+    "start_position": null,
+    "name": "YhteensäErotus",
     "fx": {
       "score": null,
       "D": null,
@@ -71,11 +71,36 @@
       "E": null,
       "C": null
     },
-    "total": 9.0,
+    "total": 19.0,
     "gap": null
   },
   {
     "rank": 4,
+    "start_position": 19,
+    "name": "Sandvikens GA",
+    "fx": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tu": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tr": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "total": null,
+    "gap": null
+  },
+  {
+    "rank": 5,
     "start_position": 12,
     "name": "D: 2,000E: 8,100C: 2,000",
     "fx": {
@@ -100,7 +125,7 @@
     "gap": null
   },
   {
-    "rank": 5,
+    "rank": 6,
     "start_position": 11,
     "name": "D: 2,400E: 7,250C: 2,000",
     "fx": {
@@ -125,7 +150,7 @@
     "gap": null
   },
   {
-    "rank": 6,
+    "rank": 7,
     "start_position": 12,
     "name": "D: 2,100E: 8,550C: 1,900",
     "fx": {
@@ -150,9 +175,9 @@
     "gap": 36.3
   },
   {
-    "rank": 7,
+    "rank": 8,
     "start_position": 36,
-    "name": "FX12,100D: 2,000E: 8,100C: 2,000TU11,650D: 2,400E: 7,250C: 2,000TR12,550D: 2,100E: 8,550C: 1,900",
+    "name": "VA12,100D: 2,000E: 8,100C: 2,000VR11,650D: 2,400E: 7,250C: 2,000TRA12,550D: 2,100E: 8,550C: 1,900",
     "fx": {
       "score": 12.1,
       "D": 2.0,
@@ -175,9 +200,9 @@
     "gap": null
   },
   {
-    "rank": 8,
+    "rank": 9,
     "start_position": null,
-    "name": "FX",
+    "name": "VA",
     "fx": {
       "score": 12.1,
       "D": null,
@@ -200,7 +225,7 @@
     "gap": null
   },
   {
-    "rank": 9,
+    "rank": 10,
     "start_position": 11,
     "name": "D: 2,400E: 7,250C: 2,000",
     "fx": {
@@ -225,7 +250,7 @@
     "gap": null
   },
   {
-    "rank": 10,
+    "rank": 11,
     "start_position": 21,
     "name": "GF Kungälvsgymnasterna11,950D: 2,100E: 7,850C: 2,00011,500D: 2,400E: 7,100C: 2,00012,500D: 2,200E: 8,300C: 2,00035,9500,350",
     "fx": {
@@ -250,7 +275,7 @@
     "gap": null
   },
   {
-    "rank": 11,
+    "rank": 12,
     "start_position": 11,
     "name": "D: 2,100E: 7,850C: 2,000",
     "fx": {
@@ -275,7 +300,7 @@
     "gap": null
   },
   {
-    "rank": 12,
+    "rank": 13,
     "start_position": 11,
     "name": "D: 2,400E: 7,100C: 2,000",
     "fx": {
@@ -300,7 +325,7 @@
     "gap": null
   },
   {
-    "rank": 13,
+    "rank": 14,
     "start_position": 12,
     "name": "D: 2,200E: 8,300C: 2,000",
     "fx": {
@@ -325,9 +350,9 @@
     "gap": null
   },
   {
-    "rank": 14,
+    "rank": 15,
     "start_position": 35,
-    "name": "FX11,950D: 2,100E: 7,850C: 2,000TU11,500D: 2,400E: 7,100C: 2,000TR12,500D: 2,200E: 8,300C: 2,000",
+    "name": "VA11,950D: 2,100E: 7,850C: 2,000VR11,500D: 2,400E: 7,100C: 2,000TRA12,500D: 2,200E: 8,300C: 2,000",
     "fx": {
       "score": 0.35,
       "D": null,
@@ -350,9 +375,9 @@
     "gap": null
   },
   {
-    "rank": 15,
+    "rank": 16,
     "start_position": null,
-    "name": "FX11,950D: 2,100E: 7,850C: 2,000",
+    "name": "VA11,950D: 2,100E: 7,850C: 2,000",
     "fx": {
       "score": null,
       "D": null,
@@ -375,9 +400,9 @@
     "gap": null
   },
   {
-    "rank": 16,
+    "rank": 17,
     "start_position": null,
-    "name": "TU",
+    "name": "VR",
     "fx": {
       "score": 11.5,
       "D": null,
@@ -400,7 +425,7 @@
     "gap": null
   },
   {
-    "rank": 17,
+    "rank": 18,
     "start_position": 37,
     "name": "SOL GF Juniortruppen Grå12,450D: 1,900E: 8,550C: 2,00010,800D: 2,400E: 6,700C: 1,70011,950D: 2,200E: 7,750C: 2,00035,2001,100",
     "fx": {
@@ -425,7 +450,7 @@
     "gap": null
   },
   {
-    "rank": 18,
+    "rank": 19,
     "start_position": 12,
     "name": "D: 1,900E: 8,550C: 2,000",
     "fx": {
@@ -450,7 +475,7 @@
     "gap": null
   },
   {
-    "rank": 19,
+    "rank": 20,
     "start_position": 10,
     "name": "D: 2,400E: 6,700C: 1,700",
     "fx": {
@@ -475,7 +500,7 @@
     "gap": null
   },
   {
-    "rank": 20,
+    "rank": 21,
     "start_position": 11,
     "name": "D: 2,200E: 7,750C: 2,000",
     "fx": {
@@ -500,9 +525,9 @@
     "gap": null
   },
   {
-    "rank": 21,
+    "rank": 22,
     "start_position": 35,
-    "name": "FX12,450D: 1,900E: 8,550C: 2,000TU10,800D: 2,400E: 6,700C: 1,700TR11,950D: 2,200E: 7,750C: 2,000",
+    "name": "VA12,450D: 1,900E: 8,550C: 2,000VR10,800D: 2,400E: 6,700C: 1,700TRA11,950D: 2,200E: 7,750C: 2,000",
     "fx": {
       "score": 1.1,
       "D": null,
@@ -525,9 +550,9 @@
     "gap": null
   },
   {
-    "rank": 22,
+    "rank": 23,
     "start_position": null,
-    "name": "FX12,450D: 1,900E: 8,550C: 2,000",
+    "name": "VA12,450D: 1,900E: 8,550C: 2,000",
     "fx": {
       "score": null,
       "D": null,
@@ -550,9 +575,9 @@
     "gap": null
   },
   {
-    "rank": 23,
+    "rank": 24,
     "start_position": null,
-    "name": "TU",
+    "name": "VR",
     "fx": {
       "score": 10.8,
       "D": null,
@@ -575,7 +600,7 @@
     "gap": null
   },
   {
-    "rank": 24,
+    "rank": 25,
     "start_position": 410,
     "name": "Järfällagymnasterna12,050D: 1,900E: 8,150C: 2,00011,400D: 2,400E: 7,000C: 2,00011,650D: 2,200E: 7,450C: 2,00035,1001,200",
     "fx": {
@@ -600,7 +625,7 @@
     "gap": null
   },
   {
-    "rank": 25,
+    "rank": 26,
     "start_position": 12,
     "name": "D: 1,900E: 8,150C: 2,000",
     "fx": {
@@ -625,7 +650,7 @@
     "gap": null
   },
   {
-    "rank": 26,
+    "rank": 27,
     "start_position": 11,
     "name": "D: 2,400E: 7,000C: 2,000",
     "fx": {
@@ -650,7 +675,7 @@
     "gap": null
   },
   {
-    "rank": 27,
+    "rank": 28,
     "start_position": 11,
     "name": "D: 2,200E: 7,450C: 2,000",
     "fx": {
@@ -675,9 +700,9 @@
     "gap": null
   },
   {
-    "rank": 28,
+    "rank": 29,
     "start_position": 35,
-    "name": "FX12,050D: 1,900E: 8,150C: 2,000TU11,400D: 2,400E: 7,000C: 2,000TR11,650D: 2,200E: 7,450C: 2,000",
+    "name": "VA12,050D: 1,900E: 8,150C: 2,000VR11,400D: 2,400E: 7,000C: 2,000TRA11,650D: 2,200E: 7,450C: 2,000",
     "fx": {
       "score": 1.2,
       "D": null,
@@ -700,9 +725,9 @@
     "gap": null
   },
   {
-    "rank": 29,
+    "rank": 30,
     "start_position": null,
-    "name": "FX12,050D: 1,900E: 8,150C: 2,000",
+    "name": "VA12,050D: 1,900E: 8,150C: 2,000",
     "fx": {
       "score": null,
       "D": null,
@@ -725,9 +750,9 @@
     "gap": null
   },
   {
-    "rank": 30,
+    "rank": 31,
     "start_position": null,
-    "name": "TU",
+    "name": "VR",
     "fx": {
       "score": 11.4,
       "D": null,
@@ -750,7 +775,7 @@
     "gap": null
   },
   {
-    "rank": 31,
+    "rank": 32,
     "start_position": 56,
     "name": "Strängnäs GF Juniortruppen11,100D: 1,500E: 7,800C: 1,80011,300D: 2,400E: 6,900C: 2,00012,200D: 2,200E: 8,400C: 1,60034,6001,700",
     "fx": {
@@ -775,7 +800,7 @@
     "gap": null
   },
   {
-    "rank": 32,
+    "rank": 33,
     "start_position": 11,
     "name": "D: 1,500E: 7,800C: 1,800",
     "fx": {
@@ -800,7 +825,7 @@
     "gap": null
   },
   {
-    "rank": 33,
+    "rank": 34,
     "start_position": 11,
     "name": "D: 2,400E: 6,900C: 2,000",
     "fx": {
@@ -825,7 +850,7 @@
     "gap": null
   },
   {
-    "rank": 34,
+    "rank": 35,
     "start_position": 12,
     "name": "D: 2,200E: 8,400C: 1,600",
     "fx": {
@@ -850,9 +875,9 @@
     "gap": null
   },
   {
-    "rank": 35,
+    "rank": 36,
     "start_position": 34,
-    "name": "FX11,100D: 1,500E: 7,800C: 1,800TU11,300D: 2,400E: 6,900C: 2,000TR12,200D: 2,200E: 8,400C: 1,600",
+    "name": "VA11,100D: 1,500E: 7,800C: 1,800VR11,300D: 2,400E: 6,900C: 2,000TRA12,200D: 2,200E: 8,400C: 1,600",
     "fx": {
       "score": 1.7,
       "D": null,
@@ -875,9 +900,9 @@
     "gap": null
   },
   {
-    "rank": 36,
+    "rank": 37,
     "start_position": null,
-    "name": "FX11,100D: 1,500E: 7,800C: 1,800",
+    "name": "VA11,100D: 1,500E: 7,800C: 1,800",
     "fx": {
       "score": null,
       "D": null,
@@ -900,9 +925,9 @@
     "gap": null
   },
   {
-    "rank": 37,
+    "rank": 38,
     "start_position": null,
-    "name": "TU",
+    "name": "VR",
     "fx": {
       "score": 11.3,
       "D": null,
@@ -925,7 +950,7 @@
     "gap": null
   },
   {
-    "rank": 38,
+    "rank": 39,
     "start_position": 64,
     "name": "KFUM Kristianstad GF11,400D: 2,100E: 7,300C: 2,00011,500D: 2,400E: 7,100C: 2,00011,650D: 2,200E: 7,450C: 2,00034,5501,750",
     "fx": {
@@ -950,7 +975,7 @@
     "gap": null
   },
   {
-    "rank": 39,
+    "rank": 40,
     "start_position": 11,
     "name": "D: 2,100E: 7,300C: 2,000",
     "fx": {
@@ -975,7 +1000,7 @@
     "gap": null
   },
   {
-    "rank": 40,
+    "rank": 41,
     "start_position": 11,
     "name": "D: 2,400E: 7,100C: 2,000",
     "fx": {
@@ -1000,7 +1025,7 @@
     "gap": null
   },
   {
-    "rank": 41,
+    "rank": 42,
     "start_position": 11,
     "name": "D: 2,200E: 7,450C: 2,000",
     "fx": {
@@ -1025,9 +1050,9 @@
     "gap": null
   },
   {
-    "rank": 42,
+    "rank": 43,
     "start_position": 34,
-    "name": "FX11,400D: 2,100E: 7,300C: 2,000TU11,500D: 2,400E: 7,100C: 2,000TR11,650D: 2,200E: 7,450C: 2,000",
+    "name": "VA11,400D: 2,100E: 7,300C: 2,000VR11,500D: 2,400E: 7,100C: 2,000TRA11,650D: 2,200E: 7,450C: 2,000",
     "fx": {
       "score": 1.75,
       "D": null,
@@ -1050,9 +1075,9 @@
     "gap": null
   },
   {
-    "rank": 43,
+    "rank": 44,
     "start_position": null,
-    "name": "FX11,400D: 2,100E: 7,300C: 2,000",
+    "name": "VA11,400D: 2,100E: 7,300C: 2,000",
     "fx": {
       "score": null,
       "D": null,
@@ -1075,9 +1100,9 @@
     "gap": null
   },
   {
-    "rank": 44,
+    "rank": 45,
     "start_position": null,
-    "name": "TU",
+    "name": "VR",
     "fx": {
       "score": 11.5,
       "D": null,
@@ -1100,7 +1125,7 @@
     "gap": null
   },
   {
-    "rank": 45,
+    "rank": 46,
     "start_position": 78,
     "name": "Borlänge GK Trupp 111,350D: 1,500E: 7,850C: 2,00011,450D: 2,400E: 7,050C: 2,00011,550D: 2,000E: 8,050C: 1,50034,3501,950",
     "fx": {
@@ -1125,7 +1150,7 @@
     "gap": null
   },
   {
-    "rank": 46,
+    "rank": 47,
     "start_position": 11,
     "name": "D: 1,500E: 7,850C: 2,000",
     "fx": {
@@ -1150,7 +1175,7 @@
     "gap": null
   },
   {
-    "rank": 47,
+    "rank": 48,
     "start_position": 11,
     "name": "D: 2,400E: 7,050C: 2,000",
     "fx": {
@@ -1175,7 +1200,7 @@
     "gap": null
   },
   {
-    "rank": 48,
+    "rank": 49,
     "start_position": 11,
     "name": "D: 2,000E: 8,050C: 1,500",
     "fx": {
@@ -1200,9 +1225,9 @@
     "gap": null
   },
   {
-    "rank": 49,
+    "rank": 50,
     "start_position": 34,
-    "name": "FX11,350D: 1,500E: 7,850C: 2,000TU11,450D: 2,400E: 7,050C: 2,000TR11,550D: 2,000E: 8,050C: 1,500",
+    "name": "VA11,350D: 1,500E: 7,850C: 2,000VR11,450D: 2,400E: 7,050C: 2,000TRA11,550D: 2,000E: 8,050C: 1,500",
     "fx": {
       "score": 1.95,
       "D": null,
@@ -1225,9 +1250,9 @@
     "gap": null
   },
   {
-    "rank": 50,
+    "rank": 51,
     "start_position": null,
-    "name": "FX11,350D: 1,500E: 7,850C: 2,000",
+    "name": "VA11,350D: 1,500E: 7,850C: 2,000",
     "fx": {
       "score": null,
       "D": null,
@@ -1250,9 +1275,9 @@
     "gap": null
   },
   {
-    "rank": 51,
+    "rank": 52,
     "start_position": null,
-    "name": "TU",
+    "name": "VR",
     "fx": {
       "score": 11.45,
       "D": null,
@@ -1275,7 +1300,7 @@
     "gap": null
   },
   {
-    "rank": 52,
+    "rank": 53,
     "start_position": 85,
     "name": "Brommagymnasterna11,500D: 1,800E: 7,900C: 1,80011,050D: 2,200E: 6,850C: 2,00011,750D: 2,200E: 7,550C: 2,00034,3002,000",
     "fx": {
@@ -1300,7 +1325,7 @@
     "gap": null
   },
   {
-    "rank": 53,
+    "rank": 54,
     "start_position": 11,
     "name": "D: 1,800E: 7,900C: 1,800",
     "fx": {
@@ -1325,7 +1350,7 @@
     "gap": null
   },
   {
-    "rank": 54,
+    "rank": 55,
     "start_position": 11,
     "name": "D: 2,200E: 6,850C: 2,000",
     "fx": {
@@ -1350,7 +1375,7 @@
     "gap": null
   },
   {
-    "rank": 55,
+    "rank": 56,
     "start_position": 11,
     "name": "D: 2,200E: 7,550C: 2,000",
     "fx": {
@@ -1375,9 +1400,9 @@
     "gap": null
   },
   {
-    "rank": 56,
+    "rank": 57,
     "start_position": 34,
-    "name": "FX11,500D: 1,800E: 7,900C: 1,800TU11,050D: 2,200E: 6,850C: 2,000TR11,750D: 2,200E: 7,550C: 2,000",
+    "name": "VA11,500D: 1,800E: 7,900C: 1,800VR11,050D: 2,200E: 6,850C: 2,000TRA11,750D: 2,200E: 7,550C: 2,000",
     "fx": {
       "score": 2.0,
       "D": null,
@@ -1400,9 +1425,9 @@
     "gap": null
   },
   {
-    "rank": 57,
+    "rank": 58,
     "start_position": null,
-    "name": "FX11,500D: 1,800E: 7,900C: 1,800",
+    "name": "VA11,500D: 1,800E: 7,900C: 1,800",
     "fx": {
       "score": null,
       "D": null,
@@ -1425,9 +1450,9 @@
     "gap": null
   },
   {
-    "rank": 58,
+    "rank": 59,
     "start_position": null,
-    "name": "TU",
+    "name": "VR",
     "fx": {
       "score": 11.05,
       "D": null,
@@ -1450,7 +1475,7 @@
     "gap": null
   },
   {
-    "rank": 59,
+    "rank": 60,
     "start_position": 93,
     "name": "GK Splitt12,100D: 1,800E: 8,300C: 2,00010,750D: 2,400E: 6,350C: 2,00011,400D: 2,200E: 7,200C: 2,00034,2502,050",
     "fx": {
@@ -1475,7 +1500,7 @@
     "gap": null
   },
   {
-    "rank": 60,
+    "rank": 61,
     "start_position": 12,
     "name": "D: 1,800E: 8,300C: 2,000",
     "fx": {
@@ -1500,7 +1525,7 @@
     "gap": null
   },
   {
-    "rank": 61,
+    "rank": 62,
     "start_position": 10,
     "name": "D: 2,400E: 6,350C: 2,000",
     "fx": {
@@ -1525,7 +1550,7 @@
     "gap": null
   },
   {
-    "rank": 62,
+    "rank": 63,
     "start_position": 11,
     "name": "D: 2,200E: 7,200C: 2,000",
     "fx": {
@@ -1550,9 +1575,9 @@
     "gap": null
   },
   {
-    "rank": 63,
+    "rank": 64,
     "start_position": 34,
-    "name": "FX12,100D: 1,800E: 8,300C: 2,000TU10,750D: 2,400E: 6,350C: 2,000TR11,400D: 2,200E: 7,200C: 2,000",
+    "name": "VA12,100D: 1,800E: 8,300C: 2,000VR10,750D: 2,400E: 6,350C: 2,000TRA11,400D: 2,200E: 7,200C: 2,000",
     "fx": {
       "score": 2.05,
       "D": null,
@@ -1575,9 +1600,9 @@
     "gap": null
   },
   {
-    "rank": 64,
+    "rank": 65,
     "start_position": null,
-    "name": "FX12,100D: 1,800E: 8,300C: 2,000",
+    "name": "VA12,100D: 1,800E: 8,300C: 2,000",
     "fx": {
       "score": null,
       "D": null,
@@ -1600,9 +1625,9 @@
     "gap": null
   },
   {
-    "rank": 65,
+    "rank": 66,
     "start_position": null,
-    "name": "TU",
+    "name": "VR",
     "fx": {
       "score": 10.75,
       "D": null,
@@ -1625,7 +1650,7 @@
     "gap": null
   },
   {
-    "rank": 66,
+    "rank": 67,
     "start_position": 102,
     "name": "Dackegymnasterna lag Turkos10,800D: 1,800E: 7,000C: 2,00011,500D: 2,400E: 7,100C: 2,00011,350D: 2,000E: 7,450C: 1,90033,6502,650",
     "fx": {
@@ -1650,7 +1675,7 @@
     "gap": null
   },
   {
-    "rank": 67,
+    "rank": 68,
     "start_position": 10,
     "name": "D: 1,800E: 7,000C: 2,000",
     "fx": {
@@ -1675,7 +1700,7 @@
     "gap": null
   },
   {
-    "rank": 68,
+    "rank": 69,
     "start_position": 11,
     "name": "D: 2,400E: 7,100C: 2,000",
     "fx": {
@@ -1700,7 +1725,7 @@
     "gap": null
   },
   {
-    "rank": 69,
+    "rank": 70,
     "start_position": 11,
     "name": "D: 2,000E: 7,450C: 1,900",
     "fx": {
@@ -1725,9 +1750,9 @@
     "gap": null
   },
   {
-    "rank": 70,
+    "rank": 71,
     "start_position": 33,
-    "name": "FX10,800D: 1,800E: 7,000C: 2,000TU11,500D: 2,400E: 7,100C: 2,000TR11,350D: 2,000E: 7,450C: 1,900",
+    "name": "VA10,800D: 1,800E: 7,000C: 2,000VR11,500D: 2,400E: 7,100C: 2,000TRA11,350D: 2,000E: 7,450C: 1,900",
     "fx": {
       "score": 2.65,
       "D": null,
@@ -1750,9 +1775,9 @@
     "gap": null
   },
   {
-    "rank": 71,
+    "rank": 72,
     "start_position": null,
-    "name": "FX10,800D: 1,800E: 7,000C: 2,000",
+    "name": "VA10,800D: 1,800E: 7,000C: 2,000",
     "fx": {
       "score": null,
       "D": null,
@@ -1775,9 +1800,9 @@
     "gap": null
   },
   {
-    "rank": 72,
+    "rank": 73,
     "start_position": null,
-    "name": "TU",
+    "name": "VR",
     "fx": {
       "score": 11.5,
       "D": null,
@@ -1800,7 +1825,7 @@
     "gap": null
   },
   {
-    "rank": 73,
+    "rank": 74,
     "start_position": 11,
     "name": "D: 2,000E: 7,450C: 1,900",
     "fx": {
@@ -1825,34 +1850,9 @@
     "gap": null
   },
   {
-    "rank": 74,
-    "start_position": null,
-    "name": "Pl#",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
     "rank": 75,
     "start_position": null,
-    "name": "DECHJ-",
+    "name": "Sij#",
     "fx": {
       "score": null,
       "D": null,
@@ -1877,7 +1877,7 @@
   {
     "rank": 76,
     "start_position": null,
-    "name": "HJ-",
+    "name": "DECHJ-",
     "fx": {
       "score": null,
       "D": null,
@@ -1901,6 +1901,31 @@
   },
   {
     "rank": 77,
+    "start_position": null,
+    "name": "HJ-",
+    "fx": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tu": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tr": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "total": null,
+    "gap": null
+  },
+  {
+    "rank": 78,
     "start_position": 17,
     "name": "SOL GF Juniortruppen Grå1,9008,5502,00012,450",
     "fx": {
@@ -1925,7 +1950,7 @@
     "gap": null
   },
   {
-    "rank": 78,
+    "rank": 79,
     "start_position": null,
     "name": "SOL GF Juniortruppen Grå",
     "fx": {
@@ -1950,7 +1975,7 @@
     "gap": 8.55
   },
   {
-    "rank": 79,
+    "rank": 80,
     "start_position": 8,
     "name": "GK Splitt",
     "fx": {
@@ -1975,7 +2000,7 @@
     "gap": 12.45
   },
   {
-    "rank": 80,
+    "rank": 81,
     "start_position": 12,
     "name": "GK Splitt",
     "fx": {
@@ -2000,7 +2025,7 @@
     "gap": 3.0
   },
   {
-    "rank": 81,
+    "rank": 82,
     "start_position": 3,
     "name": "GK Splitt",
     "fx": {
@@ -2025,7 +2050,7 @@
     "gap": null
   },
   {
-    "rank": 82,
+    "rank": 83,
     "start_position": 1,
     "name": "Sandvikens GA",
     "fx": {
@@ -2050,7 +2075,7 @@
     "gap": null
   },
   {
-    "rank": 83,
+    "rank": 84,
     "start_position": 12,
     "name": "Sandvikens GA",
     "fx": {
@@ -2075,7 +2100,7 @@
     "gap": 29.0
   },
   {
-    "rank": 84,
+    "rank": 85,
     "start_position": 29,
     "name": "Sandvikens GA",
     "fx": {
@@ -2100,7 +2125,7 @@
     "gap": null
   },
   {
-    "rank": 85,
+    "rank": 86,
     "start_position": 2,
     "name": "Järfällagymnasterna",
     "fx": {
@@ -2125,7 +2150,7 @@
     "gap": null
   },
   {
-    "rank": 86,
+    "rank": 87,
     "start_position": 12,
     "name": "Järfällagymnasterna",
     "fx": {
@@ -2150,7 +2175,7 @@
     "gap": null
   },
   {
-    "rank": 87,
+    "rank": 88,
     "start_position": 410,
     "name": "Järfällagymnasterna1,9008,1502,00012,0500,400",
     "fx": {
@@ -2175,7 +2200,7 @@
     "gap": null
   },
   {
-    "rank": 88,
+    "rank": 89,
     "start_position": null,
     "name": "Järfällagymnasterna",
     "fx": {
@@ -2200,7 +2225,7 @@
     "gap": 8.15
   },
   {
-    "rank": 89,
+    "rank": 90,
     "start_position": 8,
     "name": "GF Kungälvsgymnasterna",
     "fx": {
@@ -2225,7 +2250,7 @@
     "gap": 12.05
   },
   {
-    "rank": 90,
+    "rank": 91,
     "start_position": 12,
     "name": "GF Kungälvsgymnasterna",
     "fx": {
@@ -2250,7 +2275,7 @@
     "gap": 5.0
   },
   {
-    "rank": 91,
+    "rank": 92,
     "start_position": 5,
     "name": "GF Kungälvsgymnasterna",
     "fx": {
@@ -2275,7 +2300,7 @@
     "gap": null
   },
   {
-    "rank": 92,
+    "rank": 93,
     "start_position": 2,
     "name": "Brommagymnasterna",
     "fx": {
@@ -2300,7 +2325,7 @@
     "gap": null
   },
   {
-    "rank": 93,
+    "rank": 94,
     "start_position": 11,
     "name": "Brommagymnasterna",
     "fx": {
@@ -2325,7 +2350,7 @@
     "gap": null
   },
   {
-    "rank": 94,
+    "rank": 95,
     "start_position": 65,
     "name": "Brommagymnasterna",
     "fx": {
@@ -2350,7 +2375,7 @@
     "gap": null
   },
   {
-    "rank": 95,
+    "rank": 96,
     "start_position": null,
     "name": "Brommagymnasterna",
     "fx": {
@@ -2375,7 +2400,7 @@
     "gap": 1.8
   },
   {
-    "rank": 96,
+    "rank": 97,
     "start_position": 1,
     "name": "KFUM Kristianstad GF",
     "fx": {
@@ -2400,7 +2425,7 @@
     "gap": 0.95
   },
   {
-    "rank": 97,
+    "rank": 98,
     "start_position": 0,
     "name": "KFUM Kristianstad GF",
     "fx": {
@@ -2425,7 +2450,7 @@
     "gap": 4.0
   },
   {
-    "rank": 98,
+    "rank": 99,
     "start_position": 4,
     "name": "KFUM Kristianstad GF",
     "fx": {
@@ -2450,7 +2475,7 @@
     "gap": null
   },
   {
-    "rank": 99,
+    "rank": 100,
     "start_position": 2,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -2475,7 +2500,7 @@
     "gap": null
   },
   {
-    "rank": 100,
+    "rank": 101,
     "start_position": 11,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -2500,7 +2525,7 @@
     "gap": 88.0
   },
   {
-    "rank": 101,
+    "rank": 102,
     "start_position": 88,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -2525,7 +2550,7 @@
     "gap": null
   },
   {
-    "rank": 102,
+    "rank": 103,
     "start_position": 1,
     "name": "Strängnäs GF Juniortruppen",
     "fx": {
@@ -2550,7 +2575,7 @@
     "gap": null
   },
   {
-    "rank": 103,
+    "rank": 104,
     "start_position": 11,
     "name": "Strängnäs GF Juniortruppen",
     "fx": {
@@ -2575,7 +2600,7 @@
     "gap": null
   },
   {
-    "rank": 104,
+    "rank": 105,
     "start_position": 96,
     "name": "Strängnäs GF Juniortruppen1,5007,8001,80011,1001,350",
     "fx": {
@@ -2600,7 +2625,7 @@
     "gap": null
   },
   {
-    "rank": 105,
+    "rank": 106,
     "start_position": null,
     "name": "Strängnäs GF Juniortruppen",
     "fx": {
@@ -2625,7 +2650,7 @@
     "gap": 7.8
   },
   {
-    "rank": 106,
+    "rank": 107,
     "start_position": 7,
     "name": "Dackegymnasterna lag Turkos",
     "fx": {
@@ -2650,7 +2675,7 @@
     "gap": 11.1
   },
   {
-    "rank": 107,
+    "rank": 108,
     "start_position": 11,
     "name": "Dackegymnasterna lag Turkos",
     "fx": {
@@ -2675,7 +2700,7 @@
     "gap": 10.0
   },
   {
-    "rank": 108,
+    "rank": 109,
     "start_position": 10,
     "name": "Dackegymnasterna lag Turkos",
     "fx": {
@@ -2700,9 +2725,9 @@
     "gap": null
   },
   {
-    "rank": 109,
+    "rank": 110,
     "start_position": 1,
-    "name": "Pl#NamnDECHJ-PoängGap19Sandvikens GA2,4007,2502,00011,65021GF Kungälvsgymnasterna2,4007,1002,00011,5000,15022Dackegymnasterna lag Turkos2,4007,1002,00011,5000,15024KFUM Kristianstad GF2,4007,1002,00011,5000,15058Borlänge GK Trupp 12,4007,0502,00011,4500,200610Järfällagymnasterna2,4007,0002,00011,4000,25076Strängnäs GF Juniortruppen2,4006,9002,00011,3000,35085Brommagymnasterna2,2006,8502,00011,0500,60097SOL GF Juniortruppen Grå2,4006,7001,70010,8000,850103GK Splitt2,4006,3502,00010,7500,900",
+    "name": "Sij#NimiDECHJ-PisteetErotus19Sandvikens GA2,4007,2502,00011,65021GF Kungälvsgymnasterna2,4007,1002,00011,5000,15022Dackegymnasterna lag Turkos2,4007,1002,00011,5000,15024KFUM Kristianstad GF2,4007,1002,00011,5000,15058Borlänge GK Trupp 12,4007,0502,00011,4500,200610Järfällagymnasterna2,4007,0002,00011,4000,25076Strängnäs GF Juniortruppen2,4006,9002,00011,3000,35085Brommagymnasterna2,2006,8502,00011,0500,60097SOL GF Juniortruppen Grå2,4006,7001,70010,8000,850103GK Splitt2,4006,3502,00010,7500,900",
     "fx": {
       "score": 1.8,
       "D": null,
@@ -2725,9 +2750,9 @@
     "gap": null
   },
   {
-    "rank": 110,
+    "rank": 111,
     "start_position": 10,
-    "name": "Pl#NamnDECHJ-PoängGap19Sandvikens GA2,4007,2502,00011,65021GF Kungälvsgymnasterna2,4007,1002,00011,5000,15022Dackegymnasterna lag Turkos2,4007,1002,00011,5000,15024KFUM Kristianstad GF2,4007,1002,00011,5000,15058Borlänge GK Trupp 12,4007,0502,00011,4500,200610Järfällagymnasterna2,4007,0002,00011,4000,25076Strängnäs GF Juniortruppen2,4006,9002,00011,3000,35085Brommagymnasterna2,2006,8502,00011,0500,60097SOL GF Juniortruppen Grå2,4006,7001,70010,8000,850103GK Splitt2,4006,3502,00010,7500,900",
+    "name": "Sij#NimiDECHJ-PisteetErotus19Sandvikens GA2,4007,2502,00011,65021GF Kungälvsgymnasterna2,4007,1002,00011,5000,15022Dackegymnasterna lag Turkos2,4007,1002,00011,5000,15024KFUM Kristianstad GF2,4007,1002,00011,5000,15058Borlänge GK Trupp 12,4007,0502,00011,4500,200610Järfällagymnasterna2,4007,0002,00011,4000,25076Strängnäs GF Juniortruppen2,4006,9002,00011,3000,35085Brommagymnasterna2,2006,8502,00011,0500,60097SOL GF Juniortruppen Grå2,4006,7001,70010,8000,850103GK Splitt2,4006,3502,00010,7500,900",
     "fx": {
       "score": 10.8,
       "D": null,
@@ -2750,34 +2775,9 @@
     "gap": null
   },
   {
-    "rank": 111,
-    "start_position": null,
-    "name": "Pl#NamnDECHJ-PoängGap19Sandvikens GA2,4007,2502,00011,65021GF Kungälvsgymnasterna2,4007,1002,00011,5000,15022Dackegymnasterna lag Turkos2,4007,1002,00011,5000,15024KFUM Kristianstad GF2,4007,1002,00011,5000,15058Borlänge GK Trupp 12,4007,0502,00011,4500,200610Järfällagymnasterna2,4007,0002,00011,4000,25076Strängnäs GF Juniortruppen2,4006,9002,00011,3000,35085Brommagymnasterna2,2006,8502,00011,0500,60097SOL GF Juniortruppen Grå2,4006,7001,70010,8000,850103GK Splitt2,4006,3502,00010,7500,900",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
     "rank": 112,
     "start_position": null,
-    "name": "#",
+    "name": "Sij#NimiDECHJ-PisteetErotus19Sandvikens GA2,4007,2502,00011,65021GF Kungälvsgymnasterna2,4007,1002,00011,5000,15022Dackegymnasterna lag Turkos2,4007,1002,00011,5000,15024KFUM Kristianstad GF2,4007,1002,00011,5000,15058Borlänge GK Trupp 12,4007,0502,00011,4500,200610Järfällagymnasterna2,4007,0002,00011,4000,25076Strängnäs GF Juniortruppen2,4006,9002,00011,3000,35085Brommagymnasterna2,2006,8502,00011,0500,60097SOL GF Juniortruppen Grå2,4006,7001,70010,8000,850103GK Splitt2,4006,3502,00010,7500,900",
     "fx": {
       "score": null,
       "D": null,
@@ -2802,7 +2802,7 @@
   {
     "rank": 113,
     "start_position": null,
-    "name": "E",
+    "name": "#",
     "fx": {
       "score": null,
       "D": null,
@@ -2827,7 +2827,32 @@
   {
     "rank": 114,
     "start_position": null,
-    "name": "Poäng",
+    "name": "E",
+    "fx": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tu": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tr": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "total": null,
+    "gap": null
+  },
+  {
+    "rank": 115,
+    "start_position": null,
+    "name": "Pisteet",
     "fx": {
       "score": null,
       "D": null,
@@ -2850,7 +2875,7 @@
     "gap": 1.0
   },
   {
-    "rank": 115,
+    "rank": 116,
     "start_position": 1,
     "name": "Sandvikens GA",
     "fx": {
@@ -2875,7 +2900,7 @@
     "gap": null
   },
   {
-    "rank": 116,
+    "rank": 117,
     "start_position": 2,
     "name": "GF Kungälvsgymnasterna",
     "fx": {
@@ -2900,7 +2925,7 @@
     "gap": 11.65
   },
   {
-    "rank": 117,
+    "rank": 118,
     "start_position": 11,
     "name": "GF Kungälvsgymnasterna",
     "fx": {
@@ -2925,7 +2950,7 @@
     "gap": 21.0
   },
   {
-    "rank": 118,
+    "rank": 119,
     "start_position": 21,
     "name": "GF Kungälvsgymnasterna",
     "fx": {
@@ -2950,7 +2975,7 @@
     "gap": null
   },
   {
-    "rank": 119,
+    "rank": 120,
     "start_position": 2,
     "name": "Dackegymnasterna lag Turkos",
     "fx": {
@@ -2975,7 +3000,7 @@
     "gap": null
   },
   {
-    "rank": 120,
+    "rank": 121,
     "start_position": 11,
     "name": "Dackegymnasterna lag Turkos",
     "fx": {
@@ -3000,7 +3025,7 @@
     "gap": null
   },
   {
-    "rank": 121,
+    "rank": 122,
     "start_position": 22,
     "name": "Dackegymnasterna lag Turkos2,4007,1002,00011,5000,150",
     "fx": {
@@ -3025,7 +3050,7 @@
     "gap": null
   },
   {
-    "rank": 122,
+    "rank": 123,
     "start_position": null,
     "name": "Dackegymnasterna lag Turkos",
     "fx": {
@@ -3050,7 +3075,7 @@
     "gap": 7.1
   },
   {
-    "rank": 123,
+    "rank": 124,
     "start_position": 7,
     "name": "KFUM Kristianstad GF",
     "fx": {
@@ -3075,7 +3100,7 @@
     "gap": 11.5
   },
   {
-    "rank": 124,
+    "rank": 125,
     "start_position": 11,
     "name": "KFUM Kristianstad GF",
     "fx": {
@@ -3100,7 +3125,7 @@
     "gap": 2.0
   },
   {
-    "rank": 125,
+    "rank": 126,
     "start_position": 2,
     "name": "KFUM Kristianstad GF",
     "fx": {
@@ -3125,7 +3150,7 @@
     "gap": null
   },
   {
-    "rank": 126,
+    "rank": 127,
     "start_position": 2,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -3150,7 +3175,7 @@
     "gap": null
   },
   {
-    "rank": 127,
+    "rank": 128,
     "start_position": 11,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -3175,7 +3200,7 @@
     "gap": null
   },
   {
-    "rank": 128,
+    "rank": 129,
     "start_position": 58,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -3200,7 +3225,7 @@
     "gap": null
   },
   {
-    "rank": 129,
+    "rank": 130,
     "start_position": null,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -3225,7 +3250,7 @@
     "gap": 2.0
   },
   {
-    "rank": 130,
+    "rank": 131,
     "start_position": 2,
     "name": "Järfällagymnasterna",
     "fx": {
@@ -3250,7 +3275,7 @@
     "gap": 0.2
   },
   {
-    "rank": 131,
+    "rank": 132,
     "start_position": 0,
     "name": "Järfällagymnasterna",
     "fx": {
@@ -3275,7 +3300,7 @@
     "gap": 10.0
   },
   {
-    "rank": 132,
+    "rank": 133,
     "start_position": 10,
     "name": "Järfällagymnasterna",
     "fx": {
@@ -3300,7 +3325,7 @@
     "gap": null
   },
   {
-    "rank": 133,
+    "rank": 134,
     "start_position": 2,
     "name": "Strängnäs GF Juniortruppen",
     "fx": {
@@ -3325,7 +3350,7 @@
     "gap": null
   },
   {
-    "rank": 134,
+    "rank": 135,
     "start_position": 11,
     "name": "Strängnäs GF Juniortruppen",
     "fx": {
@@ -3350,7 +3375,7 @@
     "gap": 76.0
   },
   {
-    "rank": 135,
+    "rank": 136,
     "start_position": 76,
     "name": "Strängnäs GF Juniortruppen",
     "fx": {
@@ -3375,7 +3400,7 @@
     "gap": null
   },
   {
-    "rank": 136,
+    "rank": 137,
     "start_position": 2,
     "name": "Brommagymnasterna",
     "fx": {
@@ -3400,7 +3425,7 @@
     "gap": null
   },
   {
-    "rank": 137,
+    "rank": 138,
     "start_position": 11,
     "name": "Brommagymnasterna",
     "fx": {
@@ -3425,7 +3450,7 @@
     "gap": null
   },
   {
-    "rank": 138,
+    "rank": 139,
     "start_position": 85,
     "name": "Brommagymnasterna2,2006,8502,00011,0500,600",
     "fx": {
@@ -3450,7 +3475,7 @@
     "gap": null
   },
   {
-    "rank": 139,
+    "rank": 140,
     "start_position": null,
     "name": "Brommagymnasterna",
     "fx": {
@@ -3475,7 +3500,7 @@
     "gap": 6.85
   },
   {
-    "rank": 140,
+    "rank": 141,
     "start_position": 6,
     "name": "SOL GF Juniortruppen Grå",
     "fx": {
@@ -3500,7 +3525,7 @@
     "gap": 11.05
   },
   {
-    "rank": 141,
+    "rank": 142,
     "start_position": 11,
     "name": "SOL GF Juniortruppen Grå",
     "fx": {
@@ -3525,7 +3550,7 @@
     "gap": 9.0
   },
   {
-    "rank": 142,
+    "rank": 143,
     "start_position": 9,
     "name": "SOL GF Juniortruppen Grå",
     "fx": {
@@ -3550,7 +3575,7 @@
     "gap": null
   },
   {
-    "rank": 143,
+    "rank": 144,
     "start_position": 2,
     "name": "GK Splitt",
     "fx": {
@@ -3575,7 +3600,7 @@
     "gap": null
   },
   {
-    "rank": 144,
+    "rank": 145,
     "start_position": 10,
     "name": "GK Splitt",
     "fx": {
@@ -3600,7 +3625,7 @@
     "gap": null
   },
   {
-    "rank": 145,
+    "rank": 146,
     "start_position": 103,
     "name": "GK Splitt",
     "fx": {
@@ -3625,7 +3650,7 @@
     "gap": null
   },
   {
-    "rank": 146,
+    "rank": 147,
     "start_position": null,
     "name": "GK Splitt",
     "fx": {
@@ -3650,9 +3675,9 @@
     "gap": 2.0
   },
   {
-    "rank": 147,
+    "rank": 148,
     "start_position": 2,
-    "name": "Pl#NamnDECHJ-PoängGap19Sandvikens GA2,1008,5501,90012,55021GF Kungälvsgymnasterna2,2008,3002,00012,5000,05036Strängnäs GF Juniortruppen2,2008,4001,60012,2000,35047SOL GF Juniortruppen Grå2,2007,7502,00011,9500,60055Brommagymnasterna2,2007,5502,00011,7500,80064KFUM Kristianstad GF2,2007,4502,00011,6500,900610Järfällagymnasterna2,2007,4502,00011,6500,90088Borlänge GK Trupp 12,0008,0501,50011,5501,00093GK Splitt2,2007,2002,00011,4001,150102Dackegymnasterna lag Turkos2,0007,4501,90011,3501,200",
+    "name": "Sij#NimiDECHJ-PisteetErotus19Sandvikens GA2,1008,5501,90012,55021GF Kungälvsgymnasterna2,2008,3002,00012,5000,05036Strängnäs GF Juniortruppen2,2008,4001,60012,2000,35047SOL GF Juniortruppen Grå2,2007,7502,00011,9500,60055Brommagymnasterna2,2007,5502,00011,7500,80064KFUM Kristianstad GF2,2007,4502,00011,6500,900610Järfällagymnasterna2,2007,4502,00011,6500,90088Borlänge GK Trupp 12,0008,0501,50011,5501,00093GK Splitt2,2007,2002,00011,4001,150102Dackegymnasterna lag Turkos2,0007,4501,90011,3501,200",
     "fx": {
       "score": 10.75,
       "D": null,
@@ -3675,42 +3700,17 @@
     "gap": 0.9
   },
   {
-    "rank": 148,
-    "start_position": 0,
-    "name": "Pl#NamnDECHJ-PoängGap19Sandvikens GA2,1008,5501,90012,55021GF Kungälvsgymnasterna2,2008,3002,00012,5000,05036Strängnäs GF Juniortruppen2,2008,4001,60012,2000,35047SOL GF Juniortruppen Grå2,2007,7502,00011,9500,60055Brommagymnasterna2,2007,5502,00011,7500,80064KFUM Kristianstad GF2,2007,4502,00011,6500,900610Järfällagymnasterna2,2007,4502,00011,6500,90088Borlänge GK Trupp 12,0008,0501,50011,5501,00093GK Splitt2,2007,2002,00011,4001,150102Dackegymnasterna lag Turkos2,0007,4501,90011,3501,200",
-    "fx": {
-      "score": 2.1008,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": 2.1008,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
     "rank": 149,
-    "start_position": null,
-    "name": "Pl#",
+    "start_position": 0,
+    "name": "Sij#NimiDECHJ-PisteetErotus19Sandvikens GA2,1008,5501,90012,55021GF Kungälvsgymnasterna2,2008,3002,00012,5000,05036Strängnäs GF Juniortruppen2,2008,4001,60012,2000,35047SOL GF Juniortruppen Grå2,2007,7502,00011,9500,60055Brommagymnasterna2,2007,5502,00011,7500,80064KFUM Kristianstad GF2,2007,4502,00011,6500,900610Järfällagymnasterna2,2007,4502,00011,6500,90088Borlänge GK Trupp 12,0008,0501,50011,5501,00093GK Splitt2,2007,2002,00011,4001,150102Dackegymnasterna lag Turkos2,0007,4501,90011,3501,200",
     "fx": {
-      "score": null,
+      "score": 2.1008,
       "D": null,
       "E": null,
       "C": null
     },
     "tu": {
-      "score": null,
+      "score": 2.1008,
       "D": null,
       "E": null,
       "C": null
@@ -3727,7 +3727,7 @@
   {
     "rank": 150,
     "start_position": null,
-    "name": "DECHJ-",
+    "name": "Sij#",
     "fx": {
       "score": null,
       "D": null,
@@ -3752,7 +3752,32 @@
   {
     "rank": 151,
     "start_position": null,
-    "name": "PoängGap",
+    "name": "DECHJ-",
+    "fx": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tu": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tr": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "total": null,
+    "gap": null
+  },
+  {
+    "rank": 152,
+    "start_position": null,
+    "name": "PisteetErotus",
     "fx": {
       "score": null,
       "D": null,
@@ -3775,7 +3800,7 @@
     "gap": null
   },
   {
-    "rank": 152,
+    "rank": 153,
     "start_position": 19,
     "name": "Sandvikens GA",
     "fx": {
@@ -3800,7 +3825,7 @@
     "gap": null
   },
   {
-    "rank": 153,
+    "rank": 154,
     "start_position": null,
     "name": "Sandvikens GA",
     "fx": {
@@ -3825,7 +3850,7 @@
     "gap": 1.9
   },
   {
-    "rank": 154,
+    "rank": 155,
     "start_position": 1,
     "name": "GF Kungälvsgymnasterna",
     "fx": {
@@ -3850,7 +3875,7 @@
     "gap": null
   },
   {
-    "rank": 155,
+    "rank": 156,
     "start_position": 21,
     "name": "GF Kungälvsgymnasterna2,2008,3002,00012,5000,050",
     "fx": {
@@ -3875,7 +3900,7 @@
     "gap": null
   },
   {
-    "rank": 156,
+    "rank": 157,
     "start_position": null,
     "name": "GF Kungälvsgymnasterna",
     "fx": {
@@ -3900,7 +3925,7 @@
     "gap": 8.3
   },
   {
-    "rank": 157,
+    "rank": 158,
     "start_position": 8,
     "name": "Strängnäs GF Juniortruppen",
     "fx": {
@@ -3925,7 +3950,7 @@
     "gap": 12.5
   },
   {
-    "rank": 158,
+    "rank": 159,
     "start_position": 12,
     "name": "Strängnäs GF Juniortruppen",
     "fx": {
@@ -3950,7 +3975,7 @@
     "gap": 3.0
   },
   {
-    "rank": 159,
+    "rank": 160,
     "start_position": 3,
     "name": "Strängnäs GF Juniortruppen",
     "fx": {
@@ -3975,7 +4000,7 @@
     "gap": null
   },
   {
-    "rank": 160,
+    "rank": 161,
     "start_position": 2,
     "name": "SOL GF Juniortruppen Grå",
     "fx": {
@@ -4000,7 +4025,7 @@
     "gap": null
   },
   {
-    "rank": 161,
+    "rank": 162,
     "start_position": 12,
     "name": "SOL GF Juniortruppen Grå",
     "fx": {
@@ -4025,7 +4050,7 @@
     "gap": null
   },
   {
-    "rank": 162,
+    "rank": 163,
     "start_position": 47,
     "name": "SOL GF Juniortruppen Grå",
     "fx": {
@@ -4050,7 +4075,7 @@
     "gap": null
   },
   {
-    "rank": 163,
+    "rank": 164,
     "start_position": null,
     "name": "SOL GF Juniortruppen Grå",
     "fx": {
@@ -4075,7 +4100,7 @@
     "gap": 2.0
   },
   {
-    "rank": 164,
+    "rank": 165,
     "start_position": 2,
     "name": "Brommagymnasterna",
     "fx": {
@@ -4100,7 +4125,7 @@
     "gap": 0.6
   },
   {
-    "rank": 165,
+    "rank": 166,
     "start_position": 0,
     "name": "Brommagymnasterna",
     "fx": {
@@ -4125,7 +4150,7 @@
     "gap": 5.0
   },
   {
-    "rank": 166,
+    "rank": 167,
     "start_position": 5,
     "name": "Brommagymnasterna",
     "fx": {
@@ -4150,7 +4175,7 @@
     "gap": null
   },
   {
-    "rank": 167,
+    "rank": 168,
     "start_position": 2,
     "name": "KFUM Kristianstad GF",
     "fx": {
@@ -4175,7 +4200,7 @@
     "gap": null
   },
   {
-    "rank": 168,
+    "rank": 169,
     "start_position": 11,
     "name": "KFUM Kristianstad GF",
     "fx": {
@@ -4200,7 +4225,7 @@
     "gap": 64.0
   },
   {
-    "rank": 169,
+    "rank": 170,
     "start_position": 64,
     "name": "KFUM Kristianstad GF",
     "fx": {
@@ -4225,7 +4250,7 @@
     "gap": null
   },
   {
-    "rank": 170,
+    "rank": 171,
     "start_position": 2,
     "name": "Järfällagymnasterna",
     "fx": {
@@ -4250,7 +4275,7 @@
     "gap": null
   },
   {
-    "rank": 171,
+    "rank": 172,
     "start_position": 11,
     "name": "Järfällagymnasterna",
     "fx": {
@@ -4275,7 +4300,7 @@
     "gap": null
   },
   {
-    "rank": 172,
+    "rank": 173,
     "start_position": 610,
     "name": "Järfällagymnasterna2,2007,4502,00011,6500,900",
     "fx": {
@@ -4300,7 +4325,7 @@
     "gap": null
   },
   {
-    "rank": 173,
+    "rank": 174,
     "start_position": null,
     "name": "Järfällagymnasterna",
     "fx": {
@@ -4325,7 +4350,7 @@
     "gap": 7.45
   },
   {
-    "rank": 174,
+    "rank": 175,
     "start_position": 7,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -4350,7 +4375,7 @@
     "gap": 11.65
   },
   {
-    "rank": 175,
+    "rank": 176,
     "start_position": 11,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -4375,7 +4400,7 @@
     "gap": 8.0
   },
   {
-    "rank": 176,
+    "rank": 177,
     "start_position": 8,
     "name": "Borlänge GK Trupp 1",
     "fx": {
@@ -4400,7 +4425,7 @@
     "gap": null
   },
   {
-    "rank": 177,
+    "rank": 178,
     "start_position": 2,
     "name": "GK Splitt",
     "fx": {
@@ -4425,7 +4450,7 @@
     "gap": null
   },
   {
-    "rank": 178,
+    "rank": 179,
     "start_position": 11,
     "name": "GK Splitt",
     "fx": {
@@ -4450,7 +4475,7 @@
     "gap": null
   },
   {
-    "rank": 179,
+    "rank": 180,
     "start_position": 93,
     "name": "GK Splitt",
     "fx": {
@@ -4475,7 +4500,7 @@
     "gap": null
   },
   {
-    "rank": 180,
+    "rank": 181,
     "start_position": null,
     "name": "GK Splitt",
     "fx": {
@@ -4500,7 +4525,7 @@
     "gap": 2.0
   },
   {
-    "rank": 181,
+    "rank": 182,
     "start_position": 2,
     "name": "Dackegymnasterna lag Turkos",
     "fx": {
@@ -4525,7 +4550,7 @@
     "gap": 1.15
   },
   {
-    "rank": 182,
+    "rank": 183,
     "start_position": 1,
     "name": "Dackegymnasterna lag Turkos",
     "fx": {
@@ -4550,7 +4575,7 @@
     "gap": 2.0
   },
   {
-    "rank": 183,
+    "rank": 184,
     "start_position": 2,
     "name": "Dackegymnasterna lag Turkos",
     "fx": {
@@ -4575,9 +4600,9 @@
     "gap": null
   },
   {
-    "rank": 184,
+    "rank": 185,
     "start_position": 2,
-    "name": "Pl#NamnDECHJ-PoängGap",
+    "name": "Sij#NimiDECHJ-PisteetErotus",
     "fx": {
       "score": 7.45,
       "D": null,
@@ -4600,9 +4625,9 @@
     "gap": null
   },
   {
-    "rank": 185,
+    "rank": 186,
     "start_position": 11,
-    "name": "Pl#NamnDECHJ-PoängGap",
+    "name": "Sij#NimiDECHJ-PisteetErotus",
     "fx": {
       "score": 11.35,
       "D": null,
@@ -4625,34 +4650,9 @@
     "gap": null
   },
   {
-    "rank": 186,
-    "start_position": null,
-    "name": "Pl#NamnDECHJ-PoängGap",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
     "rank": 187,
     "start_position": null,
-    "name": "Namn",
+    "name": "Sij#NimiDECHJ-PisteetErotus",
     "fx": {
       "score": null,
       "D": null,
@@ -4677,7 +4677,7 @@
   {
     "rank": 188,
     "start_position": null,
-    "name": "C",
+    "name": "Nimi",
     "fx": {
       "score": null,
       "D": null,
@@ -4702,7 +4702,7 @@
   {
     "rank": 189,
     "start_position": null,
-    "name": "Gap",
+    "name": "C",
     "fx": {
       "score": null,
       "D": null,
@@ -4727,7 +4727,7 @@
   {
     "rank": 190,
     "start_position": null,
-    "name": "Pl#",
+    "name": "Erotus",
     "fx": {
       "score": null,
       "D": null,
@@ -4752,7 +4752,7 @@
   {
     "rank": 191,
     "start_position": null,
-    "name": "DECHJ-",
+    "name": "Sij#",
     "fx": {
       "score": null,
       "D": null,
@@ -4777,7 +4777,7 @@
   {
     "rank": 192,
     "start_position": null,
-    "name": "PoängGap",
+    "name": "DECHJ-",
     "fx": {
       "score": null,
       "D": null,
@@ -4802,7 +4802,7 @@
   {
     "rank": 193,
     "start_position": null,
-    "name": "Pl#NamnDECHJ-PoängGap",
+    "name": "PisteetErotus",
     "fx": {
       "score": null,
       "D": null,
@@ -4827,7 +4827,7 @@
   {
     "rank": 194,
     "start_position": null,
-    "name": "#",
+    "name": "Sij#NimiDECHJ-PisteetErotus",
     "fx": {
       "score": null,
       "D": null,
@@ -4852,7 +4852,7 @@
   {
     "rank": 195,
     "start_position": null,
-    "name": "E",
+    "name": "#",
     "fx": {
       "score": null,
       "D": null,
@@ -4877,7 +4877,7 @@
   {
     "rank": 196,
     "start_position": null,
-    "name": "Poäng",
+    "name": "E",
     "fx": {
       "score": null,
       "D": null,
@@ -4902,7 +4902,7 @@
   {
     "rank": 197,
     "start_position": null,
-    "name": "Pl#",
+    "name": "Pisteet",
     "fx": {
       "score": null,
       "D": null,
@@ -4927,7 +4927,7 @@
   {
     "rank": 198,
     "start_position": null,
-    "name": "DECHJ-",
+    "name": "Sij#",
     "fx": {
       "score": null,
       "D": null,
@@ -4951,6 +4951,31 @@
   },
   {
     "rank": 199,
+    "start_position": null,
+    "name": "DECHJ-",
+    "fx": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tu": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "tr": {
+      "score": null,
+      "D": null,
+      "E": null,
+      "C": null
+    },
+    "total": null,
+    "gap": null
+  },
+  {
+    "rank": 200,
     "start_position": null,
     "name": "HJ-",
     "fx": {
