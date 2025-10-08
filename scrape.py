@@ -1,91 +1,101 @@
 import requests
 from bs4 import BeautifulSoup
-import json
 import re
+import json
 
 URL = "https://live.sporteventsystems.se/Score/WebScore/3303?f=7545&country=swe&year=-1"
-response = requests.get(URL)
-soup = BeautifulSoup(response.text, "html.parser")
 
-container = soup.find("div", id="TabContent")
-results = []
+def get_lines():
+    """Fetch all text lines from the scoreboard HTML."""
+    response = requests.get(URL)
+    response.encoding = "utf-8"
+    soup = BeautifulSoup(response.text, "html.parser")
+    container = soup.find("div", id="TabContent")
+    if not container:
+        raise RuntimeError("❌ Could not find TabContent in HTML")
+    return [div.get_text(strip=True) for div in container.find_all("div") if div.get_text(strip=True)]
 
-def parse_score(text):
+def extract_score_segments(text):
+    """
+    Extract all scores with exactly 3 decimal places.
+    Example: 12.550, 11.650, etc.
+    """
     text = text.replace(",", ".")
-    score_match = re.search(r"\d+\.\d+", text)
-    score = float(score_match.group()) if score_match else None
-    D = float(re.search(r"D:\s*([\d.]+)", text).group(1)) if re.search(r"D:\s*([\d.]+)", text) else None
-    E = float(re.search(r"E:\s*([\d.]+)", text).group(1)) if re.search(r"E:\s*([\d.]+)", text) else None
-    C = float(re.search(r"C:\s*([\d.]+)", text).group(1)) if re.search(r"C:\s*([\d.]+)", text) else None
-    return {"score": score, "D": D, "E": E, "C": C}
+    return re.findall(r"\d+\.\d{3}", text)
 
-if container:
-    lines = [div.get_text(strip=True) for div in container.find_all("div") if div.get_text(strip=True)]
-    
-    # Remove header lines
-    header_keywords = ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]
-    while lines and any(k in lines[0] for k in header_keywords):
-        lines.pop(0)
+def parse_team_line(line):
+    """
+    Parse a team line like '19Sandvikens GA' -> (rank=1, start_pos=9, name='Sandvikens GA')
+    or '117Team A' -> (rank=11, start_pos=7, name='Team A')
+    """
+    match = re.match(r"(\d{1,2})(\d{1,2})([A-Za-zÅÄÖåäö].+)", line)
+    if not match:
+        return None, None, None
+    rank = int(match.group(1))
+    start_pos = int(match.group(2))
+    name = match.group(3).strip()
+    return rank, start_pos, name
 
-    rank_counter = 1
+def parse_blocks(lines):
+    results = []
     i = 0
+    rank_counter = 1
+
     while i < len(lines):
-        try:
-            line = lines[i]
+        line = lines[i].strip()
 
-            # Start position is first number
-            start_pos_match = re.match(r"(\d+)", line)
-            if start_pos_match:
-                start_pos = int(start_pos_match.group(1))
-                name = line[start_pos_match.end():].strip()
-            else:
-                start_pos = None
-                name = line.strip()
-
-            # Skip lines that are clearly not team names
-            if not name or name.startswith(","):
-                # Find next non-score line
-                for j in range(i+1, len(lines)):
-                    if not re.match(r"[\d.,]+", lines[j]):
-                        name = lines[j].strip()
-                        break
-
-            fx = parse_score(lines[i+1]) if i+1 < len(lines) else {"score": None, "D": None, "E": None, "C": None}
-            tu = parse_score(lines[i+2]) if i+2 < len(lines) else {"score": None, "D": None, "E": None, "C": None}
-            tr = parse_score(lines[i+3]) if i+3 < len(lines) else {"score": None, "D": None, "E": None, "C": None}
-
-            total = None
-            gap = None
-            for j in range(i+4, i+6):
-                if j < len(lines):
-                    try:
-                        val = float(lines[j].replace(",", "."))
-                        if total is None:
-                            total = val
-                        else:
-                            gap = val
-                    except:
-                        continue
-
-            results.append({
-                "rank": rank_counter,
-                "start_position": start_pos,
-                "name": name,
-                "fx": fx,
-                "tu": tu,
-                "tr": tr,
-                "total": total,
-                "gap": gap
-            })
-
-            i += 5
-            rank_counter += 1
-
-        except Exception as e:
-            print(f"⚠️ Skipped lines {i}-{i+4} due to error: {e}")
+        # Skip headers or empty lines
+        if any(h in line for h in ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]) or not line:
             i += 1
+            continue
 
-with open("results.json", "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
+        rank, start_pos, name = parse_team_line(line)
+        if not name:
+            i += 1
+            continue
 
-print(f"✅ Parsed {len(results)} teams.")
+        fx = tu = tr = total = gap = None
+        j = i + 1
+        scores_found = []
+
+        # Collect following lines to extract up to 5 scores (.XXX pattern)
+        while j < len(lines) and len(scores_found) < 5:
+            segs = extract_score_segments(lines[j])
+            for s in segs:
+                scores_found.append(float(s))
+            j += 1
+
+        if len(scores_found) >= 3:
+            fx = scores_found[0]
+            tu = scores_found[1]
+            tr = scores_found[2]
+        if len(scores_found) >= 4:
+            total = scores_found[3]
+        if len(scores_found) >= 5:
+            gap = scores_found[4]
+
+        results.append({
+            "rank": rank_counter,
+            "start_position": start_pos,
+            "name": name,
+            "fx": fx,
+            "tu": tu,
+            "tr": tr,
+            "total": total,
+            "gap": gap if rank_counter != 1 else None
+        })
+
+        rank_counter += 1
+        i = j
+
+    return results
+
+
+if __name__ == "__main__":
+    lines = get_lines()
+    results = parse_blocks(lines)
+
+    with open("results.json", "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ Parsed {len(results)} teams successfully.")
