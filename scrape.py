@@ -1,91 +1,112 @@
 import requests
 from bs4 import BeautifulSoup
-import json
 import re
+import json
 
 URL = "https://live.sporteventsystems.se/Score/WebScore/3303?f=7545&country=swe&year=-1"
-response = requests.get(URL)
-soup = BeautifulSoup(response.text, "html.parser")
 
-container = soup.find("div", id="TabContent")
-results = []
-
-def parse_score(text):
-    text = text.replace(",", ".")
-    score_match = re.search(r"\d+\.\d+", text)
-    score = float(score_match.group()) if score_match else None
-    D = float(re.search(r"D:\s*([\d.]+)", text).group(1)) if re.search(r"D:\s*([\d.]+)", text) else None
-    E = float(re.search(r"E:\s*([\d.]+)", text).group(1)) if re.search(r"E:\s*([\d.]+)", text) else None
-    C = float(re.search(r"C:\s*([\d.]+)", text).group(1)) if re.search(r"C:\s*([\d.]+)", text) else None
+def parse_score_line(line):
+    """Extract score and optional D/E/C from a line like '12,100D: 2,000E: 8,100C: 2,000'."""
+    line = line.replace(",", ".")
+    # main score
+    score_m = re.search(r"(\d+\.\d+)", line)
+    score = float(score_m.group(1)) if score_m else None
+    D = float(re.search(r"D:\s*([\d.]+)", line).group(1)) if re.search(r"D:\s*([\d.]+)", line) else None
+    E = float(re.search(r"E:\s*([\d.]+)", line).group(1)) if re.search(r"E:\s*([\d.]+)", line) else None
+    C = float(re.search(r"C:\s*([\d.]+)", line).group(1)) if re.search(r"C:\s*([\d.]+)", line) else None
     return {"score": score, "D": D, "E": E, "C": C}
 
-if container:
-    lines = [div.get_text(strip=True) for div in container.find_all("div") if div.get_text(strip=True)]
-    
-    # Remove header lines
-    header_keywords = ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]
-    while lines and any(k in lines[0] for k in header_keywords):
-        lines.pop(0)
+def is_total_line(line):
+    """Detect if this line is probably the team total (a float not part of D/E/C)."""
+    s = line.replace(",", ".").strip()
+    return re.fullmatch(r"\d+\.\d+", s) is not None and not re.search(r"[DEC]:", line)
 
-    rank_counter = 1
+def get_lines():
+    response = requests.get(URL)
+    response.encoding = 'utf-8'
+    soup = BeautifulSoup(response.text, "html.parser")
+    container = soup.find("div", id="TabContent")
+    if not container:
+        raise RuntimeError("Could not find TabContent container in HTML")
+    lines = [div.get_text(strip=True) for div in container.find_all("div", recursive=True) if div.get_text(strip=True)]
+    return lines
+
+def parse_blocks(lines):
+    results = []
     i = 0
+    rank = 1
     while i < len(lines):
-        try:
-            line = lines[i]
+        line = lines[i].strip()
+        # Skip header or weird
+        if any(h in line for h in ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]) or not line:
+            i += 1
+            continue
 
-            # Start position is first number
-            start_pos_match = re.match(r"(\d+)", line)
-            if start_pos_match:
-                start_pos = int(start_pos_match.group(1))
-                name = line[start_pos_match.end():].strip()
+        # Extract prefix for rank/start position
+        prefix_match = re.match(r"(\d+)(\d+)([A-Za-z].*)", line)
+        if not prefix_match:
+            i += 1
+            continue
+
+        rank_prefix = prefix_match.group(1)
+        start_pos = int(prefix_match.group(2))
+        name = prefix_match.group(3).strip()
+
+        fx = tu = tr = None
+        total = None
+        gap = None
+
+        # Look at next few lines for fx, tu, tr, total, gap
+        for j in range(1, 7):
+            if i + j >= len(lines):
+                break
+            ln = lines[i + j].strip()
+            if is_total_line(ln):
+                total = float(ln.replace(",", "."))
+                # gap is next line if exists and numeric
+                if i + j + 1 < len(lines):
+                    nm = lines[i + j + 1].replace(",", ".").strip()
+                    if re.fullmatch(r"\d+\.\d+", nm):
+                        gap = float(nm)
+                break
             else:
-                start_pos = None
-                name = line.strip()
+                parsed = parse_score_line(ln)
+                if fx is None:
+                    fx = parsed
+                elif tu is None:
+                    tu = parsed
+                elif tr is None:
+                    tr = parsed
 
-            # Skip lines that are clearly not team names
-            if not name or name.startswith(","):
-                # Find next non-score line
-                for j in range(i+1, len(lines)):
-                    if not re.match(r"[\d.,]+", lines[j]):
-                        name = lines[j].strip()
-                        break
+        results.append({
+            "rank": rank,
+            "start_position": start_pos,
+            "name": name,
+            "fx": fx or {"score": None, "D": None, "E": None, "C": None},
+            "tu": tu or {"score": None, "D": None, "E": None, "C": None},
+            "tr": tr or {"score": None, "D": None, "E": None, "C": None},
+            "total": total,
+            "gap": gap if rank != 1 else None
+        })
 
-            fx = parse_score(lines[i+1]) if i+1 < len(lines) else {"score": None, "D": None, "E": None, "C": None}
-            tu = parse_score(lines[i+2]) if i+2 < len(lines) else {"score": None, "D": None, "E": None, "C": None}
-            tr = parse_score(lines[i+3]) if i+3 < len(lines) else {"score": None, "D": None, "E": None, "C": None}
-
-            total = None
-            gap = None
-            for j in range(i+4, i+6):
-                if j < len(lines):
-                    try:
-                        val = float(lines[j].replace(",", "."))
-                        if total is None:
-                            total = val
-                        else:
-                            gap = val
-                    except:
-                        continue
-
-            results.append({
-                "rank": rank_counter,
-                "start_position": start_pos,
-                "name": name,
-                "fx": fx,
-                "tu": tu,
-                "tr": tr,
-                "total": total,
-                "gap": gap
-            })
-
-            i += 5
-            rank_counter += 1
-
-        except Exception as e:
-            print(f"⚠️ Skipped lines {i}-{i+4} due to error: {e}")
+        # Move forward
+        if total is not None:
+            for j in range(1, 7):
+                if i + j < len(lines) and is_total_line(lines[i + j]):
+                    i = i + j + 2
+                    break
+        else:
             i += 1
 
-with open("results.json", "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
+        rank += 1
 
-print(f"✅ Parsed {len(results)} teams.")
+    return results
+
+
+if __name__ == "__main__":
+    lines = get_lines()
+    results = parse_blocks(lines)
+    with open("results.json", "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ Parsed {len(results)} teams successfully.")
