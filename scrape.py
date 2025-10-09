@@ -5,8 +5,8 @@ import re
 import json
 from datetime import datetime
 
-URL = "https://live.sporteventsystems.se/Score/WebScore/3303?f=7545&country=swe&year=-1"
-TOP_N = 10  # change if you want more than top 10
+URL = "https://live.sporteventsystems.se/Score/WebScore/3304?f=7543&country=swe&year=-1"
+TOP_N = 8  # change if you want more than top 10
 
 def get_active_mangkamp_div(soup):
     # Prefer the div that has "show active" in its class (the active tab)
