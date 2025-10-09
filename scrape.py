@@ -1,3 +1,4 @@
+# scrape.py
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -5,85 +6,180 @@ import json
 from datetime import datetime
 
 URL = "https://live.sporteventsystems.se/Score/WebScore/3303?f=7545&country=swe&year=-1"
-response = requests.get(URL)
-response.encoding = "utf-8"
-soup = BeautifulSoup(response.text, "html.parser")
+TOP_N = 10  # change if you want more than top 10
 
-container = soup.find("div", id="TabContent")
+def get_active_mangkamp_div(soup):
+    # Prefer the div that has "show active" in its class (the active tab)
+    div = soup.find("div", class_=lambda c: c and "show active" in c)
+    if div:
+        return div
+    # fallback: first tab-pane
+    div = soup.find("div", class_=lambda c: c and "tab-pane" in c)
+    return div
 
-def parse_team_block(block_text, rank):
-    """Parse one team's Mångkamp line into structured JSON"""
+def tokenize_div(div):
+    """
+    Return a cleaned list of tokens (strings) from the Mångkamp div,
+    preserving lines like 'D: 2,000' and numeric scores '11,650'.
+    """
+    raw = list(div.stripped_strings)
+    # Remove headings and repeated labels that are not useful (but keep 'D:' tokens)
+    skip_exact = {
+        "Pl", "#", "Namn", "Fristående", "Tumbling", "Trampett",
+        "Total", "Gap", "FX", "TU", "TR", "D", "E", "C",  # single-letter headings (without colon)
+        "Senaste poäng:", "Resultat från Sport Event Systems", "Last Update:"
+    }
+    tokens = [t for t in raw if t not in skip_exact]
+    return tokens
 
-    # Find rank, start position, and team name
-    match = re.match(r"^(\d{1,2})(\d{1,2})([A-Za-zÅÄÖåäö0-9\s\-]+?)(?=\d+,\d{3})", block_text)
-    if not match:
-        return None
+def is_rank_token(tok):
+    return re.fullmatch(r"\d{1,2}", tok) is not None
 
-    start_pos = int(match.group(2))
-    name = match.group(3).strip()
+def is_startpos_token(tok):
+    return re.fullmatch(r"\d{1,3}", tok) is not None
 
-    # Extract all numeric scores with 3 decimals
-    score_matches = re.findall(r"\d+,\d{3}", block_text)
-    scores = [float(s.replace(",", ".")) for s in score_matches]
+def is_score_token(tok):
+    # matches numbers like 12,100 or 0,350
+    return re.fullmatch(r"\d+,\d{3}", tok) is not None
 
-    # Extract D/E/C pattern values
-    dec_matches = re.findall(r"D:\s*([\d,]+)|E:\s*([\d,]+)|C:\s*([\d,]+)", block_text)
-    dec_values = [float(v.replace(",", ".")) for tup in dec_matches for v in tup if v]
+def is_dec_token(tok):
+    # matches "D: 2,000" or "E: 7,250" or "C: 2,000"
+    return re.fullmatch(r"[DEC]:\s*\d+,\d{3}", tok) is not None
 
-    def dec(i):
-        return dec_values[i] if i < len(dec_values) else None
+def parse_tokens(tokens):
+    teams = []
+    i = 0
+    while i < len(tokens):
+        # find a team start: rank, startpos, name
+        if i + 2 < len(tokens) and is_rank_token(tokens[i]) and is_startpos_token(tokens[i+1]):
+            rank_token = tokens[i]
+            startpos_token = tokens[i+1]
+            name_token = tokens[i+2]
 
-    fx = {"score": scores[0] if len(scores) > 0 else None, "D": dec(0), "E": dec(1), "C": dec(2)}
-    tu = {"score": scores[1] if len(scores) > 1 else None, "D": dec(3), "E": dec(4), "C": dec(5)}
-    tr = {"score": scores[2] if len(scores) > 2 else None, "D": dec(6), "E": dec(7), "C": dec(8)}
+            # sanity: name_token should not be a score
+            if is_score_token(name_token) or is_dec_token(name_token):
+                i += 1
+                continue
 
-    total = scores[3] if len(scores) > 3 else None
-    gap = scores[4] if (len(scores) > 4 and rank != 1) else 0.0
+            rank = int(rank_token)
+            start_position = int(startpos_token)
+            name = name_token.strip()
 
-    return {
-        "rank": rank,
-        "start_position": start_pos,
-        "name": name,
-        "fx": fx,
-        "tu": tu,
-        "tr": tr,
-        "total": total,
-        "gap": gap
+            # advance pointer to just after name
+            j = i + 3
+
+            scores = []   # fx, tu, tr, total, gap (in that order, if present)
+            decs = []     # sequence of D/E/C numeric values in the order they appear
+
+            # Walk forward collecting score tokens and D/E/C tokens until we've
+            # seen at least fx, tu, tr, total (or until next team starts).
+            while j < len(tokens):
+                tok = tokens[j]
+
+                # stop early if next team seems to start here (rank + startpos)
+                if j + 1 < len(tokens) and is_rank_token(tokens[j]) and is_startpos_token(tokens[j+1]):
+                    break
+
+                if is_score_token(tok):
+                    scores.append(float(tok.replace(",", ".")))
+                    j += 1
+                    continue
+
+                if is_dec_token(tok):
+                    # extract numeric part
+                    m = re.search(r"(\d+,\d{3})$", tok)
+                    if m:
+                        decs.append(float(m.group(1).replace(",", ".")))
+                    j += 1
+                    continue
+
+                # special case: sometimes tokens separate the colon and value
+                # e.g. "D:" then "2,000" -> handle that
+                if tok in ("D:", "E:", "C:") and j + 1 < len(tokens) and is_score_token(tokens[j+1]):
+                    decs.append(float(tokens[j+1].replace(",", ".")))
+                    j += 2
+                    continue
+
+                # otherwise skip headings like 'FX','TU','TR' or stray tokens
+                j += 1
+
+                # guard: prevent infinite loop (shouldn't happen)
+                if j - i > 200:
+                    break
+
+            # Map decs to apparatus: first 3 => fx D/E/C, next 3 => tu D/E/C, next 3 => tr D/E/C
+            def dec_at(idx):
+                return decs[idx] if idx < len(decs) else None
+
+            fx = {
+                "score": scores[0] if len(scores) > 0 else None,
+                "D": dec_at(0),
+                "E": dec_at(1),
+                "C": dec_at(2)
+            }
+            tu = {
+                "score": scores[1] if len(scores) > 1 else None,
+                "D": dec_at(3),
+                "E": dec_at(4),
+                "C": dec_at(5)
+            }
+            tr = {
+                "score": scores[2] if len(scores) > 2 else None,
+                "D": dec_at(6),
+                "E": dec_at(7),
+                "C": dec_at(8)
+            }
+
+            total = scores[3] if len(scores) > 3 else None
+            gap = scores[4] if len(scores) > 4 else None
+
+            # Per your request: rank 1 should have gap = 0.0
+            if rank == 1:
+                gap = 0.0
+
+            team = {
+                "rank": rank,
+                "start_position": start_position,
+                "name": name,
+                "fx": fx,
+                "tu": tu,
+                "tr": tr,
+                "total": total,
+                "gap": gap
+            }
+            teams.append(team)
+
+            # move i to j (next unread token)
+            i = j
+        else:
+            i += 1
+    return teams
+
+def main():
+    resp = requests.get(URL, timeout=15)
+    resp.encoding = "utf-8"
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    mangkamp_div = get_active_mangkamp_div(soup)
+    if not mangkamp_div:
+        raise SystemExit("❌ Could not find Mångkamp/active tab on page")
+
+    tokens = tokenize_div(mangkamp_div)
+    teams = parse_tokens(tokens)
+
+    # keep only top N
+    teams = teams[:TOP_N]
+
+    output = {
+        "last_updated": datetime.utcnow().isoformat() + "Z",
+        "competition": "Mångkamp",
+        "teams": teams
     }
 
-teams = []
-rank = 1
+    with open("results.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
-if container:
-    text = container.get_text(" ", strip=True)
+    print(f"✅ Parsed {len(teams)} teams and wrote results.json")
 
-    # Find Mångkamp section (before FX/TU/TR headings)
-    main_block_match = re.search(r"Pl#Namn.*?(?=Pl#Namn|$)", text)
-    if main_block_match:
-        block = main_block_match.group(0)
-
-        # Split into potential team chunks
-        chunks = re.split(r"(?=\d{1,2}\d{1,2}[A-ZÅÄÖa-zåäö])", block)
-
-        for chunk in chunks:
-            chunk = chunk.strip()
-            if len(chunk) < 15:
-                continue
-            parsed = parse_team_block(chunk, rank)
-            if parsed:
-                teams.append(parsed)
-                rank += 1
-
-# Trim to top 10 teams
-teams = teams[:10]
-
-output = {
-    "last_updated": datetime.utcnow().isoformat() + "Z",
-    "competition": "Mångkamp",
-    "teams": teams
-}
-
-with open("results.json", "w", encoding="utf-8") as f:
-    json.dump(output, f, ensure_ascii=False, indent=2)
-
-print(f"✅ Parsed {len(teams)} teams successfully.")
+if __name__ == "__main__":
+    main()
