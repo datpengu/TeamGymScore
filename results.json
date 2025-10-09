@@ -1,244 +1,3144 @@
 {
-  "last_updated": "2025-10-09T06:55:05.107325Z",
+  "last_updated": "2025-10-09T07:19:50.008875Z",
   "competition": "Mångkamp",
   "teams": [
     {
       "rank": 1,
-      "start_position": 9,
-      "name": "Sandvikens GA12,100D: 2,000E: 8,100C: 2,00011,650D: 2,400E: 7,250C: 2,00012,550D: 2,100E: 8,550C: 1,90036,300",
+      "start_position": 2,
+      "name": ",100 D:",
       "fx": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 12.1,
+        "D": 2.0,
+        "E": 8.1,
+        "C": 2.0
       },
       "tu": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 2.0,
+        "D": 2.4,
+        "E": 7.25,
+        "C": 2.0
       },
       "tr": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 8.1,
+        "D": 2.1,
+        "E": 8.55,
+        "C": 1.9
       },
-      "total": null,
-      "gap": null
+      "total": 2.0,
+      "gap": 11.65
     },
     {
       "rank": 2,
-      "start_position": 1,
-      "name": "GF Kungälvsgymnasterna11,950D: 2,100E: 7,850C: 2,00011,500D: 2,400E: 7,100C: 2,00012,500D: 2,200E: 8,300C: 2,00035,9500,350",
+      "start_position": 2,
+      "name": ",100 D:",
       "fx": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 12.1,
+        "D": 2.0,
+        "E": 8.1,
+        "C": 2.0
       },
       "tu": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 2.0,
+        "D": 2.4,
+        "E": 7.25,
+        "C": 2.0
       },
       "tr": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 8.1,
+        "D": 2.1,
+        "E": 8.55,
+        "C": 1.9
       },
-      "total": null,
-      "gap": null
+      "total": 2.0,
+      "gap": 11.65
     },
     {
       "rank": 3,
-      "start_position": 7,
-      "name": "SOL GF Juniortruppen Grå12,450D: 1,900E: 8,550C: 2,00010,800D: 2,400E: 6,700C: 1,70011,950D: 2,200E: 7,750C: 2,00035,2001,100",
+      "start_position": 2,
+      "name": ",100 D:",
       "fx": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 12.1,
+        "D": 2.0,
+        "E": 8.1,
+        "C": 2.0
       },
       "tu": {
-        "score": null,
+        "score": 2.0,
         "D": null,
         "E": null,
         "C": null
       },
       "tr": {
-        "score": null,
+        "score": 8.1,
         "D": null,
         "E": null,
         "C": null
       },
-      "total": null,
+      "total": 2.0,
       "gap": null
     },
     {
       "rank": 4,
-      "start_position": 0,
-      "name": "Järfällagymnasterna12,050D: 1,900E: 8,150C: 2,00011,400D: 2,400E: 7,000C: 2,00011,650D: 2,200E: 7,450C: 2,00035,1001,200",
+      "start_position": 1,
+      "name": ",650 D:",
       "fx": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 11.65,
+        "D": 2.4,
+        "E": 7.25,
+        "C": 2.0
       },
       "tu": {
-        "score": null,
+        "score": 2.4,
         "D": null,
         "E": null,
         "C": null
       },
       "tr": {
-        "score": null,
+        "score": 7.25,
         "D": null,
         "E": null,
         "C": null
       },
-      "total": null,
+      "total": 2.0,
       "gap": null
     },
     {
       "rank": 5,
-      "start_position": 6,
-      "name": "Strängnäs GF Juniortruppen11,100D: 1,500E: 7,800C: 1,80011,300D: 2,400E: 6,900C: 2,00012,200D: 2,200E: 8,400C: 1,60034,6001,700",
+      "start_position": 2,
+      "name": ",550 D:",
       "fx": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 12.55,
+        "D": 2.1,
+        "E": 8.55,
+        "C": 1.9
       },
       "tu": {
-        "score": null,
+        "score": 2.1,
         "D": null,
         "E": null,
         "C": null
       },
       "tr": {
-        "score": null,
+        "score": 8.55,
         "D": null,
         "E": null,
         "C": null
       },
-      "total": null,
+      "total": 1.9,
       "gap": null
     },
     {
       "rank": 6,
-      "start_position": 4,
-      "name": "KFUM Kristianstad GF11,400D: 2,100E: 7,300C: 2,00011,500D: 2,400E: 7,100C: 2,00011,650D: 2,200E: 7,450C: 2,00034,5501,750",
+      "start_position": 1,
+      "name": ",950 D:",
       "fx": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 11.95,
+        "D": 2.1,
+        "E": 7.85,
+        "C": 2.0
       },
       "tu": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 2.1,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
       },
       "tr": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 7.85,
+        "D": 2.2,
+        "E": 8.3,
+        "C": 2.0
       },
-      "total": null,
-      "gap": null
+      "total": 2.0,
+      "gap": 11.5
     },
     {
       "rank": 7,
-      "start_position": 8,
-      "name": "Borlänge GK Trupp 111,350D: 1,500E: 7,850C: 2,00011,450D: 2,400E: 7,050C: 2,00011,550D: 2,000E: 8,050C: 1,50034,3501,950",
+      "start_position": 1,
+      "name": ",950 D:",
       "fx": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 11.95,
+        "D": 2.1,
+        "E": 7.85,
+        "C": 2.0
       },
       "tu": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 2.1,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
       },
       "tr": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 7.85,
+        "D": 2.2,
+        "E": 8.3,
+        "C": 2.0
       },
-      "total": null,
-      "gap": null
+      "total": 2.0,
+      "gap": 11.5
     },
     {
       "rank": 8,
-      "start_position": 5,
-      "name": "Brommagymnasterna11,500D: 1,800E: 7,900C: 1,80011,050D: 2,200E: 6,850C: 2,00011,750D: 2,200E: 7,550C: 2,00034,3002,000",
+      "start_position": 1,
+      "name": ",950 D:",
       "fx": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 11.95,
+        "D": 2.1,
+        "E": 7.85,
+        "C": 2.0
       },
       "tu": {
-        "score": null,
+        "score": 2.1,
         "D": null,
         "E": null,
         "C": null
       },
       "tr": {
-        "score": null,
+        "score": 7.85,
         "D": null,
         "E": null,
         "C": null
       },
-      "total": null,
+      "total": 2.0,
       "gap": null
     },
     {
       "rank": 9,
-      "start_position": 3,
-      "name": "GK Splitt12,100D: 1,800E: 8,300C: 2,00010,750D: 2,400E: 6,350C: 2,00011,400D: 2,200E: 7,200C: 2,00034,2502,050",
+      "start_position": 1,
+      "name": ",500 D:",
       "fx": {
-        "score": null,
-        "D": null,
-        "E": null,
-        "C": null
+        "score": 11.5,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
       },
       "tu": {
-        "score": null,
+        "score": 2.4,
         "D": null,
         "E": null,
         "C": null
       },
       "tr": {
-        "score": null,
+        "score": 7.1,
         "D": null,
         "E": null,
         "C": null
       },
-      "total": null,
+      "total": 2.0,
       "gap": null
     },
     {
       "rank": 10,
       "start_position": 2,
-      "name": "Dackegymnasterna lag Turkos10,800D: 1,800E: 7,000C: 2,00011,500D: 2,400E: 7,100C: 2,00011,350D: 2,000E: 7,450C: 1,90033,6502,650",
+      "name": ",500 D:",
       "fx": {
-        "score": null,
+        "score": 12.5,
+        "D": 2.2,
+        "E": 8.3,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 8.3,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 11,
+      "start_position": 5,
+      "name": ",950",
+      "fx": {
+        "score": 35.95,
         "D": null,
         "E": null,
         "C": null
       },
       "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
         "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 12,
+      "start_position": 5,
+      "name": ",950",
+      "fx": {
+        "score": 35.95,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 13,
+      "start_position": 2,
+      "name": ",450 D:",
+      "fx": {
+        "score": 12.45,
+        "D": 1.9,
+        "E": 8.55,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.9,
+        "D": 2.4,
+        "E": 6.7,
+        "C": 1.7
+      },
+      "tr": {
+        "score": 8.55,
+        "D": 2.2,
+        "E": 7.75,
+        "C": 2.0
+      },
+      "total": 2.0,
+      "gap": 10.8
+    },
+    {
+      "rank": 14,
+      "start_position": 2,
+      "name": ",450 D:",
+      "fx": {
+        "score": 12.45,
+        "D": 1.9,
+        "E": 8.55,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.9,
+        "D": 2.4,
+        "E": 6.7,
+        "C": 1.7
+      },
+      "tr": {
+        "score": 8.55,
+        "D": 2.2,
+        "E": 7.75,
+        "C": 2.0
+      },
+      "total": 2.0,
+      "gap": 10.8
+    },
+    {
+      "rank": 15,
+      "start_position": 2,
+      "name": ",450 D:",
+      "fx": {
+        "score": 12.45,
+        "D": 1.9,
+        "E": 8.55,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 8.55,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 16,
+      "start_position": 0,
+      "name": ",800 D:",
+      "fx": {
+        "score": 10.8,
+        "D": 2.4,
+        "E": 6.7,
+        "C": 1.7
+      },
+      "tu": {
+        "score": 2.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 6.7,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 1.7,
+      "gap": null
+    },
+    {
+      "rank": 17,
+      "start_position": 1,
+      "name": ",950 D:",
+      "fx": {
+        "score": 11.95,
+        "D": 2.2,
+        "E": 7.75,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.75,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 18,
+      "start_position": 5,
+      "name": ",200",
+      "fx": {
+        "score": 35.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 19,
+      "start_position": 5,
+      "name": ",200",
+      "fx": {
+        "score": 35.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 20,
+      "start_position": 2,
+      "name": ",050 D:",
+      "fx": {
+        "score": 12.05,
+        "D": 1.9,
+        "E": 8.15,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.9,
+        "D": 2.4,
+        "E": 7.0,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 8.15,
+        "D": 2.2,
+        "E": 7.45,
+        "C": 2.0
+      },
+      "total": 2.0,
+      "gap": 11.4
+    },
+    {
+      "rank": 21,
+      "start_position": 2,
+      "name": ",050 D:",
+      "fx": {
+        "score": 12.05,
+        "D": 1.9,
+        "E": 8.15,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.9,
+        "D": 2.4,
+        "E": 7.0,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 8.15,
+        "D": 2.2,
+        "E": 7.45,
+        "C": 2.0
+      },
+      "total": 2.0,
+      "gap": 11.4
+    },
+    {
+      "rank": 22,
+      "start_position": 2,
+      "name": ",050 D:",
+      "fx": {
+        "score": 12.05,
+        "D": 1.9,
+        "E": 8.15,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 8.15,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 23,
+      "start_position": 1,
+      "name": ",400 D:",
+      "fx": {
+        "score": 11.4,
+        "D": 2.4,
+        "E": 7.0,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 24,
+      "start_position": 1,
+      "name": ",650 D:",
+      "fx": {
+        "score": 11.65,
+        "D": 2.2,
+        "E": 7.45,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.45,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 25,
+      "start_position": 5,
+      "name": ",100",
+      "fx": {
+        "score": 35.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 26,
+      "start_position": 5,
+      "name": ",100",
+      "fx": {
+        "score": 35.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 27,
+      "start_position": 1,
+      "name": ",100 D:",
+      "fx": {
+        "score": 11.1,
+        "D": 1.5,
+        "E": 7.8,
+        "C": 1.8
+      },
+      "tu": {
+        "score": 1.5,
+        "D": 2.4,
+        "E": 6.9,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.8,
+        "D": 2.2,
+        "E": 8.4,
+        "C": 1.6
+      },
+      "total": 1.8,
+      "gap": 11.3
+    },
+    {
+      "rank": 28,
+      "start_position": 1,
+      "name": ",100 D:",
+      "fx": {
+        "score": 11.1,
+        "D": 1.5,
+        "E": 7.8,
+        "C": 1.8
+      },
+      "tu": {
+        "score": 1.5,
+        "D": 2.4,
+        "E": 6.9,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.8,
+        "D": 2.2,
+        "E": 8.4,
+        "C": 1.6
+      },
+      "total": 1.8,
+      "gap": 11.3
+    },
+    {
+      "rank": 29,
+      "start_position": 1,
+      "name": ",100 D:",
+      "fx": {
+        "score": 11.1,
+        "D": 1.5,
+        "E": 7.8,
+        "C": 1.8
+      },
+      "tu": {
+        "score": 1.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 1.8,
+      "gap": null
+    },
+    {
+      "rank": 30,
+      "start_position": 1,
+      "name": ",300 D:",
+      "fx": {
+        "score": 11.3,
+        "D": 2.4,
+        "E": 6.9,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 6.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 31,
+      "start_position": 2,
+      "name": ",200 D:",
+      "fx": {
+        "score": 12.2,
+        "D": 2.2,
+        "E": 8.4,
+        "C": 1.6
+      },
+      "tu": {
+        "score": 2.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 8.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 1.6,
+      "gap": null
+    },
+    {
+      "rank": 32,
+      "start_position": 4,
+      "name": ",600",
+      "fx": {
+        "score": 34.6,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.7,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 33,
+      "start_position": 4,
+      "name": ",600",
+      "fx": {
+        "score": 34.6,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.7,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 34,
+      "start_position": 1,
+      "name": ",400 D:",
+      "fx": {
+        "score": 11.4,
+        "D": 2.1,
+        "E": 7.3,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.1,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.3,
+        "D": 2.2,
+        "E": 7.45,
+        "C": 2.0
+      },
+      "total": 2.0,
+      "gap": 11.5
+    },
+    {
+      "rank": 35,
+      "start_position": 1,
+      "name": ",400 D:",
+      "fx": {
+        "score": 11.4,
+        "D": 2.1,
+        "E": 7.3,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.1,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.3,
+        "D": 2.2,
+        "E": 7.45,
+        "C": 2.0
+      },
+      "total": 2.0,
+      "gap": 11.5
+    },
+    {
+      "rank": 36,
+      "start_position": 1,
+      "name": ",400 D:",
+      "fx": {
+        "score": 11.4,
+        "D": 2.1,
+        "E": 7.3,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.3,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 37,
+      "start_position": 1,
+      "name": ",500 D:",
+      "fx": {
+        "score": 11.5,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 38,
+      "start_position": 1,
+      "name": ",650 D:",
+      "fx": {
+        "score": 11.65,
+        "D": 2.2,
+        "E": 7.45,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.45,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 39,
+      "start_position": 4,
+      "name": ",550",
+      "fx": {
+        "score": 34.55,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.75,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 40,
+      "start_position": 4,
+      "name": ",550",
+      "fx": {
+        "score": 34.55,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.75,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 41,
+      "start_position": 1,
+      "name": ",350 D:",
+      "fx": {
+        "score": 11.35,
+        "D": 1.5,
+        "E": 7.85,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.5,
+        "D": 2.4,
+        "E": 7.05,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.85,
+        "D": 2.0,
+        "E": 8.05,
+        "C": 1.5
+      },
+      "total": 2.0,
+      "gap": 11.45
+    },
+    {
+      "rank": 42,
+      "start_position": 1,
+      "name": ",350 D:",
+      "fx": {
+        "score": 11.35,
+        "D": 1.5,
+        "E": 7.85,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.5,
+        "D": 2.4,
+        "E": 7.05,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.85,
+        "D": 2.0,
+        "E": 8.05,
+        "C": 1.5
+      },
+      "total": 2.0,
+      "gap": 11.45
+    },
+    {
+      "rank": 43,
+      "start_position": 1,
+      "name": ",350 D:",
+      "fx": {
+        "score": 11.35,
+        "D": 1.5,
+        "E": 7.85,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.85,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 44,
+      "start_position": 1,
+      "name": ",450 D:",
+      "fx": {
+        "score": 11.45,
+        "D": 2.4,
+        "E": 7.05,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 45,
+      "start_position": 1,
+      "name": ",550 D:",
+      "fx": {
+        "score": 11.55,
+        "D": 2.0,
+        "E": 8.05,
+        "C": 1.5
+      },
+      "tu": {
+        "score": 2.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 8.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 1.5,
+      "gap": null
+    },
+    {
+      "rank": 46,
+      "start_position": 4,
+      "name": ",350",
+      "fx": {
+        "score": 34.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.95,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 47,
+      "start_position": 4,
+      "name": ",350",
+      "fx": {
+        "score": 34.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.95,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 48,
+      "start_position": 1,
+      "name": ",500 D:",
+      "fx": {
+        "score": 11.5,
+        "D": 1.8,
+        "E": 7.9,
+        "C": 1.8
+      },
+      "tu": {
+        "score": 1.8,
+        "D": 2.2,
+        "E": 6.85,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.9,
+        "D": 2.2,
+        "E": 7.55,
+        "C": 2.0
+      },
+      "total": 1.8,
+      "gap": 11.05
+    },
+    {
+      "rank": 49,
+      "start_position": 1,
+      "name": ",500 D:",
+      "fx": {
+        "score": 11.5,
+        "D": 1.8,
+        "E": 7.9,
+        "C": 1.8
+      },
+      "tu": {
+        "score": 1.8,
+        "D": 2.2,
+        "E": 6.85,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.9,
+        "D": 2.2,
+        "E": 7.55,
+        "C": 2.0
+      },
+      "total": 1.8,
+      "gap": 11.05
+    },
+    {
+      "rank": 50,
+      "start_position": 1,
+      "name": ",500 D:",
+      "fx": {
+        "score": 11.5,
+        "D": 1.8,
+        "E": 7.9,
+        "C": 1.8
+      },
+      "tu": {
+        "score": 1.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 1.8,
+      "gap": null
+    },
+    {
+      "rank": 51,
+      "start_position": 1,
+      "name": ",050 D:",
+      "fx": {
+        "score": 11.05,
+        "D": 2.2,
+        "E": 6.85,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 6.85,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 52,
+      "start_position": 1,
+      "name": ",750 D:",
+      "fx": {
+        "score": 11.75,
+        "D": 2.2,
+        "E": 7.55,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.55,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 53,
+      "start_position": 4,
+      "name": ",300",
+      "fx": {
+        "score": 34.3,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 2.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 54,
+      "start_position": 4,
+      "name": ",300",
+      "fx": {
+        "score": 34.3,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 2.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 55,
+      "start_position": 2,
+      "name": ",100 D:",
+      "fx": {
+        "score": 12.1,
+        "D": 1.8,
+        "E": 8.3,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.8,
+        "D": 2.4,
+        "E": 6.35,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 8.3,
+        "D": 2.2,
+        "E": 7.2,
+        "C": 2.0
+      },
+      "total": 2.0,
+      "gap": 10.75
+    },
+    {
+      "rank": 56,
+      "start_position": 2,
+      "name": ",100 D:",
+      "fx": {
+        "score": 12.1,
+        "D": 1.8,
+        "E": 8.3,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.8,
+        "D": 2.4,
+        "E": 6.35,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 8.3,
+        "D": 2.2,
+        "E": 7.2,
+        "C": 2.0
+      },
+      "total": 2.0,
+      "gap": 10.75
+    },
+    {
+      "rank": 57,
+      "start_position": 2,
+      "name": ",100 D:",
+      "fx": {
+        "score": 12.1,
+        "D": 1.8,
+        "E": 8.3,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 8.3,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 58,
+      "start_position": 0,
+      "name": ",750 D:",
+      "fx": {
+        "score": 10.75,
+        "D": 2.4,
+        "E": 6.35,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 6.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 59,
+      "start_position": 1,
+      "name": ",400 D:",
+      "fx": {
+        "score": 11.4,
+        "D": 2.2,
+        "E": 7.2,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 60,
+      "start_position": 4,
+      "name": ",250",
+      "fx": {
+        "score": 34.25,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 2.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 61,
+      "start_position": 4,
+      "name": ",250",
+      "fx": {
+        "score": 34.25,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 2.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 62,
+      "start_position": 0,
+      "name": "2 Dackegymnasterna lag Turkos",
+      "fx": {
+        "score": 10.8,
+        "D": 1.8,
+        "E": 7.0,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.8,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.0,
+        "D": 2.0,
+        "E": 7.45,
+        "C": 1.9
+      },
+      "total": 2.0,
+      "gap": 11.5
+    },
+    {
+      "rank": 63,
+      "start_position": 0,
+      "name": ",800 D:",
+      "fx": {
+        "score": 10.8,
+        "D": 1.8,
+        "E": 7.0,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.8,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.0,
+        "D": 2.0,
+        "E": 7.45,
+        "C": 1.9
+      },
+      "total": 2.0,
+      "gap": 11.5
+    },
+    {
+      "rank": 64,
+      "start_position": 0,
+      "name": ",800 D:",
+      "fx": {
+        "score": 10.8,
+        "D": 1.8,
+        "E": 7.0,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.8,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
+      },
+      "tr": {
+        "score": 7.0,
+        "D": 2.0,
+        "E": 7.45,
+        "C": 1.9
+      },
+      "total": 2.0,
+      "gap": 11.5
+    },
+    {
+      "rank": 65,
+      "start_position": 0,
+      "name": ",800 D:",
+      "fx": {
+        "score": 10.8,
+        "D": 1.8,
+        "E": 7.0,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 1.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 66,
+      "start_position": 1,
+      "name": ",500 D:",
+      "fx": {
+        "score": 11.5,
+        "D": 2.4,
+        "E": 7.1,
+        "C": 2.0
+      },
+      "tu": {
+        "score": 2.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 2.0,
+      "gap": null
+    },
+    {
+      "rank": 67,
+      "start_position": 1,
+      "name": ",350 D:",
+      "fx": {
+        "score": 11.35,
+        "D": 2.0,
+        "E": 7.45,
+        "C": 1.9
+      },
+      "tu": {
+        "score": 2.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 7.45,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 1.9,
+      "gap": null
+    },
+    {
+      "rank": 68,
+      "start_position": 3,
+      "name": ",650",
+      "fx": {
+        "score": 33.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 2.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 69,
+      "start_position": 3,
+      "name": ",650",
+      "fx": {
+        "score": 33.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 2.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 70,
+      "start_position": 2,
+      "name": ",100",
+      "fx": {
+        "score": 12.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 71,
+      "start_position": 2,
+      "name": ",100",
+      "fx": {
+        "score": 12.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 72,
+      "start_position": 2,
+      "name": ",100",
+      "fx": {
+        "score": 12.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 73,
+      "start_position": 2,
+      "name": ",100",
+      "fx": {
+        "score": 12.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 74,
+      "start_position": 2,
+      "name": ",050",
+      "fx": {
+        "score": 12.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 75,
+      "start_position": 2,
+      "name": ",050",
+      "fx": {
+        "score": 12.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 76,
+      "start_position": 1,
+      "name": ",950",
+      "fx": {
+        "score": 11.95,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 77,
+      "start_position": 1,
+      "name": ",950",
+      "fx": {
+        "score": 11.95,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 78,
+      "start_position": 1,
+      "name": ",500",
+      "fx": {
+        "score": 11.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.95,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 79,
+      "start_position": 1,
+      "name": ",500",
+      "fx": {
+        "score": 11.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.95,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 80,
+      "start_position": 1,
+      "name": ",400",
+      "fx": {
+        "score": 11.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 81,
+      "start_position": 1,
+      "name": ",400",
+      "fx": {
+        "score": 11.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 82,
+      "start_position": 1,
+      "name": ",350",
+      "fx": {
+        "score": 11.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 83,
+      "start_position": 1,
+      "name": ",350",
+      "fx": {
+        "score": 11.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 84,
+      "start_position": 1,
+      "name": ",100",
+      "fx": {
+        "score": 11.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 85,
+      "start_position": 1,
+      "name": ",100",
+      "fx": {
+        "score": 11.1,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 86,
+      "start_position": 0,
+      "name": "2 Dackegymnasterna lag Turkos",
+      "fx": {
+        "score": 1.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 7.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 2.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 10.8,
+      "gap": 1.65
+    },
+    {
+      "rank": 87,
+      "start_position": 0,
+      "name": ",800",
+      "fx": {
+        "score": 10.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 88,
+      "start_position": 0,
+      "name": ",800",
+      "fx": {
+        "score": 10.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 89,
+      "start_position": 1,
+      "name": ",500",
+      "fx": {
+        "score": 11.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.15,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 90,
+      "start_position": 1,
+      "name": ",500",
+      "fx": {
+        "score": 11.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.15,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 91,
+      "start_position": 1,
+      "name": ",500",
+      "fx": {
+        "score": 11.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.15,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 92,
+      "start_position": 1,
+      "name": ",500",
+      "fx": {
+        "score": 11.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.15,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 93,
+      "start_position": 1,
+      "name": ",500",
+      "fx": {
+        "score": 11.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.15,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 94,
+      "start_position": 1,
+      "name": ",500",
+      "fx": {
+        "score": 11.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.15,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 95,
+      "start_position": 1,
+      "name": ",450",
+      "fx": {
+        "score": 11.45,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 96,
+      "start_position": 1,
+      "name": ",450",
+      "fx": {
+        "score": 11.45,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 97,
+      "start_position": 1,
+      "name": ",400",
+      "fx": {
+        "score": 11.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.25,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 98,
+      "start_position": 1,
+      "name": ",400",
+      "fx": {
+        "score": 11.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.25,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 99,
+      "start_position": 1,
+      "name": ",300",
+      "fx": {
+        "score": 11.3,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 100,
+      "start_position": 1,
+      "name": ",300",
+      "fx": {
+        "score": 11.3,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 101,
+      "start_position": 1,
+      "name": ",050",
+      "fx": {
+        "score": 11.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.6,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 102,
+      "start_position": 1,
+      "name": ",050",
+      "fx": {
+        "score": 11.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.6,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 103,
+      "start_position": 0,
+      "name": ",800",
+      "fx": {
+        "score": 10.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.85,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 104,
+      "start_position": 0,
+      "name": ",800",
+      "fx": {
+        "score": 10.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.85,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 105,
+      "start_position": 0,
+      "name": "3 GK Splitt",
+      "fx": {
+        "score": 2.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 6.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 2.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 10.75,
+      "gap": 0.9
+    },
+    {
+      "rank": 106,
+      "start_position": 0,
+      "name": ",750",
+      "fx": {
+        "score": 10.75,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 107,
+      "start_position": 0,
+      "name": ",750",
+      "fx": {
+        "score": 10.75,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 108,
+      "start_position": 2,
+      "name": ",500",
+      "fx": {
+        "score": 12.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 109,
+      "start_position": 2,
+      "name": ",500",
+      "fx": {
+        "score": 12.5,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.05,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 110,
+      "start_position": 2,
+      "name": ",200",
+      "fx": {
+        "score": 12.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 111,
+      "start_position": 2,
+      "name": ",200",
+      "fx": {
+        "score": 12.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 112,
+      "start_position": 1,
+      "name": ",950",
+      "fx": {
+        "score": 11.95,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.6,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 113,
+      "start_position": 1,
+      "name": ",950",
+      "fx": {
+        "score": 11.95,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.6,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 114,
+      "start_position": 1,
+      "name": ",750",
+      "fx": {
+        "score": 11.75,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 115,
+      "start_position": 1,
+      "name": ",750",
+      "fx": {
+        "score": 11.75,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.8,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 116,
+      "start_position": 1,
+      "name": ",650",
+      "fx": {
+        "score": 11.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 117,
+      "start_position": 1,
+      "name": ",650",
+      "fx": {
+        "score": 11.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 118,
+      "start_position": 1,
+      "name": ",650",
+      "fx": {
+        "score": 11.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 119,
+      "start_position": 1,
+      "name": ",650",
+      "fx": {
+        "score": 11.65,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 0.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 120,
+      "start_position": 1,
+      "name": ",550",
+      "fx": {
+        "score": 11.55,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 121,
+      "start_position": 1,
+      "name": ",550",
+      "fx": {
+        "score": 11.55,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 122,
+      "start_position": 1,
+      "name": ",400",
+      "fx": {
+        "score": 11.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.15,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 123,
+      "start_position": 1,
+      "name": ",400",
+      "fx": {
+        "score": 11.4,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.15,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 124,
+      "start_position": 0,
+      "name": "2 Dackegymnasterna lag Turkos",
+      "fx": {
+        "score": 2.0,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 7.45,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": 1.9,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": 11.35,
+      "gap": 1.2
+    },
+    {
+      "rank": 125,
+      "start_position": 1,
+      "name": ",350",
+      "fx": {
+        "score": 11.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.2,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    },
+    {
+      "rank": 126,
+      "start_position": 1,
+      "name": ",350",
+      "fx": {
+        "score": 11.35,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": 1.2,
         "D": null,
         "E": null,
         "C": null

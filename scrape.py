@@ -6,112 +6,95 @@ from datetime import datetime
 
 URL = "https://live.sporteventsystems.se/Score/WebScore/3303?f=7545&country=swe&year=-1"
 
-def fetch_mangkamp():
-    resp = requests.get(URL)
-    resp.encoding = "utf-8"
-    soup = BeautifulSoup(resp.text, "html.parser")
-    container = soup.find("div", id="TabContent")
-    if not container:
-        raise RuntimeError("No TabContent found")
+response = requests.get(URL)
+response.encoding = "utf-8"
+soup = BeautifulSoup(response.text, "html.parser")
 
-    # Mångkamp tab has both 'tab-pane' and 'show active'
-    mangkamp = container.find("div", class_="tab-pane fade show active")
-    if not mangkamp:
-        raise RuntimeError("Mångkamp tab not found")
+container = soup.find("div", id="TabContent")
 
-    lines = [div.get_text(strip=True) for div in mangkamp.find_all("div", recursive=True) if div.get_text(strip=True)]
-    return lines
+def parse_team_block(text_block, rank_counter):
+    """
+    Parse a single team's full line including:
+    - Rank, start position
+    - Name
+    - D/E/C and apparatus scores
+    - Total and gap
+    """
 
+    # Match rank, start_position, and name until first 3-decimal score
+    match = re.search(r"^(\d{1,2})(\d{1,2})(.+?)(?=\d+,\d{3})", text_block)
+    if not match:
+        return None
 
-def parse_team_line(line):
-    m = re.match(r"(\d{1,2})(\d{1,2})([A-Za-zÅÄÖåäö].*)", line)
-    if not m:
-        return None, None, None
-    return int(m.group(1)), int(m.group(2)), m.group(3).strip()
+    rank = rank_counter
+    start_pos = int(match.group(2))
+    name = match.group(3).strip()
 
+    # Extract all numeric scores (11,650 etc)
+    score_matches = re.findall(r"\d+,\d{3}", text_block)
+    scores = [float(s.replace(",", ".")) for s in score_matches]
 
-def parse_score_line(line):
-    text = line.replace(",", ".")
-    score_match = re.search(r"(\d+\.\d{3})", text)
-    score = float(score_match.group(1)) if score_match else None
+    # Extract all D, E, C values in order
+    dec_values = re.findall(r"[DEC]:\s*([\d,]+)", text_block)
+    dec_values = [float(v.replace(",", ".")) for v in dec_values]
 
-    D = E = C = None
-    for label in ["D", "E", "C"]:
-        match = re.search(rf"{label}:\s*([\d\.]+)", text)
-        if match:
-            val = float(match.group(1))
-            if label == "D":
-                D = val
-            elif label == "E":
-                E = val
-            elif label == "C":
-                C = val
+    def get_dec(index):
+        return dec_values[index] if index < len(dec_values) else None
 
-    return {"score": score, "D": D, "E": E, "C": C}
-
-
-def parse_table(lines):
-    results = []
-    i = 0
-    rank_counter = 1
-
-    while i < len(lines):
-        line = lines[i]
-
-        # Skip headers
-        if any(h in line for h in ["Pl", "Namn", "Fristående", "Tumbling", "Trampett", "Total", "Gap"]):
-            i += 1
-            continue
-
-        rank, start_pos, name = parse_team_line(line)
-        if not name:
-            i += 1
-            continue
-
-        fx = parse_score_line(lines[i + 1]) if i + 1 < len(lines) else None
-        tu = parse_score_line(lines[i + 2]) if i + 2 < len(lines) else None
-        tr = parse_score_line(lines[i + 3]) if i + 3 < len(lines) else None
-
-        total = None
-        if i + 4 < len(lines):
-            total_match = re.search(r"(\d+\.\d{3})", lines[i + 4].replace(",", "."))
-            if total_match:
-                total = float(total_match.group(1))
-
-        gap = None
-        if rank_counter > 1 and i + 5 < len(lines):
-            gap_match = re.search(r"(\d+\.\d{3})", lines[i + 5].replace(",", "."))
-            if gap_match:
-                gap = float(gap_match.group(1))
-
-        results.append({
-            "rank": rank_counter,
-            "start_position": start_pos,
-            "name": name,
-            "fx": fx,
-            "tu": tu,
-            "tr": tr,
-            "total": total,
-            "gap": gap if rank_counter > 1 else None
-        })
-
-        rank_counter += 1
-        i += 6
-
-    return results
-
-
-if __name__ == "__main__":
-    lines = fetch_mangkamp()
-    results = parse_table(lines)
-
-    output = {
-        "last_updated": datetime.utcnow().isoformat() + "Z",
-        "competition": "Mångkamp",
-        "teams": results
+    fx = {
+        "score": scores[0] if len(scores) > 0 else None,
+        "D": get_dec(0),
+        "E": get_dec(1),
+        "C": get_dec(2),
+    }
+    tu = {
+        "score": scores[1] if len(scores) > 1 else None,
+        "D": get_dec(3),
+        "E": get_dec(4),
+        "C": get_dec(5),
+    }
+    tr = {
+        "score": scores[2] if len(scores) > 2 else None,
+        "D": get_dec(6),
+        "E": get_dec(7),
+        "C": get_dec(8),
     }
 
-    with open("results.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+    total = scores[3] if len(scores) > 3 else None
+    gap = scores[4] if len(scores) > 4 else None
 
-    print(f"✅ Parsed {len(results)} teams from Mångkamp.")
+    return {
+        "rank": rank,
+        "start_position": start_pos,
+        "name": name,
+        "fx": fx,
+        "tu": tu,
+        "tr": tr,
+        "total": total,
+        "gap": gap,
+    }
+
+# ---- Extract all text lines ----
+lines = [div.get_text(" ", strip=True) for div in container.find_all("div") if div.get_text(strip=True)]
+
+# Keep only lines that look like full team result rows
+team_lines = [l for l in lines if re.match(r"^\d{1,2}\d{1,2}.*\d+,\d{3}", l)]
+
+teams = []
+rank_counter = 1
+for line in team_lines:
+    parsed = parse_team_block(line, rank_counter)
+    if parsed:
+        teams.append(parsed)
+        rank_counter += 1
+
+output = {
+    "last_updated": datetime.utcnow().isoformat() + "Z",
+    "competition": "Mångkamp",
+    "teams": teams
+}
+
+with open("results.json", "w", encoding="utf-8") as f:
+    json.dump(output, f, ensure_ascii=False, indent=2)
+
+print(f"✅ Parsed {len(teams)} teams successfully.")
