@@ -1,252 +1,256 @@
-[
-  {
-    "rank": 1,
-    "start_position": 9,
-    "name": "Sandvikens GA12,100D: 2,000E: 8,100C: 2,00011,650D: 2,400E: 7,250C: 2,00012,550D: 2,100E: 8,550C: 1,90036,300",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
+{
+  "last_updated": "2025-10-09T06:45:19.790280Z",
+  "competition": "Mångkamp",
+  "teams": [
+    {
+      "rank": 1,
+      "start_position": 9,
+      "name": "Sandvikens GA12,100D: 2,000E: 8,100C: 2,00011,650D: 2,400E: 7,250C: 2,00012,550D: 2,100E: 8,550C: 1,90036,300",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
     },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
+    {
+      "rank": 2,
+      "start_position": 1,
+      "name": "GF Kungälvsgymnasterna11,950D: 2,100E: 7,850C: 2,00011,500D: 2,400E: 7,100C: 2,00012,500D: 2,200E: 8,300C: 2,00035,9500,350",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
     },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
+    {
+      "rank": 3,
+      "start_position": 7,
+      "name": "SOL GF Juniortruppen Grå12,450D: 1,900E: 8,550C: 2,00010,800D: 2,400E: 6,700C: 1,70011,950D: 2,200E: 7,750C: 2,00035,2001,100",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
     },
-    "total": null,
-    "gap": null
-  },
-  {
-    "rank": 2,
-    "start_position": 1,
-    "name": "GF Kungälvsgymnasterna11,950D: 2,100E: 7,850C: 2,00011,500D: 2,400E: 7,100C: 2,00012,500D: 2,200E: 8,300C: 2,00035,9500,350",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
+    {
+      "rank": 4,
+      "start_position": 0,
+      "name": "Järfällagymnasterna12,050D: 1,900E: 8,150C: 2,00011,400D: 2,400E: 7,000C: 2,00011,650D: 2,200E: 7,450C: 2,00035,1001,200",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
     },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
+    {
+      "rank": 5,
+      "start_position": 6,
+      "name": "Strängnäs GF Juniortruppen11,100D: 1,500E: 7,800C: 1,80011,300D: 2,400E: 6,900C: 2,00012,200D: 2,200E: 8,400C: 1,60034,6001,700",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
     },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
+    {
+      "rank": 6,
+      "start_position": 4,
+      "name": "KFUM Kristianstad GF11,400D: 2,100E: 7,300C: 2,00011,500D: 2,400E: 7,100C: 2,00011,650D: 2,200E: 7,450C: 2,00034,5501,750",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
     },
-    "total": null,
-    "gap": null
-  },
-  {
-    "rank": 3,
-    "start_position": 7,
-    "name": "SOL GF Juniortruppen Grå12,450D: 1,900E: 8,550C: 2,00010,800D: 2,400E: 6,700C: 1,70011,950D: 2,200E: 7,750C: 2,00035,2001,100",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
+    {
+      "rank": 7,
+      "start_position": 8,
+      "name": "Borlänge GK Trupp 111,350D: 1,500E: 7,850C: 2,00011,450D: 2,400E: 7,050C: 2,00011,550D: 2,000E: 8,050C: 1,50034,3501,950",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
     },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
+    {
+      "rank": 8,
+      "start_position": 5,
+      "name": "Brommagymnasterna11,500D: 1,800E: 7,900C: 1,80011,050D: 2,200E: 6,850C: 2,00011,750D: 2,200E: 7,550C: 2,00034,3002,000",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
     },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
+    {
+      "rank": 9,
+      "start_position": 3,
+      "name": "GK Splitt12,100D: 1,800E: 8,300C: 2,00010,750D: 2,400E: 6,350C: 2,00011,400D: 2,200E: 7,200C: 2,00034,2502,050",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
     },
-    "total": null,
-    "gap": null
-  },
-  {
-    "rank": 4,
-    "start_position": 0,
-    "name": "Järfällagymnasterna12,050D: 1,900E: 8,150C: 2,00011,400D: 2,400E: 7,000C: 2,00011,650D: 2,200E: 7,450C: 2,00035,1001,200",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
-    "rank": 5,
-    "start_position": 6,
-    "name": "Strängnäs GF Juniortruppen11,100D: 1,500E: 7,800C: 1,80011,300D: 2,400E: 6,900C: 2,00012,200D: 2,200E: 8,400C: 1,60034,6001,700",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
-    "rank": 6,
-    "start_position": 4,
-    "name": "KFUM Kristianstad GF11,400D: 2,100E: 7,300C: 2,00011,500D: 2,400E: 7,100C: 2,00011,650D: 2,200E: 7,450C: 2,00034,5501,750",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
-    "rank": 7,
-    "start_position": 8,
-    "name": "Borlänge GK Trupp 111,350D: 1,500E: 7,850C: 2,00011,450D: 2,400E: 7,050C: 2,00011,550D: 2,000E: 8,050C: 1,50034,3501,950",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
-    "rank": 8,
-    "start_position": 5,
-    "name": "Brommagymnasterna11,500D: 1,800E: 7,900C: 1,80011,050D: 2,200E: 6,850C: 2,00011,750D: 2,200E: 7,550C: 2,00034,3002,000",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
-    "rank": 9,
-    "start_position": 3,
-    "name": "GK Splitt12,100D: 1,800E: 8,300C: 2,00010,750D: 2,400E: 6,350C: 2,00011,400D: 2,200E: 7,200C: 2,00034,2502,050",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  },
-  {
-    "rank": 10,
-    "start_position": 2,
-    "name": "Dackegymnasterna lag Turkos10,800D: 1,800E: 7,000C: 2,00011,500D: 2,400E: 7,100C: 2,00011,350D: 2,000E: 7,450C: 1,90033,6502,650",
-    "fx": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tu": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "tr": {
-      "score": null,
-      "D": null,
-      "E": null,
-      "C": null
-    },
-    "total": null,
-    "gap": null
-  }
-]
+    {
+      "rank": 10,
+      "start_position": 2,
+      "name": "Dackegymnasterna lag Turkos10,800D: 1,800E: 7,000C: 2,00011,500D: 2,400E: 7,100C: 2,00011,350D: 2,000E: 7,450C: 1,90033,6502,650",
+      "fx": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tu": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "tr": {
+        "score": null,
+        "D": null,
+        "E": null,
+        "C": null
+      },
+      "total": null,
+      "gap": null
+    }
+  ]
+}
