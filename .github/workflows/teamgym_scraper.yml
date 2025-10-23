@@ -1,4 +1,4 @@
-name: Scrape Teamgym and Deploy Results
+name: Scrape Teamgym for Comps and Deploy Results
 
 on:
   workflow_dispatch:         # allow manual runs
