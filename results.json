@@ -1,1 +1,258 @@
-[]
+[
+  {
+    "last_updated": "2025-10-23T12:47:57.915597Z",
+    "competition": "Riksfyran Öppen klass - VT25Vendelsö, 2025-05-17",
+    "teams": [
+      {
+        "rank": 1,
+        "start_position": 9,
+        "name": "Sandvikens GA",
+        "fx": {
+          "score": 12.1,
+          "D": 2.0,
+          "E": 8.1,
+          "C": 2.0
+        },
+        "tu": {
+          "score": 11.65,
+          "D": 2.4,
+          "E": 7.25,
+          "C": 2.0
+        },
+        "tr": {
+          "score": 12.55,
+          "D": 2.1,
+          "E": 8.55,
+          "C": 1.9
+        },
+        "total": 36.3,
+        "gap": 0.0
+      },
+      {
+        "rank": 2,
+        "start_position": 1,
+        "name": "GF Kungälvsgymnasterna",
+        "fx": {
+          "score": 11.95,
+          "D": 2.1,
+          "E": 7.85,
+          "C": 2.0
+        },
+        "tu": {
+          "score": 11.5,
+          "D": 2.4,
+          "E": 7.1,
+          "C": 2.0
+        },
+        "tr": {
+          "score": 12.5,
+          "D": 2.2,
+          "E": 8.3,
+          "C": 2.0
+        },
+        "total": 35.95,
+        "gap": 0.35
+      },
+      {
+        "rank": 3,
+        "start_position": 7,
+        "name": "SOL GF Juniortruppen Grå",
+        "fx": {
+          "score": 12.45,
+          "D": 1.9,
+          "E": 8.55,
+          "C": 2.0
+        },
+        "tu": {
+          "score": 10.8,
+          "D": 2.4,
+          "E": 6.7,
+          "C": 1.7
+        },
+        "tr": {
+          "score": 11.95,
+          "D": 2.2,
+          "E": 7.75,
+          "C": 2.0
+        },
+        "total": 35.2,
+        "gap": 1.1
+      },
+      {
+        "rank": 4,
+        "start_position": 10,
+        "name": "Järfällagymnasterna",
+        "fx": {
+          "score": 12.05,
+          "D": 1.9,
+          "E": 8.15,
+          "C": 2.0
+        },
+        "tu": {
+          "score": 11.4,
+          "D": 2.4,
+          "E": 7.0,
+          "C": 2.0
+        },
+        "tr": {
+          "score": 11.65,
+          "D": 2.2,
+          "E": 7.45,
+          "C": 2.0
+        },
+        "total": 35.1,
+        "gap": 1.2
+      },
+      {
+        "rank": 5,
+        "start_position": 6,
+        "name": "Strängnäs GF Juniortruppen",
+        "fx": {
+          "score": 11.1,
+          "D": 1.5,
+          "E": 7.8,
+          "C": 1.8
+        },
+        "tu": {
+          "score": 11.3,
+          "D": 2.4,
+          "E": 6.9,
+          "C": 2.0
+        },
+        "tr": {
+          "score": 12.2,
+          "D": 2.2,
+          "E": 8.4,
+          "C": 1.6
+        },
+        "total": 34.6,
+        "gap": 1.7
+      },
+      {
+        "rank": 6,
+        "start_position": 4,
+        "name": "KFUM Kristianstad GF",
+        "fx": {
+          "score": 11.4,
+          "D": 2.1,
+          "E": 7.3,
+          "C": 2.0
+        },
+        "tu": {
+          "score": 11.5,
+          "D": 2.4,
+          "E": 7.1,
+          "C": 2.0
+        },
+        "tr": {
+          "score": 11.65,
+          "D": 2.2,
+          "E": 7.45,
+          "C": 2.0
+        },
+        "total": 34.55,
+        "gap": 1.75
+      },
+      {
+        "rank": 7,
+        "start_position": 8,
+        "name": "Borlänge GK Trupp 1",
+        "fx": {
+          "score": 11.35,
+          "D": 1.5,
+          "E": 7.85,
+          "C": 2.0
+        },
+        "tu": {
+          "score": 11.45,
+          "D": 2.4,
+          "E": 7.05,
+          "C": 2.0
+        },
+        "tr": {
+          "score": 11.55,
+          "D": 2.0,
+          "E": 8.05,
+          "C": 1.5
+        },
+        "total": 34.35,
+        "gap": 1.95
+      },
+      {
+        "rank": 8,
+        "start_position": 5,
+        "name": "Brommagymnasterna",
+        "fx": {
+          "score": 11.5,
+          "D": 1.8,
+          "E": 7.9,
+          "C": 1.8
+        },
+        "tu": {
+          "score": 11.05,
+          "D": 2.2,
+          "E": 6.85,
+          "C": 2.0
+        },
+        "tr": {
+          "score": 11.75,
+          "D": 2.2,
+          "E": 7.55,
+          "C": 2.0
+        },
+        "total": 34.3,
+        "gap": 2.0
+      },
+      {
+        "rank": 9,
+        "start_position": 3,
+        "name": "GK Splitt",
+        "fx": {
+          "score": 12.1,
+          "D": 1.8,
+          "E": 8.3,
+          "C": 2.0
+        },
+        "tu": {
+          "score": 10.75,
+          "D": 2.4,
+          "E": 6.35,
+          "C": 2.0
+        },
+        "tr": {
+          "score": 11.4,
+          "D": 2.2,
+          "E": 7.2,
+          "C": 2.0
+        },
+        "total": 34.25,
+        "gap": 2.05
+      },
+      {
+        "rank": 10,
+        "start_position": 2,
+        "name": "Dackegymnasterna lag Turkos",
+        "fx": {
+          "score": 10.8,
+          "D": 1.8,
+          "E": 7.0,
+          "C": 2.0
+        },
+        "tu": {
+          "score": 11.5,
+          "D": 2.4,
+          "E": 7.1,
+          "C": 2.0
+        },
+        "tr": {
+          "score": 11.35,
+          "D": 2.0,
+          "E": 7.45,
+          "C": 1.9
+        },
+        "total": 33.65,
+        "gap": 2.65
+      }
+    ]
+  }
+]
