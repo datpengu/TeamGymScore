@@ -15,14 +15,19 @@ competitions = []
 teamgym_header = soup.find("div", class_="col fs-4 px-2 bg-dark-subtle", string="Teamgym")
 
 if teamgym_header:
-    # The rows after the Teamgym header contain competitions
-    for row in teamgym_header.find_all_next("div", class_="row"):
-        cols = row.find_all("div", class_="fs-6")
+    # Iterate over all following siblings until the next section header
+    for sibling in teamgym_header.find_all_next("div", class_="row"):
+        # ⛔ Stop if we hit another header (same class used for other disciplines)
+        next_header = sibling.find("div", class_="col fs-4 px-2 bg-dark-subtle")
+        if next_header:
+            break
+
+        # Each row has multiple small columns with date/place info
+        cols = sibling.find_all("div", class_="fs-6")
         if not cols:
             continue
-        
-        # Extract details if link exists
-        link = row.find("a", href=True)
+
+        link = sibling.find("a", href=True)
         if link and "WebScore" in link["href"]:
             date_from = cols[0].get_text(strip=True) if len(cols) > 0 else ""
             date_to = cols[1].get_text(strip=True) if len(cols) > 1 else ""
@@ -39,7 +44,7 @@ if teamgym_header:
                 "place": place
             })
 
-# Save the results to JSON
+# Save JSON
 output = {
     "last_updated": datetime.utcnow().isoformat() + "Z",
     "competitions": competitions
