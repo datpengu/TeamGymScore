@@ -1,8 +1,6 @@
 name: Scrape Teamgym and Deploy Results
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"   # every minute
   workflow_dispatch:         # allow manual runs
 
 jobs:
