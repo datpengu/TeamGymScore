@@ -96,7 +96,7 @@ def parse_tokens(tokens):
 
 
 def parse_competition_page(url):
-    """Parse teams from one competition page, allowing partial results."""
+    """Parse teams from one competition page, allowing partial results and tagging status."""
     html = fetch_html(url)
     soup = BeautifulSoup(html, "html.parser")
 
@@ -106,28 +106,52 @@ def parse_competition_page(url):
         active_div = soup.find("div", class_=lambda c: c and "tab-pane" in c)
     if not active_div:
         print(f"⚠️ No active result container found in {url}")
-        return []
+        return None  # skip this competition entirely
 
     tokens = tokenize_div(active_div)
     teams = parse_tokens(tokens)
 
-    # 🧩 Filter logic: remove teams with absolutely no data
+    # 🧩 Keep teams that have any score at all
     valid_teams = []
     for t in teams:
         has_any_score = any([
-            t["fx"]["score"], t["tu"]["score"], t["tr"]["score"], t["total"]
+            t["fx"]["score"],
+            t["tu"]["score"],
+            t["tr"]["score"],
+            t["total"]
         ])
         if has_any_score:
             valid_teams.append(t)
 
-    # 🪫 If no teams have any score — skip this competition
+    # 🪫 Determine competition status
     if len(valid_teams) == 0:
+        status = "upcoming"
         print(f"⏭️ Skipping {url} (no team has results yet)")
-        return []
+        return {
+            "status": status,
+            "teams": []
+        }
 
-    # 💡 But if only some teams are missing — keep them all
-    print(f"✅ Parsed {len(valid_teams)} valid teams (of {len(teams)}) from {url}")
-    return valid_teams
+    # Count how many teams have *all* apparatus scores
+    fully_scored = sum(
+        1 for t in valid_teams
+        if all([t["fx"]["score"], t["tu"]["score"], t["tr"]["score"], t["total"]])
+    )
+
+    if fully_scored == len(valid_teams):
+        status = "finished"
+    elif fully_scored == 0:
+        status = "ongoing"  # started but no totals yet
+    else:
+        status = "ongoing"
+
+    print(f"✅ Parsed {len(valid_teams)} teams ({status}) from {url}")
+
+    return {
+        "status": status,
+        "teams": valid_teams
+    }
+
 
 # ----------------- TeamGym Competition Scraper -----------------
 def scrape_teamgym_list():
