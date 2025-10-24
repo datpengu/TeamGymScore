@@ -23,7 +23,7 @@ def parse_score_block(block_text):
     }
 
 def parse_competition_page(url):
-    """Parse a competition's WebScore page"""
+    """Parse all teams from a competition's WebScore page"""
     resp = requests.get(url)
     soup = BeautifulSoup(resp.text, "html.parser")
 
@@ -31,52 +31,46 @@ def parse_competition_page(url):
     if not container:
         return []
 
-    lines = [div.get_text(strip=True) for div in container.find_all("div") if div.get_text(strip=True)]
     results = []
-
+    rows = container.find_all("div", class_="row")
     rank_counter = 1
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        try:
-            rank_str = str(rank_counter)
-            rest = line[len(rank_str):]
-            start_pos_match = re.match(r"(\d+)", rest)
-            if not start_pos_match:
-                raise ValueError("No start position found")
-            start_pos = int(start_pos_match.group(1))
-            name = rest[start_pos_match.end():].strip()
 
-            # Try to extract 3 apparatus + total
-            fx_text = lines[i + 1] if i + 1 < len(lines) else ""
-            tu_text = lines[i + 2] if i + 2 < len(lines) else ""
-            tr_text = lines[i + 3] if i + 3 < len(lines) else ""
+    for row in rows:
+        text = row.get_text(" ", strip=True)
+        # Skip headers or empty rows
+        if not text or "Pl" in text or "Namn" in text:
+            continue
 
-            total_match = re.search(r"([\d]+\.[\d]{3})", line)
-            total = float(total_match.group(1)) if total_match else None
+        # Find team name pattern: e.g. 19Sandvikens GA
+        m = re.match(rf"{rank_counter}(\d+)([A-Za-zÅÄÖåäö\s\-\']+)", text)
+        if not m:
+            continue
 
-            gap = None
-            if rank_counter > 1:
-                gap_match = re.findall(r"([\d]+\.[\d]{3})", line)
-                if len(gap_match) > 1:
-                    gap = float(gap_match[-1])
+        start_pos = int(m.group(1))
+        name = m.group(2).strip()
 
-            results.append({
-                "rank": rank_counter,
-                "start_position": start_pos,
-                "name": name,
-                "fx": parse_score_block(fx_text),
-                "tu": parse_score_block(tu_text),
-                "tr": parse_score_block(tr_text),
-                "total": total,
-                "gap": gap or 0.0
-            })
+        # Extract all numeric values with 3 decimals (scores)
+        scores = re.findall(r"(\d+,\d{3})", text)
+        scores = [float(s.replace(",", ".")) for s in scores]
 
-            rank_counter += 1
-            i += 1
-        except Exception:
-            i += 1
+        # Expect at least 4 scores: FX, TU, TR, TOTAL (+ optional GAP)
+        fx, tu, tr, total, *rest = scores + [None] * (5 - len(scores))
+        gap = rest[0] if rest else (0.0 if rank_counter == 1 else None)
 
+        results.append({
+            "rank": rank_counter,
+            "start_position": start_pos,
+            "name": name,
+            "fx": {"score": fx, "D": None, "E": None, "C": None},
+            "tu": {"score": tu, "D": None, "E": None, "C": None},
+            "tr": {"score": tr, "D": None, "E": None, "C": None},
+            "total": total,
+            "gap": gap
+        })
+
+        rank_counter += 1
+
+    print(f"✅ Parsed {len(results)} teams from {url}")
     return results
 
 def scrape_all_competitions():
