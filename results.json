@@ -1,50 +1,50 @@
 [
   {
-    "last_updated": "2025-10-24T18:46:08.216687Z",
+    "last_updated": "2025-10-24T18:52:31.302516Z",
     "competition": "Riksettan & Rikstvåan - HT25",
     "status": "upcoming",
     "date_from": "2025-11-15",
-    "place": null,
+    "place": "Malmö",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:09.705588Z",
+    "last_updated": "2025-10-24T18:52:33.344698Z",
     "competition": "JNM-kval & Rikstvåan Dam 13-16 år",
     "status": "upcoming",
     "date_from": "2025-11-01",
-    "place": null,
+    "place": "Sollentuna",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:11.194240Z",
+    "last_updated": "2025-10-24T18:52:34.109857Z",
     "competition": "GF Sydost: Redskapscupen nivå 8",
     "status": "upcoming",
     "date_from": "2025-10-25",
-    "place": null,
+    "place": "Karlskrona",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:12.276107Z",
+    "last_updated": "2025-10-24T18:52:35.400135Z",
     "competition": "Riksfemman Öppen - HT25",
     "status": "upcoming",
     "date_from": "2025-10-25",
-    "place": null,
+    "place": "Västerås",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:13.718543Z",
+    "last_updated": "2025-10-24T18:52:36.994359Z",
     "competition": "Riksfyran Dam & Rikstrean Dam - HT25",
     "status": "upcoming",
     "date_from": "2025-10-25",
-    "place": null,
+    "place": "Göteborg",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:15.174220Z",
+    "last_updated": "2025-10-24T18:52:38.490686Z",
     "competition": "Riksfemman Öppen & Herr - HT25",
     "status": "finished",
     "date_from": "2025-10-18",
-    "place": null,
+    "place": "Växjö",
     "teams": [
       {
         "rank": 1,
@@ -874,27 +874,27 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:15.718084Z",
+    "last_updated": "2025-10-24T18:52:39.181037Z",
     "competition": "GF Sydost: Redskapscupen nivå 6, 7 och 6 öppen",
     "status": "upcoming",
     "date_from": "2025-10-11",
-    "place": null,
+    "place": "Vetlanda",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:16.397351Z",
+    "last_updated": "2025-10-24T18:52:40.109101Z",
     "competition": "GF Syd: RegionTrean/Fyran/Femman",
     "status": "upcoming",
     "date_from": "2025-10-11",
-    "place": null,
+    "place": "Sjöbo",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:17.422576Z",
+    "last_updated": "2025-10-24T18:52:41.502654Z",
     "competition": "SM - VT25",
     "status": "finished",
     "date_from": "2025-05-30",
-    "place": null,
+    "place": "Örebro",
     "teams": [
       {
         "rank": 1,
@@ -1174,11 +1174,11 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:19.236939Z",
+    "last_updated": "2025-10-24T18:52:43.692873Z",
     "competition": "Rikstrean Öppen klass - VT25",
     "status": "finished",
     "date_from": "2025-05-24",
-    "place": null,
+    "place": "Eskilstuna",
     "teams": [
       {
         "rank": 1,
@@ -2058,11 +2058,11 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:20.581815Z",
+    "last_updated": "2025-10-24T18:52:45.254908Z",
     "competition": "Riksfemman Öppen - Göteborg VT25",
     "status": "finished",
     "date_from": "2025-05-24",
-    "place": null,
+    "place": "Göteborg",
     "teams": [
       {
         "rank": 1,
@@ -2467,19 +2467,19 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:21.355450Z",
+    "last_updated": "2025-10-24T18:52:45.932203Z",
     "competition": "Södra Sydostmästerskapen nivå 8-9",
     "status": "upcoming",
     "date_from": "2025-05-17",
-    "place": null,
+    "place": "Växjö",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:22.892676Z",
+    "last_updated": "2025-10-24T18:52:47.798381Z",
     "competition": "Riksfyran Öppen klass - VT25",
     "status": "finished",
     "date_from": "2025-05-17",
-    "place": null,
+    "place": "Vendelsö",
     "teams": [
       {
         "rank": 1,
@@ -3534,11 +3534,11 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:24.045945Z",
+    "last_updated": "2025-10-24T18:52:49.187235Z",
     "competition": "Rikstvåan Dam & Öppen klass - VT25",
     "status": "finished",
     "date_from": "2025-05-17",
-    "place": null,
+    "place": "Göteborg",
     "teams": [
       {
         "rank": 1,
@@ -3843,11 +3843,11 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:25.051780Z",
+    "last_updated": "2025-10-24T18:52:50.426031Z",
     "competition": "USM - 2025",
     "status": "finished",
     "date_from": "2025-05-10",
-    "place": null,
+    "place": "Halmstad",
     "teams": [
       {
         "rank": 1,
@@ -4102,19 +4102,19 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:25.777795Z",
+    "last_updated": "2025-10-24T18:52:51.480672Z",
     "competition": "Truppcupen 2025",
     "status": "upcoming",
     "date_from": "2025-05-03",
-    "place": null,
+    "place": "Östersund",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:26.940903Z",
+    "last_updated": "2025-10-24T18:52:53.268843Z",
     "competition": "Riksfyran Dam & Rikstrean Dam - VT25",
     "status": "finished",
     "date_from": "2025-05-03",
-    "place": null,
+    "place": "Västerås",
     "teams": [
       {
         "rank": 1,
@@ -4769,19 +4769,19 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:27.530901Z",
+    "last_updated": "2025-10-24T18:52:54.142576Z",
     "competition": "Sydostmästerskapen nivå 6-7",
     "status": "upcoming",
     "date_from": "2025-04-26",
-    "place": null,
+    "place": "Karlskrona",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:28.806479Z",
+    "last_updated": "2025-10-24T18:52:55.517562Z",
     "competition": "Riksettan - VT25",
     "status": "finished",
     "date_from": "2025-04-26",
-    "place": null,
+    "place": "Gävle",
     "teams": [
       {
         "rank": 1,
@@ -5261,11 +5261,11 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:29.881389Z",
+    "last_updated": "2025-10-24T18:52:57.224325Z",
     "competition": "Riksfemman Öppen & Riksfemman Herr VT25",
     "status": "finished",
     "date_from": "2025-04-26",
-    "place": null,
+    "place": "Malmö",
     "teams": [
       {
         "rank": 1,
@@ -5520,19 +5520,19 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:30.425605Z",
+    "last_updated": "2025-10-24T18:52:57.932210Z",
     "competition": "Sydostmästerskapen nivå 3-5",
     "status": "upcoming",
     "date_from": "2025-04-12",
-    "place": null,
+    "place": "Eksjö",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:31.909910Z",
+    "last_updated": "2025-10-24T18:52:59.588719Z",
     "competition": "Rikstvåan Dam 13-16 år, Rikstvåan Herr & Mixed 13 år och äldre - VT25",
     "status": "finished",
     "date_from": "2025-04-05",
-    "place": null,
+    "place": "Eskilstuna",
     "teams": [
       {
         "rank": 1,
@@ -6312,59 +6312,59 @@
     ]
   },
   {
-    "last_updated": "2025-10-24T18:46:32.720340Z",
+    "last_updated": "2025-10-24T18:53:00.552318Z",
     "competition": "Westra Aros cupen 2025",
     "status": "upcoming",
     "date_from": "2025-03-29",
-    "place": null,
+    "place": "Västerås",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:33.322894Z",
+    "last_updated": "2025-10-24T18:53:01.229496Z",
     "competition": "RegionTrean, RegionFyran och RegionFemman",
     "status": "upcoming",
     "date_from": "2025-03-22",
-    "place": null,
+    "place": "Bjärred",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:33.916408Z",
+    "last_updated": "2025-10-24T18:53:01.968642Z",
     "competition": "HGTC 2025",
     "status": "upcoming",
     "date_from": "2025-03-22",
-    "place": null,
+    "place": "Stockholm",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:34.448011Z",
+    "last_updated": "2025-10-24T18:53:02.648803Z",
     "competition": "Regionsmästerskapen Öst VT-2025",
     "status": "upcoming",
     "date_from": "2025-03-15",
-    "place": null,
+    "place": "Huddinge",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:35.049140Z",
+    "last_updated": "2025-10-24T18:53:03.329360Z",
     "competition": "Norra Sydostmästerskapen nivå 6-7 + 6 öppen",
     "status": "upcoming",
     "date_from": "2025-03-08",
-    "place": null,
+    "place": "Huskvarna",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:35.653999Z",
+    "last_updated": "2025-10-24T18:53:04.092570Z",
     "competition": "Lindås Truppcup Mini",
     "status": "upcoming",
     "date_from": "2025-03-08",
-    "place": null,
+    "place": "Göteborg",
     "teams": []
   },
   {
-    "last_updated": "2025-10-24T18:46:36.244345Z",
+    "last_updated": "2025-10-24T18:53:04.799381Z",
     "competition": "Norra Sydostmästerskapen nivå 8-9",
     "status": "upcoming",
     "date_from": "2025-03-01",
-    "place": null,
+    "place": "Vetlanda",
     "teams": []
   }
 ]

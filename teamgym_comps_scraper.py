@@ -25,10 +25,10 @@ def get_teamgym_competitions():
         print("❌ No Teamgym section found")
         return comps
 
-    # Traverse all rows after the Teamgym header until the next header div
+    # Traverse rows after the Teamgym header until the next header div
     for row in teamgym_section.find_parent().find_next_siblings("div", class_="row"):
         header = row.find("div", class_="col fs-4 px-2 bg-dark-subtle")
-        if header:  # next sport header encountered
+        if header:  # stop if we hit a new header (like "Artistic Gymnastics")
             print("🛑 Reached next section, stopping Teamgym scrape.")
             break
 
@@ -38,19 +38,28 @@ def get_teamgym_competitions():
 
         href = link["href"]
         title = link.get_text(strip=True)
-        date_from = row.find("div", class_="col-12 col-md-6 col-xl-4 col-xxl-3 fs-6 d-block")
-        place = row.find("div", class_="col-0 col-md-6 col-xl-4 col-xxl-6 fs-6  d-none d-md-block")
+
+        # Flexible match for date/place columns (they vary between screen layouts)
+        date_from = row.find(string=re.compile(r"\d{4}-\d{2}-\d{2}"))
+        place_tag = row.find(lambda tag: tag.name == "div" and tag.get_text(strip=True) and not re.search(r"\d{4}-\d{2}-\d{2}", tag.get_text()))
+
+        place = None
+        if place_tag:
+            place_text = place_tag.get_text(strip=True).replace("\xa0", " ")
+            # Skip if it’s actually a date value
+            if not re.match(r"\d{4}-\d{2}-\d{2}", place_text):
+                place = place_text
 
         comp_url = href if href.startswith("http") else f"https://live.sporteventsystems.se{href}"
 
         comps.append({
             "title": title,
             "url": comp_url,
-            "date_from": date_from.get_text(strip=True) if date_from else None,
-            "place": place.get_text(strip=True) if place else None
+            "date_from": date_from.strip() if date_from else None,
+            "place": place
         })
 
-    print(f"✅ Found {len(comps)} TeamGym competitions")
+    print(f"✅ Found {len(comps)} TeamGym competitions with date/place")
     return comps
 
 
