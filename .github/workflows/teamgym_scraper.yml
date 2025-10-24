@@ -2,7 +2,11 @@ name: Scrape Teamgym for Comps and Deploy Results
 
 on:
   workflow_dispatch:         # allow manual runs
-
+  
+  push:
+    branches:
+      - 'main'
+  
 jobs:
   scrape:
     runs-on: ubuntu-latest
