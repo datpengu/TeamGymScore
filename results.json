@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-25T16:12:41.931198Z",
+  "last_updated": "2025-10-25T17:54:59.188454Z",
   "competitions": [
     {
       "competition": "Riksettan & Rikstvåan - HT25",
@@ -118,6 +118,17 @@
       "date_to": "2025-10-26",
       "place": "Västerås",
       "classes": [
+        {
+          "class_name": "Final - Riksfemman",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3411?f=7667&country=swe&year=-1",
+          "status": "upcoming",
+          "teams": [],
+          "apparatus": {
+            "fx": [],
+            "tu": [],
+            "tr": []
+          }
+        },
         {
           "class_name": "Riksfemman Öppen klass",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3411?f=7642&country=swe&year=-1",
@@ -2176,6 +2187,34 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 8,
+              "name": "Karlskrona GF F11",
+              "fx": {
+                "score": 12.05,
+                "D": 1.95,
+                "E": 8.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.5,
+                "D": 2.7,
+                "E": 7.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.5,
+                "D": 2.3,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 36.05,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 7,
               "name": "GF Nikegymnasterna UT3",
               "fx": {
@@ -2200,10 +2239,10 @@
                 "HJ": null
               },
               "total": 35.9,
-              "gap": 0.0
+              "gap": 0.15
             },
             {
-              "rank": 2,
+              "rank": 3,
               "start_position": 1,
               "name": "Tyresögymnastiken UT Gul",
               "fx": {
@@ -2228,10 +2267,10 @@
                 "HJ": null
               },
               "total": 35.5,
-              "gap": 0.4
+              "gap": 0.55
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 4,
               "name": "Karlskrona GF F12",
               "fx": {
@@ -2256,10 +2295,10 @@
                 "HJ": null
               },
               "total": 35.45,
-              "gap": 0.45
+              "gap": 0.6
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 2,
               "name": "ABGS 3B",
               "fx": {
@@ -2284,10 +2323,10 @@
                 "HJ": null
               },
               "total": 34.8,
-              "gap": 1.1
+              "gap": 1.25
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 6,
               "name": "Vendelsö GF UT1",
               "fx": {
@@ -2312,10 +2351,38 @@
                 "HJ": null
               },
               "total": 34.35,
-              "gap": 1.55
+              "gap": 1.7
             },
             {
-              "rank": 6,
+              "rank": 7,
+              "start_position": 9,
+              "name": "ABGS 4B",
+              "fx": {
+                "score": 10.925,
+                "D": 2.25,
+                "E": 6.675,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.45,
+                "D": 3.0,
+                "E": 6.95,
+                "C": 1.5,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.35,
+                "D": 2.1,
+                "E": 6.75,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 32.725,
+              "gap": 3.325
+            },
+            {
+              "rank": 8,
               "start_position": 3,
               "name": "Halmstad Frigymnaster",
               "fx": {
@@ -2340,10 +2407,10 @@
                 "HJ": null
               },
               "total": 32.6,
-              "gap": 3.3
+              "gap": 3.45
             },
             {
-              "rank": 7,
+              "rank": 9,
               "start_position": 5,
               "name": "GF Tempo Sienna",
               "fx": {
@@ -2368,13 +2435,164 @@
                 "HJ": null
               },
               "total": 30.15,
-              "gap": 5.75
+              "gap": 5.9
+            },
+            {
+              "rank": 10,
+              "start_position": 14,
+              "name": "Wifolka GF T1",
+              "fx": {
+                "score": 12.275,
+                "D": 1.9,
+                "E": 8.375,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.45,
+                "D": 3.0,
+                "E": 7.45,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 24.725,
+                "D": 1.9,
+                "E": 8.375,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 11.325,
+              "gap": 12.275
+            },
+            {
+              "rank": 11,
+              "start_position": 12,
+              "name": "Huddinge GF",
+              "fx": {
+                "score": 12.7,
+                "D": 3.0,
+                "E": 7.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.95,
+                "D": 2.5,
+                "E": 7.45,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 24.65,
+                "D": 3.0,
+                "E": 7.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 11.4,
+              "gap": 12.7
+            },
+            {
+              "rank": 12,
+              "start_position": 10,
+              "name": "SOL GF",
+              "fx": {
+                "score": 13.15,
+                "D": 2.2,
+                "E": 8.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.45,
+                "D": 2.3,
+                "E": 7.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 24.6,
+                "D": 2.2,
+                "E": 8.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 11.45,
+              "gap": 13.15
+            },
+            {
+              "rank": 13,
+              "start_position": 13,
+              "name": "Södertälje GSF",
+              "fx": {
+                "score": 11.7,
+                "D": 2.1,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.15,
+                "D": 2.1,
+                "E": 7.15,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 22.85,
+                "D": 2.1,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 13.2,
+              "gap": 11.7
+            },
+            {
+              "rank": 14,
+              "start_position": 11,
+              "name": "Klippans GK Trupp Orange",
+              "fx": {
+                "score": 10.9,
+                "D": 2.0,
+                "E": 6.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.35,
+                "D": 2.6,
+                "E": 6.95,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 22.25,
+                "D": 2.0,
+                "E": 6.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 13.8,
+              "gap": 10.9
             }
           ],
           "apparatus": {
             "fx": [
               {
                 "rank": 1,
+                "start_position": 10,
+                "name": "SOL GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.2,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 7,
                 "name": "GF Nikegymnasterna UT3",
                 "D": null,
@@ -2382,10 +2600,10 @@
                 "C": null,
                 "HJ": null,
                 "score": 2.1,
-                "gap": 0.0
+                "gap": 8.7
               },
               {
-                "rank": 2,
+                "rank": 3,
                 "start_position": 1,
                 "name": "Tyresögymnastiken UT Gul",
                 "D": null,
@@ -2396,7 +2614,29 @@
                 "gap": 8.4
               },
               {
-                "rank": 3,
+                "rank": 4,
+                "start_position": 14,
+                "name": "Wifolka GF T1",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 1.9,
+                "gap": 8.375
+              },
+              {
+                "rank": 5,
+                "start_position": 8,
+                "name": "Karlskrona GF F11",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 1.95,
+                "gap": 8.4
+              },
+              {
+                "rank": 6,
                 "start_position": 6,
                 "name": "Vendelsö GF UT1",
                 "D": null,
@@ -2407,7 +2647,18 @@
                 "gap": 7.8
               },
               {
-                "rank": 4,
+                "rank": 7,
+                "start_position": 13,
+                "name": "Södertälje GSF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.1,
+                "gap": 7.6
+              },
+              {
+                "rank": 8,
                 "start_position": 2,
                 "name": "ABGS 3B",
                 "D": null,
@@ -2418,7 +2669,7 @@
                 "gap": 7.35
               },
               {
-                "rank": 5,
+                "rank": 9,
                 "start_position": 4,
                 "name": "Karlskrona GF F12",
                 "D": null,
@@ -2429,7 +2680,29 @@
                 "gap": 6.9
               },
               {
-                "rank": 6,
+                "rank": 10,
+                "start_position": 9,
+                "name": "ABGS 4B",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.25,
+                "gap": 6.675
+              },
+              {
+                "rank": 11,
+                "start_position": 11,
+                "name": "Klippans GK Trupp Orange",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.0,
+                "gap": 6.9
+              },
+              {
+                "rank": 12,
                 "start_position": 3,
                 "name": "Halmstad Frigymnaster",
                 "D": null,
@@ -2440,7 +2713,7 @@
                 "gap": 6.7
               },
               {
-                "rank": 7,
+                "rank": 13,
                 "start_position": 5,
                 "name": "GF Tempo Sienna",
                 "D": null,
@@ -2454,6 +2727,17 @@
             "tu": [
               {
                 "rank": 1,
+                "start_position": 12,
+                "name": "Huddinge GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 3.0,
+                "gap": 0.0
+              },
+              {
+                "rank": 1,
                 "start_position": 4,
                 "name": "Karlskrona GF F12",
                 "D": null,
@@ -2464,7 +2748,29 @@
                 "gap": 0.0
               },
               {
-                "rank": 2,
+                "rank": 3,
+                "start_position": 8,
+                "name": "Karlskrona GF F11",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.7,
+                "gap": 7.8
+              },
+              {
+                "rank": 4,
+                "start_position": 14,
+                "name": "Wifolka GF T1",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 3.0,
+                "gap": 7.45
+              },
+              {
+                "rank": 5,
                 "start_position": 2,
                 "name": "ABGS 3B",
                 "D": null,
@@ -2475,7 +2781,7 @@
                 "gap": 7.3
               },
               {
-                "rank": 3,
+                "rank": 6,
                 "start_position": 1,
                 "name": "Tyresögymnastiken UT Gul",
                 "D": null,
@@ -2486,7 +2792,7 @@
                 "gap": 7.1
               },
               {
-                "rank": 4,
+                "rank": 7,
                 "start_position": 7,
                 "name": "GF Nikegymnasterna UT3",
                 "D": null,
@@ -2497,7 +2803,29 @@
                 "gap": 6.7
               },
               {
-                "rank": 5,
+                "rank": 8,
+                "start_position": 9,
+                "name": "ABGS 4B",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 3.0,
+                "gap": 6.95
+              },
+              {
+                "rank": 9,
+                "start_position": 11,
+                "name": "Klippans GK Trupp Orange",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.6,
+                "gap": 6.95
+              },
+              {
+                "rank": 9,
                 "start_position": 3,
                 "name": "Halmstad Frigymnaster",
                 "D": null,
@@ -2508,7 +2836,7 @@
                 "gap": 6.85
               },
               {
-                "rank": 6,
+                "rank": 11,
                 "start_position": 6,
                 "name": "Vendelsö GF UT1",
                 "D": null,
@@ -2519,7 +2847,7 @@
                 "gap": 7.1
               },
               {
-                "rank": 7,
+                "rank": 12,
                 "start_position": 5,
                 "name": "GF Tempo Sienna",
                 "D": null,
@@ -2533,8 +2861,8 @@
             "tr": [
               {
                 "rank": 1,
-                "start_position": 4,
-                "name": "Karlskrona GF F12",
+                "start_position": 12,
+                "name": "Huddinge GF",
                 "D": null,
                 "E": null,
                 "C": null,
@@ -2544,6 +2872,28 @@
               },
               {
                 "rank": 2,
+                "start_position": 4,
+                "name": "Karlskrona GF F12",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.5,
+                "gap": 7.25
+              },
+              {
+                "rank": 3,
+                "start_position": 8,
+                "name": "Karlskrona GF F11",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.3,
+                "gap": 7.5
+              },
+              {
+                "rank": 4,
                 "start_position": 6,
                 "name": "Vendelsö GF UT1",
                 "D": null,
@@ -2554,7 +2904,18 @@
                 "gap": 7.25
               },
               {
-                "rank": 3,
+                "rank": 4,
+                "start_position": 10,
+                "name": "SOL GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.3,
+                "gap": 7.15
+              },
+              {
+                "rank": 6,
                 "start_position": 7,
                 "name": "GF Nikegymnasterna UT3",
                 "D": null,
@@ -2565,7 +2926,18 @@
                 "gap": 7.2
               },
               {
-                "rank": 4,
+                "rank": 7,
+                "start_position": 13,
+                "name": "Södertälje GSF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.1,
+                "gap": 7.15
+              },
+              {
+                "rank": 7,
                 "start_position": 2,
                 "name": "ABGS 3B",
                 "D": null,
@@ -2576,7 +2948,7 @@
                 "gap": 6.85
               },
               {
-                "rank": 5,
+                "rank": 9,
                 "start_position": 1,
                 "name": "Tyresögymnastiken UT Gul",
                 "D": null,
@@ -2587,7 +2959,7 @@
                 "gap": 6.8
               },
               {
-                "rank": 6,
+                "rank": 10,
                 "start_position": 3,
                 "name": "Halmstad Frigymnaster",
                 "D": null,
@@ -2598,7 +2970,7 @@
                 "gap": 6.35
               },
               {
-                "rank": 7,
+                "rank": 11,
                 "start_position": 5,
                 "name": "GF Tempo Sienna",
                 "D": null,
@@ -2607,6 +2979,17 @@
                 "HJ": null,
                 "score": 2.1,
                 "gap": 6.25
+              },
+              {
+                "rank": 11,
+                "start_position": 9,
+                "name": "ABGS 4B",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.1,
+                "gap": 6.75
               }
             ]
           }
