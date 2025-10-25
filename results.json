@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-25T17:59:22.674930Z",
+  "last_updated": "2025-10-25T21:20:02.464203Z",
   "competitions": [
     {
       "competition": "Riksettan & Rikstvåan - HT25",
@@ -1128,6 +1128,28 @@
       "date_to": "2025-10-26",
       "place": "Göteborg",
       "classes": [
+        {
+          "class_name": "Final - Riksfyran Dam",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3412?f=7668&country=swe&year=-1",
+          "status": "upcoming",
+          "teams": [],
+          "apparatus": {
+            "fx": [],
+            "tu": [],
+            "tr": []
+          }
+        },
+        {
+          "class_name": "Final - Rikstrean Dam",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3412?f=7669&country=swe&year=-1",
+          "status": "upcoming",
+          "teams": [],
+          "apparatus": {
+            "fx": [],
+            "tu": [],
+            "tr": []
+          }
+        },
         {
           "class_name": "Riksfyran Dam 13-16 år",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3412?f=7644&country=swe&year=-1",
