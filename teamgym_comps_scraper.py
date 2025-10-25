@@ -83,16 +83,21 @@ def parse_score_tokens(tokens):
     return teams
 
 def parse_class_page(url):
-    """Parse a single class page (Mångkamp or FX/TU/TR)"""
+    """Parse a single class page (Mångkamp or FX/TU/TR)."""
     html = fetch_html(url)
     soup = BeautifulSoup(html, "html.parser")
 
-    div = soup.find("div", id="TabContent") or soup.find("div", class_=lambda c: c and "tab-content" in c)
+    # Prefer active tab with scores
+    div = soup.select_one("div.tab-pane.active.show") or soup.select_one("div.tab-pane")
     if not div:
+        print(f"   ⚠️ No active score tab found for {url}")
         return []
 
     tokens = [s for s in div.stripped_strings]
-    return parse_score_tokens(tokens)
+    teams = parse_score_tokens(tokens)
+
+    print(f"      ➜ Parsed {len(teams)} teams from this page")
+    return teams
 
 def parse_competition_classes(main_url):
     """Extract all competition classes from the class picker."""
