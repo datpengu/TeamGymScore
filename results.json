@@ -1,6 +1,25 @@
 {
-  "last_updated": "2025-10-26T14:44:23.330181Z",
+  "last_updated": "2025-10-31T12:11:48.427421Z",
   "competitions": [
+    {
+      "competition": "Riksfyran Öppen klass - HT25",
+      "date_from": "2025-11-22",
+      "date_to": "2025-11-23",
+      "place": "Järfälla",
+      "classes": [
+        {
+          "class_name": "Riksfyran Öppen klass",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3451?f=7677&country=swe&year=-1",
+          "status": "upcoming",
+          "teams": [],
+          "apparatus": {
+            "fx": [],
+            "tu": [],
+            "tr": []
+          }
+        }
+      ]
+    },
     {
       "competition": "Riksettan & Rikstvåan - HT25",
       "date_from": "2025-11-15",
@@ -8,7 +27,7 @@
       "place": "Malmö",
       "classes": [
         {
-          "class_name": "Rikstvåan Öppen klass",
+          "class_name": "Rikstvåan Öppen klass 13 år och äldre",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3441?f=7663&country=swe&year=-1",
           "status": "upcoming",
           "teams": [],
@@ -84,17 +103,6 @@
         {
           "class_name": "JNM-kval Mixed",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3419?f=7655&country=swe&year=-1",
-          "status": "upcoming",
-          "teams": [],
-          "apparatus": {
-            "fx": [],
-            "tu": [],
-            "tr": []
-          }
-        },
-        {
-          "class_name": "Final - Rikstvåan Dam",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3419?f=7656&country=swe&year=-1",
           "status": "upcoming",
           "teams": [],
           "apparatus": {
