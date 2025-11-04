@@ -8,9 +8,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 BASE_URL = "https://live.sporteventsystems.se"
 
-# ---------------------------
-# HTTP
-# ---------------------------
 def fetch_html(url: str) -> str:
     resp = requests.get(url, timeout=10)
     resp.raise_for_status()
@@ -39,7 +36,7 @@ def strip_tokens(div: BeautifulSoup):
     return [s for s in div.stripped_strings]
 
 # ---------------------------
-# DISCOVER TEAMGYM COMPETITIONS
+# discover all teamgym comps
 # ---------------------------
 def discover_teamgym_competitions():
     html = fetch_html(f"{BASE_URL}/Score/?country=swe")
@@ -57,9 +54,9 @@ def discover_teamgym_competitions():
 
     row = teamgym_header.find_parent("div", class_="row")
     for sibling in row.find_next_siblings("div"):
+        # stop at next big header
         header = sibling.find("div", class_="col fs-4 px-2 bg-dark-subtle")
         if header:
-            # reached next section
             break
 
         a = sibling.find("a", href=True)
@@ -69,10 +66,7 @@ def discover_teamgym_competitions():
         link = urljoin(BASE_URL, a["href"])
         name = a.get_text(strip=True)
 
-        # dates/place columns can be a bit messy so be defensive
-        cols = sibling.select(
-            ".col-12, .col-md-6, .col-xl-4, .col-xxl-3, .col-xxl-6"
-        )
+        cols = sibling.select(".col-12, .col-md-6, .col-xl-4, .col-xxl-3, .col-xxl-6")
         date_from = cols[0].get_text(strip=True) if len(cols) > 0 else None
         date_to = cols[1].get_text(strip=True) if len(cols) > 1 else None
         place = cols[-1].get_text(strip=True) if len(cols) > 2 else None
@@ -91,7 +85,7 @@ def discover_teamgym_competitions():
     return results
 
 # ---------------------------
-# DATE HELPERS
+# helpers
 # ---------------------------
 def parse_iso_date(s: str | None):
     if not s:
@@ -101,15 +95,6 @@ def parse_iso_date(s: str | None):
     except Exception:
         return None
 
-def is_in_future(comp_meta: dict) -> bool:
-    d = parse_iso_date(comp_meta.get("date_from"))
-    if not d:
-        return False
-    return d > date.today()
-
-# ---------------------------
-# PARSE CLASS BUTTONS
-# ---------------------------
 def find_class_buttons(soup: BeautifulSoup):
     container = soup.find("div", class_="d-none d-md-block mb-2")
     if not container:
@@ -125,7 +110,7 @@ def tab_ids(f_value: str):
     return (f"Allround-{f_value}", f"App1-{f_value}", f"App2-{f_value}", f"App3-{f_value}")
 
 # ---------------------------
-# PARSE ALLROUND
+# allround parser
 # ---------------------------
 def parse_allround_tokens(tokens):
     teams = []
@@ -211,7 +196,7 @@ def parse_allround_tokens(tokens):
     return teams
 
 # ---------------------------
-# PARSE APPARATUS
+# apparatus parser (FX/TU/TR)
 # ---------------------------
 def parse_apparatus_tokens(tokens):
     out = []
@@ -230,21 +215,13 @@ def parse_apparatus_tokens(tokens):
                 tok = tokens[j]
 
                 if tok.startswith("D") and j + 1 < len(tokens) and is_score(tokens[j + 1]):
-                    D = number_from(tokens[j + 1])
-                    j += 2
-                    continue
+                    D = number_from(tokens[j + 1]); j += 2; continue
                 if tok.startswith("E") and j + 1 < len(tokens) and is_score(tokens[j + 1]):
-                    E = number_from(tokens[j + 1])
-                    j += 2
-                    continue
+                    E = number_from(tokens[j + 1]); j += 2; continue
                 if tok.startswith("C") and j + 1 < len(tokens) and is_score(tokens[j + 1]):
-                    C = number_from(tokens[j + 1])
-                    j += 2
-                    continue
+                    C = number_from(tokens[j + 1]); j += 2; continue
                 if tok.startswith("HJ") and j + 1 < len(tokens) and is_score(tokens[j + 1]):
-                    HJ = number_from(tokens[j + 1])
-                    j += 2
-                    continue
+                    HJ = number_from(tokens[j + 1]); j += 2; continue
                 if is_score(tok):
                     if score is None:
                         score = number_from(tok)
@@ -288,14 +265,13 @@ def determine_status(allround_teams):
     return "finished"
 
 # ---------------------------
-# PARSE CLASS PAGE
+# parse ONE class page
 # ---------------------------
 def parse_class_page(url: str):
     html = fetch_html(url)
     soup = BeautifulSoup(html, "html.parser")
     f_val = parse_qs(urlparse(url).query).get("f", [None])[0]
     if not f_val:
-        # always return full shape
         return {
             "teams": [],
             "apparatus": {"fx": [], "tu": [], "tr": []},
@@ -304,14 +280,14 @@ def parse_class_page(url: str):
 
     allround_id, fx_id, tu_id, tr_id = tab_ids(f_val)
 
-    def get_tokens(tab_id):
+    def tokens_for(tab_id):
         div = soup.find("div", id=tab_id)
         return strip_tokens(div) if div else []
 
-    allround = parse_allround_tokens(get_tokens(allround_id))
-    fx = parse_apparatus_tokens(get_tokens(fx_id))
-    tu = parse_apparatus_tokens(get_tokens(tu_id))
-    tr = parse_apparatus_tokens(get_tokens(tr_id))
+    allround = parse_allround_tokens(tokens_for(allround_id))
+    fx = parse_apparatus_tokens(tokens_for(fx_id))
+    tu = parse_apparatus_tokens(tokens_for(tu_id))
+    tr = parse_apparatus_tokens(tokens_for(tr_id))
     status = determine_status(allround)
 
     return {
@@ -321,7 +297,7 @@ def parse_class_page(url: str):
     }
 
 # ---------------------------
-# PARSE FULL COMP
+# parse ONE competition
 # ---------------------------
 def parse_full_competition(meta: dict):
     html = fetch_html(meta["url"])
@@ -337,21 +313,7 @@ def parse_full_competition(meta: dict):
         "classes": [],
     }
 
-    # future comps → don't hammer their class pages
-    if is_in_future(meta):
-        for cls in classes:
-            comp_out["classes"].append(
-                {
-                    "class_name": cls["name"],
-                    "url": cls["url"],
-                    "status": "upcoming",
-                    "teams": [],
-                    "apparatus": {"fx": [], "tu": [], "tr": []},
-                }
-            )
-        return comp_out
-
-    # fetch class pages in parallel
+    # always parse class pages (even upcoming) so we get teams if they appear
     with ThreadPoolExecutor(max_workers=6) as executor:
         future_to_cls = {
             executor.submit(parse_class_page, cls["url"]): cls for cls in classes
@@ -379,13 +341,13 @@ def parse_full_competition(meta: dict):
     return comp_out
 
 # ---------------------------
-# MAIN
+# main
 # ---------------------------
 def main():
     comps = discover_teamgym_competitions()
     parsed_comps = []
 
-    # parallelize competitions
+    # fetch competitions in parallel
     with ThreadPoolExecutor(max_workers=4) as executor:
         future_to_comp = {
             executor.submit(parse_full_competition, comp): comp for comp in comps
@@ -393,17 +355,17 @@ def main():
         for future in as_completed(future_to_comp):
             meta = future_to_comp[future]
             try:
-                parsed = future.result()
-                parsed_comps.append(parsed)
+                parsed_comps.append(future.result())
             except Exception as e:
                 print(f"❌ Failed {meta['competition']}: {e}")
 
-    # sort by date_from ascending, unknown dates last
+    # SORT newest first (desc)
     def sort_key(c):
         d = parse_iso_date(c.get("date_from"))
-        return (d is None, d or date(2100, 1, 1))
+        # put undated at bottom
+        return (d is None, d or date(1900, 1, 1))
 
-    parsed_comps.sort(key=sort_key)
+    parsed_comps.sort(key=sort_key, reverse=True)
 
     final = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
