@@ -1,0 +1,86 @@
+// Source - https://stackoverflow.com/q
+// Posted by YasserKhalil
+// Retrieved 2025-11-17, License - CC BY-SA 4.0
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Read data from External JSON file using JavaScript</title>
+
+    <style>
+
+
+        * {
+        font: 17px 'Segoe UI';
+        }
+
+        table,
+        th,
+        td {
+        border: solid 1px #ddd;
+        border-collapse: collapse;
+        padding: 2px 3px;
+        text-align: center;
+        }
+
+        th {
+        font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h3>
+    	Data extracted from External JSON file and converted to an HTML table
+    </h3>
+    <div id='showTable'></div>
+</body>
+
+<script>
+    // Source - https://stackoverflow.com/a
+    // Posted by Tamas Szoke, modified by community. See post 'Timeline' for change history
+    // Retrieved 2025-11-17, License - CC BY-SA 4.0
+
+    // Create XMLHttpRequest object.
+    const proxyurl = "https://datpengu.github.io/TeamGymScore/";
+    const url = "results.json";
+    fetch(proxyurl + url)
+    .then(response => response.text())
+    .then(contents => createTableFromJSON(contents))
+    .catch((e) => console.log('error'))
+
+    // Create an HTML table using the JSON data.
+    function createTableFromJSON(jsonData) {
+        var arrBirds = [];
+        arrBirds = JSON.parse(jsonData); // Convert JSON to array.
+
+        var col = [];
+        for (var key in arrBirds) {
+            if (col.indexOf(key) === -1) {
+            col.push(key);
+            }
+        }
+
+        // Create a dynamic table.
+        var table = document.createElement("table") // Create table header.
+        var tr = table.insertRow(-1); // Table row. (last position)
+
+        for (var i = 0; i < col.length; i++) {
+            var th = document.createElement("th"); // Table header.
+            th.innerHTML = col[i];
+            tr.appendChild(th);
+        }
+
+        tr = table.insertRow(-1); // add new row for the names
+        // Add JSON to the table rows.
+        for (var i = 0; i < arrBirds.length; i++) {
+            var tabCell = tr.insertCell(-1);
+            tabCell.innerHTML = arrBirds[i].Name;
+        }
+
+        // Finally, add the dynamic table to a container.
+        var divContainer = document.getElementById("showTable");
+        divContainer.innerHTML = "";
+        divContainer.appendChild(table);
+    };
+</script>
+</html>
