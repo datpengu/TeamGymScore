@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-11T10:14:22.822289Z",
+  "last_updated": "2025-12-11T10:26:13.441156Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -3539,6 +3539,546 @@
       "place": "Göteborg",
       "classes": [
         {
+          "class_name": "Rikstvåan Mixed 13 år och äldre",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3463?f=7707&country=swe&year=-1",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": 1,
+              "name": "Pixbo GF Mix",
+              "fx": {
+                "score": 9.3,
+                "D": 2.65,
+                "E": 4.75,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.3,
+                "D": 5.4,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.5,
+                "D": 5.9,
+                "E": 7.7,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 40.1,
+              "gap": 0.0,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.65,
+                "gap": 0.0
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.4,
+                "gap": 0.0
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.9,
+                "gap": 0.0
+              }
+            }
+          ],
+          "apparatus": {
+            "fx": [
+              {
+                "rank": 1,
+                "start_position": 1,
+                "name": "Pixbo GF Mix",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.65,
+                "gap": 0.0
+              }
+            ],
+            "tu": [
+              {
+                "rank": 1,
+                "start_position": 1,
+                "name": "Pixbo GF Mix",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.4,
+                "gap": 0.0
+              }
+            ],
+            "tr": [
+              {
+                "rank": 1,
+                "start_position": 1,
+                "name": "Pixbo GF Mix",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.9,
+                "gap": 0.0
+              }
+            ]
+          },
+          "status": "finished"
+        },
+        {
+          "class_name": "Rikstvåan Herr 13 år och äldre",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3463?f=7706&country=swe&year=-1",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": 3,
+              "name": "Pixbo GF Herr",
+              "fx": {
+                "score": 9.75,
+                "D": 3.25,
+                "E": 4.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 17.55,
+                "D": 7.7,
+                "E": 7.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 17.2,
+                "D": 7.2,
+                "E": 8.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 44.5,
+              "gap": 0.0,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 3.25,
+                "gap": 4.5
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.7,
+                "gap": 0.0
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.2,
+                "gap": 0.0
+              }
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "GF FRAM lag J",
+              "fx": {
+                "score": 9.1,
+                "D": 2.55,
+                "E": 4.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.3,
+                "D": 5.4,
+                "E": 7.3,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 16.1,
+                "D": 5.9,
+                "E": 8.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 39.5,
+              "gap": 5.0,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.55,
+                "gap": 4.55
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.4,
+                "gap": 7.3
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.9,
+                "gap": 8.2
+              }
+            },
+            {
+              "rank": 3,
+              "start_position": 6,
+              "name": "Nacka GF Herr",
+              "fx": {
+                "score": 10.925,
+                "D": 3.775,
+                "E": 5.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.45,
+                "D": 5.6,
+                "E": 6.15,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.6,
+                "D": 6.4,
+                "E": 6.6,
+                "C": 1.6,
+                "HJ": null
+              },
+              "total": 38.975,
+              "gap": 5.525,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 3.775,
+                "gap": 0.0
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.6,
+                "gap": 6.15
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.4,
+                "gap": 6.6
+              }
+            },
+            {
+              "rank": 4,
+              "start_position": 1,
+              "name": "GCF Uppsala",
+              "fx": {
+                "score": 9.025,
+                "D": 2.525,
+                "E": 4.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.6,
+                "D": 5.0,
+                "E": 6.05,
+                "C": 1.55,
+                "HJ": null
+              },
+              "tr": {
+                "score": 13.45,
+                "D": 4.8,
+                "E": 6.65,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 35.075,
+              "gap": 9.425,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.525,
+                "gap": 4.5
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.0,
+                "gap": 6.05
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 4.8,
+                "gap": 6.65
+              }
+            },
+            {
+              "rank": 5,
+              "start_position": 5,
+              "name": "GK Motus-Salto/Lugi GF",
+              "fx": {
+                "score": 5.925,
+                "D": 1.175,
+                "E": 2.85,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.2,
+                "D": 5.1,
+                "E": 7.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 13.9,
+                "D": 5.3,
+                "E": 6.7,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 34.025,
+              "gap": 10.475,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 1.175,
+                "gap": 2.85
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.1,
+                "gap": 7.1
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.3,
+                "gap": 6.7
+              }
+            }
+          ],
+          "apparatus": {
+            "fx": [
+              {
+                "rank": 1,
+                "start_position": 6,
+                "name": "Nacka GF Herr",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 3.775,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 3,
+                "name": "Pixbo GF Herr",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 3.25,
+                "gap": 4.5
+              },
+              {
+                "rank": 3,
+                "start_position": 2,
+                "name": "GF FRAM lag J",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.55,
+                "gap": 4.55
+              },
+              {
+                "rank": 4,
+                "start_position": 1,
+                "name": "GCF Uppsala",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 2.525,
+                "gap": 4.5
+              },
+              {
+                "rank": 5,
+                "start_position": 5,
+                "name": "GK Motus-Salto/Lugi GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 1.175,
+                "gap": 2.85
+              }
+            ],
+            "tu": [
+              {
+                "rank": 1,
+                "start_position": 3,
+                "name": "Pixbo GF Herr",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.7,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 2,
+                "name": "GF FRAM lag J",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.4,
+                "gap": 7.3
+              },
+              {
+                "rank": 3,
+                "start_position": 5,
+                "name": "GK Motus-Salto/Lugi GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.1,
+                "gap": 7.1
+              },
+              {
+                "rank": 4,
+                "start_position": 6,
+                "name": "Nacka GF Herr",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.6,
+                "gap": 6.15
+              },
+              {
+                "rank": 5,
+                "start_position": 1,
+                "name": "GCF Uppsala",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.0,
+                "gap": 6.05
+              }
+            ],
+            "tr": [
+              {
+                "rank": 1,
+                "start_position": 3,
+                "name": "Pixbo GF Herr",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.2,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 2,
+                "name": "GF FRAM lag J",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.9,
+                "gap": 8.2
+              },
+              {
+                "rank": 3,
+                "start_position": 6,
+                "name": "Nacka GF Herr",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.4,
+                "gap": 6.6
+              },
+              {
+                "rank": 4,
+                "start_position": 5,
+                "name": "GK Motus-Salto/Lugi GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.3,
+                "gap": 6.7
+              },
+              {
+                "rank": 5,
+                "start_position": 1,
+                "name": "GCF Uppsala",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 4.8,
+                "gap": 6.65
+              }
+            ]
+          },
+          "status": "finished"
+        },
+        {
           "class_name": "Final - Rikstvåan Dam 13 år och äldre",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3463?f=7779&country=swe&year=-1",
           "teams": [
@@ -4228,106 +4768,6 @@
                 "HJ": null,
                 "score": 3.1,
                 "gap": 8.4
-              }
-            ]
-          },
-          "status": "finished"
-        },
-        {
-          "class_name": "Rikstvåan Mixed 13 år och äldre",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3463?f=7707&country=swe&year=-1",
-          "teams": [
-            {
-              "rank": 1,
-              "start_position": 1,
-              "name": "Pixbo GF Mix",
-              "fx": {
-                "score": 9.3,
-                "D": 2.65,
-                "E": 4.75,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tu": {
-                "score": 15.3,
-                "D": 5.4,
-                "E": 7.9,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 15.5,
-                "D": 5.9,
-                "E": 7.7,
-                "C": 1.9,
-                "HJ": null
-              },
-              "total": 40.1,
-              "gap": 0.0,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 2.65,
-                "gap": 0.0
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.4,
-                "gap": 0.0
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.9,
-                "gap": 0.0
-              }
-            }
-          ],
-          "apparatus": {
-            "fx": [
-              {
-                "rank": 1,
-                "start_position": 1,
-                "name": "Pixbo GF Mix",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 2.65,
-                "gap": 0.0
-              }
-            ],
-            "tu": [
-              {
-                "rank": 1,
-                "start_position": 1,
-                "name": "Pixbo GF Mix",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.4,
-                "gap": 0.0
-              }
-            ],
-            "tr": [
-              {
-                "rank": 1,
-                "start_position": 1,
-                "name": "Pixbo GF Mix",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.9,
-                "gap": 0.0
               }
             ]
           },
@@ -5792,446 +6232,6 @@
             ]
           },
           "status": "finished"
-        },
-        {
-          "class_name": "Rikstvåan Herr 13 år och äldre",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3463?f=7706&country=swe&year=-1",
-          "teams": [
-            {
-              "rank": 1,
-              "start_position": 3,
-              "name": "Pixbo GF Herr",
-              "fx": {
-                "score": 9.75,
-                "D": 3.25,
-                "E": 4.5,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 17.55,
-                "D": 7.7,
-                "E": 7.85,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 17.2,
-                "D": 7.2,
-                "E": 8.0,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 44.5,
-              "gap": 0.0,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 3.25,
-                "gap": 4.5
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.7,
-                "gap": 0.0
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.2,
-                "gap": 0.0
-              }
-            },
-            {
-              "rank": 2,
-              "start_position": 2,
-              "name": "GF FRAM lag J",
-              "fx": {
-                "score": 9.1,
-                "D": 2.55,
-                "E": 4.55,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.3,
-                "D": 5.4,
-                "E": 7.3,
-                "C": 1.6,
-                "HJ": null
-              },
-              "tr": {
-                "score": 16.1,
-                "D": 5.9,
-                "E": 8.2,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 39.5,
-              "gap": 5.0,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 2.55,
-                "gap": 4.55
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.4,
-                "gap": 7.3
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.9,
-                "gap": 8.2
-              }
-            },
-            {
-              "rank": 3,
-              "start_position": 6,
-              "name": "Nacka GF Herr",
-              "fx": {
-                "score": 10.925,
-                "D": 3.775,
-                "E": 5.15,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 13.45,
-                "D": 5.6,
-                "E": 6.15,
-                "C": 1.7,
-                "HJ": null
-              },
-              "tr": {
-                "score": 14.6,
-                "D": 6.4,
-                "E": 6.6,
-                "C": 1.6,
-                "HJ": null
-              },
-              "total": 38.975,
-              "gap": 5.525,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 3.775,
-                "gap": 0.0
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.6,
-                "gap": 6.15
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.4,
-                "gap": 6.6
-              }
-            },
-            {
-              "rank": 4,
-              "start_position": 1,
-              "name": "GCF Uppsala",
-              "fx": {
-                "score": 9.025,
-                "D": 2.525,
-                "E": 4.5,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 12.6,
-                "D": 5.0,
-                "E": 6.05,
-                "C": 1.55,
-                "HJ": null
-              },
-              "tr": {
-                "score": 13.45,
-                "D": 4.8,
-                "E": 6.65,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 35.075,
-              "gap": 9.425,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 2.525,
-                "gap": 4.5
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.0,
-                "gap": 6.05
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 4.8,
-                "gap": 6.65
-              }
-            },
-            {
-              "rank": 5,
-              "start_position": 5,
-              "name": "GK Motus-Salto/Lugi GF",
-              "fx": {
-                "score": 5.925,
-                "D": 1.175,
-                "E": 2.85,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.2,
-                "D": 5.1,
-                "E": 7.1,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 13.9,
-                "D": 5.3,
-                "E": 6.7,
-                "C": 1.9,
-                "HJ": null
-              },
-              "total": 34.025,
-              "gap": 10.475,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 1.175,
-                "gap": 2.85
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.1,
-                "gap": 7.1
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.3,
-                "gap": 6.7
-              }
-            }
-          ],
-          "apparatus": {
-            "fx": [
-              {
-                "rank": 1,
-                "start_position": 6,
-                "name": "Nacka GF Herr",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 3.775,
-                "gap": 0.0
-              },
-              {
-                "rank": 2,
-                "start_position": 3,
-                "name": "Pixbo GF Herr",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 3.25,
-                "gap": 4.5
-              },
-              {
-                "rank": 3,
-                "start_position": 2,
-                "name": "GF FRAM lag J",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 2.55,
-                "gap": 4.55
-              },
-              {
-                "rank": 4,
-                "start_position": 1,
-                "name": "GCF Uppsala",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 2.525,
-                "gap": 4.5
-              },
-              {
-                "rank": 5,
-                "start_position": 5,
-                "name": "GK Motus-Salto/Lugi GF",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 1.175,
-                "gap": 2.85
-              }
-            ],
-            "tu": [
-              {
-                "rank": 1,
-                "start_position": 3,
-                "name": "Pixbo GF Herr",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.7,
-                "gap": 0.0
-              },
-              {
-                "rank": 2,
-                "start_position": 2,
-                "name": "GF FRAM lag J",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.4,
-                "gap": 7.3
-              },
-              {
-                "rank": 3,
-                "start_position": 5,
-                "name": "GK Motus-Salto/Lugi GF",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.1,
-                "gap": 7.1
-              },
-              {
-                "rank": 4,
-                "start_position": 6,
-                "name": "Nacka GF Herr",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.6,
-                "gap": 6.15
-              },
-              {
-                "rank": 5,
-                "start_position": 1,
-                "name": "GCF Uppsala",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.0,
-                "gap": 6.05
-              }
-            ],
-            "tr": [
-              {
-                "rank": 1,
-                "start_position": 3,
-                "name": "Pixbo GF Herr",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.2,
-                "gap": 0.0
-              },
-              {
-                "rank": 2,
-                "start_position": 2,
-                "name": "GF FRAM lag J",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.9,
-                "gap": 8.2
-              },
-              {
-                "rank": 3,
-                "start_position": 6,
-                "name": "Nacka GF Herr",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.4,
-                "gap": 6.6
-              },
-              {
-                "rank": 4,
-                "start_position": 5,
-                "name": "GK Motus-Salto/Lugi GF",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.3,
-                "gap": 6.7
-              },
-              {
-                "rank": 5,
-                "start_position": 1,
-                "name": "GCF Uppsala",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 4.8,
-                "gap": 6.65
-              }
-            ]
-          },
-          "status": "finished"
         }
       ]
     },
@@ -6243,17 +6243,17 @@
       "classes": []
     },
     {
-      "competition": "Sydostmästerskapen nivå 6",
-      "date_from": "2025-11-22",
-      "date_to": "2025-11-22",
-      "place": "Hultsfred",
-      "classes": []
-    },
-    {
       "competition": "GF Norr: Truppslaget Nivå 6-9 & 3-5 - HT25",
       "date_from": "2025-11-22",
       "date_to": "2025-11-23",
       "place": "Luleå",
+      "classes": []
+    },
+    {
+      "competition": "Sydostmästerskapen nivå 6",
+      "date_from": "2025-11-22",
+      "date_to": "2025-11-22",
+      "place": "Hultsfred",
       "classes": []
     },
     {
@@ -9793,6 +9793,462 @@
       "place": "Malmö",
       "classes": [
         {
+          "class_name": "Riksettan Dam 15 år och äldre",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3441?f=7664&country=swe&year=-1",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": 2,
+              "name": "GK Engelholmsgymnasterna lag 2 - Friståendecup",
+              "fx": {
+                "score": 16.95,
+                "D": 6.85,
+                "E": 8.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.95,
+                "D": 6.85,
+                "E": 8.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 16.95,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": 0.0,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.85,
+                "gap": 0.0
+              },
+              "tu_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              },
+              "tr_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              }
+            },
+            {
+              "rank": 2,
+              "start_position": 3,
+              "name": "Karlskrona GF  - Friståendecup",
+              "fx": {
+                "score": 16.8,
+                "D": 7.5,
+                "E": 7.4,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.8,
+                "D": 7.5,
+                "E": 7.4,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.15,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 16.8,
+              "gap": null,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.5,
+                "gap": 7.4
+              },
+              "tu_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              },
+              "tr_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              }
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "GK Engelholmsgymnasterna lag 1 - Friståendecup",
+              "fx": {
+                "score": 16.6,
+                "D": 7.1,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.6,
+                "D": 7.1,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.35,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 16.6,
+              "gap": null,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.1,
+                "gap": 7.5
+              },
+              "tu_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              },
+              "tr_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              }
+            },
+            {
+              "rank": 4,
+              "start_position": 7,
+              "name": "GK Motus-Salto  - Trampettcup",
+              "fx": {
+                "score": 14.9,
+                "D": 6.2,
+                "E": 6.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.9,
+                "D": 6.2,
+                "E": 6.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.05,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 14.9,
+              "gap": null,
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.2,
+                "gap": 0.0
+              },
+              "fx_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              },
+              "tu_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              }
+            },
+            {
+              "rank": 5,
+              "start_position": 9,
+              "name": "GK Engelholmsgymnasterna - Trampettcup",
+              "fx": {
+                "score": 13.65,
+                "D": 6.0,
+                "E": 5.75,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.65,
+                "D": 6.0,
+                "E": 5.75,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 3.3,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 13.65,
+              "gap": null,
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.0,
+                "gap": 5.75
+              },
+              "fx_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              },
+              "tu_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              }
+            },
+            {
+              "rank": 6,
+              "start_position": 6,
+              "name": "GK Engelholmsgymnasterna - Tumblingcup",
+              "fx": {
+                "score": 13.35,
+                "D": 6.2,
+                "E": 5.35,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.35,
+                "D": 6.2,
+                "E": 5.35,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 3.6,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 13.35,
+              "gap": null,
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.2,
+                "gap": 0.0
+              },
+              "fx_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              },
+              "tr_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              }
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "GK Motus-Salto  - Tumblingcup",
+              "fx": {
+                "score": 12.45,
+                "D": 5.8,
+                "E": 6.05,
+                "C": 0.6,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.45,
+                "D": 5.8,
+                "E": 6.05,
+                "C": 0.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 4.5,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 12.45,
+              "gap": null,
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.8,
+                "gap": 6.05
+              },
+              "fx_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              },
+              "tr_app": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "gap": null
+              }
+            }
+          ],
+          "apparatus": {
+            "fx": [
+              {
+                "rank": 1,
+                "start_position": 2,
+                "name": "GK Engelholmsgymnasterna lag 2 - Friståendecup",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.85,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 3,
+                "name": "Karlskrona GF  - Friståendecup",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.5,
+                "gap": 7.4
+              },
+              {
+                "rank": 3,
+                "start_position": 1,
+                "name": "GK Engelholmsgymnasterna lag 1 - Friståendecup",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.1,
+                "gap": 7.5
+              }
+            ],
+            "tu": [
+              {
+                "rank": 1,
+                "start_position": 6,
+                "name": "GK Engelholmsgymnasterna - Tumblingcup",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.2,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 4,
+                "name": "GK Motus-Salto  - Tumblingcup",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.8,
+                "gap": 6.05
+              }
+            ],
+            "tr": [
+              {
+                "rank": 1,
+                "start_position": 7,
+                "name": "GK Motus-Salto  - Trampettcup",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.2,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 9,
+                "name": "GK Engelholmsgymnasterna - Trampettcup",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 6.0,
+                "gap": 5.75
+              }
+            ]
+          },
+          "status": "finished"
+        },
+        {
           "class_name": "Rikstvåan Öppen klass 13 år och äldre",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3441?f=7663&country=swe&year=-1",
           "teams": [
@@ -10737,462 +11193,6 @@
                 "HJ": null,
                 "score": 4.5,
                 "gap": 5.3
-              }
-            ]
-          },
-          "status": "finished"
-        },
-        {
-          "class_name": "Riksettan Dam 15 år och äldre",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3441?f=7664&country=swe&year=-1",
-          "teams": [
-            {
-              "rank": 1,
-              "start_position": 2,
-              "name": "GK Engelholmsgymnasterna lag 2 - Friståendecup",
-              "fx": {
-                "score": 16.95,
-                "D": 6.85,
-                "E": 8.1,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 16.95,
-                "D": 6.85,
-                "E": 8.1,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 16.95,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": null,
-              "gap": 0.0,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.85,
-                "gap": 0.0
-              },
-              "tu_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              },
-              "tr_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              }
-            },
-            {
-              "rank": 2,
-              "start_position": 3,
-              "name": "Karlskrona GF  - Friståendecup",
-              "fx": {
-                "score": 16.8,
-                "D": 7.5,
-                "E": 7.4,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tu": {
-                "score": 16.8,
-                "D": 7.5,
-                "E": 7.4,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tr": {
-                "score": 0.15,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 16.8,
-              "gap": null,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.5,
-                "gap": 7.4
-              },
-              "tu_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              },
-              "tr_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              }
-            },
-            {
-              "rank": 3,
-              "start_position": 1,
-              "name": "GK Engelholmsgymnasterna lag 1 - Friståendecup",
-              "fx": {
-                "score": 16.6,
-                "D": 7.1,
-                "E": 7.5,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 16.6,
-                "D": 7.1,
-                "E": 7.5,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 0.35,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 16.6,
-              "gap": null,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.1,
-                "gap": 7.5
-              },
-              "tu_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              },
-              "tr_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              }
-            },
-            {
-              "rank": 4,
-              "start_position": 7,
-              "name": "GK Motus-Salto  - Trampettcup",
-              "fx": {
-                "score": 14.9,
-                "D": 6.2,
-                "E": 6.7,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.9,
-                "D": 6.2,
-                "E": 6.7,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 2.05,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 14.9,
-              "gap": null,
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.2,
-                "gap": 0.0
-              },
-              "fx_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              },
-              "tu_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              }
-            },
-            {
-              "rank": 5,
-              "start_position": 9,
-              "name": "GK Engelholmsgymnasterna - Trampettcup",
-              "fx": {
-                "score": 13.65,
-                "D": 6.0,
-                "E": 5.75,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tu": {
-                "score": 13.65,
-                "D": 6.0,
-                "E": 5.75,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tr": {
-                "score": 3.3,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 13.65,
-              "gap": null,
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.0,
-                "gap": 5.75
-              },
-              "fx_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              },
-              "tu_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              }
-            },
-            {
-              "rank": 6,
-              "start_position": 6,
-              "name": "GK Engelholmsgymnasterna - Tumblingcup",
-              "fx": {
-                "score": 13.35,
-                "D": 6.2,
-                "E": 5.35,
-                "C": 1.8,
-                "HJ": null
-              },
-              "tu": {
-                "score": 13.35,
-                "D": 6.2,
-                "E": 5.35,
-                "C": 1.8,
-                "HJ": null
-              },
-              "tr": {
-                "score": 3.6,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 13.35,
-              "gap": null,
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.2,
-                "gap": 0.0
-              },
-              "fx_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              },
-              "tr_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              }
-            },
-            {
-              "rank": 7,
-              "start_position": 4,
-              "name": "GK Motus-Salto  - Tumblingcup",
-              "fx": {
-                "score": 12.45,
-                "D": 5.8,
-                "E": 6.05,
-                "C": 0.6,
-                "HJ": null
-              },
-              "tu": {
-                "score": 12.45,
-                "D": 5.8,
-                "E": 6.05,
-                "C": 0.6,
-                "HJ": null
-              },
-              "tr": {
-                "score": 4.5,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 12.45,
-              "gap": null,
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.8,
-                "gap": 6.05
-              },
-              "fx_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              },
-              "tr_app": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "gap": null
-              }
-            }
-          ],
-          "apparatus": {
-            "fx": [
-              {
-                "rank": 1,
-                "start_position": 2,
-                "name": "GK Engelholmsgymnasterna lag 2 - Friståendecup",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.85,
-                "gap": 0.0
-              },
-              {
-                "rank": 2,
-                "start_position": 3,
-                "name": "Karlskrona GF  - Friståendecup",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.5,
-                "gap": 7.4
-              },
-              {
-                "rank": 3,
-                "start_position": 1,
-                "name": "GK Engelholmsgymnasterna lag 1 - Friståendecup",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.1,
-                "gap": 7.5
-              }
-            ],
-            "tu": [
-              {
-                "rank": 1,
-                "start_position": 6,
-                "name": "GK Engelholmsgymnasterna - Tumblingcup",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.2,
-                "gap": 0.0
-              },
-              {
-                "rank": 2,
-                "start_position": 4,
-                "name": "GK Motus-Salto  - Tumblingcup",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.8,
-                "gap": 6.05
-              }
-            ],
-            "tr": [
-              {
-                "rank": 1,
-                "start_position": 7,
-                "name": "GK Motus-Salto  - Trampettcup",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.2,
-                "gap": 0.0
-              },
-              {
-                "rank": 2,
-                "start_position": 9,
-                "name": "GK Engelholmsgymnasterna - Trampettcup",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 6.0,
-                "gap": 5.75
               }
             ]
           },
@@ -13171,28 +13171,6 @@
       "place": "Örebro",
       "classes": [
         {
-          "class_name": "Region 3 frist",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3461?f=7698&country=swe&year=-1",
-          "teams": [],
-          "apparatus": {
-            "fx": [],
-            "tu": [],
-            "tr": []
-          },
-          "status": "upcoming"
-        },
-        {
-          "class_name": "Region 3",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3461?f=7695&country=swe&year=-1",
-          "teams": [],
-          "apparatus": {
-            "fx": [],
-            "tu": [],
-            "tr": []
-          },
-          "status": "upcoming"
-        },
-        {
           "class_name": "Region 5",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3461?f=7694&country=swe&year=-1",
           "teams": [],
@@ -13206,6 +13184,28 @@
         {
           "class_name": "Region 5 pool 2",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3461?f=7697&country=swe&year=-1",
+          "teams": [],
+          "apparatus": {
+            "fx": [],
+            "tu": [],
+            "tr": []
+          },
+          "status": "upcoming"
+        },
+        {
+          "class_name": "Region 3 frist",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3461?f=7698&country=swe&year=-1",
+          "teams": [],
+          "apparatus": {
+            "fx": [],
+            "tu": [],
+            "tr": []
+          },
+          "status": "upcoming"
+        },
+        {
+          "class_name": "Region 3",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3461?f=7695&country=swe&year=-1",
           "teams": [],
           "apparatus": {
             "fx": [],
@@ -13233,191 +13233,6 @@
       "date_to": "2025-11-02",
       "place": "Sollentuna",
       "classes": [
-        {
-          "class_name": "JNM-kval Mixed",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3419?f=7655&country=swe&year=-1",
-          "teams": [
-            {
-              "rank": 1,
-              "start_position": 2,
-              "name": "Tullinge GF",
-              "fx": {
-                "score": 15.8,
-                "D": 7.25,
-                "E": 6.55,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.3,
-                "D": 5.4,
-                "E": 6.9,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 13.8,
-                "D": 5.3,
-                "E": 6.7,
-                "C": 1.8,
-                "HJ": null
-              },
-              "total": 43.9,
-              "gap": 0.0,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.25,
-                "gap": 0.0
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.4,
-                "gap": 0.0
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.3,
-                "gap": 6.7
-              }
-            },
-            {
-              "rank": 2,
-              "start_position": 1,
-              "name": "Enebybergsgymnasterna",
-              "fx": {
-                "score": 14.9,
-                "D": 7.1,
-                "E": 5.8,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 13.85,
-                "D": 5.4,
-                "E": 6.85,
-                "C": 1.6,
-                "HJ": null
-              },
-              "tr": {
-                "score": 14.75,
-                "D": 5.7,
-                "E": 7.05,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 43.5,
-              "gap": 0.4,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.1,
-                "gap": 5.8
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.4,
-                "gap": 6.85
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.7,
-                "gap": 0.0
-              }
-            }
-          ],
-          "apparatus": {
-            "fx": [
-              {
-                "rank": 1,
-                "start_position": 2,
-                "name": "Tullinge GF",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.25,
-                "gap": 0.0
-              },
-              {
-                "rank": 2,
-                "start_position": 1,
-                "name": "Enebybergsgymnasterna",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.1,
-                "gap": 5.8
-              }
-            ],
-            "tu": [
-              {
-                "rank": 1,
-                "start_position": 2,
-                "name": "Tullinge GF",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.4,
-                "gap": 0.0
-              },
-              {
-                "rank": 2,
-                "start_position": 1,
-                "name": "Enebybergsgymnasterna",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.4,
-                "gap": 6.85
-              }
-            ],
-            "tr": [
-              {
-                "rank": 1,
-                "start_position": 1,
-                "name": "Enebybergsgymnasterna",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.7,
-                "gap": 0.0
-              },
-              {
-                "rank": 2,
-                "start_position": 2,
-                "name": "Tullinge GF",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.3,
-                "gap": 6.7
-              }
-            ]
-          },
-          "status": "finished"
-        },
         {
           "class_name": "JNM-kval Herr",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3419?f=7654&country=swe&year=-1",
@@ -13604,43 +13419,43 @@
           "status": "finished"
         },
         {
-          "class_name": "JNM-kval Dam",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3419?f=7653&country=swe&year=-1",
+          "class_name": "JNM-kval Mixed",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3419?f=7655&country=swe&year=-1",
           "teams": [
             {
               "rank": 1,
-              "start_position": 5,
-              "name": "GK Splitt",
+              "start_position": 2,
+              "name": "Tullinge GF",
               "fx": {
-                "score": 16.65,
-                "D": 7.7,
-                "E": 6.95,
+                "score": 15.8,
+                "D": 7.25,
+                "E": 6.55,
                 "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": 14.65,
+                "score": 14.3,
                 "D": 5.4,
-                "E": 7.3,
-                "C": 1.95,
-                "HJ": null
-              },
-              "tr": {
-                "score": 14.95,
-                "D": 5.15,
-                "E": 7.8,
+                "E": 6.9,
                 "C": 2.0,
                 "HJ": null
               },
-              "total": 46.25,
+              "tr": {
+                "score": 13.8,
+                "D": 5.3,
+                "E": 6.7,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 43.9,
               "gap": 0.0,
               "fx_app": {
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
-                "score": 7.7,
-                "gap": 6.95
+                "score": 7.25,
+                "gap": 0.0
               },
               "tu_app": {
                 "D": null,
@@ -13648,155 +13463,51 @@
                 "C": null,
                 "HJ": null,
                 "score": 5.4,
-                "gap": 7.3
+                "gap": 0.0
               },
               "tr_app": {
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
-                "score": 5.15,
-                "gap": 7.8
+                "score": 5.3,
+                "gap": 6.7
               }
             },
             {
               "rank": 2,
-              "start_position": 3,
-              "name": "ABGS",
+              "start_position": 1,
+              "name": "Enebybergsgymnasterna",
               "fx": {
-                "score": 16.55,
-                "D": 8.05,
-                "E": 6.5,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.3,
-                "D": 5.7,
-                "E": 6.9,
-                "C": 1.7,
-                "HJ": null
-              },
-              "tr": {
-                "score": 15.25,
-                "D": 5.5,
-                "E": 7.85,
-                "C": 1.9,
-                "HJ": null
-              },
-              "total": 46.1,
-              "gap": 0.15,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 8.05,
-                "gap": 6.5
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.7,
-                "gap": 6.9
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.5,
-                "gap": 0.0
-              }
-            },
-            {
-              "rank": 3,
-              "start_position": 4,
-              "name": "Lugi GF",
-              "fx": {
-                "score": 16.4,
+                "score": 14.9,
                 "D": 7.1,
-                "E": 7.3,
+                "E": 5.8,
                 "C": 2.0,
                 "HJ": null
               },
               "tu": {
                 "score": 13.85,
-                "D": 5.1,
-                "E": 7.15,
-                "C": 1.6,
-                "HJ": null
-              },
-              "tr": {
-                "score": 14.8,
-                "D": 5.5,
-                "E": 7.3,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 45.05,
-              "gap": 1.2,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.1,
-                "gap": 7.3
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.1,
-                "gap": 7.15
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.5,
-                "gap": 7.3
-              }
-            },
-            {
-              "rank": 4,
-              "start_position": 2,
-              "name": "Brommagymnasterna JSM Dam",
-              "fx": {
-                "score": 16.75,
-                "D": 7.1,
-                "E": 7.65,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 13.75,
                 "D": 5.4,
-                "E": 6.75,
+                "E": 6.85,
                 "C": 1.6,
                 "HJ": null
               },
               "tr": {
-                "score": 14.2,
-                "D": 5.0,
-                "E": 7.3,
-                "C": 1.9,
+                "score": 14.75,
+                "D": 5.7,
+                "E": 7.05,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 44.7,
-              "gap": 1.55,
+              "total": 43.5,
+              "gap": 0.4,
               "fx_app": {
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
                 "score": 7.1,
-                "gap": 0.0
+                "gap": 5.8
               },
               "tu_app": {
                 "D": null,
@@ -13804,67 +13515,15 @@
                 "C": null,
                 "HJ": null,
                 "score": 5.4,
-                "gap": 6.75
+                "gap": 6.85
               },
               "tr_app": {
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
-                "score": 5.0,
-                "gap": 7.3
-              }
-            },
-            {
-              "rank": 5,
-              "start_position": 1,
-              "name": "GK Motus-Salto",
-              "fx": {
-                "score": 15.7,
-                "D": 7.0,
-                "E": 6.7,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.7,
-                "D": 5.1,
-                "E": 7.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 13.45,
-                "D": 4.9,
-                "E": 6.55,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 43.85,
-              "gap": 2.4,
-              "fx_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.0,
-                "gap": 6.7
-              },
-              "tu_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.1,
+                "score": 5.7,
                 "gap": 0.0
-              },
-              "tr_app": {
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 4.9,
-                "gap": 6.55
               }
             }
           ],
@@ -13873,171 +13532,72 @@
               {
                 "rank": 1,
                 "start_position": 2,
-                "name": "Brommagymnasterna JSM Dam",
+                "name": "Tullinge GF",
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
-                "score": 7.1,
+                "score": 7.25,
                 "gap": 0.0
               },
               {
                 "rank": 2,
-                "start_position": 5,
-                "name": "GK Splitt",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.7,
-                "gap": 6.95
-              },
-              {
-                "rank": 3,
-                "start_position": 3,
-                "name": "ABGS",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 8.05,
-                "gap": 6.5
-              },
-              {
-                "rank": 4,
-                "start_position": 4,
-                "name": "Lugi GF",
+                "start_position": 1,
+                "name": "Enebybergsgymnasterna",
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
                 "score": 7.1,
-                "gap": 7.3
-              },
-              {
-                "rank": 5,
-                "start_position": 1,
-                "name": "GK Motus-Salto",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 7.0,
-                "gap": 6.7
+                "gap": 5.8
               }
             ],
             "tu": [
               {
                 "rank": 1,
-                "start_position": 1,
-                "name": "GK Motus-Salto",
+                "start_position": 2,
+                "name": "Tullinge GF",
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
-                "score": 5.1,
+                "score": 5.4,
                 "gap": 0.0
               },
               {
                 "rank": 2,
-                "start_position": 5,
-                "name": "GK Splitt",
+                "start_position": 1,
+                "name": "Enebybergsgymnasterna",
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
                 "score": 5.4,
-                "gap": 7.3
-              },
-              {
-                "rank": 3,
-                "start_position": 3,
-                "name": "ABGS",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.7,
-                "gap": 6.9
-              },
-              {
-                "rank": 4,
-                "start_position": 4,
-                "name": "Lugi GF",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.1,
-                "gap": 7.15
-              },
-              {
-                "rank": 5,
-                "start_position": 2,
-                "name": "Brommagymnasterna JSM Dam",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.4,
-                "gap": 6.75
+                "gap": 6.85
               }
             ],
             "tr": [
               {
                 "rank": 1,
-                "start_position": 3,
-                "name": "ABGS",
+                "start_position": 1,
+                "name": "Enebybergsgymnasterna",
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
-                "score": 5.5,
+                "score": 5.7,
                 "gap": 0.0
               },
               {
                 "rank": 2,
-                "start_position": 5,
-                "name": "GK Splitt",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.15,
-                "gap": 7.8
-              },
-              {
-                "rank": 3,
-                "start_position": 4,
-                "name": "Lugi GF",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 5.5,
-                "gap": 7.3
-              },
-              {
-                "rank": 4,
                 "start_position": 2,
-                "name": "Brommagymnasterna JSM Dam",
+                "name": "Tullinge GF",
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null,
-                "score": 5.0,
-                "gap": 7.3
-              },
-              {
-                "rank": 5,
-                "start_position": 1,
-                "name": "GK Motus-Salto",
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null,
-                "score": 4.9,
-                "gap": 6.55
+                "score": 5.3,
+                "gap": 6.7
               }
             ]
           },
@@ -14733,6 +14293,446 @@
                 "HJ": null,
                 "score": 2.9,
                 "gap": 7.65
+              }
+            ]
+          },
+          "status": "finished"
+        },
+        {
+          "class_name": "JNM-kval Dam",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3419?f=7653&country=swe&year=-1",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": 5,
+              "name": "GK Splitt",
+              "fx": {
+                "score": 16.65,
+                "D": 7.7,
+                "E": 6.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.65,
+                "D": 5.4,
+                "E": 7.3,
+                "C": 1.95,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.95,
+                "D": 5.15,
+                "E": 7.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 46.25,
+              "gap": 0.0,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.7,
+                "gap": 6.95
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.4,
+                "gap": 7.3
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.15,
+                "gap": 7.8
+              }
+            },
+            {
+              "rank": 2,
+              "start_position": 3,
+              "name": "ABGS",
+              "fx": {
+                "score": 16.55,
+                "D": 8.05,
+                "E": 6.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.3,
+                "D": 5.7,
+                "E": 6.9,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.25,
+                "D": 5.5,
+                "E": 7.85,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 46.1,
+              "gap": 0.15,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 8.05,
+                "gap": 6.5
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.7,
+                "gap": 6.9
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.5,
+                "gap": 0.0
+              }
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "Lugi GF",
+              "fx": {
+                "score": 16.4,
+                "D": 7.1,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.85,
+                "D": 5.1,
+                "E": 7.15,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.8,
+                "D": 5.5,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 45.05,
+              "gap": 1.2,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.1,
+                "gap": 7.3
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.1,
+                "gap": 7.15
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.5,
+                "gap": 7.3
+              }
+            },
+            {
+              "rank": 4,
+              "start_position": 2,
+              "name": "Brommagymnasterna JSM Dam",
+              "fx": {
+                "score": 16.75,
+                "D": 7.1,
+                "E": 7.65,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.75,
+                "D": 5.4,
+                "E": 6.75,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.2,
+                "D": 5.0,
+                "E": 7.3,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 44.7,
+              "gap": 1.55,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.1,
+                "gap": 0.0
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.4,
+                "gap": 6.75
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.0,
+                "gap": 7.3
+              }
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "GK Motus-Salto",
+              "fx": {
+                "score": 15.7,
+                "D": 7.0,
+                "E": 6.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.7,
+                "D": 5.1,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 13.45,
+                "D": 4.9,
+                "E": 6.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 43.85,
+              "gap": 2.4,
+              "fx_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.0,
+                "gap": 6.7
+              },
+              "tu_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.1,
+                "gap": 0.0
+              },
+              "tr_app": {
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 4.9,
+                "gap": 6.55
+              }
+            }
+          ],
+          "apparatus": {
+            "fx": [
+              {
+                "rank": 1,
+                "start_position": 2,
+                "name": "Brommagymnasterna JSM Dam",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.1,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 5,
+                "name": "GK Splitt",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.7,
+                "gap": 6.95
+              },
+              {
+                "rank": 3,
+                "start_position": 3,
+                "name": "ABGS",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 8.05,
+                "gap": 6.5
+              },
+              {
+                "rank": 4,
+                "start_position": 4,
+                "name": "Lugi GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.1,
+                "gap": 7.3
+              },
+              {
+                "rank": 5,
+                "start_position": 1,
+                "name": "GK Motus-Salto",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 7.0,
+                "gap": 6.7
+              }
+            ],
+            "tu": [
+              {
+                "rank": 1,
+                "start_position": 1,
+                "name": "GK Motus-Salto",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.1,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 5,
+                "name": "GK Splitt",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.4,
+                "gap": 7.3
+              },
+              {
+                "rank": 3,
+                "start_position": 3,
+                "name": "ABGS",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.7,
+                "gap": 6.9
+              },
+              {
+                "rank": 4,
+                "start_position": 4,
+                "name": "Lugi GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.1,
+                "gap": 7.15
+              },
+              {
+                "rank": 5,
+                "start_position": 2,
+                "name": "Brommagymnasterna JSM Dam",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.4,
+                "gap": 6.75
+              }
+            ],
+            "tr": [
+              {
+                "rank": 1,
+                "start_position": 3,
+                "name": "ABGS",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.5,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 5,
+                "name": "GK Splitt",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.15,
+                "gap": 7.8
+              },
+              {
+                "rank": 3,
+                "start_position": 4,
+                "name": "Lugi GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.5,
+                "gap": 7.3
+              },
+              {
+                "rank": 4,
+                "start_position": 2,
+                "name": "Brommagymnasterna JSM Dam",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.0,
+                "gap": 7.3
+              },
+              {
+                "rank": 5,
+                "start_position": 1,
+                "name": "GK Motus-Salto",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 4.9,
+                "gap": 6.55
               }
             ]
           },
@@ -26467,17 +26467,17 @@
       ]
     },
     {
-      "competition": "GF Syd: RegionTrean/Fyran/Femman",
-      "date_from": "2025-10-11",
-      "date_to": "2025-10-12",
-      "place": "Sjöbo",
-      "classes": []
-    },
-    {
       "competition": "GF Sydost: Redskapscupen nivå 6, 7 och 6 öppen",
       "date_from": "2025-10-11",
       "date_to": "2025-10-11",
       "place": "Vetlanda",
+      "classes": []
+    },
+    {
+      "competition": "GF Syd: RegionTrean/Fyran/Femman",
+      "date_from": "2025-10-11",
+      "date_to": "2025-10-12",
+      "place": "Sjöbo",
       "classes": []
     },
     {
