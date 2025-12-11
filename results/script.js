@@ -1,4 +1,4 @@
-const RESULTS_URL = "https://datpengu.github.io/TeamGymScore/results.json?t=" + Date.now();
+const RESULTS_URL = "https://datpengu.github.io/TeamGymScore/results.json"
 
 async function fetchAndRender() {
   try {
