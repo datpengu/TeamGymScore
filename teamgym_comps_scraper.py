@@ -2,435 +2,362 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import json
-from datetime import datetime, date
+from datetime import datetime
 from urllib.parse import urljoin, urlparse, parse_qs
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 BASE_URL = "https://live.sporteventsystems.se"
 
+# ---------------------------
+# BASIC UTILITIES
+# ---------------------------
 def fetch_html(url: str) -> str:
-    resp = requests.get(url, timeout=10)
+    resp = requests.get(url, timeout=20)
     resp.raise_for_status()
     resp.encoding = "utf-8"
     return resp.text
 
-def number_from(tok: str):
-    try:
-        return float(tok.replace(",", "."))
-    except:
-        return None
-
 def safe(lst, idx):
     return lst[idx] if idx < len(lst) else None
 
-def is_rank(tok: str) -> bool:
-    return re.fullmatch(r"\d{1,2}", tok) is not None
+def number(tok):
+    try: return float(tok.replace(",", "."))
+    except: return None
 
-def is_start(tok: str) -> bool:
-    return re.fullmatch(r"\d{1,2}", tok) is not None
-
-def is_score(tok: str) -> bool:
-    return re.fullmatch(r"\d+,\d{3}", tok) is not None
-
-def strip_tokens(div: BeautifulSoup):
+def strip_tokens(div):
     return [s for s in div.stripped_strings]
 
+def is_rank(tok): return re.fullmatch(r"\d{1,2}", tok) is not None
+def is_start(tok): return re.fullmatch(r"\d{1,2}", tok) is not None
+def is_score(tok): return re.fullmatch(r"\d+,\d{3}", tok) is not None
+
 # ---------------------------
-# discover all teamgym comps
+# DISCOVER ALL TEAMGYM COMPETITIONS
 # ---------------------------
 def discover_teamgym_competitions():
     html = fetch_html(f"{BASE_URL}/Score/?country=swe")
     soup = BeautifulSoup(html, "html.parser")
 
     results = []
-    teamgym_header = soup.find(
-        "div",
-        class_="col fs-4 px-2 bg-dark-subtle",
-        string=re.compile("Teamgym", re.I),
-    )
-    if not teamgym_header:
-        print("❌ No TeamGym section found.")
+    header = soup.find("div", class_="col fs-4 px-2 bg-dark-subtle", string=re.compile("Teamgym", re.I))
+    if not header:
         return results
 
-    row = teamgym_header.find_parent("div", class_="row")
+    row = header.find_parent("div", class_="row")
     for sibling in row.find_next_siblings("div"):
-        # stop at next big header
-        header = sibling.find("div", class_="col fs-4 px-2 bg-dark-subtle")
-        if header:
+        next_header = sibling.find("div", class_="col fs-4 px-2 bg-dark-subtle")
+        if next_header:
             break
 
         a = sibling.find("a", href=True)
-        if not a:
-            continue
-
+        if not a: continue
         link = urljoin(BASE_URL, a["href"])
         name = a.get_text(strip=True)
 
         cols = sibling.select(".col-12, .col-md-6, .col-xl-4, .col-xxl-3, .col-xxl-6")
-        date_from = cols[0].get_text(strip=True) if len(cols) > 0 else None
+        date_from = cols[0].get_text(strip=True) if len(cols) else None
         date_to = cols[1].get_text(strip=True) if len(cols) > 1 else None
-        place = cols[-1].get_text(strip=True) if len(cols) > 2 else None
+        place = cols[-1].get_text(strip=True) if len(cols) else None
 
-        results.append(
-            {
-                "competition": name,
-                "url": link,
-                "date_from": date_from,
-                "date_to": date_to,
-                "place": place,
-            }
-        )
+        results.append({
+            "competition": name,
+            "url": link,
+            "date_from": date_from,
+            "date_to": date_to,
+            "place": place
+        })
 
-    print(f"✅ Found {len(results)} TeamGym competitions.")
     return results
 
 # ---------------------------
-# helpers
+# GET CLASS BUTTONS
 # ---------------------------
-def parse_iso_date(s: str | None):
-    if not s:
-        return None
-    try:
-        return date.fromisoformat(s)
-    except Exception:
-        return None
-
-def find_class_buttons(soup: BeautifulSoup):
+def find_class_buttons(soup):
     container = soup.find("div", class_="d-none d-md-block mb-2")
     if not container:
         return []
     links = []
     for a in container.find_all("a", href=True):
-        text = a.get_text(strip=True)
-        href = urljoin(BASE_URL, a["href"])
-        links.append({"name": text, "url": href})
+        links.append({
+            "name": a.get_text(strip=True),
+            "url": urljoin(BASE_URL, a["href"])
+        })
     return links
 
-def tab_ids(f_value: str):
-    return (f"Allround-{f_value}", f"App1-{f_value}", f"App2-{f_value}", f"App3-{f_value}")
+# ---------------------------
+# TAB IDS
+# ---------------------------
+def tab_ids(f):
+    return (
+        f"Allround-{f}",
+        f"App1-{f}",
+        f"App2-{f}",
+        f"App3-{f}"
+    )
 
 # ---------------------------
-# allround parser
+# PARSE ALLROUND TOKENS
 # ---------------------------
 def parse_allround_tokens(tokens):
     teams = []
     i = 0
+
     while i < len(tokens):
-        if i + 2 < len(tokens) and is_rank(tokens[i]) and is_start(tokens[i + 1]):
+        if i+2 < len(tokens) and is_rank(tokens[i]) and is_start(tokens[i+1]):
             rank = int(tokens[i])
-            start = int(tokens[i + 1])
-            name = tokens[i + 2]
+            start = int(tokens[i+1])
+            name = tokens[i+2]
             j = i + 3
+
             scores, decs = [], []
 
             while j < len(tokens):
-                # next team?
-                if j + 1 < len(tokens) and is_rank(tokens[j]) and is_start(tokens[j + 1]):
+                if j+1 < len(tokens) and is_rank(tokens[j]) and is_start(tokens[j+1]):
                     break
 
                 tok = tokens[j]
 
                 if is_score(tok):
-                    scores.append(number_from(tok))
+                    scores.append(number(tok))
                     j += 1
                     continue
 
                 m = re.match(r"^(D|E|C)[:\-]?\s*(\d+,\d{3})$", tok)
                 if m:
-                    decs.append(number_from(m.group(2)))
+                    decs.append(number(m.group(2)))
                     j += 1
                     continue
 
-                if (
-                    tok in ("D", "D:", "E", "E:", "C", "C:")
-                    and j + 1 < len(tokens)
-                    and is_score(tokens[j + 1])
-                ):
-                    decs.append(number_from(tokens[j + 1]))
+                if tok in ("D","D:","E","E:","C","C:") and j+1 < len(tokens) and is_score(tokens[j+1]):
+                    decs.append(number(tokens[j+1]))
                     j += 2
                     continue
 
                 j += 1
-                if j - i > 200:
-                    break
 
-            fx = {
-                "score": safe(scores, 0),
-                "D": safe(decs, 0),
-                "E": safe(decs, 1),
-                "C": safe(decs, 2),
-                "HJ": None,
-            }
-            tu = {
-                "score": safe(scores, 1),
-                "D": safe(decs, 3),
-                "E": safe(decs, 4),
-                "C": safe(decs, 5),
-                "HJ": None,
-            }
-            tr = {
-                "score": safe(scores, 2),
-                "D": safe(decs, 6),
-                "E": safe(decs, 7),
-                "C": safe(decs, 8),
-                "HJ": None,
-            }
-            total = safe(scores, 3)
-            gap = 0.0 if rank == 1 else safe(scores, 4)
+            fx = {"score": safe(scores,0), "D": safe(decs,0), "E": safe(decs,1), "C": safe(decs,2), "HJ": None}
+            tu = {"score": safe(scores,1), "D": safe(decs,3), "E": safe(decs,4), "C": safe(decs,5), "HJ": None}
+            tr = {"score": safe(scores,2), "D": safe(decs,6), "E": safe(decs,7), "C": safe(decs,8), "HJ": None}
+            total = safe(scores,3)
+            gap = 0.0 if rank == 1 else safe(scores,4)
 
-            teams.append(
-                {
-                    "rank": rank,
-                    "start_position": start,
-                    "name": name,
-                    "fx": fx,
-                    "tu": tu,
-                    "tr": tr,
-                    "total": total,
-                    "gap": gap,
-                }
-            )
+            teams.append({
+                "rank": rank,
+                "start_position": start,
+                "name": name,
+                "fx": fx, "tu": tu, "tr": tr,
+                "total": total,
+                "gap": gap
+            })
+
             i = j
         else:
             i += 1
+
     return teams
 
 # ---------------------------
-# apparatus parser (FX/TU/TR)
+# PARSE APPARATUS TOKENS (FX/TU/TR)
 # ---------------------------
 def parse_apparatus_tokens(tokens):
-    out = []
+    teams = []
     i = 0
+
     while i < len(tokens):
-        if i + 2 < len(tokens) and is_rank(tokens[i]) and is_start(tokens[i + 1]):
+        if i+2 < len(tokens) and is_rank(tokens[i]) and is_start(tokens[i+1]):
             rank = int(tokens[i])
-            start = int(tokens[i + 1])
-            name = tokens[i + 2]
+            start = int(tokens[i+1])
+            name = tokens[i+2]
             j = i + 3
-            D = E = C = HJ = score = gap = None
+
+            D=E=C=HJ=score=gap=None
 
             while j < len(tokens):
-                if j + 1 < len(tokens) and is_rank(tokens[j]) and is_start(tokens[j + 1]):
+                if j+1 < len(tokens) and is_rank(tokens[j]) and is_start(tokens[j+1]):
                     break
+
                 tok = tokens[j]
 
-                if tok.startswith("D") and j + 1 < len(tokens) and is_score(tokens[j + 1]):
-                    D = number_from(tokens[j + 1]); j += 2; continue
-                if tok.startswith("E") and j + 1 < len(tokens) and is_score(tokens[j + 1]):
-                    E = number_from(tokens[j + 1]); j += 2; continue
-                if tok.startswith("C") and j + 1 < len(tokens) and is_score(tokens[j + 1]):
-                    C = number_from(tokens[j + 1]); j += 2; continue
-                if tok.startswith("HJ") and j + 1 < len(tokens) and is_score(tokens[j + 1]):
-                    HJ = number_from(tokens[j + 1]); j += 2; continue
+                if tok.startswith("D") and j+1<len(tokens) and is_score(tokens[j+1]):
+                    D=number(tokens[j+1]); j+=2; continue
+                if tok.startswith("E") and j+1<len(tokens) and is_score(tokens[j+1]):
+                    E=number(tokens[j+1]); j+=2; continue
+                if tok.startswith("C") and j+1<len(tokens) and is_score(tokens[j+1]):
+                    C=number(tokens[j+1]); j+=2; continue
+                if tok.startswith("HJ") and j+1<len(tokens) and is_score(tokens[j+1]):
+                    HJ=number(tokens[j+1]); j+=2; continue
+
                 if is_score(tok):
-                    if score is None:
-                        score = number_from(tok)
-                    elif gap is None:
-                        gap = number_from(tok)
-                    j += 1
+                    if score is None: score=number(tok)
+                    elif gap is None: gap=number(tok)
+                    j+=1
                     continue
 
-                j += 1
-                if j - i > 200:
-                    break
+                j+=1
 
-            out.append(
-                {
-                    "rank": rank,
-                    "start_position": start,
-                    "name": name,
-                    "D": D,
-                    "E": E,
-                    "C": C,
-                    "HJ": HJ,
-                    "score": score,
-                    "gap": 0.0 if rank == 1 else gap,
-                }
-            )
+            teams.append({
+                "rank": rank,
+                "start_position": start,
+                "name": name,
+                "D": D, "E": E, "C": C, "HJ": HJ,
+                "score": score,
+                "gap": 0.0 if rank == 1 else gap
+            })
+
             i = j
         else:
             i += 1
-    return out
 
-def determine_status(allround_teams):
-    if not allround_teams:
+    return teams
+
+# ---------------------------
+# FILL MISSING APPARATUS FIELDS USING ALLROUND
+# ---------------------------
+def fill_missing(app_list, allround_list, key):
+    lookup = {t["name"]: t[key] for t in allround_list}
+
+    for entry in app_list:
+        name = entry["name"]
+        if name not in lookup:
+            continue
+
+        full = lookup[name]
+
+        if entry.get("D") is None: entry["D"] = full["D"]
+        if entry.get("E") is None: entry["E"] = full["E"]
+        if entry.get("C") is None: entry["C"] = full["C"]
+        if entry.get("HJ") is None: entry["HJ"] = full.get("HJ")
+        if entry.get("score") is None: entry["score"] = full["score"]
+
+# ---------------------------
+# DETERMINE STATUS
+# ---------------------------
+def determine_status(teams):
+    if not teams:
         return "upcoming"
-    scored = sum(
-        1 for t in allround_teams if t.get("total") is not None or t.get("fx", {}).get("score") is not None
-    )
-    if scored == 0:
+    finished = sum(1 for t in teams if t.get("total"))
+    if finished == 0:
         return "upcoming"
-    if scored < len(allround_teams):
+    if finished < len(teams):
         return "ongoing"
     return "finished"
 
 # ---------------------------
-# parse ONE class page
+# FETCH TEAM NAMES FOR UPCOMING COMPETITIONS
+# ---------------------------
+def get_upcoming_team_names(soup):
+    """
+    Team names are listed in a table header row even before scores exist.
+    """
+    names = []
+    table = soup.find("table")
+    if not table:
+        return []
+
+    for row in table.find_all("tr"):
+        cols = [c.get_text(strip=True) for c in row.find_all("td")]
+        if len(cols) >= 3:
+            # structure: PL | # | NAME ...
+            if cols[0].isdigit():
+                names.append(cols[2])
+    return names
+
+# ---------------------------
+# PARSE CLASS PAGE
 # ---------------------------
 def parse_class_page(url: str):
     html = fetch_html(url)
     soup = BeautifulSoup(html, "html.parser")
+
     f_val = parse_qs(urlparse(url).query).get("f", [None])[0]
     if not f_val:
-        return {
-            "teams": [],
-            "apparatus": {"fx": [], "tu": [], "tr": []},
-            "status": "upcoming",
-        }
+        return {"teams": [], "apparatus": {}, "status": "upcoming"}
 
     allround_id, fx_id, tu_id, tr_id = tab_ids(f_val)
 
-    def tokens_for(tab_id):
-        div = soup.find("div", id=tab_id)
+    def toks(tab):
+        div = soup.find("div", id=tab)
         return strip_tokens(div) if div else []
 
-    # parse each tab
-    allround = parse_allround_tokens(tokens_for(allround_id))
-    fx_list = parse_apparatus_tokens(tokens_for(fx_id))
-    tu_list = parse_apparatus_tokens(tokens_for(tu_id))
-    tr_list = parse_apparatus_tokens(tokens_for(tr_id))
+    allround = parse_allround_tokens(toks(allround_id))
 
-    # determine status from allround scores
+    fx = parse_apparatus_tokens(toks(fx_id))
+    tu = parse_apparatus_tokens(toks(tu_id))
+    tr = parse_apparatus_tokens(toks(tr_id))
+
+    # fill missing values
+    fill_missing(fx, allround, "fx")
+    fill_missing(tu, allround, "tu")
+    fill_missing(tr, allround, "tr")
+
+    # status
     status = determine_status(allround)
 
-    # build a name → team map for allround
-    allround_map = {t["name"]: t for t in allround}
-
-    # helper to merge apparatus results under the main teams
-    def merge_apparatus(apparatus_list, key_name):
-        for app in apparatus_list:
-            nm = app["name"]
-            if nm in allround_map:
-                allround_map[nm][key_name] = {
-                    "D": app.get("D"),
-                    "E": app.get("E"),
-                    "C": app.get("C"),
-                    "HJ": app.get("HJ"),
-                    "score": app.get("score"),
-                    "gap": app.get("gap")
-                }
-            else:
-                # If no main All-Round entry: add a new upcoming entry
-                allround_map[nm] = {
-                    "rank": app.get("rank"),
-                    "start_position": app.get("start_position"),
-                    "name": nm,
-                    "fx": {"score": None, "D": None, "E": None, "C": None, "HJ": None},
-                    "tu": {"score": None, "D": None, "E": None, "C": None, "HJ": None},
-                    "tr": {"score": None, "D": None, "E": None, "C": None, "HJ": None},
-                    "total": None,
-                    "gap": None,
-                    # fill the apparatus that exists
-                    key_name: {
-                        "D": app.get("D"),
-                        "E": app.get("E"),
-                        "C": app.get("C"),
-                        "HJ": app.get("HJ"),
-                        "score": app.get("score"),
-                        "gap": app.get("gap")
-                    }
-                }
-
-    merge_apparatus(fx_list, "fx_app")
-    merge_apparatus(tu_list, "tu_app")
-    merge_apparatus(tr_list, "tr_app")
-
-    # ensure everyone has fx_app/tu_app/tr_app fields
-    for t in allround_map.values():
-        if "fx_app" not in t:
-            t["fx_app"] = {"score": None, "D": None, "E": None, "C": None, "HJ": None, "gap": None}
-        if "tu_app" not in t:
-            t["tu_app"] = {"score": None, "D": None, "E": None, "C": None, "HJ": None, "gap": None}
-        if "tr_app" not in t:
-            t["tr_app"] = {"score": None, "D": None, "E": None, "C": None, "HJ": None, "gap": None}
-
-    teams = list(allround_map.values())
+    # If upcoming → extract team names
+    if status == "upcoming":
+        team_names = get_upcoming_team_names(soup)
+        allround = [{"rank": None, "start_position": None, "name": name,
+                     "fx": {}, "tu": {}, "tr": {}, "total": None, "gap": None}
+                    for name in team_names]
 
     return {
-        "teams": teams,
-        "apparatus": {"fx": fx_list, "tu": tu_list, "tr": tr_list},
-        "status": status,
+        "teams": allround,
+        "apparatus": {"fx": fx, "tu": tu, "tr": tr},
+        "status": status
     }
+
 # ---------------------------
-# parse ONE competition
+# PARSE FULL COMPETITION
 # ---------------------------
-def parse_full_competition(meta: dict):
-    html = fetch_html(meta["url"])
+def parse_full_competition(url, meta):
+    html = fetch_html(url)
     soup = BeautifulSoup(html, "html.parser")
     classes = find_class_buttons(soup)
-    print(f"\n🎯 {meta['competition']} — {len(classes)} class(es)")
 
     comp_out = {
         "competition": meta["competition"],
         "date_from": meta["date_from"],
         "date_to": meta["date_to"],
         "place": meta["place"],
-        "classes": [],
+        "classes": []
     }
 
-    # always parse class pages (even upcoming) so we get teams if they appear
-    with ThreadPoolExecutor(max_workers=6) as executor:
-        future_to_cls = {
-            executor.submit(parse_class_page, cls["url"]): cls for cls in classes
-        }
-        for future in as_completed(future_to_cls):
-            cls = future_to_cls[future]
-            try:
-                parsed = future.result()
-            except Exception as e:
-                print(f"   ❌ Class failed {cls['name']}: {e}")
-                parsed = {
-                    "teams": [],
-                    "apparatus": {"fx": [], "tu": [], "tr": []},
-                    "status": "error",
-                }
-
-            comp_out["classes"].append(
-                {
-                    "class_name": cls["name"],
-                    "url": cls["url"],
-                    **parsed,
-                }
-            )
+    for cls in classes:
+        parsed = parse_class_page(cls["url"])
+        comp_out["classes"].append({
+            "class_name":
+            cls["name"],
+            "url":
+            cls["url"],
+            **parsed
+        })
 
     return comp_out
 
 # ---------------------------
-# main
+# MAIN
 # ---------------------------
 def main():
     comps = discover_teamgym_competitions()
-    parsed_comps = []
 
-    # fetch competitions in parallel
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        future_to_comp = {
-            executor.submit(parse_full_competition, comp): comp for comp in comps
-        }
-        for future in as_completed(future_to_comp):
-            meta = future_to_comp[future]
-            try:
-                parsed_comps.append(future.result())
-            except Exception as e:
-                print(f"❌ Failed {meta['competition']}: {e}")
+    # newest → oldest
+    comps.sort(key=lambda c: c["date_from"] or "0", reverse=True)
 
-    # SORT newest first (desc)
-    def sort_key(c):
-        d = parse_iso_date(c.get("date_from"))
-        # put undated at bottom
-        return (d is None, d or date(1900, 1, 1))
-
-    parsed_comps.sort(key=sort_key, reverse=True)
+    results = []
+    for comp in comps:
+        try:
+            results.append(parse_full_competition(comp["url"], comp))
+        except Exception as e:
+            print(f"❌ Failed {comp['competition']}: {e}")
 
     final = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
-        "competitions": parsed_comps,
+        "competitions": results
     }
 
     with open("results.json", "w", encoding="utf-8") as f:
         json.dump(final, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Wrote {len(parsed_comps)} competitions to results.json")
+    print(f"✓ Wrote {len(results)} competitions.")
 
 if __name__ == "__main__":
     main()
