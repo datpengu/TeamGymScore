@@ -284,18 +284,73 @@ def parse_class_page(url: str):
         div = soup.find("div", id=tab_id)
         return strip_tokens(div) if div else []
 
+    # parse each tab
     allround = parse_allround_tokens(tokens_for(allround_id))
-    fx = parse_apparatus_tokens(tokens_for(fx_id))
-    tu = parse_apparatus_tokens(tokens_for(tu_id))
-    tr = parse_apparatus_tokens(tokens_for(tr_id))
+    fx_list = parse_apparatus_tokens(tokens_for(fx_id))
+    tu_list = parse_apparatus_tokens(tokens_for(tu_id))
+    tr_list = parse_apparatus_tokens(tokens_for(tr_id))
+
+    # determine status from allround scores
     status = determine_status(allround)
 
+    # build a name → team map for allround
+    allround_map = {t["name"]: t for t in allround}
+
+    # helper to merge apparatus results under the main teams
+    def merge_apparatus(apparatus_list, key_name):
+        for app in apparatus_list:
+            nm = app["name"]
+            if nm in allround_map:
+                allround_map[nm][key_name] = {
+                    "D": app.get("D"),
+                    "E": app.get("E"),
+                    "C": app.get("C"),
+                    "HJ": app.get("HJ"),
+                    "score": app.get("score"),
+                    "gap": app.get("gap")
+                }
+            else:
+                # If no main All-Round entry: add a new upcoming entry
+                allround_map[nm] = {
+                    "rank": app.get("rank"),
+                    "start_position": app.get("start_position"),
+                    "name": nm,
+                    "fx": {"score": None, "D": None, "E": None, "C": None, "HJ": None},
+                    "tu": {"score": None, "D": None, "E": None, "C": None, "HJ": None},
+                    "tr": {"score": None, "D": None, "E": None, "C": None, "HJ": None},
+                    "total": None,
+                    "gap": None,
+                    # fill the apparatus that exists
+                    key_name: {
+                        "D": app.get("D"),
+                        "E": app.get("E"),
+                        "C": app.get("C"),
+                        "HJ": app.get("HJ"),
+                        "score": app.get("score"),
+                        "gap": app.get("gap")
+                    }
+                }
+
+    merge_apparatus(fx_list, "fx_app")
+    merge_apparatus(tu_list, "tu_app")
+    merge_apparatus(tr_list, "tr_app")
+
+    # ensure everyone has fx_app/tu_app/tr_app fields
+    for t in allround_map.values():
+        if "fx_app" not in t:
+            t["fx_app"] = {"score": None, "D": None, "E": None, "C": None, "HJ": None, "gap": None}
+        if "tu_app" not in t:
+            t["tu_app"] = {"score": None, "D": None, "E": None, "C": None, "HJ": None, "gap": None}
+        if "tr_app" not in t:
+            t["tr_app"] = {"score": None, "D": None, "E": None, "C": None, "HJ": None, "gap": None}
+
+    teams = list(allround_map.values())
+
     return {
-        "teams": allround,
-        "apparatus": {"fx": fx, "tu": tu, "tr": tr},
+        "teams": teams,
+        "apparatus": {"fx": fx_list, "tu": tu_list, "tr": tr_list},
         "status": status,
     }
-
 # ---------------------------
 # parse ONE competition
 # ---------------------------
