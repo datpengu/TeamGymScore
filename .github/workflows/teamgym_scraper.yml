@@ -2,7 +2,8 @@ name: Scrape Teamgym for Comps and Deploy Results
 
 on:
   workflow_dispatch:         # allow manual runs
-  
+  schedule:
+    - cron: "*/5 * * * *"
   push:
     branches:
       - 'main'
