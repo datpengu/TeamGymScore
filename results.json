@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-13T13:49:39.527333Z",
+  "last_updated": "2025-12-13T13:57:29.579542Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -206,6 +206,34 @@
               },
               "total": 35.9,
               "gap": 8.8
+            },
+            {
+              "rank": 8,
+              "start_position": 10,
+              "name": "GCF Uppsala",
+              "fx": {
+                "score": 13.65,
+                "D": 5.45,
+                "E": 6.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.65,
+                "D": 5.45,
+                "E": 6.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 31.05,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 13.65,
+              "gap": null
             }
           ],
           "apparatus": {
@@ -267,6 +295,17 @@
               },
               {
                 "rank": 6,
+                "start_position": 10,
+                "name": "GCF Uppsala",
+                "D": 5.45,
+                "E": 6.2,
+                "C": 2.0,
+                "HJ": null,
+                "score": 5.45,
+                "gap": 6.2
+              },
+              {
+                "rank": 7,
                 "start_position": 8,
                 "name": "Lugi GF lag 1",
                 "D": 4.75,
@@ -277,7 +316,7 @@
                 "gap": 5.775
               },
               {
-                "rank": 7,
+                "rank": 8,
                 "start_position": 7,
                 "name": "Sollentunagymnasterna",
                 "D": 5.5,
