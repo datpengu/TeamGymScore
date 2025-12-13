@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-13T19:35:18.584344Z",
+  "last_updated": "2025-12-13T19:42:57.525404Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -1500,6 +1500,17 @@
         {
           "class_name": "JSM - Mixed",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3481?f=7777&country=swe&year=-1",
+          "teams": [],
+          "apparatus": {
+            "fx": [],
+            "tu": [],
+            "tr": []
+          },
+          "status": "upcoming"
+        },
+        {
+          "class_name": "Final - JSM Dam",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3481?f=7794&country=swe&year=-1",
           "teams": [],
           "apparatus": {
             "fx": [],
