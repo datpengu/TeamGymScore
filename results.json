@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-13T10:21:36.455883Z",
+  "last_updated": "2025-12-13T10:40:49.626064Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -13,6 +13,34 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 4,
+              "name": "Järfällagymnasterna",
+              "fx": {
+                "score": 15.35,
+                "D": 7.05,
+                "E": 6.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.35,
+                "D": 7.05,
+                "E": 6.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.35,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 1,
               "name": "ABGS lag 2",
               "fx": {
@@ -30,17 +58,101 @@
                 "HJ": null
               },
               "tr": {
-                "score": 14.8,
+                "score": 0.55,
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null
               },
-              "total": null,
-              "gap": 0.0
+              "total": 14.8,
+              "gap": null
             },
             {
-              "rank": 2,
+              "rank": 3,
+              "start_position": 9,
+              "name": "Karlskrona GF",
+              "fx": {
+                "score": 14.55,
+                "D": 5.6,
+                "E": 7.05,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.55,
+                "D": 5.6,
+                "E": 7.05,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.8,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 14.55,
+              "gap": null
+            },
+            {
+              "rank": 4,
+              "start_position": 8,
+              "name": "Lugi GF lag 1",
+              "fx": {
+                "score": 14.5,
+                "D": 4.4,
+                "E": 8.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.5,
+                "D": 4.4,
+                "E": 8.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.85,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 14.5,
+              "gap": null
+            },
+            {
+              "rank": 5,
+              "start_position": 7,
+              "name": "Sollentunagymnasterna",
+              "fx": {
+                "score": 12.5,
+                "D": 5.5,
+                "E": 5.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.5,
+                "D": 5.5,
+                "E": 5.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.85,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 12.5,
+              "gap": null
+            },
+            {
+              "rank": 6,
               "start_position": 6,
               "name": "Huddinge GF",
               "fx": {
@@ -58,7 +170,7 @@
                 "HJ": null
               },
               "tr": {
-                "score": 2.75,
+                "score": 3.3,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -68,7 +180,7 @@
               "gap": null
             },
             {
-              "rank": 3,
+              "rank": 7,
               "start_position": 2,
               "name": "Täby GF",
               "fx": {
@@ -86,7 +198,7 @@
                 "HJ": null
               },
               "tr": {
-                "score": 3.05,
+                "score": 3.6,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -100,6 +212,17 @@
             "fx": [
               {
                 "rank": 1,
+                "start_position": 4,
+                "name": "Järfällagymnasterna",
+                "D": 7.05,
+                "E": 6.3,
+                "C": 2.0,
+                "HJ": null,
+                "score": 7.05,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 1,
                 "name": "ABGS lag 2",
                 "D": 7.0,
@@ -107,12 +230,34 @@
                 "C": 2.0,
                 "HJ": null,
                 "score": 7.0,
-                "gap": 0.0
+                "gap": 5.8
+              },
+              {
+                "rank": 3,
+                "start_position": 7,
+                "name": "Sollentunagymnasterna",
+                "D": 5.5,
+                "E": 5.0,
+                "C": 2.0,
+                "HJ": null,
+                "score": 5.5,
+                "gap": 5.0
               }
             ],
             "tu": [
               {
                 "rank": 1,
+                "start_position": 8,
+                "name": "Lugi GF lag 1",
+                "D": 4.4,
+                "E": 8.1,
+                "C": 2.0,
+                "HJ": null,
+                "score": 4.4,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 2,
                 "name": "Täby GF",
                 "D": 4.4,
@@ -120,12 +265,23 @@
                 "C": 1.0,
                 "HJ": null,
                 "score": 4.4,
-                "gap": 0.0
+                "gap": 6.35
               }
             ],
             "tr": [
               {
                 "rank": 1,
+                "start_position": 9,
+                "name": "Karlskrona GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.6,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 6,
                 "name": "Huddinge GF",
                 "D": null,
@@ -133,7 +289,7 @@
                 "C": null,
                 "HJ": null,
                 "score": 3.7,
-                "gap": 0.0
+                "gap": 6.55
               }
             ]
           },
