@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-13T13:57:29.579542Z",
+  "last_updated": "2025-12-13T14:14:45.747827Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -209,6 +209,62 @@
             },
             {
               "rank": 8,
+              "start_position": 15,
+              "name": "GT Vikingarna",
+              "fx": {
+                "score": 15.05,
+                "D": 5.2,
+                "E": 7.95,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.05,
+                "D": 5.2,
+                "E": 7.95,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 29.65,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 15.05,
+              "gap": null
+            },
+            {
+              "rank": 9,
+              "start_position": 11,
+              "name": "ABGS lag 3",
+              "fx": {
+                "score": 14.4,
+                "D": 5.0,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.4,
+                "D": 5.0,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 30.3,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 14.4,
+              "gap": null
+            },
+            {
+              "rank": 10,
               "start_position": 10,
               "name": "GCF Uppsala",
               "fx": {
@@ -233,6 +289,62 @@
                 "HJ": null
               },
               "total": 13.65,
+              "gap": null
+            },
+            {
+              "rank": 11,
+              "start_position": 13,
+              "name": "IK EskilstunaGymnasterna",
+              "fx": {
+                "score": 13.2,
+                "D": 5.6,
+                "E": 5.7,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.2,
+                "D": 5.6,
+                "E": 5.7,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 31.5,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 13.2,
+              "gap": null
+            },
+            {
+              "rank": 12,
+              "start_position": 12,
+              "name": "GF Kennedy",
+              "fx": {
+                "score": 11.15,
+                "D": 4.5,
+                "E": 4.85,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.15,
+                "D": 4.5,
+                "E": 4.85,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 33.55,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.15,
               "gap": null
             }
           ],
@@ -306,6 +418,17 @@
               },
               {
                 "rank": 7,
+                "start_position": 13,
+                "name": "IK EskilstunaGymnasterna",
+                "D": 5.6,
+                "E": 5.7,
+                "C": 1.9,
+                "HJ": null,
+                "score": 5.6,
+                "gap": 5.7
+              },
+              {
+                "rank": 8,
                 "start_position": 8,
                 "name": "Lugi GF lag 1",
                 "D": 4.75,
@@ -316,7 +439,7 @@
                 "gap": 5.775
               },
               {
-                "rank": 8,
+                "rank": 9,
                 "start_position": 7,
                 "name": "Sollentunagymnasterna",
                 "D": 5.5,
@@ -352,6 +475,17 @@
               },
               {
                 "rank": 3,
+                "start_position": 11,
+                "name": "ABGS lag 3",
+                "D": 5.0,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null,
+                "score": 5.0,
+                "gap": 7.4
+              },
+              {
+                "rank": 4,
                 "start_position": 9,
                 "name": "Karlskrona GF",
                 "D": 5.7,
@@ -362,7 +496,7 @@
                 "gap": 6.85
               },
               {
-                "rank": 4,
+                "rank": 5,
                 "start_position": 6,
                 "name": "Huddinge GF",
                 "D": 4.45,
@@ -373,7 +507,7 @@
                 "gap": 7.4
               },
               {
-                "rank": 5,
+                "rank": 6,
                 "start_position": 1,
                 "name": "ABGS lag 2",
                 "D": 4.5,
@@ -384,7 +518,7 @@
                 "gap": 6.75
               },
               {
-                "rank": 6,
+                "rank": 7,
                 "start_position": 7,
                 "name": "Sollentunagymnasterna",
                 "D": 4.0,
@@ -395,7 +529,7 @@
                 "gap": 6.65
               },
               {
-                "rank": 7,
+                "rank": 8,
                 "start_position": 2,
                 "name": "Täby GF",
                 "D": 4.4,
@@ -409,6 +543,17 @@
             "tr": [
               {
                 "rank": 1,
+                "start_position": 15,
+                "name": "GT Vikingarna",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.2,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 9,
                 "name": "Karlskrona GF",
                 "D": 5.6,
@@ -416,10 +561,10 @@
                 "C": 1.9,
                 "HJ": null,
                 "score": 5.6,
-                "gap": 0.0
+                "gap": 7.05
               },
               {
-                "rank": 2,
+                "rank": 3,
                 "start_position": 8,
                 "name": "Lugi GF lag 1",
                 "D": 4.6,
@@ -430,7 +575,7 @@
                 "gap": 6.75
               },
               {
-                "rank": 3,
+                "rank": 4,
                 "start_position": 4,
                 "name": "Järfällagymnasterna",
                 "D": 5.225,
@@ -441,7 +586,7 @@
                 "gap": 5.9
               },
               {
-                "rank": 4,
+                "rank": 5,
                 "start_position": 1,
                 "name": "ABGS lag 2",
                 "D": 4.3,
@@ -452,7 +597,7 @@
                 "gap": 6.5
               },
               {
-                "rank": 5,
+                "rank": 6,
                 "start_position": 2,
                 "name": "Täby GF",
                 "D": 4.45,
@@ -463,7 +608,7 @@
                 "gap": 6.4
               },
               {
-                "rank": 6,
+                "rank": 7,
                 "start_position": 6,
                 "name": "Huddinge GF",
                 "D": 3.7,
@@ -474,7 +619,18 @@
                 "gap": 6.55
               },
               {
-                "rank": 7,
+                "rank": 8,
+                "start_position": 12,
+                "name": "GF Kennedy",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 4.5,
+                "gap": 4.85
+              },
+              {
+                "rank": 9,
                 "start_position": 7,
                 "name": "Sollentunagymnasterna",
                 "D": 3.6,
