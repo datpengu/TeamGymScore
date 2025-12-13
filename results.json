@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-13T10:00:07.098521Z",
+  "last_updated": "2025-12-13T10:21:36.455883Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -10,13 +10,134 @@
         {
           "class_name": "JSM - Dam",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3481?f=7775&country=swe&year=-1",
-          "teams": [],
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": 1,
+              "name": "ABGS lag 2",
+              "fx": {
+                "score": 14.8,
+                "D": 7.0,
+                "E": 5.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.8,
+                "D": 7.0,
+                "E": 5.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.8,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 6,
+              "name": "Huddinge GF",
+              "fx": {
+                "score": 12.05,
+                "D": 3.7,
+                "E": 6.55,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.05,
+                "D": 3.7,
+                "E": 6.55,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.75,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 12.05,
+              "gap": null
+            },
+            {
+              "rank": 3,
+              "start_position": 2,
+              "name": "Täby GF",
+              "fx": {
+                "score": 11.75,
+                "D": 4.4,
+                "E": 6.35,
+                "C": 1.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.75,
+                "D": 4.4,
+                "E": 6.35,
+                "C": 1.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 3.05,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.75,
+              "gap": null
+            }
+          ],
           "apparatus": {
-            "fx": [],
-            "tu": [],
-            "tr": []
+            "fx": [
+              {
+                "rank": 1,
+                "start_position": 1,
+                "name": "ABGS lag 2",
+                "D": 7.0,
+                "E": 5.8,
+                "C": 2.0,
+                "HJ": null,
+                "score": 7.0,
+                "gap": 0.0
+              }
+            ],
+            "tu": [
+              {
+                "rank": 1,
+                "start_position": 2,
+                "name": "Täby GF",
+                "D": 4.4,
+                "E": 6.35,
+                "C": 1.0,
+                "HJ": null,
+                "score": 4.4,
+                "gap": 0.0
+              }
+            ],
+            "tr": [
+              {
+                "rank": 1,
+                "start_position": 6,
+                "name": "Huddinge GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 3.7,
+                "gap": 0.0
+              }
+            ]
           },
-          "status": "upcoming"
+          "status": "ongoing"
         },
         {
           "class_name": "JSM - Herr",
