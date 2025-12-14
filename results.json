@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T14:32:58.308356Z",
+  "last_updated": "2025-12-14T14:45:44.249750Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -2221,6 +2221,62 @@
             },
             {
               "rank": 2,
+              "start_position": 4,
+              "name": "GK Engelholmsgymnasterna",
+              "fx": {
+                "score": 16.5,
+                "D": 6.6,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.5,
+                "D": 6.6,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.05,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 16.5,
+              "gap": null
+            },
+            {
+              "rank": 3,
+              "start_position": 6,
+              "name": "GF Örebro",
+              "fx": {
+                "score": 15.65,
+                "D": 5.7,
+                "E": 7.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.65,
+                "D": 5.7,
+                "E": 7.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.9,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 15.65,
+              "gap": null
+            },
+            {
+              "rank": 4,
               "start_position": 2,
               "name": "GT Vikingarna",
               "fx": {
@@ -2248,7 +2304,7 @@
               "gap": null
             },
             {
-              "rank": 3,
+              "rank": 5,
               "start_position": 3,
               "name": "Lugi GF lag 2",
               "fx": {
@@ -2274,6 +2330,34 @@
               },
               "total": 15.4,
               "gap": null
+            },
+            {
+              "rank": 6,
+              "start_position": 5,
+              "name": "ABGS lag 3",
+              "fx": {
+                "score": 13.45,
+                "D": 4.6,
+                "E": 7.15,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.45,
+                "D": 4.6,
+                "E": 7.15,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 4.1,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 13.45,
+              "gap": null
             }
           ],
           "apparatus": {
@@ -2288,6 +2372,17 @@
                 "HJ": null,
                 "score": 7.95,
                 "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 4,
+                "name": "GK Engelholmsgymnasterna",
+                "D": 6.6,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null,
+                "score": 6.6,
+                "gap": 7.9
               }
             ],
             "tu": [
@@ -2301,11 +2396,33 @@
                 "HJ": null,
                 "score": 5.3,
                 "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 5,
+                "name": "ABGS lag 3",
+                "D": 4.6,
+                "E": 7.15,
+                "C": 1.7,
+                "HJ": null,
+                "score": 4.6,
+                "gap": 7.15
               }
             ],
             "tr": [
               {
                 "rank": 1,
+                "start_position": 6,
+                "name": "GF Örebro",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.7,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 3,
                 "name": "Lugi GF lag 2",
                 "D": null,
@@ -2313,7 +2430,7 @@
                 "C": null,
                 "HJ": null,
                 "score": 5.7,
-                "gap": 0.0
+                "gap": 7.7
               }
             ]
           },
