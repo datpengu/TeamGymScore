@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T10:27:18.270238Z",
+  "last_updated": "2025-12-14T10:44:06.897053Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -1491,7 +1491,19 @@
           "url": "https://live.sporteventsystems.se/Score/WebScore/3481?f=7776&country=swe&year=-1",
           "teams": [],
           "apparatus": {
-            "fx": [],
+            "fx": [
+              {
+                "rank": 1,
+                "start_position": 1,
+                "name": "GCF Uppsala Herrtruppen lag A",
+                "D": 6.3,
+                "E": 6.1,
+                "C": 2.0,
+                "HJ": null,
+                "score": 6.3,
+                "gap": 0.0
+              }
+            ],
             "tu": [],
             "tr": []
           },
