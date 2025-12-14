@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T11:00:31.860045Z",
+  "last_updated": "2025-12-14T11:20:44.464053Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -1492,6 +1492,34 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 4,
+              "name": "Brommagymnasterna",
+              "fx": {
+                "score": 15.85,
+                "D": 7.25,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.85,
+                "D": 7.25,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.85,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 1,
               "name": "GCF Uppsala Herrtruppen lag A",
               "fx": {
@@ -1509,17 +1537,45 @@
                 "HJ": null
               },
               "tr": {
-                "score": 14.4,
+                "score": 1.45,
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null
               },
-              "total": null,
-              "gap": 0.0
+              "total": 14.4,
+              "gap": null
             },
             {
-              "rank": 2,
+              "rank": 3,
+              "start_position": 3,
+              "name": "Teamgym Sydkust (GF FRAM)",
+              "fx": {
+                "score": 12.0,
+                "D": 4.75,
+                "E": 5.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.0,
+                "D": 4.75,
+                "E": 5.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 3.85,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 12.0,
+              "gap": null
+            },
+            {
+              "rank": 4,
               "start_position": 2,
               "name": "KFUM GA lag 1",
               "fx": {
@@ -1537,7 +1593,7 @@
                 "HJ": null
               },
               "tr": {
-                "score": 5.0,
+                "score": 6.45,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -1551,6 +1607,17 @@
             "fx": [
               {
                 "rank": 1,
+                "start_position": 4,
+                "name": "Brommagymnasterna",
+                "D": 7.25,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null,
+                "score": 7.25,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 1,
                 "name": "GCF Uppsala Herrtruppen lag A",
                 "D": 6.3,
@@ -1558,10 +1625,21 @@
                 "C": 2.0,
                 "HJ": null,
                 "score": 6.3,
-                "gap": 0.0
+                "gap": 6.1
               },
               {
-                "rank": 2,
+                "rank": 3,
+                "start_position": 3,
+                "name": "Teamgym Sydkust (GF FRAM)",
+                "D": 4.75,
+                "E": 5.25,
+                "C": 2.0,
+                "HJ": null,
+                "score": 4.75,
+                "gap": 5.25
+              },
+              {
+                "rank": 4,
                 "start_position": 2,
                 "name": "KFUM GA lag 1",
                 "D": 4.85,
@@ -1583,6 +1661,34 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 1,
+              "name": "Teamgym Norrdal (Gefle GF)",
+              "fx": {
+                "score": 15.0,
+                "D": 6.2,
+                "E": 7.0,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.0,
+                "D": 6.6,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 31.0,
+                "D": 6.2,
+                "E": 7.0,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 15.0,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 4,
               "name": "Enebybergsgymnasterna",
               "fx": {
@@ -1600,17 +1706,17 @@
                 "HJ": null
               },
               "tr": {
-                "score": 14.925,
+                "score": 16.075,
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null
               },
-              "total": null,
-              "gap": 0.0
+              "total": 14.925,
+              "gap": null
             },
             {
-              "rank": 2,
+              "rank": 3,
               "start_position": 2,
               "name": "Pixbo GF",
               "fx": {
@@ -1628,7 +1734,7 @@
                 "HJ": null
               },
               "tr": {
-                "score": 1.025,
+                "score": 17.1,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -1636,14 +1742,76 @@
               },
               "total": 13.9,
               "gap": null
+            },
+            {
+              "rank": 4,
+              "start_position": 3,
+              "name": "Halmstad Frigymnaster",
+              "fx": {
+                "score": 13.7,
+                "D": 5.5,
+                "E": 7.0,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.7,
+                "D": 5.5,
+                "E": 7.0,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tr": {
+                "score": 17.3,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 13.7,
+              "gap": null
             }
           ],
           "apparatus": {
             "fx": [],
-            "tu": [],
+            "tu": [
+              {
+                "rank": 1,
+                "start_position": 1,
+                "name": "Teamgym Norrdal (Gefle GF)",
+                "D": 6.6,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null,
+                "score": 6.2,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 3,
+                "name": "Halmstad Frigymnaster",
+                "D": 5.5,
+                "E": 7.0,
+                "C": 1.2,
+                "HJ": null,
+                "score": 5.5,
+                "gap": 7.0
+              }
+            ],
             "tr": [
               {
                 "rank": 1,
+                "start_position": 1,
+                "name": "Teamgym Norrdal (Gefle GF)",
+                "D": 6.2,
+                "E": 7.0,
+                "C": 1.8,
+                "HJ": null,
+                "score": 6.6,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 4,
                 "name": "Enebybergsgymnasterna",
                 "D": null,
@@ -1651,10 +1819,10 @@
                 "C": null,
                 "HJ": null,
                 "score": 5.925,
-                "gap": 0.0
+                "gap": 7.0
               },
               {
-                "rank": 2,
+                "rank": 3,
                 "start_position": 2,
                 "name": "Pixbo GF",
                 "D": null,
@@ -1666,7 +1834,7 @@
               }
             ]
           },
-          "status": "ongoing"
+          "status": "finished"
         },
         {
           "class_name": "Final - JSM Dam",
