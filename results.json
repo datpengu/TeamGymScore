@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T14:11:15.900885Z",
+  "last_updated": "2025-12-14T14:32:58.308356Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -2190,13 +2190,134 @@
         {
           "class_name": "Final - JSM Dam",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3481?f=7794&country=swe&year=-1",
-          "teams": [],
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": 1,
+              "name": "ABGS lag 1",
+              "fx": {
+                "score": 17.55,
+                "D": 7.95,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 17.55,
+                "D": 7.95,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 17.55,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "GT Vikingarna",
+              "fx": {
+                "score": 15.45,
+                "D": 5.3,
+                "E": 8.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.45,
+                "D": 5.3,
+                "E": 8.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.1,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 15.45,
+              "gap": null
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "Lugi GF lag 2",
+              "fx": {
+                "score": 15.4,
+                "D": 5.7,
+                "E": 7.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.4,
+                "D": 5.7,
+                "E": 7.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.15,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 15.4,
+              "gap": null
+            }
+          ],
           "apparatus": {
-            "fx": [],
-            "tu": [],
-            "tr": []
+            "fx": [
+              {
+                "rank": 1,
+                "start_position": 1,
+                "name": "ABGS lag 1",
+                "D": 7.95,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null,
+                "score": 7.95,
+                "gap": 0.0
+              }
+            ],
+            "tu": [
+              {
+                "rank": 1,
+                "start_position": 2,
+                "name": "GT Vikingarna",
+                "D": 5.3,
+                "E": 8.15,
+                "C": 2.0,
+                "HJ": null,
+                "score": 5.3,
+                "gap": 0.0
+              }
+            ],
+            "tr": [
+              {
+                "rank": 1,
+                "start_position": 3,
+                "name": "Lugi GF lag 2",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.7,
+                "gap": 0.0
+              }
+            ]
           },
-          "status": "upcoming"
+          "status": "ongoing"
         }
       ]
     },
