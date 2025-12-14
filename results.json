@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T11:42:05.029921Z",
+  "last_updated": "2025-12-14T11:50:04.704008Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -1492,6 +1492,90 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 4,
+              "name": "Brommagymnasterna",
+              "fx": {
+                "score": 15.85,
+                "D": 7.25,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 18.0,
+                "D": 8.7,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 33.85,
+                "D": 7.25,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 15.85,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "GCF Uppsala Herrtruppen lag A",
+              "fx": {
+                "score": 14.4,
+                "D": 6.3,
+                "E": 6.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.8,
+                "D": 6.6,
+                "E": 7.5,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 30.2,
+                "D": 6.3,
+                "E": 6.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 3.65,
+              "gap": 14.4
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "Teamgym Sydkust (GF FRAM)",
+              "fx": {
+                "score": 12.0,
+                "D": 4.75,
+                "E": 5.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.7,
+                "D": 6.1,
+                "E": 7.4,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tr": {
+                "score": 26.7,
+                "D": 4.75,
+                "E": 5.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 7.15,
+              "gap": 12.0
+            },
+            {
+              "rank": 4,
               "start_position": 2,
               "name": "KFUM GA lag 1",
               "fx": {
@@ -1515,39 +1599,11 @@
                 "C": 2.0,
                 "HJ": null
               },
-              "total": 9.4,
-              "gap": 0.0
+              "total": 11.1,
+              "gap": 9.4
             },
             {
-              "rank": 2,
-              "start_position": 4,
-              "name": "Brommagymnasterna",
-              "fx": {
-                "score": 15.85,
-                "D": 7.25,
-                "E": 6.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 15.85,
-                "D": 7.25,
-                "E": 6.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 6.9,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 15.85,
-              "gap": null
-            },
-            {
-              "rank": 3,
+              "rank": 5,
               "start_position": 5,
               "name": "GCF Uppsala Herrtruppen lag 1",
               "fx": {
@@ -1565,69 +1621,13 @@
                 "HJ": null
               },
               "tr": {
-                "score": 7.45,
+                "score": 18.55,
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null
               },
               "total": 15.3,
-              "gap": null
-            },
-            {
-              "rank": 4,
-              "start_position": 1,
-              "name": "GCF Uppsala Herrtruppen lag A",
-              "fx": {
-                "score": 14.4,
-                "D": 6.3,
-                "E": 6.1,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.4,
-                "D": 6.3,
-                "E": 6.1,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 8.35,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 14.4,
-              "gap": null
-            },
-            {
-              "rank": 5,
-              "start_position": 3,
-              "name": "Teamgym Sydkust (GF FRAM)",
-              "fx": {
-                "score": 12.0,
-                "D": 4.75,
-                "E": 5.25,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 12.0,
-                "D": 4.75,
-                "E": 5.25,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 10.75,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 12.0,
               "gap": null
             },
             {
@@ -1649,7 +1649,7 @@
                 "HJ": null
               },
               "tr": {
-                "score": 12.25,
+                "score": 23.35,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -1728,10 +1728,44 @@
                 "gap": 2.55
               }
             ],
-            "tu": [],
+            "tu": [
+              {
+                "rank": 1,
+                "start_position": 1,
+                "name": "GCF Uppsala Herrtruppen lag A",
+                "D": 6.6,
+                "E": 7.5,
+                "C": 1.7,
+                "HJ": null,
+                "score": 6.6,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 3,
+                "name": "Teamgym Sydkust (GF FRAM)",
+                "D": 6.1,
+                "E": 7.4,
+                "C": 1.2,
+                "HJ": null,
+                "score": 6.1,
+                "gap": 7.4
+              }
+            ],
             "tr": [
               {
                 "rank": 1,
+                "start_position": 4,
+                "name": "Brommagymnasterna",
+                "D": 7.25,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null,
+                "score": 8.7,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 2,
                 "name": "KFUM GA lag 1",
                 "D": 4.85,
@@ -1739,7 +1773,7 @@
                 "C": 2.0,
                 "HJ": null,
                 "score": 5.2,
-                "gap": 0.0
+                "gap": 6.35
               }
             ]
           },
@@ -1838,10 +1872,10 @@
               "start_position": 4,
               "name": "Enebybergsgymnasterna",
               "fx": {
-                "score": 14.925,
-                "D": 5.925,
-                "E": 7.0,
-                "C": 2.0,
+                "score": 11.1,
+                "D": 5.6,
+                "E": 4.6,
+                "C": 0.9,
                 "HJ": null
               },
               "tu": {
@@ -1852,14 +1886,14 @@
                 "HJ": null
               },
               "tr": {
-                "score": 16.075,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 26.025,
+                "D": 5.6,
+                "E": 4.6,
+                "C": 0.9,
                 "HJ": null
               },
-              "total": 14.925,
-              "gap": null
+              "total": 4.975,
+              "gap": 11.1
             }
           ],
           "apparatus": {
@@ -1897,6 +1931,17 @@
                 "HJ": null,
                 "score": 4.9,
                 "gap": 7.2
+              },
+              {
+                "rank": 4,
+                "start_position": 4,
+                "name": "Enebybergsgymnasterna",
+                "D": 5.925,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null,
+                "score": 5.6,
+                "gap": 4.6
               }
             ],
             "tr": [
@@ -1915,9 +1960,9 @@
                 "rank": 2,
                 "start_position": 4,
                 "name": "Enebybergsgymnasterna",
-                "D": null,
-                "E": null,
-                "C": null,
+                "D": 5.6,
+                "E": 4.6,
+                "C": 0.9,
                 "HJ": null,
                 "score": 5.925,
                 "gap": 7.0
