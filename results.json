@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T11:50:04.704008Z",
+  "last_updated": "2025-12-14T11:57:36.804572Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -1520,6 +1520,34 @@
             },
             {
               "rank": 2,
+              "start_position": 5,
+              "name": "GCF Uppsala Herrtruppen lag 1",
+              "fx": {
+                "score": 15.3,
+                "D": 6.7,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.2,
+                "D": 8.3,
+                "E": 6.75,
+                "C": 1.15,
+                "HJ": null
+              },
+              "tr": {
+                "score": 31.5,
+                "D": 6.7,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 2.35,
+              "gap": 15.3
+            },
+            {
+              "rank": 3,
               "start_position": 1,
               "name": "GCF Uppsala Herrtruppen lag A",
               "fx": {
@@ -1547,7 +1575,7 @@
               "gap": 14.4
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 3,
               "name": "Teamgym Sydkust (GF FRAM)",
               "fx": {
@@ -1575,7 +1603,7 @@
               "gap": 12.0
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 2,
               "name": "KFUM GA lag 1",
               "fx": {
@@ -1603,35 +1631,35 @@
               "gap": 9.4
             },
             {
-              "rank": 5,
-              "start_position": 5,
-              "name": "GCF Uppsala Herrtruppen lag 1",
+              "rank": 6,
+              "start_position": 7,
+              "name": "KFUM GA lag A",
               "fx": {
-                "score": 15.3,
-                "D": 6.7,
-                "E": 6.6,
+                "score": 12.8,
+                "D": 6.5,
+                "E": 4.3,
                 "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": 15.3,
-                "D": 6.7,
-                "E": 6.6,
+                "score": 12.8,
+                "D": 6.5,
+                "E": 4.3,
                 "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 18.55,
+                "score": 21.05,
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null
               },
-              "total": 15.3,
+              "total": 12.8,
               "gap": null
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 6,
               "name": "Nacka GF Herr",
               "fx": {
@@ -1696,6 +1724,17 @@
               },
               {
                 "rank": 4,
+                "start_position": 7,
+                "name": "KFUM GA lag A",
+                "D": 6.5,
+                "E": 4.3,
+                "C": 2.0,
+                "HJ": null,
+                "score": 6.5,
+                "gap": 4.3
+              },
+              {
+                "rank": 5,
                 "start_position": 3,
                 "name": "Teamgym Sydkust (GF FRAM)",
                 "D": 4.75,
@@ -1706,7 +1745,7 @@
                 "gap": 5.25
               },
               {
-                "rank": 5,
+                "rank": 6,
                 "start_position": 6,
                 "name": "Nacka GF Herr",
                 "D": 4.95,
@@ -1717,7 +1756,7 @@
                 "gap": 3.55
               },
               {
-                "rank": 6,
+                "rank": 7,
                 "start_position": 2,
                 "name": "KFUM GA lag 1",
                 "D": 4.85,
@@ -1731,6 +1770,17 @@
             "tu": [
               {
                 "rank": 1,
+                "start_position": 5,
+                "name": "GCF Uppsala Herrtruppen lag 1",
+                "D": 8.3,
+                "E": 6.75,
+                "C": 1.15,
+                "HJ": null,
+                "score": 8.3,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 1,
                 "name": "GCF Uppsala Herrtruppen lag A",
                 "D": 6.6,
@@ -1738,10 +1788,10 @@
                 "C": 1.7,
                 "HJ": null,
                 "score": 6.6,
-                "gap": 0.0
+                "gap": 7.5
               },
               {
-                "rank": 2,
+                "rank": 3,
                 "start_position": 3,
                 "name": "Teamgym Sydkust (GF FRAM)",
                 "D": 6.1,
