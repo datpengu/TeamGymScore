@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T12:26:48.117927Z",
+  "last_updated": "2025-12-14T13:05:10.352826Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -1492,6 +1492,90 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 4,
+              "name": "Brommagymnasterna",
+              "fx": {
+                "score": 15.85,
+                "D": 7.25,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 18.7,
+                "D": 8.8,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 18.0,
+                "D": 8.7,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 52.55,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "GCF Uppsala Herrtruppen lag 1",
+              "fx": {
+                "score": 15.3,
+                "D": 6.7,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.2,
+                "D": 8.3,
+                "E": 6.75,
+                "C": 1.15,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.25,
+                "D": 7.35,
+                "E": 6.3,
+                "C": 1.6,
+                "HJ": null
+              },
+              "total": 46.75,
+              "gap": 5.8
+            },
+            {
+              "rank": 3,
+              "start_position": 7,
+              "name": "KFUM GA lag A",
+              "fx": {
+                "score": 12.8,
+                "D": 6.5,
+                "E": 4.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 17.85,
+                "D": 8.0,
+                "E": 7.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.2,
+                "D": 7.6,
+                "E": 5.9,
+                "C": 1.7,
+                "HJ": null
+              },
+              "total": 45.85,
+              "gap": 6.7
+            },
+            {
+              "rank": 4,
               "start_position": 1,
               "name": "GCF Uppsala Herrtruppen lag A",
               "fx": {
@@ -1516,10 +1600,66 @@
                 "HJ": null
               },
               "total": 44.9,
-              "gap": 0.0
+              "gap": 7.65
             },
             {
-              "rank": 2,
+              "rank": 5,
+              "start_position": 3,
+              "name": "Teamgym Sydkust (GF FRAM)",
+              "fx": {
+                "score": 12.0,
+                "D": 4.75,
+                "E": 5.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.7,
+                "D": 6.1,
+                "E": 7.4,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tr": {
+                "score": 16.85,
+                "D": 7.2,
+                "E": 7.65,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 43.55,
+              "gap": 9.0
+            },
+            {
+              "rank": 6,
+              "start_position": 6,
+              "name": "Nacka GF Herr",
+              "fx": {
+                "score": 10.5,
+                "D": 4.95,
+                "E": 3.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.6,
+                "D": 6.0,
+                "E": 6.0,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.8,
+                "D": 5.7,
+                "E": 5.4,
+                "C": 1.7,
+                "HJ": null
+              },
+              "total": 36.9,
+              "gap": 15.65
+            },
+            {
+              "rank": 7,
               "start_position": 2,
               "name": "KFUM GA lag 1",
               "fx": {
@@ -1544,147 +1684,7 @@
                 "HJ": null
               },
               "total": 35.5,
-              "gap": 9.4
-            },
-            {
-              "rank": 3,
-              "start_position": 4,
-              "name": "Brommagymnasterna",
-              "fx": {
-                "score": 15.85,
-                "D": 7.25,
-                "E": 6.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 18.0,
-                "D": 8.7,
-                "E": 7.3,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 33.85,
-                "D": 7.25,
-                "E": 6.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 11.05,
-              "gap": 15.85
-            },
-            {
-              "rank": 4,
-              "start_position": 5,
-              "name": "GCF Uppsala Herrtruppen lag 1",
-              "fx": {
-                "score": 15.3,
-                "D": 6.7,
-                "E": 6.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 16.2,
-                "D": 8.3,
-                "E": 6.75,
-                "C": 1.15,
-                "HJ": null
-              },
-              "tr": {
-                "score": 31.5,
-                "D": 6.7,
-                "E": 6.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 13.4,
-              "gap": 15.3
-            },
-            {
-              "rank": 5,
-              "start_position": 7,
-              "name": "KFUM GA lag A",
-              "fx": {
-                "score": 12.8,
-                "D": 6.5,
-                "E": 4.3,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 17.85,
-                "D": 8.0,
-                "E": 7.85,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 30.65,
-                "D": 6.5,
-                "E": 4.3,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 14.25,
-              "gap": 12.8
-            },
-            {
-              "rank": 6,
-              "start_position": 3,
-              "name": "Teamgym Sydkust (GF FRAM)",
-              "fx": {
-                "score": 12.0,
-                "D": 4.75,
-                "E": 5.25,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.7,
-                "D": 6.1,
-                "E": 7.4,
-                "C": 1.2,
-                "HJ": null
-              },
-              "tr": {
-                "score": 26.7,
-                "D": 4.75,
-                "E": 5.25,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 18.2,
-              "gap": 12.0
-            },
-            {
-              "rank": 7,
-              "start_position": 6,
-              "name": "Nacka GF Herr",
-              "fx": {
-                "score": 10.5,
-                "D": 4.95,
-                "E": 3.55,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 12.8,
-                "D": 5.7,
-                "E": 5.4,
-                "C": 1.7,
-                "HJ": null
-              },
-              "tr": {
-                "score": 23.3,
-                "D": 4.95,
-                "E": 3.55,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 21.6,
-              "gap": 10.5
+              "gap": 17.05
             }
           ],
           "apparatus": {
@@ -1770,6 +1770,17 @@
             "tu": [
               {
                 "rank": 1,
+                "start_position": 4,
+                "name": "Brommagymnasterna",
+                "D": 8.8,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null,
+                "score": 8.8,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 7,
                 "name": "KFUM GA lag A",
                 "D": 8.0,
@@ -1777,10 +1788,10 @@
                 "C": 2.0,
                 "HJ": null,
                 "score": 8.0,
-                "gap": 0.0
+                "gap": 7.85
               },
               {
-                "rank": 2,
+                "rank": 3,
                 "start_position": 5,
                 "name": "GCF Uppsala Herrtruppen lag 1",
                 "D": 8.3,
@@ -1791,7 +1802,7 @@
                 "gap": 6.75
               },
               {
-                "rank": 3,
+                "rank": 4,
                 "start_position": 1,
                 "name": "GCF Uppsala Herrtruppen lag A",
                 "D": 6.6,
@@ -1802,7 +1813,7 @@
                 "gap": 7.5
               },
               {
-                "rank": 4,
+                "rank": 5,
                 "start_position": 3,
                 "name": "Teamgym Sydkust (GF FRAM)",
                 "D": 6.1,
@@ -1813,7 +1824,18 @@
                 "gap": 7.4
               },
               {
-                "rank": 5,
+                "rank": 6,
+                "start_position": 6,
+                "name": "Nacka GF Herr",
+                "D": 6.0,
+                "E": 6.0,
+                "C": 1.6,
+                "HJ": null,
+                "score": 6.0,
+                "gap": 6.0
+              },
+              {
+                "rank": 7,
                 "start_position": 2,
                 "name": "KFUM GA lag 1",
                 "D": 5.5,
@@ -1829,8 +1851,8 @@
                 "rank": 1,
                 "start_position": 4,
                 "name": "Brommagymnasterna",
-                "D": 7.25,
-                "E": 6.6,
+                "D": 8.7,
+                "E": 7.3,
                 "C": 2.0,
                 "HJ": null,
                 "score": 8.7,
@@ -1838,6 +1860,39 @@
               },
               {
                 "rank": 2,
+                "start_position": 3,
+                "name": "Teamgym Sydkust (GF FRAM)",
+                "D": 7.2,
+                "E": 7.65,
+                "C": 2.0,
+                "HJ": null,
+                "score": 7.2,
+                "gap": 7.65
+              },
+              {
+                "rank": 3,
+                "start_position": 5,
+                "name": "GCF Uppsala Herrtruppen lag 1",
+                "D": 7.35,
+                "E": 6.3,
+                "C": 1.6,
+                "HJ": null,
+                "score": 7.35,
+                "gap": 6.3
+              },
+              {
+                "rank": 4,
+                "start_position": 7,
+                "name": "KFUM GA lag A",
+                "D": 7.6,
+                "E": 5.9,
+                "C": 1.7,
+                "HJ": null,
+                "score": 7.6,
+                "gap": 5.9
+              },
+              {
+                "rank": 5,
                 "start_position": 1,
                 "name": "GCF Uppsala Herrtruppen lag A",
                 "D": 6.5,
@@ -1848,7 +1903,7 @@
                 "gap": 6.3
               },
               {
-                "rank": 3,
+                "rank": 6,
                 "start_position": 2,
                 "name": "KFUM GA lag 1",
                 "D": 5.2,
@@ -1859,12 +1914,12 @@
                 "gap": 6.35
               },
               {
-                "rank": 4,
+                "rank": 7,
                 "start_position": 6,
                 "name": "Nacka GF Herr",
-                "D": 4.95,
-                "E": 3.55,
-                "C": 2.0,
+                "D": 5.7,
+                "E": 5.4,
+                "C": 1.7,
                 "HJ": null,
                 "score": 5.7,
                 "gap": 5.4
@@ -1907,6 +1962,34 @@
             },
             {
               "rank": 2,
+              "start_position": 3,
+              "name": "Halmstad Frigymnaster",
+              "fx": {
+                "score": 15.45,
+                "D": 7.2,
+                "E": 6.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.7,
+                "D": 5.5,
+                "E": 7.0,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.25,
+                "D": 5.8,
+                "E": 6.55,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 43.4,
+              "gap": 1.85
+            },
+            {
+              "rank": 3,
               "start_position": 4,
               "name": "Enebybergsgymnasterna",
               "fx": {
@@ -1934,7 +2017,7 @@
               "gap": 5.575
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 2,
               "name": "Pixbo GF",
               "fx": {
@@ -1960,40 +2043,23 @@
               },
               "total": 38.75,
               "gap": 6.5
-            },
-            {
-              "rank": 4,
-              "start_position": 3,
-              "name": "Halmstad Frigymnaster",
-              "fx": {
-                "score": 13.7,
-                "D": 5.5,
-                "E": 7.0,
-                "C": 1.2,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.25,
-                "D": 5.8,
-                "E": 6.55,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tr": {
-                "score": 27.95,
-                "D": 5.5,
-                "E": 7.0,
-                "C": 1.2,
-                "HJ": null
-              },
-              "total": 17.3,
-              "gap": 13.7
             }
           ],
           "apparatus": {
             "fx": [
               {
                 "rank": 1,
+                "start_position": 3,
+                "name": "Halmstad Frigymnaster",
+                "D": 7.2,
+                "E": 6.25,
+                "C": 2.0,
+                "HJ": null,
+                "score": 7.2,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 1,
                 "name": "Teamgym Norrdal (Gefle GF)",
                 "D": 6.1,
@@ -2001,10 +2067,10 @@
                 "C": 2.0,
                 "HJ": null,
                 "score": 6.1,
-                "gap": 0.0
+                "gap": 6.15
               },
               {
-                "rank": 2,
+                "rank": 3,
                 "start_position": 4,
                 "name": "Enebybergsgymnasterna",
                 "D": 5.8,
@@ -2015,7 +2081,7 @@
                 "gap": 5.85
               },
               {
-                "rank": 3,
+                "rank": 4,
                 "start_position": 2,
                 "name": "Pixbo GF",
                 "D": 4.45,
@@ -2042,9 +2108,9 @@
                 "rank": 2,
                 "start_position": 3,
                 "name": "Halmstad Frigymnaster",
-                "D": 5.8,
-                "E": 6.55,
-                "C": 1.9,
+                "D": 5.5,
+                "E": 7.0,
+                "C": 1.2,
                 "HJ": null,
                 "score": 5.5,
                 "gap": 7.0
@@ -2099,9 +2165,9 @@
                 "rank": 3,
                 "start_position": 3,
                 "name": "Halmstad Frigymnaster",
-                "D": 5.5,
-                "E": 7.0,
-                "C": 1.2,
+                "D": 5.8,
+                "E": 6.55,
+                "C": 1.9,
                 "HJ": null,
                 "score": 5.8,
                 "gap": 6.55
