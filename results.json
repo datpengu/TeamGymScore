@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T15:23:47.334513Z",
+  "last_updated": "2025-12-14T15:37:29.923537Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -2203,24 +2203,80 @@
                 "HJ": null
               },
               "tu": {
+                "score": 15.05,
+                "D": 6.3,
+                "E": 7.35,
+                "C": 1.4,
+                "HJ": null
+              },
+              "tr": {
                 "score": 16.6,
                 "D": 6.3,
                 "E": 8.3,
                 "C": 2.0,
                 "HJ": null
               },
-              "tr": {
-                "score": 34.15,
-                "D": 7.95,
-                "E": 7.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 17.55,
+              "total": 49.2,
               "gap": 0.0
             },
             {
               "rank": 2,
+              "start_position": 2,
+              "name": "GT Vikingarna",
+              "fx": {
+                "score": 16.35,
+                "D": 6.9,
+                "E": 7.45,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.45,
+                "D": 5.3,
+                "E": 8.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.25,
+                "D": 5.3,
+                "E": 7.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 47.05,
+              "gap": 2.15
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "Lugi GF lag 2",
+              "fx": {
+                "score": 15.75,
+                "D": 6.65,
+                "E": 7.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.0,
+                "D": 5.6,
+                "E": 6.8,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.4,
+                "D": 5.7,
+                "E": 7.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 45.15,
+              "gap": 4.05
+            },
+            {
+              "rank": 4,
               "start_position": 7,
               "name": "Brommagymnasterna lag 2",
               "fx": {
@@ -2244,11 +2300,11 @@
                 "C": 2.0,
                 "HJ": null
               },
-              "total": 0.5,
+              "total": 15.55,
               "gap": 17.35
             },
             {
-              "rank": 3,
+              "rank": 5,
               "start_position": 8,
               "name": "GK Motus-Salto",
               "fx": {
@@ -2272,11 +2328,11 @@
                 "C": 2.0,
                 "HJ": null
               },
-              "total": 1.6,
+              "total": 16.65,
               "gap": 17.0
             },
             {
-              "rank": 4,
+              "rank": 6,
               "start_position": 4,
               "name": "GK Engelholmsgymnasterna",
               "fx": {
@@ -2300,39 +2356,11 @@
                 "C": 2.0,
                 "HJ": null
               },
-              "total": 1.9,
+              "total": 16.95,
               "gap": 16.5
             },
             {
-              "rank": 5,
-              "start_position": 2,
-              "name": "GT Vikingarna",
-              "fx": {
-                "score": 16.35,
-                "D": 6.9,
-                "E": 7.45,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 15.45,
-                "D": 5.3,
-                "E": 8.15,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 31.8,
-                "D": 6.9,
-                "E": 7.45,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 2.35,
-              "gap": 16.35
-            },
-            {
-              "rank": 6,
+              "rank": 7,
               "start_position": 6,
               "name": "GF Örebro",
               "fx": {
@@ -2356,11 +2384,11 @@
                 "C": 2.0,
                 "HJ": null
               },
-              "total": 3.6,
+              "total": 18.65,
               "gap": 14.9
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 5,
               "name": "ABGS lag 3",
               "fx": {
@@ -2384,36 +2412,8 @@
                 "C": 2.0,
                 "HJ": null
               },
-              "total": 4.65,
+              "total": 19.7,
               "gap": 16.05
-            },
-            {
-              "rank": 8,
-              "start_position": 3,
-              "name": "Lugi GF lag 2",
-              "fx": {
-                "score": 14.0,
-                "D": 5.6,
-                "E": 6.8,
-                "C": 1.6,
-                "HJ": null
-              },
-              "tu": {
-                "score": 15.4,
-                "D": 5.7,
-                "E": 7.7,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 29.4,
-                "D": 5.6,
-                "E": 6.8,
-                "C": 1.6,
-                "HJ": null
-              },
-              "total": 4.75,
-              "gap": 14.0
             }
           ],
           "apparatus": {
@@ -2483,6 +2483,17 @@
                 "HJ": null,
                 "score": 7.25,
                 "gap": 6.8
+              },
+              {
+                "rank": 7,
+                "start_position": 3,
+                "name": "Lugi GF lag 2",
+                "D": 6.65,
+                "E": 7.1,
+                "C": 2.0,
+                "HJ": null,
+                "score": 6.65,
+                "gap": 7.1
               }
             ],
             "tu": [
@@ -2510,6 +2521,17 @@
               },
               {
                 "rank": 3,
+                "start_position": 1,
+                "name": "ABGS lag 1",
+                "D": 6.3,
+                "E": 7.35,
+                "C": 1.4,
+                "HJ": null,
+                "score": 6.3,
+                "gap": 7.35
+              },
+              {
+                "rank": 4,
                 "start_position": 6,
                 "name": "GF Örebro",
                 "D": 5.7,
@@ -2520,18 +2542,18 @@
                 "gap": 7.7
               },
               {
-                "rank": 4,
+                "rank": 5,
                 "start_position": 3,
                 "name": "Lugi GF lag 2",
-                "D": 5.7,
-                "E": 7.7,
-                "C": 2.0,
+                "D": 5.6,
+                "E": 6.8,
+                "C": 1.6,
                 "HJ": null,
                 "score": 5.6,
                 "gap": 6.8
               },
               {
-                "rank": 5,
+                "rank": 6,
                 "start_position": 5,
                 "name": "ABGS lag 3",
                 "D": 4.6,
@@ -2547,8 +2569,8 @@
                 "rank": 1,
                 "start_position": 1,
                 "name": "ABGS lag 1",
-                "D": 7.95,
-                "E": 7.6,
+                "D": 6.3,
+                "E": 8.3,
                 "C": 2.0,
                 "HJ": null,
                 "score": 6.3,
@@ -2591,12 +2613,23 @@
                 "rank": 5,
                 "start_position": 3,
                 "name": "Lugi GF lag 2",
-                "D": 5.6,
-                "E": 6.8,
-                "C": 1.6,
+                "D": 5.7,
+                "E": 7.7,
+                "C": 2.0,
                 "HJ": null,
                 "score": 5.7,
                 "gap": 7.7
+              },
+              {
+                "rank": 6,
+                "start_position": 2,
+                "name": "GT Vikingarna",
+                "D": 5.3,
+                "E": 7.95,
+                "C": 2.0,
+                "HJ": null,
+                "score": 5.3,
+                "gap": 7.95
               }
             ]
           },
