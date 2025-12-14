@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T10:44:06.897053Z",
+  "last_updated": "2025-12-14T10:53:01.516273Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -1489,7 +1489,64 @@
         {
           "class_name": "JSM - Herr",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3481?f=7776&country=swe&year=-1",
-          "teams": [],
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": 1,
+              "name": "GCF Uppsala Herrtruppen lag A",
+              "fx": {
+                "score": 14.4,
+                "D": 6.3,
+                "E": 6.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.4,
+                "D": 6.3,
+                "E": 6.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.4,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "KFUM GA lag 1",
+              "fx": {
+                "score": 9.4,
+                "D": 4.85,
+                "E": 2.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.4,
+                "D": 4.85,
+                "E": 2.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 5.0,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 9.4,
+              "gap": null
+            }
+          ],
           "apparatus": {
             "fx": [
               {
@@ -1502,12 +1559,23 @@
                 "HJ": null,
                 "score": 6.3,
                 "gap": 0.0
+              },
+              {
+                "rank": 2,
+                "start_position": 2,
+                "name": "KFUM GA lag 1",
+                "D": 4.85,
+                "E": 2.55,
+                "C": 2.0,
+                "HJ": null,
+                "score": 4.85,
+                "gap": 2.55
               }
             ],
             "tu": [],
             "tr": []
           },
-          "status": "upcoming"
+          "status": "ongoing"
         },
         {
           "class_name": "JSM - Mixed",
@@ -1516,7 +1584,19 @@
           "apparatus": {
             "fx": [],
             "tu": [],
-            "tr": []
+            "tr": [
+              {
+                "rank": 1,
+                "start_position": 2,
+                "name": "Pixbo GF",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.4,
+                "gap": 0.0
+              }
+            ]
           },
           "status": "upcoming"
         },
