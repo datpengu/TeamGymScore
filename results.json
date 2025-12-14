@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T14:45:44.249750Z",
+  "last_updated": "2025-12-14T14:54:01.529709Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -2221,6 +2221,34 @@
             },
             {
               "rank": 2,
+              "start_position": 7,
+              "name": "Brommagymnasterna lag 2",
+              "fx": {
+                "score": 17.35,
+                "D": 7.45,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 17.35,
+                "D": 7.45,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.2,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 17.35,
+              "gap": null
+            },
+            {
+              "rank": 3,
               "start_position": 4,
               "name": "GK Engelholmsgymnasterna",
               "fx": {
@@ -2248,7 +2276,7 @@
               "gap": null
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 6,
               "name": "GF Örebro",
               "fx": {
@@ -2276,7 +2304,7 @@
               "gap": null
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 2,
               "name": "GT Vikingarna",
               "fx": {
@@ -2304,7 +2332,7 @@
               "gap": null
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 3,
               "name": "Lugi GF lag 2",
               "fx": {
@@ -2332,7 +2360,7 @@
               "gap": null
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 5,
               "name": "ABGS lag 3",
               "fx": {
@@ -2375,6 +2403,17 @@
               },
               {
                 "rank": 2,
+                "start_position": 7,
+                "name": "Brommagymnasterna lag 2",
+                "D": 7.45,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null,
+                "score": 7.45,
+                "gap": 7.9
+              },
+              {
+                "rank": 3,
                 "start_position": 4,
                 "name": "GK Engelholmsgymnasterna",
                 "D": 6.6,
