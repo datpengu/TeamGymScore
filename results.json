@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T10:53:01.516273Z",
+  "last_updated": "2025-12-14T11:00:31.860045Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -1580,13 +1580,81 @@
         {
           "class_name": "JSM - Mixed",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3481?f=7777&country=swe&year=-1",
-          "teams": [],
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": 4,
+              "name": "Enebybergsgymnasterna",
+              "fx": {
+                "score": 14.925,
+                "D": 5.925,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.925,
+                "D": 5.925,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.925,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "Pixbo GF",
+              "fx": {
+                "score": 13.9,
+                "D": 5.4,
+                "E": 6.7,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.9,
+                "D": 5.4,
+                "E": 6.7,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.025,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 13.9,
+              "gap": null
+            }
+          ],
           "apparatus": {
             "fx": [],
             "tu": [],
             "tr": [
               {
                 "rank": 1,
+                "start_position": 4,
+                "name": "Enebybergsgymnasterna",
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null,
+                "score": 5.925,
+                "gap": 0.0
+              },
+              {
+                "rank": 2,
                 "start_position": 2,
                 "name": "Pixbo GF",
                 "D": null,
@@ -1594,11 +1662,11 @@
                 "C": null,
                 "HJ": null,
                 "score": 5.4,
-                "gap": 0.0
+                "gap": 6.7
               }
             ]
           },
-          "status": "upcoming"
+          "status": "ongoing"
         },
         {
           "class_name": "Final - JSM Dam",
