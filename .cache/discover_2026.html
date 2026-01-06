@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Score - Sport Event Systems</title>
+    <link href="/Content/css?v=k115_4knkfI3dOoIh3wqETk6URkmSAevzozxvhErkHY1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=2twPtszsTL39hTiKwvPlVlNga_BJ8EIzShIX0ej7LAo1"></script>
+
+
+
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2Y2F3C9H9F"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2Y2F3C9H9F');
+</script>
+
+<script type="text/javascript">
+
+    const getCookie = (name) => {
+        const value = " " + document.cookie;
+        const parts = value.split(" " + name + "=");
+        return parts.length < 2 ? undefined : parts.pop().split(";").shift();
+    };
+
+    const setCookie = function (name, value, expiryDays, domain, path, secure) {
+        const exDate = new Date();
+        exDate.setHours(exDate.getHours() + (typeof expiryDays !== "number" ? 90 : expiryDays) * 24);
+        document.cookie = name + "=" + value + ";expires=" + exDate.toUTCString() + ";path=" + (path || "/") + (domain ? ";domain=" + domain : "") + (secure ? ";secure" : "");
+    };
+
+    (() => {
+        const cookieBanner = document.getElementById("")
+
+
+    })
+
+    function CookiesOK() {
+        setCookie("CookiesBanner", "closed");
+        document.getElementById("CookieBanner").remove();
+    }
+
+    window.onload = function () {
+        var hasCookie = getCookie("CookiesBanner");
+        if (!hasCookie) {
+            document.getElementById("CookieBanner").style.visibility = "visible";
+
+        }
+
+
+    }
+
+
+
+</script>
+
+
+<body style="font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 0.8em">
+    <div class="col-12 bg-dark-subtle text-dark p-2 fixed-bottom h-25 h3" style="visibility: hidden;" id="CookieBanner">
+        By clicking OK, you agree to storing of cookies on you device to analyze site usage and function of the site.
+        <br />
+        <button class="btn btn-outline-dark btn-sm" onclick="CookiesOK()">OK</button>
+    </div>
+
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/sv_SE/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="container body-content">
+        <div class="fb-like" data-href="http://www.facebook.com/sporteventsystems" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false"></div>
+        
+<br />
+<img src="/Content/ses1024.jpg" class="top-logo" />
+<h2>Live score</h2>
+<a href="/" class="btn btn-outline-dark mb-2">Select Country</a>
+<br />
+    <a href="/score/?country=swe&year=2026" class="btn btn-outline-dark">2026</a>
+    <a href="/score/?country=swe&year=2025" class="btn btn-outline-dark">2025</a>
+    <a href="/score/?country=swe&year=2024" class="btn btn-outline-dark">2024</a>
+    <a href="/score/?country=swe&year=2023" class="btn btn-outline-dark">2023</a>
+    <a href="/score/?country=swe&year=2022" class="btn btn-outline-dark">2022</a>
+<a href="/score/?country=swe&year=0" class="btn btn-outline-dark">...</a>
+
+<br />
+    <br />
+    <div class="row">
+        <div class="col fs-4 px-2 bg-dark-subtle">Artistic Gymnastics</div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="row">
+                <div class="col-0 col-md-0 col-xl-4 col-xxl-3 fs-6 d-none d-xl-block">Date from</div>
+                <div class="col-12 col-md-6 col-xl-0 fs-6 d-xl-none">Date</div>
+                <div class="col-0 col-md-0 col-xl-4 col-xxl-3 fs-6 d-none d-xl-block">To</div>
+                <div class="col-0 col-md-6 col-xl-4 col-xxl-6 fs-6  d-none d-md-block">Place</div>
+            </div>
+        </div>
+        <div class="col-8 col-md-8 col-xl-6 fs-6">Name</div>
+    </div>
+<div class="row">
+    <div class="col-4">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 col-xxl-3 fs-6 d-block">2026-06-07</div>
+            <div class="col-0 col-md-0 col-xl-4 col-xxl-3 fs-6 d-none d-xl-block">2026-06-07</div>
+            <div class="col-0 col-md-6 col-xl-4 col-xxl-6 fs-6  d-none d-md-block"></div>
+        </div>
+    </div>
+    <div class="col-8 col-md-8 col-xl-6 fs-6 text-nowrap">&nbsp;<a class="text-dark-emphasis" href="/Score/WebScore/3489?country=swe&amp;year=2026">Sommarknatten 26 MAG</a> </div>
+</div>
+<div class="row">
+    <div class="col-4">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 col-xxl-3 fs-6 d-block">2026-05-10</div>
+            <div class="col-0 col-md-0 col-xl-4 col-xxl-3 fs-6 d-none d-xl-block">2026-05-10</div>
+            <div class="col-0 col-md-6 col-xl-4 col-xxl-6 fs-6  d-none d-md-block"></div>
+        </div>
+    </div>
+    <div class="col-8 col-md-8 col-xl-6 fs-6 text-nowrap">&nbsp;<a class="text-dark-emphasis" href="/Score/WebScore/3488?country=swe&amp;year=2026">Svealandsm&#228;sterskapen 26 MAG</a> </div>
+</div>
+<div class="row">
+    <div class="col-4">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 col-xxl-3 fs-6 d-block">2026-04-12</div>
+            <div class="col-0 col-md-0 col-xl-4 col-xxl-3 fs-6 d-none d-xl-block">2026-04-12</div>
+            <div class="col-0 col-md-6 col-xl-4 col-xxl-6 fs-6  d-none d-md-block"></div>
+        </div>
+    </div>
+    <div class="col-8 col-md-8 col-xl-6 fs-6 text-nowrap">&nbsp;<a class="text-dark-emphasis" href="/Score/WebScore/3487?country=swe&amp;year=2026">Distriktsm&#228;sterskapen 26 MAG</a> </div>
+</div>
+<div class="row">
+    <div class="col-4">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 col-xxl-3 fs-6 d-block">2026-03-08</div>
+            <div class="col-0 col-md-0 col-xl-4 col-xxl-3 fs-6 d-none d-xl-block">2026-03-08</div>
+            <div class="col-0 col-md-6 col-xl-4 col-xxl-6 fs-6  d-none d-md-block"></div>
+        </div>
+    </div>
+    <div class="col-8 col-md-8 col-xl-6 fs-6 text-nowrap">&nbsp;<a class="text-dark-emphasis" href="/Score/WebScore/3486?country=swe&amp;year=2026">Knattem&#228;sterskapen 26 MAG</a> </div>
+</div>
+
+
+
+
+
+    </div>
+    <div class="container body-content">
+        <br />
+        Last Update: 2026-01-06 21:38:25
+    <div class="d-block d-sm-none">SX</div>
+    <div class="d-none d-sm-block d-md-none">SM</div>
+    <div class="d-none d-md-block d-xl-none">MD</div>
+    <div class="d-none d-xl-block d-xxl-none">XL</div>
+    <div class="d-none d-xxl-block">XXL</div>
+
+
+    </div>
+
+
+
+    
+
+    <script src="/bundles/jquery?v=-zq68B3-TYAIgCEeSI8G_aDeelhL1oGRFlxBqoiPLQM1"></script>
+
+    <script src="/bundles/bootstrap?v=Vkounpm77EKGLghSRd7BMdBg3EKxcCfhcCs8lOkXGq81"></script>
+
+    
+    <script type="text/javascript" src="/Scripts/webscore.js"></script>
+</body>
+</html>

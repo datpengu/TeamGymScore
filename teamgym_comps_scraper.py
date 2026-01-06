@@ -4,17 +4,36 @@ import re
 import json
 from datetime import datetime
 from urllib.parse import urljoin, urlparse, parse_qs
+from pathlib import Path
+from time import time
 
 BASE_URL = "https://live.sporteventsystems.se"
 
 # --------------------------------------------------
+# CACHE CONFIG
+# --------------------------------------------------
+CACHE_DIR = Path(".cache")
+CACHE_DIR.mkdir(exist_ok=True)
+CACHE_TTL = 60 * 15  # 15 minutes
+
+# --------------------------------------------------
 # HELPERS
 # --------------------------------------------------
-def fetch_html(url):
+def fetch_html(url: str) -> str:
     r = requests.get(url, timeout=25)
     r.raise_for_status()
     r.encoding = "utf-8"
     return r.text
+
+def cached_fetch(url: str, key: str) -> str:
+    path = CACHE_DIR / f"{key}.html"
+    if path.exists():
+        if time() - path.stat().st_mtime < CACHE_TTL:
+            return path.read_text(encoding="utf-8")
+
+    html = fetch_html(url)
+    path.write_text(html, encoding="utf-8")
+    return html
 
 def num(v):
     try:
@@ -29,37 +48,61 @@ def is_rank(t): return re.fullmatch(r"\d{1,2}", t)
 def is_score(t): return re.fullmatch(r"\d+,\d{3}", t)
 
 # --------------------------------------------------
-# DISCOVER TEAMGYM COMPETITIONS
+# DISCOVER TEAMGYM (YEAR FALLBACK)
 # --------------------------------------------------
 def discover_teamgym():
-    soup = BeautifulSoup(fetch_html(f"{BASE_URL}/Score/?country=swe"), "html.parser")
-    out = []
+    years = [
+        datetime.utcnow().year,
+        datetime.utcnow().year - 1,
+        -1
+    ]
 
-    header = soup.find("div", class_="col fs-4 px-2 bg-dark-subtle", string=re.compile("Teamgym", re.I))
-    if not header:
-        return out
+    for year in years:
+        print(f"🔍 Discovering TeamGym (year={year})")
+        html = cached_fetch(
+            f"{BASE_URL}/Score/?country=swe&year={year}",
+            f"discover_{year}"
+        )
+        soup = BeautifulSoup(html, "html.parser")
 
-    row = header.find_parent("div", class_="row")
-
-    for sib in row.find_next_siblings("div"):
-        if sib.find("div", class_="col fs-4 px-2 bg-dark-subtle"):
-            break
-
-        a = sib.find("a", href=True)
-        if not a:
+        header = soup.find(
+            "div",
+            class_="col fs-4 px-2 bg-dark-subtle",
+            string=re.compile("Teamgym", re.I)
+        )
+        if not header:
             continue
 
-        cols = sib.select(".col-12, .col-md-6, .col-xl-4, .col-xxl-3, .col-xxl-6")
+        row = header.find_parent("div", class_="row")
+        out = []
 
-        out.append({
-            "competition": a.get_text(strip=True),
-            "url": urljoin(BASE_URL, a["href"]),
-            "date_from": cols[0].get_text(strip=True) if len(cols) > 0 else None,
-            "date_to": cols[1].get_text(strip=True) if len(cols) > 1 else None,
-            "place": cols[-1].get_text(strip=True) if len(cols) > 2 else None
-        })
+        for sib in row.find_next_siblings("div"):
+            if sib.find("div", class_="col fs-4 px-2 bg-dark-subtle"):
+                break
 
-    return out
+            a = sib.find("a", href=True)
+            if not a:
+                continue
+
+            cols = sib.select(
+                ".col-12, .col-md-6, .col-xl-4, .col-xxl-3, .col-xxl-6"
+            )
+
+            out.append({
+                "competition": a.get_text(strip=True),
+                "url": urljoin(BASE_URL, a["href"]),
+                "date_from": cols[0].get_text(strip=True) if len(cols) > 0 else None,
+                "date_to": cols[1].get_text(strip=True) if len(cols) > 1 else None,
+                "place": cols[-1].get_text(strip=True) if len(cols) > 2 else None,
+                "source_year": year
+            })
+
+        if out:
+            print(f"✅ Found {len(out)} competitions (year={year})")
+            return out
+
+    print("❌ No TeamGym competitions found")
+    return []
 
 # --------------------------------------------------
 # FIND CLASS BUTTONS
@@ -98,9 +141,11 @@ def parse_allround(tok):
 
             if is_score(tok[j]):
                 scores.append(num(tok[j]))
+
             m = re.match(r"(D|E|C|HJ)[\:\-]?\s*(\d+,\d{3})", tok[j])
             if m:
                 decs.append(num(m.group(2)))
+
             j += 1
 
         fx = {"score": scores[0] if len(scores) > 0 else None,
@@ -136,7 +181,6 @@ def parse_allround(tok):
 
         i = j
 
-    # GAP for allround
     if teams and teams[0]["total"] is not None:
         lead = teams[0]["total"]
         for t in teams:
@@ -145,7 +189,7 @@ def parse_allround(tok):
     return teams
 
 # --------------------------------------------------
-# PARSE APPARATUS TAB
+# PARSE APPARATUS
 # --------------------------------------------------
 def parse_apparatus(tok):
     rows, i = [], 0
@@ -190,7 +234,6 @@ def parse_apparatus(tok):
 
         i = j
 
-    # GAP
     if rows and rows[0]["score"] is not None:
         lead = rows[0]["score"]
         for r in rows:
@@ -214,20 +257,6 @@ def parse_class(url):
     tu = parse_apparatus(tokens(tab(f"App2-{f}")))
     tr = parse_apparatus(tokens(tab(f"App3-{f}")))
 
-    # Inject apparatus totals + D/E/C/HJ
-    lookup = {t["name"]: t for t in allround}
-
-    for key, app in [("fx", fx), ("tu", tu), ("tr", tr)]:
-        for row in app:
-            src = lookup.get(row["name"])
-            if not src:
-                continue
-            row["score"] = src[key]["score"]
-            row["D"] = row["D"] or src[key]["D"]
-            row["E"] = row["E"] or src[key]["E"]
-            row["C"] = row["C"] or src[key]["C"]
-            row["HJ"] = row["HJ"] or src[key]["HJ"]
-
     return {
         "teams": allround,
         "fx_app": fx,
@@ -239,13 +268,15 @@ def parse_class(url):
 # MAIN
 # --------------------------------------------------
 def main():
+    competitions = discover_teamgym()
     results = []
 
-    for comp in discover_teamgym():
+    for comp in competitions:
+        print(f"\n🏆 {comp['competition']}")
         soup = BeautifulSoup(fetch_html(comp["url"]), "html.parser")
         classes = find_classes(soup)
 
-        parsed = {
+        entry = {
             "competition": comp["competition"],
             "date_from": comp["date_from"],
             "date_to": comp["date_to"],
@@ -254,15 +285,15 @@ def main():
         }
 
         for cls in classes:
-            data = parse_class(cls["url"])
-            if data:
-                parsed["classes"].append({
+            parsed = parse_class(cls["url"])
+            if parsed:
+                entry["classes"].append({
                     "class_name": cls["name"],
                     "url": cls["url"],
-                    **data
+                    **parsed
                 })
 
-        results.append(parsed)
+        results.append(entry)
 
     with open("results.json", "w", encoding="utf-8") as f:
         json.dump({
@@ -270,7 +301,7 @@ def main():
             "competitions": results
         }, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Scraped {len(results)} competitions")
+    print(f"\n✅ Scraped {len(results)} competitions")
 
 if __name__ == "__main__":
     main()
