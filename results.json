@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-07T05:56:40.403853Z",
+  "last_updated": "2026-01-07T06:24:48.615219Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -2766,7 +2766,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
