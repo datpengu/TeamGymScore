@@ -1,152 +1,116 @@
 const RESULTS_URL = "https://datpengu.github.io/TeamGymScore/results.json";
 
 async function fetchAndRender() {
-  const container = document.getElementById("tables");
-  container.innerHTML = "Loading…";
+  const root = document.getElementById("tables");
+  root.textContent = "Loading…";
 
   try {
     const res = await fetch(RESULTS_URL, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
     const data = await res.json();
-    container.innerHTML = "";
+    root.innerHTML = "";
 
     data.competitions.forEach(comp => {
-      // =========================
-      // Competition header
-      // =========================
-      const compHeader = document.createElement("section");
+      const compSection = document.createElement("section");
 
-      const title = document.createElement("h2");
-      title.textContent = comp.competition;
-      compHeader.appendChild(title);
+      compSection.innerHTML = `
+        <h2>${comp.competition}</h2>
+        <p class="meta">${[comp.date_from, comp.date_to, comp.place].filter(Boolean).join(" • ")}</p>
+      `;
 
-      const meta = document.createElement("p");
-      meta.className = "meta";
-      meta.textContent = [
-        comp.date_from,
-        comp.date_to,
-        comp.place
-      ].filter(Boolean).join(" • ");
-      compHeader.appendChild(meta);
-
-      container.appendChild(compHeader);
-
-      // =========================
-      // Classes
-      // =========================
       comp.classes.forEach(cls => {
-        const classSection = document.createElement("section");
+        const clsSection = document.createElement("section");
+        clsSection.innerHTML = `<h3>${cls.class_name}</h3>`;
 
-        const classTitle = document.createElement("h3");
-        classTitle.textContent = cls.class_name;
-        classSection.appendChild(classTitle);
+        const tabs = ["Mångkamp", "FX", "TU", "TR"];
+        const tabRow = document.createElement("div");
+        tabRow.className = "tabs";
 
-        // -------------------------
-        // ALLROUND (Mångkamp)
-        // -------------------------
-        if (cls.teams && cls.teams.length > 0) {
-          classSection.appendChild(renderAllroundTable(cls.teams));
-        } else {
-          classSection.appendChild(emptyNote("No teams yet"));
-        }
+        const contents = [];
 
-        // -------------------------
-        // APPARATUS TABLES
-        // -------------------------
-        renderApparatus(classSection, "FX", cls.fx_app);
-        renderApparatus(classSection, "TU", cls.tu_app);
-        renderApparatus(classSection, "TR", cls.tr_app);
+        tabs.forEach((label, i) => {
+          const btn = document.createElement("button");
+          btn.className = "tab" + (i === 0 ? " active" : "");
+          btn.textContent = label;
 
-        container.appendChild(classSection);
+          btn.onclick = () => {
+            tabRow.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+            contents.forEach(c => c.classList.remove("active"));
+            btn.classList.add("active");
+            contents[i].classList.add("active");
+          };
+
+          tabRow.appendChild(btn);
+        });
+
+        clsSection.appendChild(tabRow);
+
+        // ---- TAB CONTENTS ----
+        contents.push(renderAllround(cls.teams));
+        contents.push(renderApp(cls.fx_app));
+        contents.push(renderApp(cls.tu_app));
+        contents.push(renderApp(cls.tr_app));
+
+        contents.forEach((c, i) => {
+          c.className = "tab-content" + (i === 0 ? " active" : "");
+          clsSection.appendChild(c);
+        });
+
+        compSection.appendChild(clsSection);
       });
+
+      root.appendChild(compSection);
     });
 
-  } catch (err) {
-    console.error(err);
-    container.textContent = "Failed to load data.";
+  } catch (e) {
+    console.error(e);
+    root.textContent = "Failed to load data.";
   }
 }
 
-/* =========================
-   HELPERS
-========================= */
+function renderAllround(teams) {
+  if (!teams || teams.length === 0) return empty("No teams yet");
 
-function renderAllroundTable(teams) {
-  const table = document.createElement("table");
-  table.className = "allround";
-
-  table.innerHTML = `
-    <thead>
-      <tr>
-        <th>Rank</th>
-        <th>Team</th>
-        <th>FX</th>
-        <th>TU</th>
-        <th>TR</th>
-        <th>Total</th>
-        <th>Gap</th>
-      </tr>
-    </thead>
-    <tbody>
-      ${teams.map(t => `
-        <tr>
-          <td>${t.rank ?? ""}</td>
-          <td>${t.name}</td>
-          <td>${fmt(t.fx?.score)}</td>
-          <td>${fmt(t.tu?.score)}</td>
-          <td>${fmt(t.tr?.score)}</td>
-          <td>${fmt(t.total)}</td>
-          <td>${fmt(t.gap)}</td>
-        </tr>
-      `).join("")}
-    </tbody>
-  `;
-  return table;
+  return table(`
+    <tr><th>Rank</th><th>Team</th><th>FX</th><th>TU</th><th>TR</th><th>Total</th><th>Gap</th></tr>
+  `, teams.map(t => `
+    <tr>
+      <td>${t.rank}</td>
+      <td>${t.name}</td>
+      <td>${fmt(t.fx?.score)}</td>
+      <td>${fmt(t.tu?.score)}</td>
+      <td>${fmt(t.tr?.score)}</td>
+      <td>${fmt(t.total)}</td>
+      <td>${fmt(t.gap)}</td>
+    </tr>
+  `));
 }
 
-function renderApparatus(parent, label, rows) {
-  if (!rows || rows.length === 0) return;
+function renderApp(rows) {
+  if (!rows || rows.length === 0) return empty("No scores yet");
 
-  const title = document.createElement("h4");
-  title.textContent = label;
-  parent.appendChild(title);
-
-  const table = document.createElement("table");
-  table.className = "apparatus";
-
-  table.innerHTML = `
-    <thead>
-      <tr>
-        <th>Rank</th>
-        <th>Team</th>
-        <th>D</th>
-        <th>E</th>
-        <th>C</th>
-        <th>HJ</th>
-        <th>Score</th>
-        <th>Gap</th>
-      </tr>
-    </thead>
-    <tbody>
-      ${rows.map(r => `
-        <tr>
-          <td>${r.rank ?? ""}</td>
-          <td>${r.name}</td>
-          <td>${fmt(r.D)}</td>
-          <td>${fmt(r.E)}</td>
-          <td>${fmt(r.C)}</td>
-          <td>${fmt(r.HJ)}</td>
-          <td>${fmt(r.score)}</td>
-          <td>${fmt(r.gap)}</td>
-        </tr>
-      `).join("")}
-    </tbody>
-  `;
-  parent.appendChild(table);
+  return table(`
+    <tr><th>Rank</th><th>Team</th><th>D</th><th>E</th><th>C</th><th>HJ</th><th>Score</th><th>Gap</th></tr>
+  `, rows.map(r => `
+    <tr>
+      <td>${r.rank}</td>
+      <td>${r.name}</td>
+      <td>${fmt(r.D)}</td>
+      <td>${fmt(r.E)}</td>
+      <td>${fmt(r.C)}</td>
+      <td>${fmt(r.HJ)}</td>
+      <td>${fmt(r.score)}</td>
+      <td>${fmt(r.gap)}</td>
+    </tr>
+  `));
 }
 
-function emptyNote(text) {
+function table(head, rows) {
+  const d = document.createElement("div");
+  d.innerHTML = `<table><thead>${head}</thead><tbody>${rows.join("")}</tbody></table>`;
+  return d.firstChild;
+}
+
+function empty(text) {
   const p = document.createElement("p");
   p.className = "empty";
   p.textContent = text;
@@ -156,7 +120,5 @@ function emptyNote(text) {
 function fmt(v) {
   return typeof v === "number" ? v.toFixed(3) : "";
 }
-
-/* ========================= */
 
 fetchAndRender();
