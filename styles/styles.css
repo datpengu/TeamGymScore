@@ -1,24 +1,75 @@
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1.5rem;
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  margin: 0;
+  padding: 1rem;
+  background: #f6f7f9;
 }
 
-th, td {
-  padding: 6px 8px;
-  border-bottom: 1px solid #ddd;
+section {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-h2 { margin-top: 2rem; }
-h3 { margin-top: 1.5rem; }
-h4 { margin-top: 1rem; color: #444; }
+h2 { margin-top: 0; }
+h3 { margin-bottom: .5rem; }
+h4 { margin: 1rem 0 .5rem; }
 
 .meta {
   color: #666;
-  font-size: 0.9rem;
+  font-size: .9rem;
+}
+
+.tabs {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: .75rem;
+}
+
+.tab {
+  padding: .4rem .75rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  background: #e9ebef;
+  font-weight: 600;
+}
+
+.tab.active {
+  background: #2563eb;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .9rem;
+}
+
+th, td {
+  padding: .4rem .5rem;
+  border-bottom: 1px solid #eee;
+  text-align: right;
+}
+
+th:first-child,
+td:first-child,
+th:nth-child(2),
+td:nth-child(2) {
+  text-align: left;
 }
 
 .empty {
-  font-style: italic;
   color: #888;
+  font-style: italic;
 }
