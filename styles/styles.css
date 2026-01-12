@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+th, td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 { margin-top: 2rem; }
+h3 { margin-top: 1.5rem; }
+h4 { margin-top: 1rem; color: #444; }
+
+.meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.empty {
+  font-style: italic;
+  color: #888;
+}
