@@ -36,6 +36,7 @@ h4 { margin: 1rem 0 .5rem; }
   cursor: pointer;
   background: #e9ebef;
   font-weight: 600;
+  width: 80%
 }
 
 .tab.active {
