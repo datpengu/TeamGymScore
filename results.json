@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-24T14:57:43.864084Z",
+  "last_updated": "2026-01-24T15:17:40.320781Z",
   "competitions": [
     {
       "competition": "JSM - HT25",
@@ -2839,7 +2839,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "Rytme",
               "fx": {
                 "score": null,
                 "D": null,
@@ -12495,7 +12495,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "Rytme",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -28269,7 +28269,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "Rytme",
               "fx": {
                 "score": null,
                 "D": null,
