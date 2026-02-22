@@ -1,6 +1,20 @@
 {
-  "last_updated": "2026-02-22T20:31:23.419742Z",
+  "last_updated": "2026-02-22T20:53:09.542079Z",
   "competitions": [
+    {
+      "competition": "Regionsmästerskapen Öst VT-2026",
+      "date_from": "2026-03-14",
+      "date_to": "2026-03-15",
+      "place": "Huddinge",
+      "classes": []
+    },
+    {
+      "competition": "Norra Sydostmästerskapen nivå 6 och 5 öppen",
+      "date_from": "2026-03-08",
+      "date_to": "2026-03-08",
+      "place": "Vetlanda",
+      "classes": []
+    },
     {
       "competition": "Sydostmästerskap nivå 7",
       "date_from": "2026-03-07",
