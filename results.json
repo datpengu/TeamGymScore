@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T13:54:24.041874Z",
+  "last_updated": "2026-03-08T14:16:26.174185Z",
   "competitions": [
     {
       "competition": "Norra Sydostmästerskapen nivå 8-9",
@@ -20,7 +20,81 @@
       "date_from": "2026-03-08",
       "date_to": "2026-03-08",
       "place": "Vetlanda",
-      "classes": []
+      "classes": [
+        {
+          "class_name": "Nivå 5 Öppen",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3525?f=7848&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
     },
     {
       "competition": "Sydostmästerskap nivå 7",
