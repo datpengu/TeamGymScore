@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T15:24:38.282004Z",
+  "last_updated": "2026-03-08T15:43:08.426052Z",
   "competitions": [
     {
       "competition": "Norra Sydostmästerskapen nivå 8-9",
@@ -27,6 +27,90 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 2,
+              "name": "Värnamo GK Safir",
+              "fx": {
+                "score": 7.3,
+                "D": 2.0,
+                "E": 3.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 7.7,
+                "D": 2.0,
+                "E": 3.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 7.55,
+                "D": 2.0,
+                "E": 3.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 22.55,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 4,
+              "name": "Ljungby GK",
+              "fx": {
+                "score": 7.0,
+                "D": 2.0,
+                "E": 3.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 7.55,
+                "D": 2.0,
+                "E": 3.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 7.35,
+                "D": 2.0,
+                "E": 3.35,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 21.9,
+              "gap": 0.65
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "Braåsgymnasterna Lag Svart",
+              "fx": {
+                "score": 6.0,
+                "D": 2.0,
+                "E": 2.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 7.2,
+                "D": 2.0,
+                "E": 3.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 7.35,
+                "D": 2.0,
+                "E": 3.35,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 20.55,
+              "gap": 2.0
+            },
+            {
+              "rank": 4,
               "start_position": 5,
               "name": "Hvetlanda GF",
               "fx": {
@@ -50,92 +134,8 @@
                 "C": 2.0,
                 "HJ": null
               },
-              "total": 8.0,
-              "gap": 0.0
-            },
-            {
-              "rank": 2,
-              "start_position": 2,
-              "name": "Värnamo GK Safir",
-              "fx": {
-                "score": 7.3,
-                "D": 2.0,
-                "E": 3.3,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 7.7,
-                "D": 2.0,
-                "E": 3.7,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 15.0,
-                "D": 2.0,
-                "E": 3.3,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 1.15,
-              "gap": 6.85
-            },
-            {
-              "rank": 3,
-              "start_position": 4,
-              "name": "Ljungby GK",
-              "fx": {
-                "score": 7.0,
-                "D": 2.0,
-                "E": 3.0,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 7.55,
-                "D": 2.0,
-                "E": 3.55,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 14.55,
-                "D": 2.0,
-                "E": 3.0,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 1.6,
-              "gap": 6.4
-            },
-            {
-              "rank": 4,
-              "start_position": 1,
-              "name": "Braåsgymnasterna Lag Svart",
-              "fx": {
-                "score": 6.0,
-                "D": 2.0,
-                "E": 2.0,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 7.2,
-                "D": 2.0,
-                "E": 3.2,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 13.2,
-                "D": 2.0,
-                "E": 2.0,
-                "C": 2.0,
-                "HJ": null
-              },
-              "total": 2.95,
-              "gap": 5.05
+              "total": 6.4,
+              "gap": 16.15
             }
           ],
           "fx_app": [
@@ -233,14 +233,36 @@
           "tr_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 2,
+              "name": "Värnamo GK Safir",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 7.55,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "Braåsgymnasterna Lag Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.2,
+              "gap": 7.35
+            },
+            {
+              "rank": 2,
+              "start_position": 4,
+              "name": "Ljungby GK",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.2,
+              "gap": 7.35
             }
           ]
         }
