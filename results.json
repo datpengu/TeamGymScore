@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T15:55:48.135947Z",
+  "last_updated": "2026-03-08T16:20:17.019296Z",
   "competitions": [
     {
       "competition": "Norra Sydostmästerskapen nivå 8-9",
@@ -128,14 +128,14 @@
                 "HJ": null
               },
               "tr": {
-                "score": 7.35,
+                "score": 7.25,
                 "D": 2.0,
-                "E": 3.35,
+                "E": 3.25,
                 "C": 2.0,
                 "HJ": null
               },
-              "total": 20.55,
-              "gap": 3.95
+              "total": 20.45,
+              "gap": 4.05
             }
           ],
           "fx_app": [
@@ -255,17 +255,6 @@
             },
             {
               "rank": 3,
-              "start_position": 1,
-              "name": "Braåsgymnasterna Lag Svart",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": 1.0,
-              "gap": 7.35
-            },
-            {
-              "rank": 3,
               "start_position": 4,
               "name": "Ljungby GK",
               "D": null,
@@ -274,6 +263,17 @@
               "HJ": null,
               "score": 1.0,
               "gap": 7.35
+            },
+            {
+              "rank": 4,
+              "start_position": 1,
+              "name": "Braåsgymnasterna Lag Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.1,
+              "gap": 7.25
             }
           ]
         }
