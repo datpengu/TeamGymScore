@@ -1,6 +1,13 @@
 {
-  "last_updated": "2026-03-19T17:34:38.291308Z",
+  "last_updated": "2026-03-19T18:28:50.250993Z",
   "competitions": [
+    {
+      "competition": "RegionTrean/Fyran/Femman GF Syd",
+      "date_from": "2026-03-28",
+      "date_to": "2026-03-29",
+      "place": "Bjärred",
+      "classes": []
+    },
     {
       "competition": "Norra Sydostmästerskapen nivå 8-9",
       "date_from": "2026-03-15",
