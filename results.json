@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T15:53:37.709795Z",
+  "last_updated": "2026-03-31T16:44:59.450054Z",
   "competitions": [
     {
       "competition": "Rikstvåan Dam & Öppen klass - VT26",
@@ -154,6 +154,13 @@
           ]
         }
       ]
+    },
+    {
+      "competition": "Lindås Truppcup 2026",
+      "date_from": "2026-04-10",
+      "date_to": "2026-04-11",
+      "place": "Billdal",
+      "classes": []
     },
     {
       "competition": "RegionTrean/Fyran/Femman GF Syd",
