@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T10:01:01.488900Z",
+  "last_updated": "2026-04-05T10:45:11.105667Z",
   "competitions": [
     {
       "competition": "Rikstvåan Dam & Öppen klass - VT26",
@@ -167,24 +167,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 1,
+              "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 1.0,
+                "D": 1.0,
+                "E": 1.0,
                 "C": null,
                 "HJ": null
               },
               "tu": {
-                "score": null,
+                "score": 1.0,
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 1.0,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -197,14 +197,14 @@
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "10",
+              "start_position": 1,
+              "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
               "D": 35.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 1.0,
+              "gap": 0.0
             }
           ],
           "tu_app": [
