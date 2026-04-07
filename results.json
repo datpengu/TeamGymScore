@@ -1,6 +1,87 @@
 {
-  "last_updated": "2026-04-07T08:13:53.647709Z",
+  "last_updated": "2026-04-07T09:20:20.259885Z",
   "competitions": [
+    {
+      "competition": "Rikstrean Dam - VT26",
+      "date_from": "2026-04-25",
+      "date_to": "2026-04-26",
+      "place": "Järfälla",
+      "classes": [
+        {
+          "class_name": "Rikstrean Dam 13-16 år",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3594?f=7957&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "competition": "Rikstvåan Dam & Öppen klass - VT26",
       "date_from": "2026-04-11",
