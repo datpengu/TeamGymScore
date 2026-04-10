@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T22:07:03.566051Z",
+  "last_updated": "2026-04-10T22:53:20.221900Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -233,7 +233,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
