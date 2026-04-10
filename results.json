@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T19:08:56.333683Z",
+  "last_updated": "2026-04-10T19:51:34.016746Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -314,7 +314,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -548,24 +548,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": 1,
-              "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
+              "start_position": null,
+              "name": "FX",
               "fx": {
-                "score": 1.0,
-                "D": 1.0,
-                "E": 1.0,
+                "score": null,
+                "D": null,
+                "E": null,
                 "C": null,
                 "HJ": null
               },
               "tu": {
-                "score": 1.0,
+                "score": null,
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": 1.0,
+                "score": null,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -578,14 +578,14 @@
           "fx_app": [
             {
               "rank": 1,
-              "start_position": 1,
-              "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
+              "start_position": null,
+              "name": "10",
               "D": 35.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 1.0,
-              "gap": 0.0
+              "score": null,
+              "gap": null
             }
           ],
           "tu_app": [
