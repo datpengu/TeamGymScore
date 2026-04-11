@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T06:34:20.365201Z",
+  "last_updated": "2026-04-11T07:34:15.853221Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -314,7 +314,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
@@ -548,24 +548,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 2,
+              "name": "Ödåkra IF",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.4,
+                "D": 1.9,
+                "E": 7.5,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 11.4,
+                "D": 7.5,
+                "E": 2.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 11.4,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -573,32 +573,99 @@
               },
               "total": null,
               "gap": null
+            },
+            {
+              "rank": 2,
+              "start_position": 4,
+              "name": "Karlskrona GF Ungdom",
+              "fx": {
+                "score": 10.15,
+                "D": 1.7,
+                "E": 6.45,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.15,
+                "D": 6.45,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.25,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.15,
+              "gap": null
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
+              "fx": {
+                "score": 9.2,
+                "D": 1.7,
+                "E": 5.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.2,
+                "D": 5.5,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.2,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 9.2,
+              "gap": null
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "10",
+              "start_position": 4,
+              "name": "Karlskrona GF Ungdom",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 10.15,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
               "D": 35.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 0.95,
+              "gap": 9.2
             }
           ],
           "tu_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "11",
+              "rank": 1,
+              "start_position": 2,
+              "name": "Ödåkra IF",
               "D": 36.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.4,
+              "gap": 0.0
             }
           ],
           "tr_app": [
