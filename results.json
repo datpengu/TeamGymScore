@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T11:20:24.013179Z",
+  "last_updated": "2026-04-11T11:48:55.344494Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -233,7 +233,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -1017,7 +1017,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -1181,6 +1181,34 @@
             },
             {
               "rank": 4,
+              "start_position": 18,
+              "name": "GF Kennedy Trupp 2",
+              "fx": {
+                "score": 9.85,
+                "D": 1.8,
+                "E": 6.05,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.35,
+                "D": 1.9,
+                "E": 7.45,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.7,
+                "D": 1.6,
+                "E": 7.5,
+                "C": 1.6,
+                "HJ": null
+              },
+              "total": 31.9,
+              "gap": 1.9
+            },
+            {
+              "rank": 5,
               "start_position": 4,
               "name": "Karlskrona GF Ungdom",
               "fx": {
@@ -1208,7 +1236,91 @@
               "gap": 2.05
             },
             {
-              "rank": 5,
+              "rank": 6,
+              "start_position": 16,
+              "name": "GF Örnarna lag 2",
+              "fx": {
+                "score": 9.0,
+                "D": 1.75,
+                "E": 5.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.3,
+                "D": 1.9,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.4,
+                "D": 1.8,
+                "E": 7.8,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 31.7,
+              "gap": 2.1
+            },
+            {
+              "rank": 7,
+              "start_position": 14,
+              "name": "GK Motus-Salto  Lag A",
+              "fx": {
+                "score": 10.4,
+                "D": 1.8,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.1,
+                "D": 1.7,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.05,
+                "D": 1.8,
+                "E": 6.65,
+                "C": 1.6,
+                "HJ": null
+              },
+              "total": 31.55,
+              "gap": 2.25
+            },
+            {
+              "rank": 8,
+              "start_position": 15,
+              "name": "GF Göteborgsgymnasterna Röd 12",
+              "fx": {
+                "score": 10.75,
+                "D": 1.8,
+                "E": 6.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.2,
+                "D": 1.8,
+                "E": 7.4,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.4,
+                "D": 7.7,
+                "E": 1.9,
+                "C": 6.95,
+                "HJ": null
+              },
+              "total": 31.35,
+              "gap": 2.45
+            },
+            {
+              "rank": 9,
               "start_position": 5,
               "name": "Hvetlanda GF Hvetlanda gymnastikförening",
               "fx": {
@@ -1236,7 +1348,35 @@
               "gap": 2.5
             },
             {
-              "rank": 6,
+              "rank": 9,
+              "start_position": 10,
+              "name": "Rödebygymnasterna Lila",
+              "fx": {
+                "score": 9.35,
+                "D": 1.8,
+                "E": 5.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.65,
+                "D": 1.6,
+                "E": 7.05,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.3,
+                "D": 1.8,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 31.3,
+              "gap": 2.5
+            },
+            {
+              "rank": 11,
               "start_position": 2,
               "name": "Ödåkra IF",
               "fx": {
@@ -1264,7 +1404,91 @@
               "gap": 2.8
             },
             {
-              "rank": 7,
+              "rank": 12,
+              "start_position": 17,
+              "name": "GK Hermes",
+              "fx": {
+                "score": 9.8,
+                "D": 1.8,
+                "E": 6.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.3,
+                "D": 1.9,
+                "E": 6.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.6,
+                "D": 1.6,
+                "E": 7.1,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 30.7,
+              "gap": 3.1
+            },
+            {
+              "rank": 13,
+              "start_position": 12,
+              "name": "Röstångagymnasterna",
+              "fx": {
+                "score": 8.65,
+                "D": 1.8,
+                "E": 4.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.15,
+                "D": 1.6,
+                "E": 7.75,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.85,
+                "D": 1.8,
+                "E": 7.35,
+                "C": 1.7,
+                "HJ": null
+              },
+              "total": 30.65,
+              "gap": 3.15
+            },
+            {
+              "rank": 14,
+              "start_position": 13,
+              "name": "Bjerreds GF Svart",
+              "fx": {
+                "score": 8.95,
+                "D": 1.8,
+                "E": 5.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.45,
+                "D": 1.8,
+                "E": 6.65,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.2,
+                "D": 1.8,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 30.6,
+              "gap": 3.2
+            },
+            {
+              "rank": 15,
               "start_position": 1,
               "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
               "fx": {
@@ -1292,7 +1516,7 @@
               "gap": 3.4
             },
             {
-              "rank": 8,
+              "rank": 16,
               "start_position": 9,
               "name": "Ljungby GK",
               "fx": {
@@ -1320,7 +1544,7 @@
               "gap": 5.75
             },
             {
-              "rank": 9,
+              "rank": 17,
               "start_position": 11,
               "name": "Åstorps GF",
               "fx": {
@@ -1348,7 +1572,7 @@
               "gap": 7.3
             },
             {
-              "rank": 10,
+              "rank": 18,
               "start_position": 6,
               "name": "Rödebygymnasterna  Glöd",
               "fx": {
@@ -1374,230 +1598,6 @@
               },
               "total": 26.35,
               "gap": 7.45
-            },
-            {
-              "rank": 11,
-              "start_position": 15,
-              "name": "GF Göteborgsgymnasterna Röd 12",
-              "fx": {
-                "score": 10.75,
-                "D": 1.8,
-                "E": 6.95,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 11.4,
-                "D": 1.8,
-                "E": 7.7,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tr": {
-                "score": 22.15,
-                "D": 6.95,
-                "E": 2.0,
-                "C": 7.7,
-                "HJ": null
-              },
-              "total": 11.65,
-              "gap": 22.15
-            },
-            {
-              "rank": 12,
-              "start_position": 14,
-              "name": "GK Motus-Salto  Lag A",
-              "fx": {
-                "score": 11.1,
-                "D": 1.7,
-                "E": 7.4,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.05,
-                "D": 1.8,
-                "E": 6.65,
-                "C": 1.6,
-                "HJ": null
-              },
-              "tr": {
-                "score": 21.15,
-                "D": 7.4,
-                "E": 2.0,
-                "C": 6.65,
-                "HJ": null
-              },
-              "total": 12.65,
-              "gap": 21.15
-            },
-            {
-              "rank": 13,
-              "start_position": 17,
-              "name": "GK Hermes",
-              "fx": {
-                "score": 10.3,
-                "D": 1.9,
-                "E": 6.4,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.6,
-                "D": 1.6,
-                "E": 7.1,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tr": {
-                "score": 20.9,
-                "D": 6.4,
-                "E": 2.0,
-                "C": 7.1,
-                "HJ": null
-              },
-              "total": 12.9,
-              "gap": 20.9
-            },
-            {
-              "rank": 14,
-              "start_position": 18,
-              "name": "GF Kennedy Trupp 2",
-              "fx": {
-                "score": 9.85,
-                "D": 1.8,
-                "E": 6.05,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.7,
-                "D": 1.6,
-                "E": 7.5,
-                "C": 1.6,
-                "HJ": null
-              },
-              "tr": {
-                "score": 20.55,
-                "D": 6.05,
-                "E": 2.0,
-                "C": 7.5,
-                "HJ": null
-              },
-              "total": 13.25,
-              "gap": 20.55
-            },
-            {
-              "rank": 15,
-              "start_position": 16,
-              "name": "GF Örnarna lag 2",
-              "fx": {
-                "score": 9.0,
-                "D": 1.75,
-                "E": 5.25,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 11.3,
-                "D": 1.9,
-                "E": 7.4,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 20.3,
-                "D": 5.25,
-                "E": 2.0,
-                "C": 7.4,
-                "HJ": null
-              },
-              "total": 13.5,
-              "gap": 20.3
-            },
-            {
-              "rank": 16,
-              "start_position": 10,
-              "name": "Rödebygymnasterna Lila",
-              "fx": {
-                "score": 9.35,
-                "D": 1.8,
-                "E": 5.55,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.65,
-                "D": 1.6,
-                "E": 7.05,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 20.0,
-                "D": 5.55,
-                "E": 2.0,
-                "C": 7.05,
-                "HJ": null
-              },
-              "total": 13.8,
-              "gap": 20.0
-            },
-            {
-              "rank": 17,
-              "start_position": 12,
-              "name": "Röstångagymnasterna",
-              "fx": {
-                "score": 8.65,
-                "D": 1.8,
-                "E": 4.85,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.85,
-                "D": 1.8,
-                "E": 7.35,
-                "C": 1.7,
-                "HJ": null
-              },
-              "tr": {
-                "score": 19.5,
-                "D": 4.85,
-                "E": 2.0,
-                "C": 7.35,
-                "HJ": null
-              },
-              "total": 14.3,
-              "gap": 19.5
-            },
-            {
-              "rank": 18,
-              "start_position": 13,
-              "name": "Bjerreds GF Svart",
-              "fx": {
-                "score": 8.95,
-                "D": 1.8,
-                "E": 5.15,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.45,
-                "D": 1.8,
-                "E": 6.65,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 19.4,
-                "D": 5.15,
-                "E": 2.0,
-                "C": 6.65,
-                "HJ": null
-              },
-              "total": 14.4,
-              "gap": 19.4
             }
           ],
           "fx_app": [
@@ -1636,6 +1636,17 @@
             },
             {
               "rank": 4,
+              "start_position": 14,
+              "name": "GK Motus-Salto  Lag A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.4,
+              "gap": 10.4
+            },
+            {
+              "rank": 5,
               "start_position": 4,
               "name": "Karlskrona GF Ungdom",
               "D": null,
@@ -1646,7 +1657,7 @@
               "gap": 10.15
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 3,
               "name": "GK Splitt GK Splitt lag A",
               "D": null,
@@ -1657,7 +1668,7 @@
               "gap": 9.95
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 18,
               "name": "GF Kennedy Trupp 2",
               "D": null,
@@ -1668,7 +1679,18 @@
               "gap": 9.85
             },
             {
-              "rank": 7,
+              "rank": 8,
+              "start_position": 17,
+              "name": "GK Hermes",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 9.8
+            },
+            {
+              "rank": 9,
               "start_position": 10,
               "name": "Rödebygymnasterna Lila",
               "D": null,
@@ -1679,7 +1701,7 @@
               "gap": 9.35
             },
             {
-              "rank": 8,
+              "rank": 10,
               "start_position": 1,
               "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
               "D": null,
@@ -1690,7 +1712,7 @@
               "gap": 9.2
             },
             {
-              "rank": 9,
+              "rank": 11,
               "start_position": 16,
               "name": "GF Örnarna lag 2",
               "D": null,
@@ -1701,7 +1723,7 @@
               "gap": 9.0
             },
             {
-              "rank": 10,
+              "rank": 12,
               "start_position": 13,
               "name": "Bjerreds GF Svart",
               "D": null,
@@ -1712,7 +1734,7 @@
               "gap": 8.95
             },
             {
-              "rank": 11,
+              "rank": 13,
               "start_position": 5,
               "name": "Hvetlanda GF Hvetlanda gymnastikförening",
               "D": null,
@@ -1723,7 +1745,7 @@
               "gap": 8.85
             },
             {
-              "rank": 12,
+              "rank": 14,
               "start_position": 12,
               "name": "Röstångagymnasterna",
               "D": null,
@@ -1734,7 +1756,7 @@
               "gap": 8.65
             },
             {
-              "rank": 13,
+              "rank": 15,
               "start_position": 9,
               "name": "Ljungby GK",
               "D": null,
@@ -1745,7 +1767,7 @@
               "gap": 8.45
             },
             {
-              "rank": 13,
+              "rank": 15,
               "start_position": 2,
               "name": "Ödåkra IF",
               "D": null,
@@ -1756,7 +1778,7 @@
               "gap": 8.45
             },
             {
-              "rank": 15,
+              "rank": 17,
               "start_position": 6,
               "name": "Rödebygymnasterna  Glöd",
               "D": null,
@@ -1767,7 +1789,7 @@
               "gap": 7.75
             },
             {
-              "rank": 16,
+              "rank": 18,
               "start_position": 11,
               "name": "Åstorps GF",
               "D": 35.0,
@@ -1803,6 +1825,17 @@
             },
             {
               "rank": 3,
+              "start_position": 18,
+              "name": "GF Kennedy Trupp 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.15,
+              "gap": 11.35
+            },
+            {
+              "rank": 4,
               "start_position": 16,
               "name": "GF Örnarna lag 2",
               "D": null,
@@ -1813,7 +1846,18 @@
               "gap": 11.3
             },
             {
-              "rank": 4,
+              "rank": 5,
+              "start_position": 12,
+              "name": "Röstångagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.35,
+              "gap": 11.15
+            },
+            {
+              "rank": 5,
               "start_position": 3,
               "name": "GK Splitt GK Splitt lag A",
               "D": null,
@@ -1824,7 +1868,7 @@
               "gap": 11.15
             },
             {
-              "rank": 5,
+              "rank": 7,
               "start_position": 14,
               "name": "GK Motus-Salto  Lag A",
               "D": null,
@@ -1835,7 +1879,7 @@
               "gap": 11.1
             },
             {
-              "rank": 6,
+              "rank": 8,
               "start_position": 7,
               "name": "GK Splitt GK Splitt lag 1",
               "D": null,
@@ -1846,7 +1890,7 @@
               "gap": 11.0
             },
             {
-              "rank": 7,
+              "rank": 9,
               "start_position": 5,
               "name": "Hvetlanda GF Hvetlanda gymnastikförening",
               "D": null,
@@ -1857,7 +1901,7 @@
               "gap": 10.7
             },
             {
-              "rank": 8,
+              "rank": 10,
               "start_position": 10,
               "name": "Rödebygymnasterna Lila",
               "D": null,
@@ -1868,7 +1912,7 @@
               "gap": 10.65
             },
             {
-              "rank": 9,
+              "rank": 11,
               "start_position": 1,
               "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
               "D": null,
@@ -1879,7 +1923,7 @@
               "gap": 10.6
             },
             {
-              "rank": 10,
+              "rank": 12,
               "start_position": 4,
               "name": "Karlskrona GF Ungdom",
               "D": null,
@@ -1890,7 +1934,7 @@
               "gap": 10.5
             },
             {
-              "rank": 11,
+              "rank": 13,
               "start_position": 13,
               "name": "Bjerreds GF Svart",
               "D": null,
@@ -1901,7 +1945,7 @@
               "gap": 10.45
             },
             {
-              "rank": 12,
+              "rank": 14,
               "start_position": 17,
               "name": "GK Hermes",
               "D": null,
@@ -1912,7 +1956,7 @@
               "gap": 10.3
             },
             {
-              "rank": 13,
+              "rank": 15,
               "start_position": 11,
               "name": "Åstorps GF",
               "D": null,
@@ -1923,7 +1967,18 @@
               "gap": 9.2
             },
             {
-              "rank": 14,
+              "rank": 15,
+              "start_position": 15,
+              "name": "GF Göteborgsgymnasterna Röd 12",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.3,
+              "gap": 9.2
+            },
+            {
+              "rank": 17,
               "start_position": 6,
               "name": "Rödebygymnasterna  Glöd",
               "D": null,
@@ -1934,7 +1989,7 @@
               "gap": 8.85
             },
             {
-              "rank": 14,
+              "rank": 17,
               "start_position": 9,
               "name": "Ljungby GK",
               "D": 36.0,
@@ -1980,7 +2035,40 @@
               "gap": 11.4
             },
             {
-              "rank": 4,
+              "rank": 3,
+              "start_position": 16,
+              "name": "GF Örnarna lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.35,
+              "gap": 11.4
+            },
+            {
+              "rank": 5,
+              "start_position": 10,
+              "name": "Rödebygymnasterna Lila",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.45,
+              "gap": 11.3
+            },
+            {
+              "rank": 6,
+              "start_position": 13,
+              "name": "Bjerreds GF Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.55,
+              "gap": 11.2
+            },
+            {
+              "rank": 7,
               "start_position": 2,
               "name": "Ödåkra IF",
               "D": null,
@@ -1991,7 +2079,7 @@
               "gap": 11.15
             },
             {
-              "rank": 5,
+              "rank": 8,
               "start_position": 4,
               "name": "Karlskrona GF Ungdom",
               "D": null,
@@ -2002,7 +2090,7 @@
               "gap": 11.1
             },
             {
-              "rank": 6,
+              "rank": 9,
               "start_position": 3,
               "name": "GK Splitt GK Splitt lag A",
               "D": null,
@@ -2013,7 +2101,7 @@
               "gap": 10.85
             },
             {
-              "rank": 6,
+              "rank": 9,
               "start_position": 12,
               "name": "Röstångagymnasterna",
               "D": null,
@@ -2024,7 +2112,7 @@
               "gap": 10.85
             },
             {
-              "rank": 8,
+              "rank": 11,
               "start_position": 7,
               "name": "GK Splitt GK Splitt lag 1",
               "D": null,
@@ -2035,7 +2123,7 @@
               "gap": 10.8
             },
             {
-              "rank": 9,
+              "rank": 12,
               "start_position": 9,
               "name": "Ljungby GK",
               "D": null,
@@ -2046,7 +2134,7 @@
               "gap": 10.75
             },
             {
-              "rank": 10,
+              "rank": 13,
               "start_position": 18,
               "name": "GF Kennedy Trupp 2",
               "D": null,
@@ -2057,7 +2145,7 @@
               "gap": 10.7
             },
             {
-              "rank": 11,
+              "rank": 14,
               "start_position": 17,
               "name": "GK Hermes",
               "D": null,
@@ -2068,7 +2156,7 @@
               "gap": 10.6
             },
             {
-              "rank": 11,
+              "rank": 14,
               "start_position": 1,
               "name": "GF Hässleholms-Örnen  GF Örnen Tsuka",
               "D": null,
@@ -2079,7 +2167,7 @@
               "gap": 10.6
             },
             {
-              "rank": 13,
+              "rank": 16,
               "start_position": 11,
               "name": "Åstorps GF",
               "D": null,
@@ -2090,7 +2178,7 @@
               "gap": 10.1
             },
             {
-              "rank": 14,
+              "rank": 17,
               "start_position": 14,
               "name": "GK Motus-Salto  Lag A",
               "D": null,
@@ -2101,7 +2189,7 @@
               "gap": 10.05
             },
             {
-              "rank": 15,
+              "rank": 18,
               "start_position": 6,
               "name": "Rödebygymnasterna  Glöd",
               "D": 31.0,
