@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T17:58:32.962137Z",
+  "last_updated": "2026-04-11T18:46:36.683129Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -3918,6 +3918,79 @@
               "HJ": null,
               "score": 2.225,
               "gap": 9.75
+            }
+          ]
+        },
+        {
+          "class_name": "Söderfemman öppen klass 13 år och äldre FINAL",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3591?f=7981&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "1",
+              "D": 1.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "1",
+              "D": 1.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "1",
+              "D": 1.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
             }
           ]
         }
