@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T11:55:01.722196Z",
+  "last_updated": "2026-04-12T12:38:51.158333Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -2370,24 +2370,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 6,
+              "name": "Dackegymnasterna lag A",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 16.1,
+                "D": 6.2,
+                "E": 7.9,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 16.1,
+                "D": 7.9,
+                "E": 2.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 16.1,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -2395,45 +2395,179 @@
               },
               "total": null,
               "gap": null
+            },
+            {
+              "rank": 2,
+              "start_position": 3,
+              "name": "Tyresögymnastiken",
+              "fx": {
+                "score": 14.4,
+                "D": 4.9,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.4,
+                "D": 7.5,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.7,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 14.4,
+              "gap": null
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "Lugi GF lag A",
+              "fx": {
+                "score": 14.025,
+                "D": 3.625,
+                "E": 7.4,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.025,
+                "D": 7.4,
+                "E": 3.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.075,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 14.025,
+              "gap": null
+            },
+            {
+              "rank": 4,
+              "start_position": 2,
+              "name": "Järfällagymnasterna",
+              "fx": {
+                "score": 13.55,
+                "D": 4.8,
+                "E": 6.95,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.55,
+                "D": 6.95,
+                "E": 1.8,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.55,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 13.55,
+              "gap": null
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "Huddinge GF",
+              "fx": {
+                "score": 12.85,
+                "D": 2.9,
+                "E": 6.95,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.85,
+                "D": 6.95,
+                "E": 3.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 3.25,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 12.85,
+              "gap": null
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 4,
+              "name": "Lugi GF lag A",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 14.025,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "Huddinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.175,
+              "gap": 12.85
             }
           ],
           "tu_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "rank": 1,
+              "start_position": 2,
+              "name": "Järfällagymnasterna",
               "D": 1.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 13.55,
+              "gap": 0.0
             }
           ],
           "tr_app": [
             {
-              "rank": 3,
-              "start_position": null,
-              "name": "6",
-              "D": 1.0,
+              "rank": 1,
+              "start_position": 6,
+              "name": "Dackegymnasterna lag A",
+              "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 16.1,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 3,
+              "name": "Tyresögymnastiken",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.7,
+              "gap": 14.4
             }
           ]
         }
