@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T13:45:11.760217Z",
+  "last_updated": "2026-04-12T14:26:48.851192Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -2370,6 +2370,34 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 8,
+              "name": "Lugi GF lag 1",
+              "fx": {
+                "score": 14.7,
+                "D": 4.0,
+                "E": 7.7,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.4,
+                "D": 5.7,
+                "E": 7.0,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 16.1,
+                "D": 6.7,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 45.2,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 7,
               "name": "GK Motus-Salto",
               "fx": {
@@ -2394,10 +2422,10 @@
                 "HJ": null
               },
               "total": 42.9,
-              "gap": 0.0
+              "gap": 2.3
             },
             {
-              "rank": 2,
+              "rank": 3,
               "start_position": 3,
               "name": "Tyresögymnastiken",
               "fx": {
@@ -2422,10 +2450,10 @@
                 "HJ": null
               },
               "total": 42.45,
-              "gap": 0.45
+              "gap": 2.75
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 6,
               "name": "Dackegymnasterna lag A",
               "fx": {
@@ -2450,10 +2478,10 @@
                 "HJ": null
               },
               "total": 42.325,
-              "gap": 0.575
+              "gap": 2.875
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 1,
               "name": "Huddinge GF",
               "fx": {
@@ -2478,10 +2506,10 @@
                 "HJ": null
               },
               "total": 42.3,
-              "gap": 0.6
+              "gap": 2.9
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 2,
               "name": "Järfällagymnasterna",
               "fx": {
@@ -2506,10 +2534,10 @@
                 "HJ": null
               },
               "total": 41.575,
-              "gap": 1.325
+              "gap": 3.625
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 4,
               "name": "Lugi GF lag A",
               "fx": {
@@ -2534,10 +2562,10 @@
                 "HJ": null
               },
               "total": 41.475,
-              "gap": 1.425
+              "gap": 3.725
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 5,
               "name": "ABGS N2",
               "fx": {
@@ -2562,35 +2590,7 @@
                 "HJ": null
               },
               "total": 38.0,
-              "gap": 4.9
-            },
-            {
-              "rank": 8,
-              "start_position": 8,
-              "name": "Lugi GF lag 1",
-              "fx": {
-                "score": 14.7,
-                "D": 4.0,
-                "E": 7.7,
-                "C": 3.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.4,
-                "D": 5.7,
-                "E": 7.0,
-                "C": 1.7,
-                "HJ": null
-              },
-              "tr": {
-                "score": 29.1,
-                "D": 7.7,
-                "E": 3.0,
-                "C": 7.0,
-                "HJ": null
-              },
-              "total": 13.8,
-              "gap": 29.1
+              "gap": 7.2
             }
           ],
           "fx_app": [
@@ -2786,7 +2786,18 @@
               "gap": 0.0
             },
             {
-              "rank": 2,
+              "rank": 1,
+              "start_position": 8,
+              "name": "Lugi GF lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 16.1,
+              "gap": 0.0
+            },
+            {
+              "rank": 3,
               "start_position": 2,
               "name": "Järfällagymnasterna",
               "D": null,
@@ -2797,7 +2808,7 @@
               "gap": 14.95
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 1,
               "name": "Huddinge GF",
               "D": null,
@@ -2808,7 +2819,7 @@
               "gap": 14.8
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 7,
               "name": "GK Motus-Salto",
               "D": null,
@@ -2819,7 +2830,7 @@
               "gap": 14.6
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 3,
               "name": "Tyresögymnastiken",
               "D": null,
@@ -2830,7 +2841,7 @@
               "gap": 14.4
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 4,
               "name": "Lugi GF lag A",
               "D": null,
@@ -2841,7 +2852,7 @@
               "gap": 13.3
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 5,
               "name": "ABGS N2",
               "D": null,
