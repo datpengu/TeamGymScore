@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T07:43:51.285541Z",
+  "last_updated": "2026-04-12T08:29:36.004101Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -14,7 +14,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -3927,24 +3927,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 1,
+              "name": "Legacy Allstars - Nyköping  Team Royals",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 12.15,
+                "D": 1.9,
+                "E": 8.25,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 12.15,
+                "D": 8.25,
+                "E": 2.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 12.15,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -3970,14 +3970,14 @@
           "tu_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "1",
+              "start_position": 1,
+              "name": "Legacy Allstars - Nyköping  Team Royals",
               "D": 1.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 12.15,
+              "gap": 0.0
             }
           ],
           "tr_app": [
