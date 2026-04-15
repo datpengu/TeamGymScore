@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T18:17:39.731100Z",
+  "last_updated": "2026-04-15T19:45:30.588707Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -381,6 +381,13 @@
           ]
         }
       ]
+    },
+    {
+      "competition": "Sydostmästerskapen nivå 3-5",
+      "date_from": "2026-04-18",
+      "date_to": "2026-04-18",
+      "place": "Braås",
+      "classes": []
     },
     {
       "competition": "Rikstvåan Dam & Öppen klass - VT26",
