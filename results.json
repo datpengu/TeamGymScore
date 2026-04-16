@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T11:45:50.544304Z",
+  "last_updated": "2026-04-16T12:51:08.837403Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -387,7 +387,227 @@
       "date_from": "2026-04-18",
       "date_to": "2026-04-18",
       "place": "Braås",
-      "classes": []
+      "classes": [
+        {
+          "class_name": "Nivå 4",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3606?f=7985&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": 8.0,
+              "E": 3.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 8,
+              "start_position": null,
+              "name": "3",
+              "D": 4.0,
+              "E": 1.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": null,
+              "E": 9.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        },
+        {
+          "class_name": "Nivå 3",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3606?f=7986&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        },
+        {
+          "class_name": "nivå 5",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3606?f=7987&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": 6.0,
+              "E": 11.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": 6.0,
+              "E": 11.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": 10.0,
+              "E": 11.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
     },
     {
       "competition": "Rikstvåan Dam & Öppen klass - VT26",
