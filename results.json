@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T10:06:39.747261Z",
+  "last_updated": "2026-04-18T10:56:41.387661Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -233,7 +233,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
@@ -394,62 +394,6 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": 8,
-              "name": "HVetlanda GF",
-              "fx": {
-                "score": 12.23,
-                "D": 2.4,
-                "E": 7.83,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 12.1,
-                "D": 2.1,
-                "E": 8.0,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 24.33,
-                "D": 7.83,
-                "E": 2.0,
-                "C": 8.0,
-                "HJ": null
-              },
-              "total": 12.23,
-              "gap": 0.0
-            },
-            {
-              "rank": 2,
-              "start_position": 3,
-              "name": "Dackegymnasterna Lag Rosa",
-              "fx": {
-                "score": 11.265,
-                "D": 2.2,
-                "E": 7.065,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 11.93,
-                "D": 2.0,
-                "E": 8.13,
-                "C": 1.8,
-                "HJ": null
-              },
-              "tr": {
-                "score": 23.195,
-                "D": 7.065,
-                "E": 2.0,
-                "C": 8.13,
-                "HJ": null
-              },
-              "total": 1.135,
-              "gap": 11.095
-            },
-            {
-              "rank": 3,
               "start_position": 6,
               "name": "Eksjö GS",
               "fx": {
@@ -460,49 +404,105 @@
                 "HJ": null
               },
               "tu": {
+                "score": 12.865,
+                "D": 2.4,
+                "E": 8.465,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
                 "score": 12.065,
                 "D": 2.1,
                 "E": 7.965,
                 "C": 2.0,
                 "HJ": null
               },
-              "tr": {
-                "score": 22.23,
-                "D": 6.365,
-                "E": 2.0,
-                "C": 7.965,
-                "HJ": null
-              },
-              "total": 2.1,
-              "gap": 10.13
+              "total": 35.095,
+              "gap": 0.0
             },
             {
-              "rank": 4,
-              "start_position": 1,
-              "name": "GF Öjabytruppen",
+              "rank": 2,
+              "start_position": 4,
+              "name": "Tranemo GF RT4",
               "fx": {
-                "score": 10.265,
+                "score": 10.765,
                 "D": 2.1,
-                "E": 6.165,
+                "E": 6.665,
                 "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": 11.7,
+                "score": 11.93,
                 "D": 2.2,
-                "E": 7.5,
+                "E": 7.83,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.93,
+                "D": 2.1,
+                "E": 7.83,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 34.625,
+              "gap": 0.47
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "Dackegymnasterna Lag Rosa",
+              "fx": {
+                "score": 10.9,
+                "D": 2.1,
+                "E": 6.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.265,
+                "D": 2.2,
+                "E": 7.065,
                 "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 21.965,
-                "D": 6.165,
-                "E": 2.0,
-                "C": 7.5,
+                "score": 11.93,
+                "D": 2.0,
+                "E": 8.13,
+                "C": 1.8,
                 "HJ": null
               },
-              "total": 2.365,
-              "gap": 9.865
+              "total": 34.095,
+              "gap": 1.0
+            },
+            {
+              "rank": 4,
+              "start_position": 8,
+              "name": "HVetlanda GF",
+              "fx": {
+                "score": 9.5,
+                "D": 1.7,
+                "E": 5.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.23,
+                "D": 2.4,
+                "E": 7.83,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.1,
+                "D": 2.1,
+                "E": 8.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 33.83,
+              "gap": 1.265
             },
             {
               "rank": 5,
@@ -516,77 +516,77 @@
                 "HJ": null
               },
               "tu": {
-                "score": 11.03,
-                "D": 6.93,
-                "E": 2.0,
-                "C": null,
+                "score": 9.765,
+                "D": 2.2,
+                "E": 5.565,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 13.3,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 10.93,
+                "D": 2.0,
+                "E": 6.93,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 11.03,
-              "gap": 1.2
+              "total": 31.725,
+              "gap": 3.37
             },
             {
               "rank": 6,
-              "start_position": 4,
-              "name": "Tranemo GF RT4",
+              "start_position": 1,
+              "name": "GF Öjabytruppen",
               "fx": {
-                "score": 10.765,
+                "score": 10.265,
                 "D": 2.1,
-                "E": 6.665,
+                "E": 6.165,
                 "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": 10.765,
-                "D": 6.665,
-                "E": 2.0,
-                "C": null,
+                "score": 9.6,
+                "D": 1.9,
+                "E": 5.9,
+                "C": 1.8,
                 "HJ": null
               },
               "tr": {
-                "score": 13.565,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.7,
+                "D": 2.2,
+                "E": 7.5,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 10.765,
-              "gap": 1.465
+              "total": 31.565,
+              "gap": 3.53
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 9,
               "name": "Kalmar GF JT Svart",
               "fx": {
+                "score": 10.7,
+                "D": 2.1,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.0,
+                "D": 2.3,
+                "E": 5.9,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
                 "score": 10.765,
                 "D": 2.1,
                 "E": 6.965,
                 "C": 1.7,
                 "HJ": null
               },
-              "tu": {
-                "score": 10.765,
-                "D": 6.965,
-                "E": 1.7,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": 13.565,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 10.765,
-              "gap": 1.465
+              "total": 31.465,
+              "gap": 3.63
             }
           ],
           "fx_app": [
@@ -603,6 +603,17 @@
             },
             {
               "rank": 2,
+              "start_position": 3,
+              "name": "Dackegymnasterna Lag Rosa",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.13,
+              "gap": 10.9
+            },
+            {
+              "rank": 3,
               "start_position": 4,
               "name": "Tranemo GF RT4",
               "D": null,
@@ -613,7 +624,18 @@
               "gap": 10.765
             },
             {
-              "rank": 3,
+              "rank": 4,
+              "start_position": 9,
+              "name": "Kalmar GF JT Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.33,
+              "gap": 10.7
+            },
+            {
+              "rank": 5,
               "start_position": 1,
               "name": "GF Öjabytruppen",
               "D": null,
@@ -624,39 +646,105 @@
               "gap": 10.265
             },
             {
-              "rank": 4,
+              "rank": 6,
               "start_position": 6,
               "name": "Eksjö GS",
-              "D": 8.0,
+              "D": null,
               "E": null,
               "C": null,
               "HJ": null,
               "score": 0.865,
               "gap": 10.165
-            }
-          ],
-          "tu_app": [
+            },
             {
-              "rank": 1,
+              "rank": 7,
               "start_position": 8,
               "name": "HVetlanda GF",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 12.23,
+              "score": 1.53,
+              "gap": 9.5
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": 6,
+              "name": "Eksjö GS",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 12.865,
               "gap": 0.0
             },
             {
               "rank": 2,
+              "start_position": 8,
+              "name": "HVetlanda GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.635,
+              "gap": 12.23
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "Tranemo GF RT4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.935,
+              "gap": 11.93
+            },
+            {
+              "rank": 4,
               "start_position": 3,
               "name": "Dackegymnasterna Lag Rosa",
               "D": null,
-              "E": 1.0,
+              "E": null,
               "C": null,
               "HJ": null,
-              "score": 0.965,
+              "score": 1.6,
               "gap": 11.265
+            },
+            {
+              "rank": 5,
+              "start_position": 9,
+              "name": "Kalmar GF JT Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.865,
+              "gap": 10.0
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "Huskvarna GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.1,
+              "gap": 9.765
+            },
+            {
+              "rank": 7,
+              "start_position": 1,
+              "name": "GF Öjabytruppen",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.265,
+              "gap": 9.6
             }
           ],
           "tr_app": [
@@ -694,7 +782,18 @@
               "gap": 11.93
             },
             {
-              "rank": 4,
+              "rank": 3,
+              "start_position": 4,
+              "name": "Tranemo GF RT4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.17,
+              "gap": 11.93
+            },
+            {
+              "rank": 5,
               "start_position": 1,
               "name": "GF Öjabytruppen",
               "D": null,
@@ -705,7 +804,18 @@
               "gap": 11.7
             },
             {
-              "rank": 5,
+              "rank": 6,
+              "start_position": 7,
+              "name": "Huskvarna GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.17,
+              "gap": 10.93
+            },
+            {
+              "rank": 7,
               "start_position": 9,
               "name": "Kalmar GF JT Svart",
               "D": null,
@@ -740,13 +850,13 @@
                 "HJ": null
               },
               "tr": {
-                "score": 21.895,
-                "D": 6.265,
-                "E": 2.0,
-                "C": 6.73,
+                "score": 11.065,
+                "D": 2.5,
+                "E": 6.565,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 10.465,
+              "total": 32.96,
               "gap": 0.0
             },
             {
@@ -754,28 +864,28 @@
               "start_position": 5,
               "name": "Kalmar GF JT Vit",
               "fx": {
+                "score": 9.13,
+                "D": 1.9,
+                "E": 5.23,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
                 "score": 10.63,
                 "D": 2.9,
                 "E": 6.33,
                 "C": 1.4,
                 "HJ": null
               },
-              "tu": {
-                "score": 10.63,
-                "D": 6.33,
-                "E": 1.4,
-                "C": null,
-                "HJ": null
-              },
               "tr": {
-                "score": 11.265,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 19.76,
+                "D": 5.23,
+                "E": 2.0,
+                "C": 6.33,
                 "HJ": null
               },
-              "total": 10.63,
-              "gap": -0.165
+              "total": 13.2,
+              "gap": 19.76
             }
           ],
           "fx_app": [
@@ -789,6 +899,17 @@
               "HJ": null,
               "score": 10.465,
               "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "Kalmar GF JT Vit",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.335,
+              "gap": 9.13
             }
           ],
           "tu_app": [
@@ -817,15 +938,15 @@
           ],
           "tr_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "rank": 1,
+              "start_position": 2,
+              "name": "Jönköpings GF Trupp 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.065,
+              "gap": 0.0
             }
           ]
         },
