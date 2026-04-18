@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T14:04:58.554104Z",
+  "last_updated": "2026-04-18T14:54:14.537505Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -967,6 +967,174 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 1,
+              "name": "Rödebygymnasterna Nattlila",
+              "fx": {
+                "score": 10.865,
+                "D": 1.6,
+                "E": 7.265,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.23,
+                "D": 1.6,
+                "E": 7.63,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.8,
+                "D": 1.8,
+                "E": 8.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 33.895,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "Jönköpings GF Trupp 2",
+              "fx": {
+                "score": 11.165,
+                "D": 1.6,
+                "E": 7.565,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.4,
+                "D": 1.8,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.165,
+                "D": 1.8,
+                "E": 7.465,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 33.73,
+              "gap": 0.165
+            },
+            {
+              "rank": 3,
+              "start_position": 7,
+              "name": "Dackegymnasterna Lag 67",
+              "fx": {
+                "score": 9.53,
+                "D": 1.5,
+                "E": 6.33,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.03,
+                "D": 1.8,
+                "E": 7.33,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.2,
+                "D": 1.7,
+                "E": 7.7,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 31.76,
+              "gap": 2.135
+            },
+            {
+              "rank": 4,
+              "start_position": 3,
+              "name": "Dackegymnasterna Blå",
+              "fx": {
+                "score": 9.13,
+                "D": 1.2,
+                "E": 6.13,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.765,
+                "D": 1.9,
+                "E": 6.865,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.8,
+                "D": 1.8,
+                "E": 8.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 31.695,
+              "gap": 2.2
+            },
+            {
+              "rank": 5,
+              "start_position": 2,
+              "name": "Braåsgymnasterna Lag Svart",
+              "fx": {
+                "score": 8.565,
+                "D": 1.8,
+                "E": 4.765,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.03,
+                "D": 1.5,
+                "E": 7.03,
+                "C": 1.5,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.3,
+                "D": 1.8,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 29.895,
+              "gap": 4.0
+            },
+            {
+              "rank": 6,
+              "start_position": 4,
+              "name": "Rödebygymnasterna On fire",
+              "fx": {
+                "score": 8.0,
+                "D": 1.4,
+                "E": 4.8,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.765,
+                "D": 1.5,
+                "E": 7.265,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.6,
+                "D": 1.6,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 29.365,
+              "gap": 4.53
+            },
+            {
+              "rank": 7,
               "start_position": 6,
               "name": "Rödebygymnasterna Skugglila",
               "fx": {
@@ -990,123 +1158,11 @@
                 "C": 8.33,
                 "HJ": null
               },
-              "total": 11.465,
-              "gap": 0.0
+              "total": 10.3,
+              "gap": 23.595
             },
             {
-              "rank": 2,
-              "start_position": 1,
-              "name": "Rödebygymnasterna Nattlila",
-              "fx": {
-                "score": 10.865,
-                "D": 1.6,
-                "E": 7.265,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 11.23,
-                "D": 1.6,
-                "E": 7.63,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 22.095,
-                "D": 7.265,
-                "E": 2.0,
-                "C": 7.63,
-                "HJ": null
-              },
-              "total": 1.5,
-              "gap": 9.965
-            },
-            {
-              "rank": 3,
-              "start_position": 2,
-              "name": "Braåsgymnasterna Lag Svart",
-              "fx": {
-                "score": 10.03,
-                "D": 1.5,
-                "E": 7.03,
-                "C": 1.5,
-                "HJ": null
-              },
-              "tu": {
-                "score": 11.3,
-                "D": 1.8,
-                "E": 7.5,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 21.33,
-                "D": 7.03,
-                "E": 1.5,
-                "C": 7.5,
-                "HJ": null
-              },
-              "total": 2.265,
-              "gap": 9.2
-            },
-            {
-              "rank": 4,
-              "start_position": 3,
-              "name": "Dackegymnasterna Blå",
-              "fx": {
-                "score": 9.13,
-                "D": 1.2,
-                "E": 6.13,
-                "C": 1.8,
-                "HJ": null
-              },
-              "tu": {
-                "score": 11.8,
-                "D": 1.8,
-                "E": 8.0,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 20.93,
-                "D": 6.13,
-                "E": 1.8,
-                "C": 8.0,
-                "HJ": null
-              },
-              "total": 2.665,
-              "gap": 8.8
-            },
-            {
-              "rank": 5,
-              "start_position": 4,
-              "name": "Rödebygymnasterna On fire",
-              "fx": {
-                "score": 8.0,
-                "D": 1.4,
-                "E": 4.8,
-                "C": 1.8,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.765,
-                "D": 1.5,
-                "E": 7.265,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 18.765,
-                "D": 4.8,
-                "E": 1.8,
-                "C": 7.265,
-                "HJ": null
-              },
-              "total": 4.83,
-              "gap": 6.635
-            },
-            {
-              "rank": 6,
+              "rank": 8,
               "start_position": 11,
               "name": "Värnamo GK Safir",
               "fx": {
@@ -1117,24 +1173,24 @@
                 "HJ": null
               },
               "tu": {
-                "score": 11.9,
-                "D": 8.1,
-                "E": 2.0,
-                "C": null,
+                "score": 11.33,
+                "D": 1.8,
+                "E": 7.73,
+                "C": 1.8,
                 "HJ": null
               },
               "tr": {
-                "score": 11.695,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 23.23,
+                "D": 8.1,
+                "E": 2.0,
+                "C": 7.73,
                 "HJ": null
               },
-              "total": 11.9,
-              "gap": -0.435
+              "total": 10.665,
+              "gap": 23.23
             },
             {
-              "rank": 7,
+              "rank": 9,
               "start_position": 8,
               "name": "Eksjö GS",
               "fx": {
@@ -1145,136 +1201,52 @@
                 "HJ": null
               },
               "tu": {
-                "score": 11.43,
-                "D": 7.83,
-                "E": 2.0,
-                "C": null,
+                "score": 11.23,
+                "D": 1.8,
+                "E": 7.53,
+                "C": 1.9,
                 "HJ": null
               },
               "tr": {
-                "score": 12.165,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 22.66,
+                "D": 7.83,
+                "E": 2.0,
+                "C": 7.53,
                 "HJ": null
               },
-              "total": 11.43,
-              "gap": 0.035
+              "total": 11.235,
+              "gap": 22.66
             },
             {
-              "rank": 8,
-              "start_position": 5,
-              "name": "Jönköpings GF Trupp 2",
+              "rank": 10,
+              "start_position": 12,
+              "name": "Borensbergs GF",
               "fx": {
-                "score": 11.4,
+                "score": 10.765,
                 "D": 1.8,
-                "E": 7.6,
+                "E": 6.965,
                 "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": 11.4,
-                "D": 7.6,
-                "E": 2.0,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": 12.195,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 11.4,
-              "gap": 0.065
-            },
-            {
-              "rank": 9,
-              "start_position": 12,
-              "name": "Borensbergs GF",
-              "fx": {
                 "score": 10.865,
                 "D": 1.8,
                 "E": 7.065,
                 "C": 2.0,
                 "HJ": null
               },
-              "tu": {
-                "score": 10.865,
-                "D": 7.065,
+              "tr": {
+                "score": 21.63,
+                "D": 6.965,
                 "E": 2.0,
-                "C": null,
+                "C": 7.065,
                 "HJ": null
               },
-              "tr": {
-                "score": 12.73,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 10.865,
-              "gap": 0.6
-            },
-            {
-              "rank": 10,
-              "start_position": 9,
-              "name": "Åstorps GF",
-              "fx": {
-                "score": 9.765,
-                "D": 1.7,
-                "E": 6.465,
-                "C": 1.6,
-                "HJ": null
-              },
-              "tu": {
-                "score": 9.765,
-                "D": 6.465,
-                "E": 1.6,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": 13.83,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 9.765,
-              "gap": 1.7
+              "total": 12.265,
+              "gap": 21.63
             },
             {
               "rank": 11,
-              "start_position": 7,
-              "name": "Dackegymnasterna Lag 67",
-              "fx": {
-                "score": 9.53,
-                "D": 1.5,
-                "E": 6.33,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 9.53,
-                "D": 6.33,
-                "E": 2.0,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": 14.065,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 9.53,
-              "gap": 1.935
-            },
-            {
-              "rank": 12,
               "start_position": 13,
               "name": "KFUM Kristianstad GF Volt RGB",
               "fx": {
@@ -1285,21 +1257,49 @@
                 "HJ": null
               },
               "tu": {
-                "score": 9.5,
-                "D": 5.7,
-                "E": 2.0,
-                "C": null,
+                "score": 10.83,
+                "D": 1.7,
+                "E": 7.43,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 14.095,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 20.33,
+                "D": 5.7,
+                "E": 2.0,
+                "C": 7.43,
                 "HJ": null
               },
-              "total": 9.5,
-              "gap": 1.965
+              "total": 13.565,
+              "gap": 20.33
+            },
+            {
+              "rank": 12,
+              "start_position": 9,
+              "name": "Åstorps GF",
+              "fx": {
+                "score": 9.93,
+                "D": 1.4,
+                "E": 6.73,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.765,
+                "D": 1.7,
+                "E": 6.465,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 19.695,
+                "D": 6.73,
+                "E": 1.8,
+                "C": 6.465,
+                "HJ": null
+              },
+              "total": 14.2,
+              "gap": 19.695
             }
           ],
           "fx_app": [
@@ -1316,6 +1316,17 @@
             },
             {
               "rank": 2,
+              "start_position": 5,
+              "name": "Jönköpings GF Trupp 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.3,
+              "gap": 11.165
+            },
+            {
+              "rank": 3,
               "start_position": 1,
               "name": "Rödebygymnasterna Nattlila",
               "D": null,
@@ -1326,7 +1337,29 @@
               "gap": 10.865
             },
             {
-              "rank": 3,
+              "rank": 4,
+              "start_position": 12,
+              "name": "Borensbergs GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.7,
+              "gap": 10.765
+            },
+            {
+              "rank": 5,
+              "start_position": 9,
+              "name": "Åstorps GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.535,
+              "gap": 9.93
+            },
+            {
+              "rank": 6,
               "start_position": 7,
               "name": "Dackegymnasterna Lag 67",
               "D": null,
@@ -1337,7 +1370,7 @@
               "gap": 9.53
             },
             {
-              "rank": 4,
+              "rank": 7,
               "start_position": 13,
               "name": "KFUM Kristianstad GF Volt RGB",
               "D": null,
@@ -1348,7 +1381,7 @@
               "gap": 9.5
             },
             {
-              "rank": 5,
+              "rank": 8,
               "start_position": 3,
               "name": "Dackegymnasterna Blå",
               "D": null,
@@ -1359,7 +1392,18 @@
               "gap": 9.13
             },
             {
-              "rank": 6,
+              "rank": 9,
+              "start_position": 2,
+              "name": "Braåsgymnasterna Lag Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.9,
+              "gap": 8.565
+            },
+            {
+              "rank": 10,
               "start_position": 4,
               "name": "Rödebygymnasterna On fire",
               "D": null,
@@ -1417,6 +1461,28 @@
             },
             {
               "rank": 5,
+              "start_position": 7,
+              "name": "Dackegymnasterna Lag 67",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.87,
+              "gap": 11.03
+            },
+            {
+              "rank": 6,
+              "start_position": 13,
+              "name": "KFUM Kristianstad GF Volt RGB",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.07,
+              "gap": 10.83
+            },
+            {
+              "rank": 7,
               "start_position": 4,
               "name": "Rödebygymnasterna On fire",
               "D": null,
@@ -1427,10 +1493,21 @@
               "gap": 10.765
             },
             {
-              "rank": 6,
+              "rank": 7,
+              "start_position": 3,
+              "name": "Dackegymnasterna Blå",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.135,
+              "gap": 10.765
+            },
+            {
+              "rank": 9,
               "start_position": 2,
               "name": "Braåsgymnasterna Lag Svart",
-              "D": 6.0,
+              "D": null,
               "E": null,
               "C": null,
               "HJ": null,
@@ -1452,6 +1529,17 @@
             },
             {
               "rank": 2,
+              "start_position": 1,
+              "name": "Rödebygymnasterna Nattlila",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.33,
+              "gap": 11.8
+            },
+            {
+              "rank": 2,
               "start_position": 3,
               "name": "Dackegymnasterna Blå",
               "D": null,
@@ -1462,7 +1550,18 @@
               "gap": 11.8
             },
             {
-              "rank": 3,
+              "rank": 4,
+              "start_position": 11,
+              "name": "Värnamo GK Safir",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.8,
+              "gap": 11.33
+            },
+            {
+              "rank": 5,
               "start_position": 2,
               "name": "Braåsgymnasterna Lag Svart",
               "D": null,
@@ -1473,7 +1572,40 @@
               "gap": 11.3
             },
             {
-              "rank": 4,
+              "rank": 6,
+              "start_position": 8,
+              "name": "Eksjö GS",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.9,
+              "gap": 11.23
+            },
+            {
+              "rank": 7,
+              "start_position": 7,
+              "name": "Dackegymnasterna Lag 67",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.93,
+              "gap": 11.2
+            },
+            {
+              "rank": 8,
+              "start_position": 5,
+              "name": "Jönköpings GF Trupp 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.965,
+              "gap": 11.165
+            },
+            {
+              "rank": 9,
               "start_position": 12,
               "name": "Borensbergs GF",
               "D": null,
@@ -1484,11 +1616,22 @@
               "gap": 10.865
             },
             {
-              "rank": 5,
+              "rank": 10,
+              "start_position": 4,
+              "name": "Rödebygymnasterna On fire",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.53,
+              "gap": 10.6
+            },
+            {
+              "rank": 11,
               "start_position": 9,
               "name": "Åstorps GF",
-              "D": 10.0,
-              "E": 11.0,
+              "D": null,
+              "E": null,
               "C": null,
               "HJ": null,
               "score": 2.365,
