@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T11:59:47.251917Z",
+  "last_updated": "2026-04-18T13:09:38.498915Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -878,14 +878,14 @@
                 "HJ": null
               },
               "tr": {
-                "score": 19.76,
-                "D": 5.23,
-                "E": 2.0,
-                "C": 6.33,
+                "score": 12.1,
+                "D": 2.5,
+                "E": 7.6,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 13.2,
-              "gap": 19.76
+              "total": 31.86,
+              "gap": 1.1
             }
           ],
           "fx_app": [
@@ -939,14 +939,25 @@
           "tr_app": [
             {
               "rank": 1,
+              "start_position": 5,
+              "name": "Kalmar GF JT Vit",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 12.1,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 2,
               "name": "Jönköpings GF Trupp 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 11.065,
-              "gap": 0.0
+              "score": 1.035,
+              "gap": 11.065
             }
           ]
         },
@@ -956,24 +967,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 3,
+              "name": "Dackegymnasterna Blå",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.8,
+                "D": 1.8,
+                "E": 8.0,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 11.8,
+                "D": 8.0,
+                "E": 2.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 11.8,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -1011,15 +1022,15 @@
           ],
           "tr_app": [
             {
-              "rank": 3,
-              "start_position": null,
-              "name": "6",
+              "rank": 1,
+              "start_position": 3,
+              "name": "Dackegymnasterna Blå",
               "D": 10.0,
               "E": 11.0,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.8,
+              "gap": 0.0
             }
           ]
         }
