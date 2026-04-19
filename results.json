@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T17:42:22.369324Z",
+  "last_updated": "2026-04-19T18:25:15.541426Z",
   "competitions": [
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
@@ -300,6 +300,13 @@
           ]
         }
       ]
+    },
+    {
+      "competition": "Westra Aros Cupen 2026",
+      "date_from": "2026-04-25",
+      "date_to": "2026-04-26",
+      "place": "Västerås",
+      "classes": []
     },
     {
       "competition": "Rikstrean Dam - VT26",
