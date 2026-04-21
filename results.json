@@ -1,6 +1,124 @@
 {
-  "last_updated": "2026-04-21T12:46:43.820026Z",
+  "last_updated": "2026-04-21T14:23:11.838276Z",
   "competitions": [
+    {
+      "competition": "Riksfyran Öppen klass & Riksfemman Herr - VT26",
+      "date_from": "2026-05-09",
+      "date_to": "2026-05-10",
+      "place": "Helsingborg",
+      "classes": [
+        {
+          "class_name": "Riksfemman Herr",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3623?f=8037&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [],
+          "tu_app": [],
+          "tr_app": []
+        },
+        {
+          "class_name": "Riksfyran Öppen klass",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3623?f=8036&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": 9.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": 9.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": 9.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
       "date_from": "2026-05-01",
