@@ -1,6 +1,233 @@
 {
-  "last_updated": "2026-04-24T12:46:00.659979Z",
+  "last_updated": "2026-04-24T14:20:55.893097Z",
   "competitions": [
+    {
+      "competition": "SM - 2026",
+      "date_from": "2026-05-15",
+      "date_to": "2026-05-16",
+      "place": "Karlskrona",
+      "classes": [
+        {
+          "class_name": "SM - Dam",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3626?f=8039&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        },
+        {
+          "class_name": "SM - Mixed",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3626?f=8040&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        },
+        {
+          "class_name": "SM - Herr",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3626?f=8041&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": 5.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": null,
+              "E": 5.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "competition": "Riksfyran Öppen klass & Riksfemman Herr - VT26",
       "date_from": "2026-05-09",
