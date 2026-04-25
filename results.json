@@ -1,6 +1,13 @@
 {
-  "last_updated": "2026-04-25T20:51:33.198715Z",
+  "last_updated": "2026-04-25T21:23:45.709660Z",
   "competitions": [
+    {
+      "competition": "Truppcupen 2026",
+      "date_from": "2026-05-16",
+      "date_to": "2026-05-16",
+      "place": "Östersund",
+      "classes": []
+    },
     {
       "competition": "SM - 2026",
       "date_from": "2026-05-15",
