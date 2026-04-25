@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T04:06:30.012567Z",
+  "last_updated": "2026-04-25T05:55:42.006390Z",
   "competitions": [
     {
       "competition": "SM - 2026",
@@ -241,7 +241,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
