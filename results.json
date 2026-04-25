@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T14:11:36.731669Z",
+  "last_updated": "2026-04-25T14:59:29.689715Z",
   "competitions": [
     {
       "competition": "SM - 2026",
@@ -1005,6 +1005,34 @@
               },
               "total": 27.6,
               "gap": 7.05
+            },
+            {
+              "rank": 13,
+              "start_position": 13,
+              "name": "Saltsjöbadens IF UT Svart",
+              "fx": {
+                "score": 11.0,
+                "D": 2.0,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.0,
+                "D": 7.0,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 23.65,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.0,
+              "gap": 23.65
             }
           ],
           "fx_app": [
@@ -1043,6 +1071,17 @@
             },
             {
               "rank": 4,
+              "start_position": 13,
+              "name": "Saltsjöbadens IF UT Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.05,
+              "gap": 11.0
+            },
+            {
+              "rank": 5,
               "start_position": 1,
               "name": "GF Örebro Röd 8",
               "D": null,
@@ -1053,7 +1092,7 @@
               "gap": 10.9
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 10,
               "name": "Tyresögymnastiken UT Gul",
               "D": null,
@@ -1064,7 +1103,7 @@
               "gap": 10.75
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 8,
               "name": "ABGS lag Gul",
               "D": null,
@@ -1075,7 +1114,7 @@
               "gap": 10.55
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 2,
               "name": "Karlskrona GF F12",
               "D": null,
@@ -1086,7 +1125,7 @@
               "gap": 10.5
             },
             {
-              "rank": 8,
+              "rank": 9,
               "start_position": 9,
               "name": "Kämpinge GF",
               "D": null,
@@ -1097,7 +1136,7 @@
               "gap": 10.45
             },
             {
-              "rank": 9,
+              "rank": 10,
               "start_position": 5,
               "name": "Mälarögymnasterna Team MG",
               "D": null,
@@ -1108,7 +1147,7 @@
               "gap": 9.7
             },
             {
-              "rank": 9,
+              "rank": 10,
               "start_position": 4,
               "name": "Lugi GF lag 1",
               "D": null,
@@ -1119,7 +1158,7 @@
               "gap": 9.7
             },
             {
-              "rank": 11,
+              "rank": 12,
               "start_position": 11,
               "name": "Strängnäs GF Trupp 13",
               "D": null,
@@ -1130,7 +1169,7 @@
               "gap": 9.25
             },
             {
-              "rank": 12,
+              "rank": 13,
               "start_position": 3,
               "name": "Team Södertörn (Vendelsö GF/GK Trollbäcken)",
               "D": null,
