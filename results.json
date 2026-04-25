@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T10:02:00.301787Z",
+  "last_updated": "2026-04-25T10:54:29.287843Z",
   "competitions": [
     {
       "competition": "SM - 2026",
@@ -87,7 +87,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -672,24 +672,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 6,
+              "name": "GF Wermdö UT2",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.9,
+                "D": 2.2,
+                "E": 7.7,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 11.9,
+                "D": 7.7,
+                "E": 2.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 11.9,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -697,45 +697,413 @@
               },
               "total": null,
               "gap": null
+            },
+            {
+              "rank": 2,
+              "start_position": 12,
+              "name": "GT Vikingarna lag 1",
+              "fx": {
+                "score": 11.85,
+                "D": 2.2,
+                "E": 7.65,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.85,
+                "D": 7.65,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.05,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.85,
+              "gap": null
+            },
+            {
+              "rank": 3,
+              "start_position": 2,
+              "name": "Karlskrona GF F12",
+              "fx": {
+                "score": 11.35,
+                "D": 3.1,
+                "E": 6.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.35,
+                "D": 6.25,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.55,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.35,
+              "gap": null
+            },
+            {
+              "rank": 4,
+              "start_position": 5,
+              "name": "Mälarögymnasterna Team MG",
+              "fx": {
+                "score": 11.05,
+                "D": 2.9,
+                "E": 6.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.05,
+                "D": 6.15,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.85,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.05,
+              "gap": null
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "GF Örebro Röd 8",
+              "fx": {
+                "score": 10.9,
+                "D": 2.2,
+                "E": 6.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.9,
+                "D": 6.7,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.0,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.9,
+              "gap": null
+            },
+            {
+              "rank": 5,
+              "start_position": 11,
+              "name": "Strängnäs GF Trupp 13",
+              "fx": {
+                "score": 10.9,
+                "D": 2.9,
+                "E": 6.2,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.9,
+                "D": 6.2,
+                "E": 1.8,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.0,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.9,
+              "gap": null
+            },
+            {
+              "rank": 7,
+              "start_position": 10,
+              "name": "Tyresögymnastiken UT Gul",
+              "fx": {
+                "score": 10.75,
+                "D": 2.0,
+                "E": 6.75,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.75,
+                "D": 6.75,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.15,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.75,
+              "gap": null
+            },
+            {
+              "rank": 8,
+              "start_position": 3,
+              "name": "Team Södertörn (Vendelsö GF/GK Trollbäcken)",
+              "fx": {
+                "score": 10.575,
+                "D": 2.4,
+                "E": 6.325,
+                "C": 1.85,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.575,
+                "D": 6.325,
+                "E": 1.85,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.325,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.575,
+              "gap": null
+            },
+            {
+              "rank": 9,
+              "start_position": 9,
+              "name": "Kämpinge GF",
+              "fx": {
+                "score": 9.7,
+                "D": 2.0,
+                "E": 6.0,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.7,
+                "D": 6.0,
+                "E": 1.7,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.2,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 9.7,
+              "gap": null
+            },
+            {
+              "rank": 9,
+              "start_position": 4,
+              "name": "Lugi GF lag 1",
+              "fx": {
+                "score": 9.7,
+                "D": 2.1,
+                "E": 5.7,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.7,
+                "D": 5.7,
+                "E": 1.9,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 2.2,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 9.7,
+              "gap": null
+            },
+            {
+              "rank": 11,
+              "start_position": 8,
+              "name": "ABGS lag Gul",
+              "fx": {
+                "score": 8.65,
+                "D": 2.6,
+                "E": 4.55,
+                "C": 1.5,
+                "HJ": null
+              },
+              "tu": {
+                "score": 8.65,
+                "D": 4.55,
+                "E": 1.5,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 3.25,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 8.65,
+              "gap": null
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 1,
+              "name": "GF Örebro Röd 8",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 10.9,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 10,
+              "name": "Tyresögymnastiken UT Gul",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.15,
+              "gap": 10.75
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "Lugi GF lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.2,
+              "gap": 9.7
             }
           ],
           "tu_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "rank": 1,
+              "start_position": 2,
+              "name": "Karlskrona GF F12",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.35,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "Mälarögymnasterna Team MG",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.3,
+              "gap": 11.05
+            },
+            {
+              "rank": 3,
+              "start_position": 11,
+              "name": "Strängnäs GF Trupp 13",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.45,
+              "gap": 10.9
+            },
+            {
+              "rank": 4,
+              "start_position": 8,
+              "name": "ABGS lag Gul",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.7,
+              "gap": 8.65
             }
           ],
           "tr_app": [
             {
-              "rank": 3,
-              "start_position": null,
-              "name": "6",
+              "rank": 1,
+              "start_position": 6,
+              "name": "GF Wermdö UT2",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.9,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 12,
+              "name": "GT Vikingarna lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.05,
+              "gap": 11.85
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "Team Södertörn (Vendelsö GF/GK Trollbäcken)",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.325,
+              "gap": 10.575
+            },
+            {
+              "rank": 4,
+              "start_position": 9,
+              "name": "Kämpinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.2,
+              "gap": 9.7
             }
           ]
         }
