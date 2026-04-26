@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26T10:54:24.670179Z",
+  "last_updated": "2026-04-26T11:31:53.141870Z",
   "competitions": [
     {
       "competition": "Truppcupen 2026",
@@ -439,7 +439,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -2183,6 +2183,34 @@
             },
             {
               "rank": 2,
+              "start_position": 8,
+              "name": "GT Vikingarna lag 1",
+              "fx": {
+                "score": 11.55,
+                "D": 2.1,
+                "E": 7.45,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.2,
+                "D": 2.7,
+                "E": 6.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.8,
+                "D": 2.2,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 34.55,
+              "gap": 0.6
+            },
+            {
+              "rank": 3,
               "start_position": 5,
               "name": "Halmstad Frigymnaster",
               "fx": {
@@ -2210,7 +2238,35 @@
               "gap": 1.55
             },
             {
-              "rank": 3,
+              "rank": 4,
+              "start_position": 7,
+              "name": "Karlskrona GF F12",
+              "fx": {
+                "score": 10.5,
+                "D": 1.7,
+                "E": 6.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.65,
+                "D": 3.1,
+                "E": 6.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.35,
+                "D": 2.5,
+                "E": 6.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 33.5,
+              "gap": 1.65
+            },
+            {
+              "rank": 5,
               "start_position": 4,
               "name": "SOL GF",
               "fx": {
@@ -2238,7 +2294,35 @@
               "gap": 2.25
             },
             {
-              "rank": 4,
+              "rank": 6,
+              "start_position": 10,
+              "name": "Sollentunagymnasterna",
+              "fx": {
+                "score": 10.75,
+                "D": 2.1,
+                "E": 6.65,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.3,
+                "D": 2.9,
+                "E": 6.1,
+                "C": 1.3,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.25,
+                "D": 2.4,
+                "E": 6.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 32.3,
+              "gap": 2.85
+            },
+            {
+              "rank": 7,
               "start_position": 1,
               "name": "GCF Uppsala",
               "fx": {
@@ -2266,7 +2350,35 @@
               "gap": 3.0
             },
             {
-              "rank": 5,
+              "rank": 7,
+              "start_position": 6,
+              "name": "GT Vikingarna UT4",
+              "fx": {
+                "score": 10.4,
+                "D": 1.8,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.3,
+                "D": 3.1,
+                "E": 6.5,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.45,
+                "D": 2.2,
+                "E": 6.75,
+                "C": 1.5,
+                "HJ": null
+              },
+              "total": 32.15,
+              "gap": 3.0
+            },
+            {
+              "rank": 9,
               "start_position": 2,
               "name": "GF Örebro Röd 1",
               "fx": {
@@ -2294,63 +2406,7 @@
               "gap": 3.25
             },
             {
-              "rank": 6,
-              "start_position": 8,
-              "name": "GT Vikingarna lag 1",
-              "fx": {
-                "score": 11.2,
-                "D": 2.7,
-                "E": 6.5,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 11.8,
-                "D": 2.2,
-                "E": 7.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 23.0,
-                "D": 6.5,
-                "E": 2.0,
-                "C": 7.6,
-                "HJ": null
-              },
-              "total": 12.15,
-              "gap": 23.0
-            },
-            {
-              "rank": 7,
-              "start_position": 7,
-              "name": "Karlskrona GF F12",
-              "fx": {
-                "score": 10.5,
-                "D": 1.7,
-                "E": 6.8,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 11.65,
-                "D": 3.1,
-                "E": 6.55,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 22.15,
-                "D": 6.8,
-                "E": 2.0,
-                "C": 6.55,
-                "HJ": null
-              },
-              "total": 13.0,
-              "gap": 22.15
-            },
-            {
-              "rank": 8,
+              "rank": 10,
               "start_position": 9,
               "name": "Saltsjöbadens IF UT Svart",
               "fx": {
@@ -2361,77 +2417,21 @@
                 "HJ": null
               },
               "tu": {
+                "score": 9.85,
+                "D": 2.5,
+                "E": 6.25,
+                "C": 1.1,
+                "HJ": null
+              },
+              "tr": {
                 "score": 10.3,
                 "D": 2.1,
                 "E": 6.4,
                 "C": 1.8,
                 "HJ": null
               },
-              "tr": {
-                "score": 21.15,
-                "D": 6.85,
-                "E": 2.0,
-                "C": 6.4,
-                "HJ": null
-              },
-              "total": 14.0,
-              "gap": 21.15
-            },
-            {
-              "rank": 9,
-              "start_position": 10,
-              "name": "Sollentunagymnasterna",
-              "fx": {
-                "score": 10.75,
-                "D": 2.1,
-                "E": 6.65,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.3,
-                "D": 2.9,
-                "E": 6.1,
-                "C": 1.3,
-                "HJ": null
-              },
-              "tr": {
-                "score": 21.05,
-                "D": 6.65,
-                "E": 2.0,
-                "C": 6.1,
-                "HJ": null
-              },
-              "total": 14.1,
-              "gap": 21.05
-            },
-            {
-              "rank": 10,
-              "start_position": 6,
-              "name": "GT Vikingarna UT4",
-              "fx": {
-                "score": 10.4,
-                "D": 1.8,
-                "E": 6.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.45,
-                "D": 2.2,
-                "E": 6.75,
-                "C": 1.5,
-                "HJ": null
-              },
-              "tr": {
-                "score": 20.85,
-                "D": 6.6,
-                "E": 2.0,
-                "C": 6.75,
-                "HJ": null
-              },
-              "total": 14.3,
-              "gap": 20.85
+              "total": 31.0,
+              "gap": 4.15
             }
           ],
           "fx_app": [
@@ -2448,6 +2448,17 @@
             },
             {
               "rank": 2,
+              "start_position": 8,
+              "name": "GT Vikingarna lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.45,
+              "gap": 11.55
+            },
+            {
+              "rank": 3,
               "start_position": 4,
               "name": "SOL GF",
               "D": null,
@@ -2458,7 +2469,7 @@
               "gap": 11.2
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 9,
               "name": "Saltsjöbadens IF UT Svart",
               "D": null,
@@ -2469,7 +2480,7 @@
               "gap": 10.85
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 2,
               "name": "GF Örebro Röd 1",
               "D": null,
@@ -2480,7 +2491,7 @@
               "gap": 10.75
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 10,
               "name": "Sollentunagymnasterna",
               "D": null,
@@ -2491,7 +2502,7 @@
               "gap": 10.75
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 1,
               "name": "GCF Uppsala",
               "D": null,
@@ -2502,7 +2513,7 @@
               "gap": 10.55
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 7,
               "name": "Karlskrona GF F12",
               "D": null,
@@ -2513,7 +2524,7 @@
               "gap": 10.5
             },
             {
-              "rank": 8,
+              "rank": 9,
               "start_position": 6,
               "name": "GT Vikingarna UT4",
               "D": null,
@@ -2524,7 +2535,7 @@
               "gap": 10.4
             },
             {
-              "rank": 9,
+              "rank": 10,
               "start_position": 5,
               "name": "Halmstad Frigymnaster",
               "D": null,
@@ -2571,6 +2582,17 @@
             },
             {
               "rank": 4,
+              "start_position": 6,
+              "name": "GT Vikingarna UT4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.45,
+              "gap": 11.3
+            },
+            {
+              "rank": 5,
               "start_position": 8,
               "name": "GT Vikingarna lag 1",
               "D": null,
@@ -2581,7 +2603,7 @@
               "gap": 11.2
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 3,
               "name": "GF Wermdö UT2",
               "D": null,
@@ -2592,7 +2614,7 @@
               "gap": 11.05
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 4,
               "name": "SOL GF",
               "D": null,
@@ -2603,7 +2625,7 @@
               "gap": 10.35
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 10,
               "name": "Sollentunagymnasterna",
               "D": null,
@@ -2614,9 +2636,20 @@
               "gap": 10.3
             },
             {
-              "rank": 8,
+              "rank": 9,
               "start_position": 2,
               "name": "GF Örebro Röd 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.9,
+              "gap": 9.85
+            },
+            {
+              "rank": 9,
+              "start_position": 9,
+              "name": "Saltsjöbadens IF UT Svart",
               "D": null,
               "E": null,
               "C": null,
@@ -2671,7 +2704,18 @@
               "gap": 11.35
             },
             {
-              "rank": 5,
+              "rank": 4,
+              "start_position": 7,
+              "name": "Karlskrona GF F12",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.75,
+              "gap": 11.35
+            },
+            {
+              "rank": 6,
               "start_position": 2,
               "name": "GF Örebro Röd 1",
               "D": null,
@@ -2682,7 +2726,18 @@
               "gap": 11.3
             },
             {
-              "rank": 6,
+              "rank": 7,
+              "start_position": 10,
+              "name": "Sollentunagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.85,
+              "gap": 11.25
+            },
+            {
+              "rank": 8,
               "start_position": 6,
               "name": "GT Vikingarna UT4",
               "D": null,
@@ -2693,7 +2748,7 @@
               "gap": 10.45
             },
             {
-              "rank": 7,
+              "rank": 9,
               "start_position": 9,
               "name": "Saltsjöbadens IF UT Svart",
               "D": null,
@@ -2704,7 +2759,7 @@
               "gap": 10.3
             },
             {
-              "rank": 8,
+              "rank": 10,
               "start_position": 1,
               "name": "GCF Uppsala",
               "D": null,
