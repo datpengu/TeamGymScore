@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T08:43:07.558663Z",
+  "last_updated": "2026-04-27T10:35:24.370200Z",
   "competitions": [
     {
       "competition": "Truppcupen 2026",
@@ -352,6 +352,20 @@
           ]
         }
       ]
+    },
+    {
+      "competition": "Truppslaget VT26 6-9",
+      "date_from": "2026-05-09",
+      "date_to": "2026-05-10",
+      "place": "Umeå",
+      "classes": []
+    },
+    {
+      "competition": "Truppslaget VT26 3-5",
+      "date_from": "2026-05-09",
+      "date_to": "2026-05-10",
+      "place": "Umeå",
+      "classes": []
     },
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
