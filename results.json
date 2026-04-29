@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T11:10:59.169348Z",
+  "last_updated": "2026-04-29T12:53:08.259446Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -520,6 +520,234 @@
       "date_to": "2026-05-10",
       "place": "Umeå",
       "classes": []
+    },
+    {
+      "competition": "Test R2 & R4",
+      "date_from": "2026-05-02",
+      "date_to": "2026-05-03",
+      "place": "--",
+      "classes": [
+        {
+          "class_name": "Rikstvåan Dam 13-16 år",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3639?f=8080&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "9",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "9",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 9,
+              "start_position": null,
+              "name": "1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        },
+        {
+          "class_name": "Rikstvåan Mixed 13 år och äldre",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3639?f=8081&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [],
+          "tu_app": [],
+          "tr_app": []
+        },
+        {
+          "class_name": "Rikstvåan Herr 13 år och äldre",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3639?f=8082&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 4,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [],
+          "tu_app": [],
+          "tr_app": []
+        },
+        {
+          "class_name": "Riksfyran Dam 13-16 år",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3639?f=8083&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 5,
+              "start_position": null,
+              "name": "3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
     },
     {
       "competition": "Rikstvåan & Riksfyran - VT26",
