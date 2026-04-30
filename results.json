@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T11:13:55.549054Z",
+  "last_updated": "2026-04-30T12:54:40.034341Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -750,7 +750,88 @@
       ]
     },
     {
-      "competition": "Rikstvåan & Riksfyran - VT26",
+      "competition": "Riksfyran Dam 13-16 år - VT26",
+      "date_from": "2026-05-02",
+      "date_to": "2026-05-03",
+      "place": "Halmstad",
+      "classes": [
+        {
+          "class_name": "Riksfyran Dam 13-16 år",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3642?f=8084&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": 2.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": 2.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "Rikstvåan Dam, Herr, Mixed - VT26",
       "date_from": "2026-05-01",
       "date_to": "2026-05-03",
       "place": "Halmstad",
@@ -966,79 +1047,6 @@
               "start_position": null,
               "name": "4",
               "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ]
-        },
-        {
-          "class_name": "Riksfyran Dam 13-16 år",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3601?f=7968&country=swe&year=2026",
-          "teams": [
-            {
-              "rank": 1,
-              "start_position": null,
-              "name": "FX",
-              "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": null,
-              "gap": null
-            }
-          ],
-          "fx_app": [
-            {
-              "rank": 1,
-              "start_position": null,
-              "name": "4",
-              "D": 2.0,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ],
-          "tu_app": [
-            {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ],
-          "tr_app": [
-            {
-              "rank": 3,
-              "start_position": null,
-              "name": "6",
-              "D": 2.0,
               "E": null,
               "C": null,
               "HJ": null,
