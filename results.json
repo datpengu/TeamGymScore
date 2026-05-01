@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T12:09:49.478458Z",
+  "last_updated": "2026-05-01T13:52:13.478035Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -761,24 +761,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 3,
+              "name": "Göteborgs Turnförening T4-1",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.65,
+                "D": 2.1,
+                "E": 7.65,
+                "C": 1.9,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 11.65,
+                "D": 7.65,
+                "E": 1.9,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 11.65,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -786,45 +786,179 @@
               },
               "total": null,
               "gap": null
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "Wifolka GF T2",
+              "fx": {
+                "score": 11.3,
+                "D": 2.1,
+                "E": 7.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.3,
+                "D": 7.2,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.35,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.3,
+              "gap": null
+            },
+            {
+              "rank": 3,
+              "start_position": 6,
+              "name": "SOL GF Ungdomstruppen Lila",
+              "fx": {
+                "score": 11.25,
+                "D": 2.2,
+                "E": 7.05,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.25,
+                "D": 7.05,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.4,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.25,
+              "gap": null
+            },
+            {
+              "rank": 4,
+              "start_position": 1,
+              "name": "Nacka GF UT ROSETT",
+              "fx": {
+                "score": 10.3,
+                "D": 1.4,
+                "E": 6.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.3,
+                "D": 6.9,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.35,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.3,
+              "gap": null
+            },
+            {
+              "rank": 4,
+              "start_position": 5,
+              "name": "Stockholm Top Gymnastics",
+              "fx": {
+                "score": 10.3,
+                "D": 2.2,
+                "E": 6.2,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.3,
+                "D": 6.2,
+                "E": 1.9,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 1.35,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.3,
+              "gap": null
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 1,
+              "name": "Nacka GF UT ROSETT",
               "D": 2.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 10.3,
+              "gap": 0.0
             }
           ],
           "tu_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "rank": 1,
+              "start_position": 2,
+              "name": "Wifolka GF T2",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.3,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "Stockholm Top Gymnastics",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 10.3
             }
           ],
           "tr_app": [
             {
-              "rank": 3,
-              "start_position": null,
-              "name": "6",
+              "rank": 1,
+              "start_position": 3,
+              "name": "Göteborgs Turnförening T4-1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 11.65,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 6,
+              "name": "SOL GF Ungdomstruppen Lila",
               "D": 2.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 0.4,
+              "gap": 11.25
             }
           ]
         }
