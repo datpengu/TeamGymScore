@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T10:08:20.401510Z",
+  "last_updated": "2026-05-01T11:20:49.654392Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -607,7 +607,7 @@
             {
               "rank": 2,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
@@ -916,7 +916,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
