@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T17:56:15.316798Z",
+  "last_updated": "2026-05-02T18:47:11.828608Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -520,234 +520,6 @@
       "date_to": "2026-05-10",
       "place": "Umeå",
       "classes": []
-    },
-    {
-      "competition": "Test R2 & R4",
-      "date_from": "2026-05-02",
-      "date_to": "2026-05-03",
-      "place": "--",
-      "classes": [
-        {
-          "class_name": "Rikstvåan Dam 13-16 år",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3639?f=8080&country=swe&year=2026",
-          "teams": [
-            {
-              "rank": 1,
-              "start_position": null,
-              "name": "FX",
-              "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": null,
-              "gap": null
-            }
-          ],
-          "fx_app": [
-            {
-              "rank": 1,
-              "start_position": null,
-              "name": "9",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ],
-          "tu_app": [
-            {
-              "rank": 1,
-              "start_position": null,
-              "name": "9",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ],
-          "tr_app": [
-            {
-              "rank": 9,
-              "start_position": null,
-              "name": "1",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ]
-        },
-        {
-          "class_name": "Rikstvåan Mixed 13 år och äldre",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3639?f=8081&country=swe&year=2026",
-          "teams": [
-            {
-              "rank": 2,
-              "start_position": null,
-              "name": "FX",
-              "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": null,
-              "gap": null
-            }
-          ],
-          "fx_app": [],
-          "tu_app": [],
-          "tr_app": []
-        },
-        {
-          "class_name": "Rikstvåan Herr 13 år och äldre",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3639?f=8082&country=swe&year=2026",
-          "teams": [
-            {
-              "rank": 4,
-              "start_position": null,
-              "name": "FX",
-              "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": null,
-              "gap": null
-            }
-          ],
-          "fx_app": [],
-          "tu_app": [],
-          "tr_app": []
-        },
-        {
-          "class_name": "Riksfyran Dam 13-16 år",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3639?f=8083&country=swe&year=2026",
-          "teams": [
-            {
-              "rank": 3,
-              "start_position": null,
-              "name": "FX",
-              "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": null,
-              "gap": null
-            }
-          ],
-          "fx_app": [
-            {
-              "rank": 3,
-              "start_position": null,
-              "name": "5",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ],
-          "tu_app": [
-            {
-              "rank": 5,
-              "start_position": null,
-              "name": "3",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ],
-          "tr_app": [
-            {
-              "rank": 3,
-              "start_position": null,
-              "name": "5",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ]
-        }
-      ]
     },
     {
       "competition": "Riksfyran Dam 13-16 år - VT26",
@@ -2236,7 +2008,7 @@
               "gap": 5.45
             },
             {
-              "rank": 8,
+              "rank": 9,
               "start_position": 19,
               "name": "Stockholm Top Gymnastics",
               "fx": {
@@ -2461,6 +2233,34 @@
             },
             {
               "rank": 17,
+              "start_position": 20,
+              "name": "Järfällagymnasterna",
+              "fx": {
+                "score": 10.55,
+                "D": 2.25,
+                "E": 5.5,
+                "C": 2.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.0,
+                "D": 4.0,
+                "E": 5.6,
+                "C": 1.4,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.125,
+                "D": 3.525,
+                "E": 6.7,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 33.675,
+              "gap": 9.325
+            },
+            {
+              "rank": 18,
               "start_position": 18,
               "name": "Tyresögymnastiken",
               "fx": {
@@ -2488,7 +2288,7 @@
               "gap": 9.575
             },
             {
-              "rank": 18,
+              "rank": 19,
               "start_position": 14,
               "name": "GF Hoi Polloi HP Engelbrekt",
               "fx": {
@@ -2516,7 +2316,7 @@
               "gap": 13.3
             },
             {
-              "rank": 19,
+              "rank": 20,
               "start_position": 7,
               "name": "GF Helios",
               "fx": {
@@ -2542,34 +2342,6 @@
               },
               "total": 28.425,
               "gap": 14.575
-            },
-            {
-              "rank": 20,
-              "start_position": 20,
-              "name": "Järfällagymnasterna",
-              "fx": {
-                "score": 10.55,
-                "D": 2.25,
-                "E": 5.5,
-                "C": 2.8,
-                "HJ": null
-              },
-              "tu": {
-                "score": 11.0,
-                "D": 4.0,
-                "E": 5.6,
-                "C": 1.4,
-                "HJ": null
-              },
-              "tr": {
-                "score": 21.55,
-                "D": 5.5,
-                "E": 2.8,
-                "C": 5.6,
-                "HJ": null
-              },
-              "total": 21.45,
-              "gap": 21.55
             }
           ],
           "fx_app": [
@@ -2673,7 +2445,7 @@
               "gap": 11.775
             },
             {
-              "rank": 9,
+              "rank": 10,
               "start_position": 5,
               "name": "Lugi GF lag 2",
               "D": null,
@@ -3106,7 +2878,7 @@
               "gap": 12.6
             },
             {
-              "rank": 8,
+              "rank": 9,
               "start_position": 3,
               "name": "GK Engelholmsgymnasterna",
               "D": null,
@@ -3162,6 +2934,17 @@
             },
             {
               "rank": 14,
+              "start_position": 20,
+              "name": "Järfällagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.525,
+              "gap": 12.125
+            },
+            {
+              "rank": 15,
               "start_position": 13,
               "name": "GK Motus-Salto lag A",
               "D": null,
@@ -3172,7 +2955,7 @@
               "gap": 11.8
             },
             {
-              "rank": 15,
+              "rank": 16,
               "start_position": 18,
               "name": "Tyresögymnastiken",
               "D": null,
@@ -3183,7 +2966,7 @@
               "gap": 11.55
             },
             {
-              "rank": 16,
+              "rank": 17,
               "start_position": 2,
               "name": "GK Motus-Salto lag 1",
               "D": null,
@@ -3194,7 +2977,7 @@
               "gap": 11.525
             },
             {
-              "rank": 17,
+              "rank": 18,
               "start_position": 12,
               "name": "Höganäs GF",
               "D": null,
@@ -3205,7 +2988,7 @@
               "gap": 11.5
             },
             {
-              "rank": 18,
+              "rank": 19,
               "start_position": 7,
               "name": "GF Helios",
               "D": null,
@@ -3216,7 +2999,7 @@
               "gap": 11.2
             },
             {
-              "rank": 19,
+              "rank": 20,
               "start_position": 8,
               "name": "Enebybergsgymnasterna",
               "D": null,
