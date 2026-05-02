@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T08:48:55.739139Z",
+  "last_updated": "2026-05-02T09:48:24.790224Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -1505,30 +1505,30 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": 3,
-              "name": "Nacka GF U2 Yngre",
+              "start_position": 7,
+              "name": "SOL GF Ungdomstruppen Grå",
               "fx": {
-                "score": 10.5,
-                "D": 2.3,
-                "E": 6.3,
-                "C": 1.9,
+                "score": 11.65,
+                "D": 1.7,
+                "E": 7.95,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": 12.1,
-                "D": 2.1,
-                "E": 8.1,
-                "C": 1.9,
+                "score": 11.4,
+                "D": 2.4,
+                "E": 7.0,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 22.6,
-                "D": 6.3,
-                "E": 1.9,
-                "C": 8.1,
+                "score": 12.2,
+                "D": 2.1,
+                "E": 8.1,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 10.5,
+              "total": 35.25,
               "gap": 0.0
             },
             {
@@ -1536,28 +1536,28 @@
               "start_position": 6,
               "name": "Nacka GF UT ROSETT",
               "fx": {
+                "score": 11.0,
+                "D": 1.7,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
                 "score": 10.0,
                 "D": 2.3,
                 "E": 6.3,
                 "C": 1.4,
                 "HJ": null
               },
-              "tu": {
+              "tr": {
                 "score": 12.35,
                 "D": 2.2,
                 "E": 8.15,
                 "C": 2.0,
                 "HJ": null
               },
-              "tr": {
-                "score": 22.35,
-                "D": 6.3,
-                "E": 1.4,
-                "C": 8.15,
-                "HJ": null
-              },
-              "total": 0.25,
-              "gap": 10.25
+              "total": 33.35,
+              "gap": 1.9
             },
             {
               "rank": 3,
@@ -1571,21 +1571,21 @@
                 "HJ": null
               },
               "tu": {
+                "score": 11.3,
+                "D": 2.3,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
                 "score": 11.75,
                 "D": 2.1,
                 "E": 7.65,
                 "C": 2.0,
                 "HJ": null
               },
-              "tr": {
-                "score": 22.0,
-                "D": 6.75,
-                "E": 2.0,
-                "C": 7.65,
-                "HJ": null
-              },
-              "total": 0.6,
-              "gap": 9.9
+              "total": 33.3,
+              "gap": 1.95
             },
             {
               "rank": 4,
@@ -1606,42 +1606,42 @@
                 "HJ": null
               },
               "tr": {
-                "score": 21.55,
-                "D": 5.85,
-                "E": 2.0,
-                "C": 8.0,
+                "score": 11.65,
+                "D": 2.2,
+                "E": 7.45,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 1.05,
-              "gap": 9.45
+              "total": 33.2,
+              "gap": 2.05
             },
             {
               "rank": 5,
-              "start_position": 4,
-              "name": "Wifolka GF T2",
+              "start_position": 3,
+              "name": "Nacka GF U2 Yngre",
               "fx": {
-                "score": 9.75,
-                "D": 1.5,
-                "E": 6.25,
+                "score": 10.5,
+                "D": 1.2,
+                "E": 7.3,
                 "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": 11.65,
-                "D": 1.9,
-                "E": 7.75,
-                "C": 2.0,
+                "score": 10.5,
+                "D": 2.3,
+                "E": 6.3,
+                "C": 1.9,
                 "HJ": null
               },
               "tr": {
-                "score": 21.4,
-                "D": 6.25,
-                "E": 2.0,
-                "C": 7.75,
+                "score": 12.1,
+                "D": 2.1,
+                "E": 8.1,
+                "C": 1.9,
                 "HJ": null
               },
-              "total": 1.2,
-              "gap": 9.3
+              "total": 33.1,
+              "gap": 2.15
             },
             {
               "rank": 6,
@@ -1662,70 +1662,70 @@
                 "HJ": null
               },
               "tr": {
-                "score": 20.85,
-                "D": 5.85,
-                "E": 2.0,
-                "C": 7.3,
-                "HJ": null
-              },
-              "total": 1.75,
-              "gap": 8.75
-            },
-            {
-              "rank": 7,
-              "start_position": 7,
-              "name": "SOL GF Ungdomstruppen Grå",
-              "fx": {
-                "score": 11.65,
-                "D": 1.7,
+                "score": 12.15,
+                "D": 2.2,
                 "E": 7.95,
                 "C": 2.0,
                 "HJ": null
               },
+              "total": 33.0,
+              "gap": 2.25
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "Wifolka GF T2",
+              "fx": {
+                "score": 9.75,
+                "D": 1.5,
+                "E": 6.25,
+                "C": 2.0,
+                "HJ": null
+              },
               "tu": {
-                "score": 11.65,
-                "D": 7.95,
-                "E": 2.0,
-                "C": null,
+                "score": 11.0,
+                "D": 2.1,
+                "E": 6.9,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 10.95,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.65,
+                "D": 1.9,
+                "E": 7.75,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 11.65,
-              "gap": -1.15
+              "total": 32.4,
+              "gap": 2.85
             },
             {
               "rank": 8,
               "start_position": 8,
               "name": "GF Örnarna",
               "fx": {
+                "score": 9.1,
+                "D": 1.8,
+                "E": 5.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
                 "score": 9.85,
                 "D": 2.4,
                 "E": 6.05,
                 "C": 1.4,
                 "HJ": null
               },
-              "tu": {
-                "score": 9.85,
-                "D": 6.05,
-                "E": 1.4,
-                "C": null,
-                "HJ": null
-              },
               "tr": {
-                "score": 12.75,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 12.4,
+                "D": 2.1,
+                "E": 8.3,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 9.85,
-              "gap": 0.65
+              "total": 31.35,
+              "gap": 3.9
             }
           ],
           "fx_app": [
@@ -1742,6 +1742,28 @@
             },
             {
               "rank": 2,
+              "start_position": 6,
+              "name": "Nacka GF UT ROSETT",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 11.0
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "Nacka GF U2 Yngre",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.15,
+              "gap": 10.5
+            },
+            {
+              "rank": 4,
               "start_position": 1,
               "name": "Pixbo GF",
               "D": null,
@@ -1752,7 +1774,7 @@
               "gap": 10.25
             },
             {
-              "rank": 3,
+              "rank": 5,
               "start_position": 4,
               "name": "Wifolka GF T2",
               "D": null,
@@ -1763,7 +1785,7 @@
               "gap": 9.75
             },
             {
-              "rank": 4,
+              "rank": 6,
               "start_position": 2,
               "name": "Dackegymnasterna lag Svart",
               "D": null,
@@ -1774,7 +1796,7 @@
               "gap": 9.15
             },
             {
-              "rank": 4,
+              "rank": 6,
               "start_position": 5,
               "name": "Göteborgs Turnförening T4-1",
               "D": null,
@@ -1783,6 +1805,17 @@
               "HJ": null,
               "score": 2.5,
               "gap": 9.15
+            },
+            {
+              "rank": 8,
+              "start_position": 8,
+              "name": "GF Örnarna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.55,
+              "gap": 9.1
             }
           ],
           "tu_app": [
@@ -1810,6 +1843,39 @@
             },
             {
               "rank": 3,
+              "start_position": 7,
+              "name": "SOL GF Ungdomstruppen Grå",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 11.4
+            },
+            {
+              "rank": 4,
+              "start_position": 1,
+              "name": "Pixbo GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.1,
+              "gap": 11.3
+            },
+            {
+              "rank": 5,
+              "start_position": 4,
+              "name": "Wifolka GF T2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.4,
+              "gap": 11.0
+            },
+            {
+              "rank": 6,
               "start_position": 3,
               "name": "Nacka GF U2 Yngre",
               "D": null,
@@ -1820,7 +1886,7 @@
               "gap": 10.5
             },
             {
-              "rank": 4,
+              "rank": 7,
               "start_position": 6,
               "name": "Nacka GF UT ROSETT",
               "D": null,
@@ -1831,7 +1897,7 @@
               "gap": 10.0
             },
             {
-              "rank": 5,
+              "rank": 8,
               "start_position": 8,
               "name": "GF Örnarna",
               "D": null,
@@ -1845,46 +1911,90 @@
           "tr_app": [
             {
               "rank": 1,
+              "start_position": 8,
+              "name": "GF Örnarna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 12.4,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 6,
               "name": "Nacka GF UT ROSETT",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 12.35,
-              "gap": 0.0
+              "score": 0.05,
+              "gap": 12.35
             },
             {
-              "rank": 2,
+              "rank": 3,
+              "start_position": 7,
+              "name": "SOL GF Ungdomstruppen Grå",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.2,
+              "gap": 12.2
+            },
+            {
+              "rank": 4,
+              "start_position": 5,
+              "name": "Göteborgs Turnförening T4-1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.25,
+              "gap": 12.15
+            },
+            {
+              "rank": 5,
               "start_position": 3,
               "name": "Nacka GF U2 Yngre",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 0.25,
+              "score": 0.3,
               "gap": 12.1
             },
             {
-              "rank": 3,
+              "rank": 6,
               "start_position": 1,
               "name": "Pixbo GF",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 0.6,
+              "score": 0.65,
               "gap": 11.75
             },
             {
-              "rank": 4,
+              "rank": 7,
               "start_position": 4,
               "name": "Wifolka GF T2",
-              "D": 5.0,
+              "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 0.7,
+              "score": 0.75,
+              "gap": 11.65
+            },
+            {
+              "rank": 7,
+              "start_position": 2,
+              "name": "Dackegymnasterna lag Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.75,
               "gap": 11.65
             }
           ]
