@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T11:28:01.220727Z",
+  "last_updated": "2026-05-02T12:06:31.171508Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -2013,24 +2013,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 2,
+              "name": "GK Motus-Salto lag 1",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 13.275,
+                "D": 4.3,
+                "E": 7.15,
+                "C": 1.825,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 13.275,
+                "D": 7.15,
+                "E": 1.825,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 13.275,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -2038,32 +2038,60 @@
               },
               "total": null,
               "gap": null
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "GF Örebro",
+              "fx": {
+                "score": 12.575,
+                "D": 3.175,
+                "E": 6.4,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.575,
+                "D": 6.4,
+                "E": 3.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.7,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 12.575,
+              "gap": null
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 1,
+              "name": "GF Örebro",
               "D": null,
               "E": 11.0,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 12.575,
+              "gap": 0.0
             }
           ],
           "tu_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "rank": 1,
+              "start_position": 2,
+              "name": "GK Motus-Salto lag 1",
               "D": null,
               "E": 1.0,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 13.275,
+              "gap": 0.0
             }
           ],
           "tr_app": [
