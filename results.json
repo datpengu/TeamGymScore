@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T11:23:32.218241Z",
+  "last_updated": "2026-05-03T12:01:22.556895Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -175,7 +175,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "Rytme",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -3468,24 +3468,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 2,
+              "name": "ABGS lag 1",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 14.5,
+                "D": 4.6,
+                "E": 7.9,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 14.5,
+                "D": 7.9,
+                "E": 2.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 14.5,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -3493,45 +3493,101 @@
               },
               "total": null,
               "gap": null
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "Brommagymnasterna USM 1",
+              "fx": {
+                "score": 14.25,
+                "D": 3.65,
+                "E": 7.6,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.25,
+                "D": 7.6,
+                "E": 3.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.25,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 14.25,
+              "gap": null
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "ABGS lag 2",
+              "fx": {
+                "score": 14.15,
+                "D": 4.1,
+                "E": 8.05,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.15,
+                "D": 8.05,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.35,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 14.15,
+              "gap": null
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 1,
+              "name": "Brommagymnasterna USM 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 14.25,
+              "gap": 0.0
             }
           ],
           "tu_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "rank": 1,
+              "start_position": 2,
+              "name": "ABGS lag 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 14.5,
+              "gap": 0.0
             }
           ],
           "tr_app": [
             {
-              "rank": 3,
-              "start_position": null,
-              "name": "6",
+              "rank": 1,
+              "start_position": 3,
+              "name": "ABGS lag 2",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 14.15,
+              "gap": 0.0
             }
           ]
         }
