@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T12:01:22.556895Z",
+  "last_updated": "2026-05-03T13:38:55.862087Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -3471,31 +3471,59 @@
               "start_position": 2,
               "name": "ABGS lag 1",
               "fx": {
+                "score": 14.8,
+                "D": 4.05,
+                "E": 7.75,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
                 "score": 14.5,
                 "D": 4.6,
                 "E": 7.9,
                 "C": 2.0,
                 "HJ": null
               },
-              "tu": {
-                "score": 14.5,
-                "D": 7.9,
-                "E": 2.0,
-                "C": null,
-                "HJ": null
-              },
               "tr": {
-                "score": 14.5,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 14.9,
+                "D": 5.8,
+                "E": 7.1,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": null,
-              "gap": null
+              "total": 44.2,
+              "gap": 0.0
             },
             {
               "rank": 2,
+              "start_position": 5,
+              "name": "GF Örebro",
+              "fx": {
+                "score": 12.725,
+                "D": 3.125,
+                "E": 6.6,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.825,
+                "D": 4.925,
+                "E": 8.0,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.7,
+                "D": 5.2,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 42.25,
+              "gap": 1.95
+            },
+            {
+              "rank": 3,
               "start_position": 1,
               "name": "Brommagymnasterna USM 1",
               "fx": {
@@ -3506,65 +3534,164 @@
                 "HJ": null
               },
               "tu": {
-                "score": 14.25,
-                "D": 7.6,
-                "E": 3.0,
-                "C": null,
+                "score": 13.25,
+                "D": 4.6,
+                "E": 7.45,
+                "C": 1.2,
                 "HJ": null
               },
               "tr": {
-                "score": 0.25,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 14.3,
+                "D": 5.15,
+                "E": 7.2,
+                "C": 1.95,
                 "HJ": null
               },
-              "total": 14.25,
-              "gap": null
+              "total": 41.8,
+              "gap": 2.4
             },
             {
-              "rank": 3,
+              "rank": 4,
+              "start_position": 7,
+              "name": "Lugi GF lag 1",
+              "fx": {
+                "score": 13.675,
+                "D": 3.425,
+                "E": 7.35,
+                "C": 2.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.85,
+                "D": 4.8,
+                "E": 7.75,
+                "C": 1.3,
+                "HJ": null
+              },
+              "tr": {
+                "score": 13.45,
+                "D": 4.4,
+                "E": 7.3,
+                "C": 1.75,
+                "HJ": null
+              },
+              "total": 40.975,
+              "gap": 3.225
+            },
+            {
+              "rank": 5,
+              "start_position": 8,
+              "name": "GK Splitt",
+              "fx": {
+                "score": 12.875,
+                "D": 2.825,
+                "E": 7.05,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.55,
+                "D": 4.9,
+                "E": 7.75,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 13.5,
+                "D": 4.2,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 40.925,
+              "gap": 3.275
+            },
+            {
+              "rank": 6,
               "start_position": 3,
               "name": "ABGS lag 2",
               "fx": {
+                "score": 12.725,
+                "D": 3.225,
+                "E": 6.5,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.65,
+                "D": 4.0,
+                "E": 7.45,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tr": {
                 "score": 14.15,
                 "D": 4.1,
                 "E": 8.05,
                 "C": 2.0,
                 "HJ": null
               },
+              "total": 39.525,
+              "gap": 4.675
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "Brommagymnasterna USM 2",
+              "fx": {
+                "score": 11.6,
+                "D": 2.8,
+                "E": 5.8,
+                "C": 3.0,
+                "HJ": null
+              },
               "tu": {
-                "score": 14.15,
-                "D": 8.05,
-                "E": 2.0,
-                "C": null,
+                "score": 12.6,
+                "D": 4.1,
+                "E": 7.0,
+                "C": 1.5,
                 "HJ": null
               },
               "tr": {
-                "score": 0.35,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 12.35,
+                "D": 3.6,
+                "E": 6.85,
+                "C": 1.9,
                 "HJ": null
               },
-              "total": 14.15,
-              "gap": null
+              "total": 36.55,
+              "gap": 7.65
+            },
+            {
+              "rank": 8,
+              "start_position": 6,
+              "name": "GF Nikegymnasterna",
+              "fx": {
+                "score": 11.025,
+                "D": 2.275,
+                "E": 5.95,
+                "C": 2.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.2,
+                "D": 3.9,
+                "E": 6.5,
+                "C": 0.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.4,
+                "D": 3.3,
+                "E": 6.3,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 33.625,
+              "gap": 10.575
             }
           ],
           "fx_app": [
-            {
-              "rank": 1,
-              "start_position": 1,
-              "name": "Brommagymnasterna USM 1",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": 14.25,
-              "gap": 0.0
-            }
-          ],
-          "tu_app": [
             {
               "rank": 1,
               "start_position": 2,
@@ -3573,21 +3700,265 @@
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 14.5,
+              "score": 14.8,
               "gap": 0.0
-            }
-          ],
-          "tr_app": [
+            },
             {
-              "rank": 1,
+              "rank": 2,
+              "start_position": 1,
+              "name": "Brommagymnasterna USM 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.55,
+              "gap": 14.25
+            },
+            {
+              "rank": 3,
+              "start_position": 7,
+              "name": "Lugi GF lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.125,
+              "gap": 13.675
+            },
+            {
+              "rank": 4,
+              "start_position": 8,
+              "name": "GK Splitt",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.925,
+              "gap": 12.875
+            },
+            {
+              "rank": 5,
+              "start_position": 5,
+              "name": "GF Örebro",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.075,
+              "gap": 12.725
+            },
+            {
+              "rank": 5,
               "start_position": 3,
               "name": "ABGS lag 2",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 14.15,
+              "score": 2.075,
+              "gap": 12.725
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "Brommagymnasterna USM 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.2,
+              "gap": 11.6
+            },
+            {
+              "rank": 8,
+              "start_position": 6,
+              "name": "GF Nikegymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.775,
+              "gap": 11.025
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": 5,
+              "name": "GF Örebro",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 14.825,
               "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 8,
+              "name": "GK Splitt",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.275,
+              "gap": 14.55
+            },
+            {
+              "rank": 3,
+              "start_position": 2,
+              "name": "ABGS lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.325,
+              "gap": 14.5
+            },
+            {
+              "rank": 4,
+              "start_position": 7,
+              "name": "Lugi GF lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.975,
+              "gap": 13.85
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "Brommagymnasterna USM 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.575,
+              "gap": 13.25
+            },
+            {
+              "rank": 6,
+              "start_position": 3,
+              "name": "ABGS lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.175,
+              "gap": 12.65
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "Brommagymnasterna USM 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.225,
+              "gap": 12.6
+            },
+            {
+              "rank": 8,
+              "start_position": 6,
+              "name": "GF Nikegymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.625,
+              "gap": 11.2
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 1,
+              "start_position": 2,
+              "name": "ABGS lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 14.9,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "GF Örebro",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.2,
+              "gap": 14.7
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "Brommagymnasterna USM 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.6,
+              "gap": 14.3
+            },
+            {
+              "rank": 4,
+              "start_position": 3,
+              "name": "ABGS lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.75,
+              "gap": 14.15
+            },
+            {
+              "rank": 5,
+              "start_position": 8,
+              "name": "GK Splitt",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.4,
+              "gap": 13.5
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "Lugi GF lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.45,
+              "gap": 13.45
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "Brommagymnasterna USM 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.55,
+              "gap": 12.35
+            },
+            {
+              "rank": 8,
+              "start_position": 6,
+              "name": "GF Nikegymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.5,
+              "gap": 11.4
             }
           ]
         }
