@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T08:16:50.292513Z",
+  "last_updated": "2026-05-03T09:40:40.202685Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -87,7 +87,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "Rytme",
               "fx": {
                 "score": null,
                 "D": null,
@@ -3017,24 +3017,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 2,
+              "name": "Halmstad Frigymnaster",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 12.775,
+                "D": 2.875,
+                "E": 6.9,
+                "C": 3.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 12.775,
+                "D": 6.9,
+                "E": 3.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 12.775,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -3042,19 +3042,58 @@
               },
               "total": null,
               "gap": null
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "GF FRAM",
+              "fx": {
+                "score": 9.6,
+                "D": 1.9,
+                "E": 4.9,
+                "C": 2.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.6,
+                "D": 4.9,
+                "E": 2.8,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 3.175,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 9.6,
+              "gap": null
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "2",
+              "start_position": 2,
+              "name": "Halmstad Frigymnaster",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 12.775,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "GF FRAM",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.175,
+              "gap": 9.6
             }
           ],
           "tu_app": [
@@ -3090,70 +3129,292 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 1,
+              "name": "GK Motus-Salto & LUGI 1",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.175,
+                "D": 2.475,
+                "E": 5.9,
+                "C": 2.8,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 13.75,
+                "D": 4.5,
+                "E": 7.45,
+                "C": 1.8,
                 "HJ": null
               },
               "tr": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 15.2,
+                "D": 6.7,
+                "E": 6.7,
+                "C": 1.8,
                 "HJ": null
               },
-              "total": null,
-              "gap": null
+              "total": 40.125,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 3,
+              "name": "GF Gymnos Pojkar trupp 1",
+              "fx": {
+                "score": 9.425,
+                "D": 1.375,
+                "E": 5.15,
+                "C": 2.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.4,
+                "D": 5.1,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.15,
+                "D": 5.7,
+                "E": 6.55,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 37.975,
+              "gap": 2.15
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "GK Motus-Salto & LUGI A",
+              "fx": {
+                "score": 8.55,
+                "D": 2.15,
+                "E": 3.6,
+                "C": 2.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.0,
+                "D": 3.6,
+                "E": 6.0,
+                "C": 1.4,
+                "HJ": null
+              },
+              "tr": {
+                "score": 13.4,
+                "D": 4.8,
+                "E": 6.65,
+                "C": 1.95,
+                "HJ": null
+              },
+              "total": 32.95,
+              "gap": 7.175
+            },
+            {
+              "rank": 4,
+              "start_position": 5,
+              "name": "GF FRAM",
+              "fx": {
+                "score": 13.4,
+                "D": 4.9,
+                "E": 6.7,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.6,
+                "D": 5.2,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 28.0,
+                "D": 6.7,
+                "E": 1.8,
+                "C": 7.4,
+                "HJ": null
+              },
+              "total": 12.125,
+              "gap": 28.0
+            },
+            {
+              "rank": 5,
+              "start_position": 2,
+              "name": "Nacka GF Herr",
+              "fx": {
+                "score": 10.75,
+                "D": 2.85,
+                "E": 4.9,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.6,
+                "D": 6.1,
+                "E": 6.6,
+                "C": 0.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 24.35,
+                "D": 4.9,
+                "E": 3.0,
+                "C": 6.6,
+                "HJ": null
+              },
+              "total": 15.775,
+              "gap": 24.35
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "2",
+              "start_position": 1,
+              "name": "GK Motus-Salto & LUGI 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.175,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "Nacka GF Herr",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.425,
+              "gap": 10.75
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "GF Gymnos Pojkar trupp 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.75,
+              "gap": 9.425
+            },
+            {
+              "rank": 4,
+              "start_position": 4,
+              "name": "GK Motus-Salto & LUGI A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.625,
+              "gap": 8.55
             }
           ],
           "tu_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "2",
+              "start_position": 3,
+              "name": "GF Gymnos Pojkar trupp 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 14.4,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "GK Motus-Salto & LUGI 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 13.75
+            },
+            {
+              "rank": 3,
+              "start_position": 2,
+              "name": "Nacka GF Herr",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.8,
+              "gap": 13.6
+            },
+            {
+              "rank": 4,
+              "start_position": 5,
+              "name": "GF FRAM",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 13.4
+            },
+            {
+              "rank": 5,
+              "start_position": 4,
+              "name": "GK Motus-Salto & LUGI A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.4,
+              "gap": 11.0
             }
           ],
           "tr_app": [
             {
-              "rank": 3,
-              "start_position": null,
-              "name": "4",
+              "rank": 1,
+              "start_position": 1,
+              "name": "GK Motus-Salto & LUGI 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 15.2,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "GF FRAM",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.6,
+              "gap": 14.6
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "GF Gymnos Pojkar trupp 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.05,
+              "gap": 14.15
+            },
+            {
+              "rank": 4,
+              "start_position": 4,
+              "name": "GK Motus-Salto & LUGI A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.8,
+              "gap": 13.4
             }
           ]
         },
