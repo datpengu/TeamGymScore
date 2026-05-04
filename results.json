@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T22:03:16.623414Z",
+  "last_updated": "2026-05-04T23:04:45.344093Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -388,6 +388,13 @@
           ]
         }
       ]
+    },
+    {
+      "competition": "Södra Sydostmästerskapen nivå 8-9",
+      "date_from": "2026-05-09",
+      "date_to": "2026-05-09",
+      "place": "Karlskrona",
+      "classes": []
     },
     {
       "competition": "Riksfyran Öppen klass & Riksfemman Herr - VT26",
