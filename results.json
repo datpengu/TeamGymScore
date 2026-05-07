@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T11:17:44.531660Z",
+  "last_updated": "2026-05-07T13:04:55.435691Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -146,6 +146,87 @@
               "name": "6",
               "D": 14.0,
               "E": 1.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "Rikstrean Öppen klass - VT26",
+      "date_from": "2026-05-23",
+      "date_to": "2026-05-24",
+      "place": "Västerås",
+      "classes": [
+        {
+          "class_name": "Rikstrean Öppen klass",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3647?f=8116&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": 30.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": 30.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": null,
+              "E": 30.0,
               "C": null,
               "HJ": null,
               "score": null,
