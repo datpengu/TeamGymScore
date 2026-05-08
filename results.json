@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T07:57:56.309535Z",
+  "last_updated": "2026-05-08T09:18:17.499963Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -484,44 +484,7 @@
       "place": "Helsingborg",
       "classes": [
         {
-          "class_name": "Riksfemman Herr",
-          "url": "https://live.sporteventsystems.se/Score/WebScore/3623?f=8037&country=swe&year=2026",
-          "teams": [
-            {
-              "rank": 1,
-              "start_position": null,
-              "name": "FX",
-              "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": null,
-              "gap": null
-            }
-          ],
-          "fx_app": [],
-          "tu_app": [],
-          "tr_app": []
-        },
-        {
-          "class_name": "Riksfyran Öppen klass",
+          "class_name": "Riksfyran Öppen klass 13 år och äldre",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3623?f=8036&country=swe&year=2026",
           "teams": [
             {
@@ -592,6 +555,43 @@
               "gap": null
             }
           ]
+        },
+        {
+          "class_name": "Riksfemman Herr 13 år och äldre",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3623?f=8037&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [],
+          "tu_app": [],
+          "tr_app": []
         }
       ]
     },
