@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T06:33:38.049943Z",
+  "last_updated": "2026-05-09T08:19:12.064564Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -489,70 +489,215 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 1,
+              "name": "GF Kennedy Svart",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 10.45,
+                "D": 2.1,
+                "E": 6.35,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 11.5,
+                "D": 2.4,
+                "E": 7.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 21.95,
+                "D": 6.35,
+                "E": 2.0,
+                "C": 7.1,
+                "HJ": null
+              },
+              "total": 10.45,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "Gefle GF",
+              "fx": {
+                "score": 11.4,
+                "D": 2.4,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.4,
+                "D": 7.0,
+                "E": 2.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 10.55,
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null
               },
-              "total": null,
-              "gap": null
+              "total": 11.4,
+              "gap": -0.95
+            },
+            {
+              "rank": 3,
+              "start_position": 8,
+              "name": "Sollentunagymnasterna UAT",
+              "fx": {
+                "score": 11.15,
+                "D": 2.4,
+                "E": 6.75,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.15,
+                "D": 6.75,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.8,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.15,
+              "gap": -0.7
+            },
+            {
+              "rank": 4,
+              "start_position": 3,
+              "name": "GF Katrineholm lag Rosa",
+              "fx": {
+                "score": 10.8,
+                "D": 1.9,
+                "E": 6.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.8,
+                "D": 6.9,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.15,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.8,
+              "gap": -0.35
+            },
+            {
+              "rank": 5,
+              "start_position": 2,
+              "name": "Sigtuna Märsta GK",
+              "fx": {
+                "score": 10.25,
+                "D": 2.4,
+                "E": 6.25,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.25,
+                "D": 6.25,
+                "E": 1.6,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.7,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.25,
+              "gap": 0.2
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 1,
+              "name": "GF Kennedy Svart",
               "D": 9.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 10.45,
+              "gap": 0.0
             }
           ],
           "tu_app": [
             {
+              "rank": 1,
+              "start_position": 1,
+              "name": "GF Kennedy Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 11.5,
+              "gap": 0.0
+            },
+            {
               "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "start_position": 5,
+              "name": "Gefle GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.1,
+              "gap": 11.4
+            },
+            {
+              "rank": 3,
+              "start_position": 8,
+              "name": "Sollentunagymnasterna UAT",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.35,
+              "gap": 11.15
+            },
+            {
+              "rank": 4,
+              "start_position": 2,
+              "name": "Sigtuna Märsta GK",
               "D": 9.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 1.25,
+              "gap": 10.25
             }
           ],
           "tr_app": [
             {
-              "rank": 3,
-              "start_position": null,
-              "name": "6",
+              "rank": 1,
+              "start_position": 3,
+              "name": "GF Katrineholm lag Rosa",
               "D": 9.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 10.8,
+              "gap": 0.0
             }
           ]
         },
