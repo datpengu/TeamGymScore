@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T12:11:28.971532Z",
+  "last_updated": "2026-05-09T13:51:19.199369Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -769,6 +769,34 @@
             },
             {
               "rank": 11,
+              "start_position": 19,
+              "name": "NIF Gymnasterna Röd",
+              "fx": {
+                "score": 9.4,
+                "D": 2.0,
+                "E": 5.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.8,
+                "D": 2.4,
+                "E": 6.65,
+                "C": 1.75,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.45,
+                "D": 2.0,
+                "E": 7.45,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 31.65,
+              "gap": 2.3
+            },
+            {
+              "rank": 11,
               "start_position": 16,
               "name": "Bålsta GK Trupp Svart",
               "fx": {
@@ -796,7 +824,7 @@
               "gap": 2.3
             },
             {
-              "rank": 12,
+              "rank": 13,
               "start_position": 8,
               "name": "Sollentunagymnasterna UAT",
               "fx": {
@@ -824,7 +852,7 @@
               "gap": 2.5
             },
             {
-              "rank": 12,
+              "rank": 13,
               "start_position": 2,
               "name": "Sigtuna Märsta GK",
               "fx": {
@@ -852,7 +880,7 @@
               "gap": 2.5
             },
             {
-              "rank": 14,
+              "rank": 15,
               "start_position": 10,
               "name": "Öjersjö GF",
               "fx": {
@@ -880,7 +908,7 @@
               "gap": 3.0
             },
             {
-              "rank": 15,
+              "rank": 16,
               "start_position": 3,
               "name": "GF Katrineholm lag Rosa",
               "fx": {
@@ -908,7 +936,7 @@
               "gap": 3.2
             },
             {
-              "rank": 16,
+              "rank": 17,
               "start_position": 7,
               "name": "Höganäs GF lag 2",
               "fx": {
@@ -936,7 +964,7 @@
               "gap": 5.0
             },
             {
-              "rank": 17,
+              "rank": 18,
               "start_position": 14,
               "name": "Höganäs GF lag 1",
               "fx": {
@@ -962,34 +990,6 @@
               },
               "total": 28.45,
               "gap": 5.5
-            },
-            {
-              "rank": 18,
-              "start_position": 19,
-              "name": "NIF Gymnasterna Röd",
-              "fx": {
-                "score": 9.4,
-                "D": 2.0,
-                "E": 5.4,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 10.8,
-                "D": 2.4,
-                "E": 6.65,
-                "C": 1.75,
-                "HJ": null
-              },
-              "tr": {
-                "score": 20.2,
-                "D": 5.4,
-                "E": 2.0,
-                "C": 6.65,
-                "HJ": null
-              },
-              "total": 13.75,
-              "gap": 20.2
             }
           ],
           "fx_app": [
@@ -1439,6 +1439,17 @@
             },
             {
               "rank": 5,
+              "start_position": 19,
+              "name": "NIF Gymnasterna Röd",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 11.45
+            },
+            {
+              "rank": 6,
               "start_position": 1,
               "name": "GF Kennedy Svart",
               "D": null,
@@ -1449,7 +1460,7 @@
               "gap": 11.35
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 12,
               "name": "Södertälje GSF",
               "D": null,
@@ -1460,7 +1471,7 @@
               "gap": 11.3
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 8,
               "name": "Sollentunagymnasterna UAT",
               "D": null,
@@ -1471,7 +1482,7 @@
               "gap": 11.3
             },
             {
-              "rank": 8,
+              "rank": 9,
               "start_position": 10,
               "name": "Öjersjö GF",
               "D": null,
@@ -1482,7 +1493,7 @@
               "gap": 11.2
             },
             {
-              "rank": 9,
+              "rank": 10,
               "start_position": 16,
               "name": "Bålsta GK Trupp Svart",
               "D": null,
@@ -1493,7 +1504,7 @@
               "gap": 11.15
             },
             {
-              "rank": 10,
+              "rank": 11,
               "start_position": 5,
               "name": "Gefle GF",
               "D": null,
@@ -1504,7 +1515,7 @@
               "gap": 10.95
             },
             {
-              "rank": 10,
+              "rank": 11,
               "start_position": 17,
               "name": "Huddinge GF",
               "D": null,
@@ -1515,7 +1526,7 @@
               "gap": 10.95
             },
             {
-              "rank": 12,
+              "rank": 13,
               "start_position": 3,
               "name": "GF Katrineholm lag Rosa",
               "D": null,
@@ -1526,7 +1537,7 @@
               "gap": 10.8
             },
             {
-              "rank": 12,
+              "rank": 13,
               "start_position": 6,
               "name": "Dalby GF",
               "D": null,
@@ -1537,7 +1548,7 @@
               "gap": 10.8
             },
             {
-              "rank": 14,
+              "rank": 15,
               "start_position": 14,
               "name": "Höganäs GF lag 1",
               "D": null,
@@ -1548,7 +1559,7 @@
               "gap": 10.45
             },
             {
-              "rank": 15,
+              "rank": 16,
               "start_position": 13,
               "name": "Katrineholms GF Mixtruppen",
               "D": null,
@@ -1559,7 +1570,7 @@
               "gap": 10.25
             },
             {
-              "rank": 16,
+              "rank": 17,
               "start_position": 2,
               "name": "Sigtuna Märsta GK",
               "D": null,
@@ -1570,7 +1581,7 @@
               "gap": 10.0
             },
             {
-              "rank": 17,
+              "rank": 18,
               "start_position": 7,
               "name": "Höganäs GF lag 2",
               "D": null,
