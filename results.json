@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T12:09:25.804307Z",
+  "last_updated": "2026-05-10T13:53:23.904828Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -3390,20 +3390,20 @@
                 "HJ": null
               },
               "tu": {
+                "score": 9.9,
+                "D": 1.6,
+                "E": 6.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
                 "score": 9.3,
                 "D": 1.7,
                 "E": 6.2,
                 "C": 1.4,
                 "HJ": null
               },
-              "tr": {
-                "score": 17.1,
-                "D": 4.3,
-                "E": 2.0,
-                "C": 6.2,
-                "HJ": null
-              },
-              "total": 7.8,
+              "total": 27.0,
               "gap": 0.0
             }
           ],
@@ -3420,7 +3420,19 @@
               "gap": 0.0
             }
           ],
-          "tu_app": [],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": 1,
+              "name": "GK Motus-Salto/Lugi GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 9.9,
+              "gap": 0.0
+            }
+          ],
           "tr_app": [
             {
               "rank": 1,
