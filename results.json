@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T09:10:32.990335Z",
+  "last_updated": "2026-05-10T10:35:51.794951Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -2758,6 +2758,90 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 9,
+              "name": "SOL GF Juniortruppen Grå",
+              "fx": {
+                "score": 11.6,
+                "D": 2.1,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.7,
+                "D": 2.4,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.3,
+                "D": 2.2,
+                "E": 8.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 35.6,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "GF Idrott",
+              "fx": {
+                "score": 11.9,
+                "D": 2.1,
+                "E": 7.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.7,
+                "D": 2.4,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.9,
+                "D": 1.9,
+                "E": 7.1,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 34.5,
+              "gap": 1.1
+            },
+            {
+              "rank": 2,
+              "start_position": 6,
+              "name": "Huddinge GF",
+              "fx": {
+                "score": 11.8,
+                "D": 2.1,
+                "E": 7.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.8,
+                "D": 2.3,
+                "E": 6.55,
+                "C": 1.95,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.9,
+                "D": 2.1,
+                "E": 7.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 34.5,
+              "gap": 1.1
+            },
+            {
+              "rank": 4,
               "start_position": 1,
               "name": "Sofia GF Junior 2",
               "fx": {
@@ -2768,52 +2852,52 @@
                 "HJ": null
               },
               "tu": {
-                "score": 11.75,
-                "D": 7.65,
-                "E": 2.0,
-                "C": null,
+                "score": 11.15,
+                "D": 2.2,
+                "E": 6.95,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 11.75,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.5,
+                "D": 2.0,
+                "E": 7.5,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": null,
-              "gap": null
+              "total": 34.4,
+              "gap": 1.2
             },
             {
-              "rank": 2,
+              "rank": 5,
               "start_position": 2,
               "name": "Täby GF",
               "fx": {
+                "score": 11.05,
+                "D": 2.1,
+                "E": 7.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
                 "score": 11.55,
                 "D": 2.3,
                 "E": 7.45,
                 "C": 1.8,
                 "HJ": null
               },
-              "tu": {
-                "score": 11.55,
-                "D": 7.45,
-                "E": 1.8,
-                "C": null,
-                "HJ": null
-              },
               "tr": {
-                "score": 0.2,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.6,
+                "D": 2.1,
+                "E": 7.5,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 11.55,
-              "gap": null
+              "total": 34.2,
+              "gap": 1.4
             },
             {
-              "rank": 3,
+              "rank": 6,
               "start_position": 4,
               "name": "Salemgymnasterna Trupp Vit",
               "fx": {
@@ -2824,33 +2908,347 @@
                 "HJ": null
               },
               "tu": {
-                "score": 11.25,
-                "D": 7.15,
-                "E": 2.0,
-                "C": null,
+                "score": 9.75,
+                "D": 2.25,
+                "E": 5.9,
+                "C": 1.6,
                 "HJ": null
               },
               "tr": {
-                "score": 0.5,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 12.0,
+                "D": 2.2,
+                "E": 7.8,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 11.25,
-              "gap": null
+              "total": 33.0,
+              "gap": 2.6
+            },
+            {
+              "rank": 7,
+              "start_position": 11,
+              "name": "GF Kungälvsgymnasterna",
+              "fx": {
+                "score": 11.25,
+                "D": 2.1,
+                "E": 7.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.85,
+                "D": 2.4,
+                "E": 7.45,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 23.1,
+                "D": 7.15,
+                "E": 2.0,
+                "C": 7.45,
+                "HJ": null
+              },
+              "total": 12.5,
+              "gap": 23.1
+            },
+            {
+              "rank": 8,
+              "start_position": 10,
+              "name": "Åhus GK",
+              "fx": {
+                "score": 11.8,
+                "D": 1.9,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.2,
+                "D": 2.0,
+                "E": 7.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 23.0,
+                "D": 7.9,
+                "E": 2.0,
+                "C": 7.2,
+                "HJ": null
+              },
+              "total": 12.6,
+              "gap": 23.0
+            },
+            {
+              "rank": 9,
+              "start_position": 7,
+              "name": "GF Örebro Röd 3",
+              "fx": {
+                "score": 11.4,
+                "D": 2.0,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.35,
+                "D": 2.2,
+                "E": 7.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 22.75,
+                "D": 7.4,
+                "E": 2.0,
+                "C": 7.15,
+                "HJ": null
+              },
+              "total": 12.85,
+              "gap": 22.75
+            },
+            {
+              "rank": 10,
+              "start_position": 8,
+              "name": "Klippans GK Trupp Orange",
+              "fx": {
+                "score": 10.5,
+                "D": 1.8,
+                "E": 6.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.6,
+                "D": 2.4,
+                "E": 7.3,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 22.1,
+                "D": 6.7,
+                "E": 2.0,
+                "C": 7.3,
+                "HJ": null
+              },
+              "total": 13.5,
+              "gap": 22.1
             }
           ],
           "fx_app": [
             {
               "rank": 1,
+              "start_position": 5,
+              "name": "GF Idrott",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 11.9,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 10,
+              "name": "Åhus GK",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.1,
+              "gap": 11.8
+            },
+            {
+              "rank": 2,
+              "start_position": 6,
+              "name": "Huddinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.1,
+              "gap": 11.8
+            },
+            {
+              "rank": 4,
               "start_position": 1,
               "name": "Sofia GF Junior 2",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 11.75,
+              "score": 0.15,
+              "gap": 11.75
+            },
+            {
+              "rank": 5,
+              "start_position": 9,
+              "name": "SOL GF Juniortruppen Grå",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.3,
+              "gap": 11.6
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "GF Örebro Röd 3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.5,
+              "gap": 11.4
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "Salemgymnasterna Trupp Vit",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 11.25
+            },
+            {
+              "rank": 7,
+              "start_position": 11,
+              "name": "GF Kungälvsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 11.25
+            },
+            {
+              "rank": 9,
+              "start_position": 2,
+              "name": "Täby GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.85,
+              "gap": 11.05
+            },
+            {
+              "rank": 10,
+              "start_position": 8,
+              "name": "Klippans GK Trupp Orange",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.4,
+              "gap": 10.5
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": 11,
+              "name": "GF Kungälvsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 11.85,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "GF Idrott",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.15,
+              "gap": 11.7
+            },
+            {
+              "rank": 2,
+              "start_position": 9,
+              "name": "SOL GF Juniortruppen Grå",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.15,
+              "gap": 11.7
+            },
+            {
+              "rank": 4,
+              "start_position": 8,
+              "name": "Klippans GK Trupp Orange",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.25,
+              "gap": 11.6
+            },
+            {
+              "rank": 5,
+              "start_position": 2,
+              "name": "Täby GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.3,
+              "gap": 11.55
+            },
+            {
+              "rank": 6,
+              "start_position": 1,
+              "name": "Sofia GF Junior 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.7,
+              "gap": 11.15
+            },
+            {
+              "rank": 7,
+              "start_position": 6,
+              "name": "Huddinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.05,
+              "gap": 10.8
+            },
+            {
+              "rank": 8,
+              "start_position": 4,
+              "name": "Salemgymnasterna Trupp Vit",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.1,
+              "gap": 9.75
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 1,
+              "start_position": 9,
+              "name": "SOL GF Juniortruppen Grå",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 12.3,
               "gap": 0.0
             },
             {
@@ -2861,34 +3259,74 @@
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 0.5,
-              "gap": 11.25
-            }
-          ],
-          "tu_app": [
+              "score": 0.3,
+              "gap": 12.0
+            },
             {
-              "rank": 1,
+              "rank": 3,
+              "start_position": 6,
+              "name": "Huddinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.4,
+              "gap": 11.9
+            },
+            {
+              "rank": 4,
               "start_position": 2,
               "name": "Täby GF",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 11.55,
-              "gap": 0.0
-            }
-          ],
-          "tr_app": [
+              "score": 0.7,
+              "gap": 11.6
+            },
             {
-              "rank": 6,
-              "start_position": null,
-              "name": "9",
+              "rank": 5,
+              "start_position": 1,
+              "name": "Sofia GF Junior 2",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 0.8,
+              "gap": 11.5
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "GF Örebro Röd 3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.95,
+              "gap": 11.35
+            },
+            {
+              "rank": 7,
+              "start_position": 10,
+              "name": "Åhus GK",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.1,
+              "gap": 11.2
+            },
+            {
+              "rank": 8,
+              "start_position": 5,
+              "name": "GF Idrott",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.4,
+              "gap": 10.9
             }
           ]
         },
