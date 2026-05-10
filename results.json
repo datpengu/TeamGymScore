@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T07:22:12.423079Z",
+  "last_updated": "2026-05-10T09:10:32.990335Z",
   "competitions": [
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
@@ -87,7 +87,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -2758,24 +2758,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 1,
+              "name": "Sofia GF Junior 2",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.75,
+                "D": 2.1,
+                "E": 7.65,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 11.75,
+                "D": 7.65,
+                "E": 2.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 11.75,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -2783,32 +2783,99 @@
               },
               "total": null,
               "gap": null
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "Täby GF",
+              "fx": {
+                "score": 11.55,
+                "D": 2.3,
+                "E": 7.45,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.55,
+                "D": 7.45,
+                "E": 1.8,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.2,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.55,
+              "gap": null
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "Salemgymnasterna Trupp Vit",
+              "fx": {
+                "score": 11.25,
+                "D": 2.1,
+                "E": 7.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.25,
+                "D": 7.15,
+                "E": 2.0,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.5,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.25,
+              "gap": null
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 1,
+              "name": "Sofia GF Junior 2",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.75,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 4,
+              "name": "Salemgymnasterna Trupp Vit",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.5,
+              "gap": 11.25
             }
           ],
           "tu_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "rank": 1,
+              "start_position": 2,
+              "name": "Täby GF",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.55,
+              "gap": 0.0
             }
           ],
           "tr_app": [
@@ -2831,24 +2898,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 1,
+              "name": "GK Motus-Salto/Lugi GF",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 9.3,
+                "D": 1.7,
+                "E": 6.2,
+                "C": 1.4,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 9.3,
+                "D": 6.2,
+                "E": 1.4,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 9.3,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -2860,7 +2927,19 @@
           ],
           "fx_app": [],
           "tu_app": [],
-          "tr_app": []
+          "tr_app": [
+            {
+              "rank": 1,
+              "start_position": 1,
+              "name": "GK Motus-Salto/Lugi GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 9.3,
+              "gap": 0.0
+            }
+          ]
         }
       ]
     },
