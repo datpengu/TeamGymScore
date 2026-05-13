@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T17:33:22.769781Z",
+  "last_updated": "2026-05-13T19:21:01.628917Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -87,7 +87,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
