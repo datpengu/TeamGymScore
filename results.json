@@ -1,6 +1,233 @@
 {
-  "last_updated": "2026-05-13T12:32:33.903599Z",
+  "last_updated": "2026-05-13T15:26:55.528486Z",
   "competitions": [
+    {
+      "competition": "USM - VT26",
+      "date_from": "2026-05-30",
+      "date_to": "2026-05-31",
+      "place": "Göteborg",
+      "classes": [
+        {
+          "class_name": "USM - Dam",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3660?f=8152&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": 34.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": 34.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": 34.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        },
+        {
+          "class_name": "USM - Mixed",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3660?f=8154&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        },
+        {
+          "class_name": "USM - Herr",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3660?f=8153&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "competition": "Nordfemman Öppen klass 13 år och äldre - VT26",
       "date_from": "2026-05-23",
