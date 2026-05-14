@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T07:43:25.112207Z",
+  "last_updated": "2026-05-14T09:59:21.721614Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -683,9 +683,9 @@
           ],
           "tr_app": [
             {
-              "rank": 3,
+              "rank": 6,
               "start_position": null,
-              "name": "6",
+              "name": "9",
               "D": null,
               "E": 5.0,
               "C": null,
