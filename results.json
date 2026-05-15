@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T14:42:36.782636Z",
+  "last_updated": "2026-05-15T16:25:20.104383Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -160,7 +160,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -1348,24 +1348,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "VA",
+              "start_position": 1,
+              "name": "GF Örebro/GF Kennedy",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 15.65,
+                "D": 5.45,
+                "E": 7.2,
+                "C": 3.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
+                "score": 15.65,
+                "D": 7.2,
+                "E": 3.0,
                 "C": null,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 15.65,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -1378,14 +1378,14 @@
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 1,
+              "name": "GF Örebro/GF Kennedy",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 15.65,
+              "gap": 0.0
             }
           ],
           "tu_app": [
