@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T16:25:20.104383Z",
+  "last_updated": "2026-05-15T17:59:20.013998Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -476,6 +476,79 @@
       "date_to": "2026-05-16",
       "place": "Karlskrona",
       "classes": [
+        {
+          "class_name": "Final SM - Dam",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3626?f=8155&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        },
         {
           "class_name": "SM - Dam",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3626?f=8039&country=swe&year=2026",
@@ -1348,6 +1421,34 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 2,
+              "name": "Teamgym Norrdal (Gefle GF)",
+              "fx": {
+                "score": 16.25,
+                "D": 6.05,
+                "E": 7.2,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 17.4,
+                "D": 7.9,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 17.9,
+                "D": 8.2,
+                "E": 7.8,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 51.55,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 1,
               "name": "GF Örebro/GF Kennedy",
               "fx": {
@@ -1358,24 +1459,372 @@
                 "HJ": null
               },
               "tu": {
-                "score": 15.65,
-                "D": 7.2,
-                "E": 3.0,
-                "C": null,
+                "score": 17.05,
+                "D": 8.0,
+                "E": 7.05,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 15.65,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 18.85,
+                "D": 8.5,
+                "E": 8.35,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": null,
-              "gap": null
+              "total": 51.55,
+              "gap": 0.0
+            },
+            {
+              "rank": 3,
+              "start_position": 6,
+              "name": "Järfällagymnasterna",
+              "fx": {
+                "score": 16.8,
+                "D": 6.3,
+                "E": 7.5,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.45,
+                "D": 7.1,
+                "E": 7.35,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.6,
+                "D": 7.3,
+                "E": 6.4,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 48.85,
+              "gap": 2.7
+            },
+            {
+              "rank": 4,
+              "start_position": 3,
+              "name": "Halmstad Frigymnaster",
+              "fx": {
+                "score": 15.95,
+                "D": 5.5,
+                "E": 7.45,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.95,
+                "D": 7.5,
+                "E": 6.75,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 16.45,
+                "D": 7.2,
+                "E": 7.35,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 48.35,
+              "gap": 3.2
+            },
+            {
+              "rank": 5,
+              "start_position": 7,
+              "name": "Karlskrona GF",
+              "fx": {
+                "score": 14.6,
+                "D": 5.35,
+                "E": 6.65,
+                "C": 2.6,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.85,
+                "D": 7.4,
+                "E": 6.55,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.75,
+                "D": 7.0,
+                "E": 7.25,
+                "C": 1.5,
+                "HJ": null
+              },
+              "total": 46.2,
+              "gap": 5.35
+            },
+            {
+              "rank": 6,
+              "start_position": 8,
+              "name": "Pixbo GF",
+              "fx": {
+                "score": 15.85,
+                "D": 5.65,
+                "E": 7.2,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.55,
+                "D": 6.7,
+                "E": 6.15,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.925,
+                "D": 7.1,
+                "E": 6.025,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 45.325,
+              "gap": 6.225
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "Tullinge GF",
+              "fx": {
+                "score": 14.55,
+                "D": 4.9,
+                "E": 6.65,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.65,
+                "D": 6.0,
+                "E": 5.65,
+                "C": 1.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.65,
+                "D": 6.5,
+                "E": 6.45,
+                "C": 1.7,
+                "HJ": null
+              },
+              "total": 41.85,
+              "gap": 9.7
+            },
+            {
+              "rank": 8,
+              "start_position": 5,
+              "name": "Huddinge GF",
+              "fx": {
+                "score": 13.8,
+                "D": 4.4,
+                "E": 6.4,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.95,
+                "D": 6.1,
+                "E": 5.65,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tr": {
+                "score": 13.5,
+                "D": 6.3,
+                "E": 5.7,
+                "C": 1.5,
+                "HJ": null
+              },
+              "total": 40.25,
+              "gap": 11.3
             }
           ],
           "fx_app": [
+            {
+              "rank": 1,
+              "start_position": 6,
+              "name": "Järfällagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 16.8,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "Teamgym Norrdal (Gefle GF)",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.55,
+              "gap": 16.25
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "Halmstad Frigymnaster",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.85,
+              "gap": 15.95
+            },
+            {
+              "rank": 4,
+              "start_position": 8,
+              "name": "Pixbo GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.95,
+              "gap": 15.85
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "GF Örebro/GF Kennedy",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.15,
+              "gap": 15.65
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "Karlskrona GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.2,
+              "gap": 14.6
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "Tullinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.25,
+              "gap": 14.55
+            },
+            {
+              "rank": 8,
+              "start_position": 5,
+              "name": "Huddinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.0,
+              "gap": 13.8
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": 2,
+              "name": "Teamgym Norrdal (Gefle GF)",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 17.4,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "GF Örebro/GF Kennedy",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.35,
+              "gap": 17.05
+            },
+            {
+              "rank": 3,
+              "start_position": 6,
+              "name": "Järfällagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.95,
+              "gap": 16.45
+            },
+            {
+              "rank": 4,
+              "start_position": 3,
+              "name": "Halmstad Frigymnaster",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.45,
+              "gap": 15.95
+            },
+            {
+              "rank": 5,
+              "start_position": 7,
+              "name": "Karlskrona GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.55,
+              "gap": 15.85
+            },
+            {
+              "rank": 6,
+              "start_position": 8,
+              "name": "Pixbo GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.85,
+              "gap": 14.55
+            },
+            {
+              "rank": 7,
+              "start_position": 5,
+              "name": "Huddinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 4.45,
+              "gap": 12.95
+            },
+            {
+              "rank": 8,
+              "start_position": 4,
+              "name": "Tullinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 4.75,
+              "gap": 12.65
+            }
+          ],
+          "tr_app": [
             {
               "rank": 1,
               "start_position": 1,
@@ -1384,34 +1833,85 @@
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 15.65,
+              "score": 18.85,
               "gap": 0.0
-            }
-          ],
-          "tu_app": [
+            },
             {
               "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "start_position": 2,
+              "name": "Teamgym Norrdal (Gefle GF)",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
-            }
-          ],
-          "tr_app": [
+              "score": 0.95,
+              "gap": 17.9
+            },
             {
               "rank": 3,
-              "start_position": null,
-              "name": "6",
+              "start_position": 3,
+              "name": "Halmstad Frigymnaster",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 2.4,
+              "gap": 16.45
+            },
+            {
+              "rank": 4,
+              "start_position": 7,
+              "name": "Karlskrona GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.1,
+              "gap": 15.75
+            },
+            {
+              "rank": 5,
+              "start_position": 6,
+              "name": "Järfällagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.25,
+              "gap": 15.6
+            },
+            {
+              "rank": 6,
+              "start_position": 8,
+              "name": "Pixbo GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.925,
+              "gap": 14.925
+            },
+            {
+              "rank": 7,
+              "start_position": 4,
+              "name": "Tullinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 4.2,
+              "gap": 14.65
+            },
+            {
+              "rank": 8,
+              "start_position": 5,
+              "name": "Huddinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 5.35,
+              "gap": 13.5
             }
           ]
         },
