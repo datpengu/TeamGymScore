@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T14:51:52.582973Z",
+  "last_updated": "2026-05-16T15:44:05.679090Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -2299,14 +2299,14 @@
                 "HJ": null
               },
               "tr": {
-                "score": 18.2,
-                "D": 9.5,
+                "score": 18.6,
+                "D": 9.6,
                 "E": 7.1,
-                "C": 1.6,
+                "C": 1.9,
                 "HJ": null
               },
-              "total": 54.55,
-              "gap": 1.3
+              "total": 54.95,
+              "gap": 0.9
             },
             {
               "rank": 4,
@@ -2643,6 +2643,17 @@
             },
             {
               "rank": 2,
+              "start_position": 4,
+              "name": "Brommagymnasterna lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.4,
+              "gap": 18.6
+            },
+            {
+              "rank": 3,
               "start_position": 6,
               "name": "Brommagymnasterna lag 2",
               "D": null,
@@ -2651,17 +2662,6 @@
               "HJ": null,
               "score": 1.45,
               "gap": 18.55
-            },
-            {
-              "rank": 3,
-              "start_position": 4,
-              "name": "Brommagymnasterna lag 1",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": 1.8,
-              "gap": 18.2
             },
             {
               "rank": 4,
