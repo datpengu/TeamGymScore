@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T10:08:03.383383Z",
+  "last_updated": "2026-05-16T11:16:09.673937Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -160,7 +160,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "Rytme",
               "fx": {
                 "score": null,
                 "D": null,
@@ -241,7 +241,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
@@ -499,17 +499,45 @@
                 "HJ": null
               },
               "tr": {
-                "score": 36.3,
+                "score": 19.2,
                 "D": 8.4,
-                "E": 3.0,
-                "C": 7.95,
+                "E": 8.8,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 17.95,
+              "total": 55.5,
               "gap": 0.0
             },
             {
               "rank": 2,
+              "start_position": 2,
+              "name": "GK Motus-Salto lag 1",
+              "fx": {
+                "score": 17.95,
+                "D": 6.6,
+                "E": 8.35,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.45,
+                "D": 7.3,
+                "E": 7.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 18.45,
+                "D": 7.6,
+                "E": 8.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 52.85,
+              "gap": 2.65
+            },
+            {
+              "rank": 3,
               "start_position": 3,
               "name": "GT Vikingarna",
               "fx": {
@@ -520,24 +548,24 @@
                 "HJ": null
               },
               "tu": {
+                "score": 15.6,
+                "D": 6.4,
+                "E": 7.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
                 "score": 17.4,
                 "D": 7.2,
                 "E": 8.2,
                 "C": 2.0,
                 "HJ": null
               },
-              "tr": {
-                "score": 36.15,
-                "D": 8.55,
-                "E": 3.0,
-                "C": 8.2,
-                "HJ": null
-              },
-              "total": 0.15,
-              "gap": 17.8
+              "total": 51.75,
+              "gap": 3.75
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 4,
               "name": "Brommagymnasterna lag 2",
               "fx": {
@@ -548,105 +576,77 @@
                 "HJ": null
               },
               "tu": {
-                "score": 17.1,
-                "D": 8.1,
-                "E": 3.0,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": 19.2,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 17.1,
-              "gap": 0.85
-            },
-            {
-              "rank": 4,
-              "start_position": 2,
-              "name": "GK Motus-Salto lag 1",
-              "fx": {
-                "score": 16.45,
-                "D": 7.3,
-                "E": 7.15,
+                "score": 16.2,
+                "D": 6.5,
+                "E": 7.7,
                 "C": 2.0,
                 "HJ": null
               },
-              "tu": {
-                "score": 16.45,
-                "D": 7.15,
-                "E": 2.0,
-                "C": null,
-                "HJ": null
-              },
               "tr": {
-                "score": 19.85,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 17.7,
+                "D": 7.5,
+                "E": 8.2,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": 16.45,
-              "gap": 1.5
+              "total": 51.0,
+              "gap": 4.5
             },
             {
               "rank": 5,
-              "start_position": 5,
-              "name": "GK Motus-Salto lag A",
-              "fx": {
-                "score": 15.75,
-                "D": 6.3,
-                "E": 7.45,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 15.75,
-                "D": 7.45,
-                "E": 2.0,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": 20.55,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 15.75,
-              "gap": 2.2
-            },
-            {
-              "rank": 6,
               "start_position": 6,
               "name": "GK Engelholmsgymnasterna",
               "fx": {
+                "score": 18.45,
+                "D": 6.7,
+                "E": 8.75,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.45,
+                "D": 6.6,
+                "E": 6.95,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
                 "score": 15.65,
                 "D": 6.4,
                 "E": 7.75,
                 "C": 1.5,
                 "HJ": null
               },
+              "total": 49.55,
+              "gap": 5.95
+            },
+            {
+              "rank": 6,
+              "start_position": 5,
+              "name": "GK Motus-Salto lag A",
+              "fx": {
+                "score": 17.2,
+                "D": 6.1,
+                "E": 8.1,
+                "C": 3.0,
+                "HJ": null
+              },
               "tu": {
-                "score": 15.65,
-                "D": 7.75,
-                "E": 1.5,
-                "C": null,
+                "score": 15.75,
+                "D": 6.3,
+                "E": 7.45,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 20.65,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 16.55,
+                "D": 6.5,
+                "E": 8.25,
+                "C": 1.8,
                 "HJ": null
               },
-              "total": 15.65,
-              "gap": 2.3
+              "total": 49.5,
+              "gap": 6.0
             }
           ],
           "fx_app": [
@@ -663,6 +663,17 @@
             },
             {
               "rank": 2,
+              "start_position": 6,
+              "name": "GK Engelholmsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.3,
+              "gap": 18.45
+            },
+            {
+              "rank": 3,
               "start_position": 1,
               "name": "Brommagymnasterna lag 1",
               "D": null,
@@ -674,6 +685,28 @@
             },
             {
               "rank": 3,
+              "start_position": 2,
+              "name": "GK Motus-Salto lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.8,
+              "gap": 17.95
+            },
+            {
+              "rank": 5,
+              "start_position": 5,
+              "name": "GK Motus-Salto lag A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.55,
+              "gap": 17.2
+            },
+            {
+              "rank": 6,
               "start_position": 4,
               "name": "Brommagymnasterna lag 2",
               "D": null,
@@ -709,6 +742,17 @@
             },
             {
               "rank": 3,
+              "start_position": 4,
+              "name": "Brommagymnasterna lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.15,
+              "gap": 16.2
+            },
+            {
+              "rank": 4,
               "start_position": 5,
               "name": "GK Motus-Salto lag A",
               "D": null,
@@ -717,29 +761,95 @@
               "HJ": null,
               "score": 2.6,
               "gap": 15.75
-            }
-          ],
-          "tr_app": [
+            },
             {
-              "rank": 1,
+              "rank": 5,
               "start_position": 3,
               "name": "GT Vikingarna",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 17.4,
-              "gap": 0.0
+              "score": 2.75,
+              "gap": 15.6
             },
             {
-              "rank": 2,
+              "rank": 6,
               "start_position": 6,
               "name": "GK Engelholmsgymnasterna",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 1.75,
+              "score": 2.9,
+              "gap": 15.45
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 1,
+              "start_position": 1,
+              "name": "Brommagymnasterna lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 19.2,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "GK Motus-Salto lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.75,
+              "gap": 18.45
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "Brommagymnasterna lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.5,
+              "gap": 17.7
+            },
+            {
+              "rank": 4,
+              "start_position": 3,
+              "name": "GT Vikingarna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.8,
+              "gap": 17.4
+            },
+            {
+              "rank": 5,
+              "start_position": 5,
+              "name": "GK Motus-Salto lag A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.65,
+              "gap": 16.55
+            },
+            {
+              "rank": 6,
+              "start_position": 6,
+              "name": "GK Engelholmsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.55,
               "gap": 15.65
             }
           ]
