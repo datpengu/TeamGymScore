@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T13:57:12.034319Z",
+  "last_updated": "2026-05-16T14:51:52.582973Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -2226,34 +2226,62 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 9,
+              "name": "KFUM GA lag 1",
+              "fx": {
+                "score": 18.8,
+                "D": 7.2,
+                "E": 8.6,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 19.5,
+                "D": 10.6,
+                "E": 7.0,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 17.55,
+                "D": 8.8,
+                "E": 7.05,
+                "C": 1.7,
+                "HJ": null
+              },
+              "total": 55.85,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 2,
               "name": "Enebybergsgymnasterna",
               "fx": {
+                "score": 17.3,
+                "D": 6.7,
+                "E": 7.6,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
                 "score": 18.35,
                 "D": 9.4,
                 "E": 6.95,
                 "C": 2.0,
                 "HJ": null
               },
-              "tu": {
+              "tr": {
                 "score": 20.0,
                 "D": 10.4,
                 "E": 7.6,
                 "C": 2.0,
                 "HJ": null
               },
-              "tr": {
-                "score": 38.35,
-                "D": 6.95,
-                "E": 2.0,
-                "C": 7.6,
-                "HJ": null
-              },
-              "total": 18.35,
-              "gap": 0.0
+              "total": 55.65,
+              "gap": 0.2
             },
             {
-              "rank": 2,
+              "rank": 3,
               "start_position": 4,
               "name": "Brommagymnasterna lag 1",
               "fx": {
@@ -2271,17 +2299,17 @@
                 "HJ": null
               },
               "tr": {
-                "score": 36.35,
-                "D": 8.2,
-                "E": 3.0,
-                "C": 6.45,
+                "score": 18.2,
+                "D": 9.5,
+                "E": 7.1,
+                "C": 1.6,
                 "HJ": null
               },
-              "total": 2.0,
-              "gap": 16.35
+              "total": 54.55,
+              "gap": 1.3
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 6,
               "name": "Brommagymnasterna lag 2",
               "fx": {
@@ -2292,24 +2320,80 @@
                 "HJ": null
               },
               "tu": {
+                "score": 16.6,
+                "D": 7.7,
+                "E": 7.0,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
                 "score": 18.55,
                 "D": 8.4,
                 "E": 8.15,
                 "C": 2.0,
                 "HJ": null
               },
-              "tr": {
-                "score": 35.6,
-                "D": 7.75,
-                "E": 3.0,
-                "C": 8.15,
-                "HJ": null
-              },
-              "total": 2.75,
-              "gap": 15.6
+              "total": 52.2,
+              "gap": 3.65
             },
             {
-              "rank": 4,
+              "rank": 5,
+              "start_position": 5,
+              "name": "GK Motus-Salto",
+              "fx": {
+                "score": 15.3,
+                "D": 5.45,
+                "E": 6.85,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 18.55,
+                "D": 9.6,
+                "E": 6.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 18.05,
+                "D": 9.0,
+                "E": 7.15,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 51.9,
+              "gap": 3.95
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "GCF Uppsala",
+              "fx": {
+                "score": 16.0,
+                "D": 6.1,
+                "E": 6.9,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 16.85,
+                "D": 8.6,
+                "E": 6.85,
+                "C": 1.4,
+                "HJ": null
+              },
+              "tr": {
+                "score": 16.75,
+                "D": 8.5,
+                "E": 6.35,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 49.6,
+              "gap": 6.25
+            },
+            {
+              "rank": 7,
               "start_position": 1,
               "name": "KFUM GA lag A",
               "fx": {
@@ -2327,190 +2411,88 @@
                 "HJ": null
               },
               "tr": {
-                "score": 29.15,
-                "D": 7.3,
-                "E": 3.0,
-                "C": 5.8,
-                "HJ": null
-              },
-              "total": 9.2,
-              "gap": 9.15
-            },
-            {
-              "rank": 5,
-              "start_position": 5,
-              "name": "GK Motus-Salto",
-              "fx": {
-                "score": 18.55,
-                "D": 9.6,
+                "score": 16.65,
+                "D": 7.7,
                 "E": 6.95,
                 "C": 2.0,
                 "HJ": null
               },
-              "tu": {
-                "score": 18.55,
-                "D": 6.95,
-                "E": 2.0,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": 19.8,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 18.55,
-              "gap": -0.2
+              "total": 45.8,
+              "gap": 10.05
             },
             {
-              "rank": 6,
-              "start_position": 7,
-              "name": "GCF Uppsala",
+              "rank": 8,
+              "start_position": 8,
+              "name": "Pixbo GF",
               "fx": {
-                "score": 16.0,
-                "D": 6.1,
-                "E": 6.9,
+                "score": 13.45,
+                "D": 4.6,
+                "E": 5.85,
                 "C": 3.0,
                 "HJ": null
               },
               "tu": {
-                "score": 16.0,
-                "D": 6.9,
-                "E": 3.0,
-                "C": null,
-                "HJ": null
-              },
-              "tr": {
-                "score": 22.35,
-                "D": null,
-                "E": null,
-                "C": null,
-                "HJ": null
-              },
-              "total": 16.0,
-              "gap": 2.35
-            },
-            {
-              "rank": 7,
-              "start_position": 8,
-              "name": "Pixbo GF",
-              "fx": {
                 "score": 15.85,
                 "D": 8.2,
                 "E": 5.95,
                 "C": 1.7,
                 "HJ": null
               },
-              "tu": {
-                "score": 15.85,
-                "D": 5.95,
-                "E": 1.7,
-                "C": null,
-                "HJ": null
-              },
               "tr": {
-                "score": 22.5,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 16.35,
+                "D": 8.3,
+                "E": 6.45,
+                "C": 1.6,
                 "HJ": null
               },
-              "total": 15.85,
-              "gap": 2.5
+              "total": 45.65,
+              "gap": 10.2
             }
           ],
           "fx_app": [
             {
               "rank": 1,
+              "start_position": 9,
+              "name": "KFUM GA lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 18.8,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 4,
               "name": "Brommagymnasterna lag 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 18.1,
-              "gap": 0.0
-            },
-            {
-              "rank": 2,
-              "start_position": 6,
-              "name": "Brommagymnasterna lag 2",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": 1.05,
-              "gap": 17.05
+              "score": 0.7,
+              "gap": 18.1
             },
             {
               "rank": 3,
-              "start_position": 1,
-              "name": "KFUM GA lag A",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": 2.05,
-              "gap": 16.05
-            },
-            {
-              "rank": 4,
-              "start_position": 7,
-              "name": "GCF Uppsala",
-              "D": null,
-              "E": 5.0,
-              "C": null,
-              "HJ": null,
-              "score": 2.1,
-              "gap": 16.0
-            }
-          ],
-          "tu_app": [
-            {
-              "rank": 1,
-              "start_position": 5,
-              "name": "GK Motus-Salto",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": 18.55,
-              "gap": 0.0
-            },
-            {
-              "rank": 2,
               "start_position": 2,
               "name": "Enebybergsgymnasterna",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 0.2,
-              "gap": 18.35
-            },
-            {
-              "rank": 3,
-              "start_position": 4,
-              "name": "Brommagymnasterna lag 1",
-              "D": null,
-              "E": null,
-              "C": null,
-              "HJ": null,
-              "score": 0.3,
-              "gap": 18.25
+              "score": 1.5,
+              "gap": 17.3
             },
             {
               "rank": 4,
-              "start_position": 8,
-              "name": "Pixbo GF",
+              "start_position": 6,
+              "name": "Brommagymnasterna lag 2",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 2.7,
-              "gap": 15.85
+              "score": 1.75,
+              "gap": 17.05
             },
             {
               "rank": 5,
@@ -2520,7 +2502,130 @@
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 5.45,
+              "score": 2.75,
+              "gap": 16.05
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "GCF Uppsala",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.8,
+              "gap": 16.0
+            },
+            {
+              "rank": 7,
+              "start_position": 5,
+              "name": "GK Motus-Salto",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.5,
+              "gap": 15.3
+            },
+            {
+              "rank": 8,
+              "start_position": 8,
+              "name": "Pixbo GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 5.35,
+              "gap": 13.45
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 1,
+              "start_position": 9,
+              "name": "KFUM GA lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 19.5,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 5,
+              "name": "GK Motus-Salto",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.95,
+              "gap": 18.55
+            },
+            {
+              "rank": 3,
+              "start_position": 2,
+              "name": "Enebybergsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.15,
+              "gap": 18.35
+            },
+            {
+              "rank": 4,
+              "start_position": 4,
+              "name": "Brommagymnasterna lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.25,
+              "gap": 18.25
+            },
+            {
+              "rank": 5,
+              "start_position": 7,
+              "name": "GCF Uppsala",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.65,
+              "gap": 16.85
+            },
+            {
+              "rank": 6,
+              "start_position": 6,
+              "name": "Brommagymnasterna lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.9,
+              "gap": 16.6
+            },
+            {
+              "rank": 7,
+              "start_position": 8,
+              "name": "Pixbo GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.65,
+              "gap": 15.85
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "KFUM GA lag A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 6.4,
               "gap": 13.1
             }
           ],
@@ -2546,6 +2651,72 @@
               "HJ": null,
               "score": 1.45,
               "gap": 18.55
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "Brommagymnasterna lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.8,
+              "gap": 18.2
+            },
+            {
+              "rank": 4,
+              "start_position": 5,
+              "name": "GK Motus-Salto",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.95,
+              "gap": 18.05
+            },
+            {
+              "rank": 5,
+              "start_position": 9,
+              "name": "KFUM GA lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.45,
+              "gap": 17.55
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "GCF Uppsala",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.25,
+              "gap": 16.75
+            },
+            {
+              "rank": 7,
+              "start_position": 1,
+              "name": "KFUM GA lag A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.35,
+              "gap": 16.65
+            },
+            {
+              "rank": 8,
+              "start_position": 8,
+              "name": "Pixbo GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.65,
+              "gap": 16.35
             }
           ]
         }
