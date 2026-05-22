@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T20:04:44.871841Z",
+  "last_updated": "2026-05-22T21:20:20.840861Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -432,9 +432,9 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "4",
+              "name": "2",
               "D": null,
-              "E": 30.0,
+              "E": 28.0,
               "C": null,
               "HJ": null,
               "score": null,
@@ -443,11 +443,11 @@
           ],
           "tu_app": [
             {
-              "rank": 2,
+              "rank": 1,
               "start_position": null,
-              "name": "5",
+              "name": "2",
               "D": null,
-              "E": 30.0,
+              "E": 28.0,
               "C": null,
               "HJ": null,
               "score": null,
@@ -456,11 +456,11 @@
           ],
           "tr_app": [
             {
-              "rank": 3,
+              "rank": 1,
               "start_position": null,
-              "name": "6",
+              "name": "2",
               "D": null,
-              "E": 30.0,
+              "E": 28.0,
               "C": null,
               "HJ": null,
               "score": null,
