@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T13:56:17.154519Z",
+  "last_updated": "2026-05-22T16:17:11.971013Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -87,7 +87,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "Rytme",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -396,7 +396,7 @@
       "place": "Västerås",
       "classes": [
         {
-          "class_name": "Rikstrean Öppen klass",
+          "class_name": "Rikstrean Öppen klass 13 år och äldre",
           "url": "https://live.sporteventsystems.se/Score/WebScore/3647?f=8116&country=swe&year=2026",
           "teams": [
             {
