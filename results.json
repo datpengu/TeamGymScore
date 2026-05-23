@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T11:48:37.270422Z",
+  "last_updated": "2026-05-23T12:46:05.049286Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -496,6 +496,258 @@
               },
               "total": 28.85,
               "gap": 4.2
+            },
+            {
+              "rank": 10,
+              "start_position": 10,
+              "name": "GF Nissaflickorna",
+              "fx": {
+                "score": 10.6,
+                "D": 1.75,
+                "E": 6.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.25,
+                "D": 1.4,
+                "E": 8.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 21.85,
+                "D": 1.75,
+                "E": 6.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 11.2,
+              "gap": 21.85
+            },
+            {
+              "rank": 11,
+              "start_position": 12,
+              "name": "Gefle GF Trupp 5b",
+              "fx": {
+                "score": 10.9,
+                "D": 1.8,
+                "E": 7.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.8,
+                "D": 1.8,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 21.7,
+                "D": 1.8,
+                "E": 7.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 11.35,
+              "gap": 21.7
+            },
+            {
+              "rank": 12,
+              "start_position": 11,
+              "name": "GF Nikegymnasterna Lag 2",
+              "fx": {
+                "score": 10.65,
+                "D": 1.9,
+                "E": 6.75,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.15,
+                "D": 1.8,
+                "E": 6.65,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 20.8,
+                "D": 1.9,
+                "E": 6.75,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 12.25,
+              "gap": 20.8
+            },
+            {
+              "rank": 13,
+              "start_position": 14,
+              "name": "ABGS Lag 2",
+              "fx": {
+                "score": 11.5,
+                "D": 1.7,
+                "E": 7.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.5,
+                "D": 1.7,
+                "E": 7.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 21.55,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.5,
+              "gap": 21.55
+            },
+            {
+              "rank": 13,
+              "start_position": 17,
+              "name": "Järfällagymnasterna",
+              "fx": {
+                "score": 11.5,
+                "D": 1.9,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.5,
+                "D": 1.9,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 21.55,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.5,
+              "gap": 21.55
+            },
+            {
+              "rank": 15,
+              "start_position": 15,
+              "name": "Strängnäs GF trupp 13",
+              "fx": {
+                "score": 11.0,
+                "D": 1.8,
+                "E": 7.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.0,
+                "D": 1.8,
+                "E": 7.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 22.05,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.0,
+              "gap": 22.05
+            },
+            {
+              "rank": 16,
+              "start_position": 18,
+              "name": "Kristinehamns GS",
+              "fx": {
+                "score": 10.45,
+                "D": 1.8,
+                "E": 6.85,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.45,
+                "D": 1.8,
+                "E": 6.85,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 22.6,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.45,
+              "gap": 22.6
+            },
+            {
+              "rank": 17,
+              "start_position": 13,
+              "name": "Norrtälje GF",
+              "fx": {
+                "score": 8.8,
+                "D": 1.3,
+                "E": 5.7,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 8.8,
+                "D": 1.3,
+                "E": 5.7,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 24.25,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 8.8,
+              "gap": 24.25
+            },
+            {
+              "rank": 18,
+              "start_position": 16,
+              "name": "Öjersjö GF Lag 2",
+              "fx": {
+                "score": 8.7,
+                "D": 1.5,
+                "E": 5.3,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 8.7,
+                "D": 1.5,
+                "E": 5.3,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 24.35,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 8.7,
+              "gap": 24.35
             }
           ],
           "fx_app": [
@@ -512,6 +764,28 @@
             },
             {
               "rank": 2,
+              "start_position": 12,
+              "name": "Gefle GF Trupp 5b",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.1,
+              "gap": 10.9
+            },
+            {
+              "rank": 3,
+              "start_position": 10,
+              "name": "GF Nissaflickorna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.4,
+              "gap": 10.6
+            },
+            {
+              "rank": 4,
               "start_position": 3,
               "name": "Gefle GF Trupp 5a",
               "D": null,
@@ -522,7 +796,7 @@
               "gap": 10.55
             },
             {
-              "rank": 3,
+              "rank": 5,
               "start_position": 6,
               "name": "ABGS Lag 1",
               "D": null,
@@ -533,7 +807,7 @@
               "gap": 10.1
             },
             {
-              "rank": 4,
+              "rank": 6,
               "start_position": 9,
               "name": "Karlstads GF",
               "D": null,
@@ -544,7 +818,7 @@
               "gap": 9.9
             },
             {
-              "rank": 5,
+              "rank": 7,
               "start_position": 1,
               "name": "Söderhamns GF",
               "D": null,
@@ -555,7 +829,7 @@
               "gap": 9.7
             },
             {
-              "rank": 6,
+              "rank": 8,
               "start_position": 2,
               "name": "GF Nikegymnasterna Lag 1",
               "D": null,
@@ -566,7 +840,7 @@
               "gap": 9.55
             },
             {
-              "rank": 7,
+              "rank": 9,
               "start_position": 7,
               "name": "Strängnäs GF Juniortruppen",
               "D": null,
@@ -577,7 +851,7 @@
               "gap": 9.45
             },
             {
-              "rank": 8,
+              "rank": 10,
               "start_position": 4,
               "name": "Hammarö GF Lag Vit",
               "D": null,
@@ -588,7 +862,7 @@
               "gap": 9.05
             },
             {
-              "rank": 9,
+              "rank": 11,
               "start_position": 8,
               "name": "Öjersjö GF Lag 1",
               "D": null,
@@ -597,6 +871,28 @@
               "HJ": null,
               "score": 2.15,
               "gap": 8.85
+            },
+            {
+              "rank": 12,
+              "start_position": 13,
+              "name": "Norrtälje GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.2,
+              "gap": 8.8
+            },
+            {
+              "rank": 13,
+              "start_position": 16,
+              "name": "Öjersjö GF Lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.3,
+              "gap": 8.7
             }
           ],
           "tu_app": [
@@ -635,6 +931,17 @@
             },
             {
               "rank": 3,
+              "start_position": 14,
+              "name": "ABGS Lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.45,
+              "gap": 11.5
+            },
+            {
+              "rank": 3,
               "start_position": 2,
               "name": "GF Nikegymnasterna Lag 1",
               "D": null,
@@ -645,7 +952,18 @@
               "gap": 11.5
             },
             {
-              "rank": 5,
+              "rank": 3,
+              "start_position": 17,
+              "name": "Järfällagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.45,
+              "gap": 11.5
+            },
+            {
+              "rank": 7,
               "start_position": 6,
               "name": "ABGS Lag 1",
               "D": null,
@@ -656,7 +974,7 @@
               "gap": 11.45
             },
             {
-              "rank": 6,
+              "rank": 8,
               "start_position": 5,
               "name": "Täby GF",
               "D": null,
@@ -667,7 +985,18 @@
               "gap": 11.4
             },
             {
-              "rank": 7,
+              "rank": 9,
+              "start_position": 10,
+              "name": "GF Nissaflickorna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.7,
+              "gap": 11.25
+            },
+            {
+              "rank": 10,
               "start_position": 4,
               "name": "Hammarö GF Lag Vit",
               "D": null,
@@ -678,7 +1007,7 @@
               "gap": 11.1
             },
             {
-              "rank": 8,
+              "rank": 11,
               "start_position": 7,
               "name": "Strängnäs GF Juniortruppen",
               "D": null,
@@ -689,7 +1018,18 @@
               "gap": 11.0
             },
             {
-              "rank": 9,
+              "rank": 12,
+              "start_position": 11,
+              "name": "GF Nikegymnasterna Lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.3,
+              "gap": 10.65
+            },
+            {
+              "rank": 13,
               "start_position": 8,
               "name": "Öjersjö GF Lag 1",
               "D": null,
@@ -714,6 +1054,28 @@
             },
             {
               "rank": 2,
+              "start_position": 15,
+              "name": "Strängnäs GF trupp 13",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.15,
+              "gap": 11.0
+            },
+            {
+              "rank": 3,
+              "start_position": 12,
+              "name": "Gefle GF Trupp 5b",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.35,
+              "gap": 10.8
+            },
+            {
+              "rank": 4,
               "start_position": 6,
               "name": "ABGS Lag 1",
               "D": null,
@@ -724,7 +1086,7 @@
               "gap": 10.75
             },
             {
-              "rank": 3,
+              "rank": 5,
               "start_position": 2,
               "name": "GF Nikegymnasterna Lag 1",
               "D": null,
@@ -735,7 +1097,7 @@
               "gap": 10.65
             },
             {
-              "rank": 3,
+              "rank": 5,
               "start_position": 5,
               "name": "Täby GF",
               "D": null,
@@ -746,7 +1108,7 @@
               "gap": 10.65
             },
             {
-              "rank": 3,
+              "rank": 5,
               "start_position": 7,
               "name": "Strängnäs GF Juniortruppen",
               "D": null,
@@ -757,7 +1119,29 @@
               "gap": 10.65
             },
             {
-              "rank": 6,
+              "rank": 8,
+              "start_position": 18,
+              "name": "Kristinehamns GS",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.7,
+              "gap": 10.45
+            },
+            {
+              "rank": 9,
+              "start_position": 11,
+              "name": "GF Nikegymnasterna Lag 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 10.15
+            },
+            {
+              "rank": 10,
               "start_position": 3,
               "name": "Gefle GF Trupp 5a",
               "D": null,
@@ -768,7 +1152,7 @@
               "gap": 10.1
             },
             {
-              "rank": 7,
+              "rank": 11,
               "start_position": 1,
               "name": "Söderhamns GF",
               "D": null,
@@ -779,7 +1163,7 @@
               "gap": 10.05
             },
             {
-              "rank": 8,
+              "rank": 12,
               "start_position": 4,
               "name": "Hammarö GF Lag Vit",
               "D": null,
@@ -790,7 +1174,7 @@
               "gap": 10.0
             },
             {
-              "rank": 9,
+              "rank": 13,
               "start_position": 8,
               "name": "Öjersjö GF Lag 1",
               "D": null,
@@ -1029,96 +1413,364 @@
               },
               "total": 28.5,
               "gap": 4.9
+            },
+            {
+              "rank": 9,
+              "start_position": 11,
+              "name": "Dackegymnasterna Blå",
+              "fx": {
+                "score": 9.5,
+                "D": 1.45,
+                "E": 6.05,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.5,
+                "D": 1.8,
+                "E": 7.7,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 21.0,
+                "D": 1.45,
+                "E": 6.05,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 12.4,
+              "gap": 21.0
+            },
+            {
+              "rank": 10,
+              "start_position": 10,
+              "name": "Alingsås IF GF Trupp Rosa",
+              "fx": {
+                "score": 9.8,
+                "D": 1.6,
+                "E": 6.5,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.55,
+                "D": 1.8,
+                "E": 6.75,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 20.35,
+                "D": 1.6,
+                "E": 6.5,
+                "C": 1.7,
+                "HJ": null
+              },
+              "total": 13.05,
+              "gap": 20.35
+            },
+            {
+              "rank": 11,
+              "start_position": 9,
+              "name": "Åmåls GF Salto",
+              "fx": {
+                "score": 7.0,
+                "D": 1.1,
+                "E": 4.3,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.0,
+                "D": 1.8,
+                "E": 6.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 17.0,
+                "D": 1.1,
+                "E": 4.3,
+                "C": 1.6,
+                "HJ": null
+              },
+              "total": 16.4,
+              "gap": 17.0
+            },
+            {
+              "rank": 12,
+              "start_position": 15,
+              "name": "Nacka GF UT VIT",
+              "fx": {
+                "score": 11.45,
+                "D": 1.65,
+                "E": 7.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.45,
+                "D": 1.65,
+                "E": 7.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 21.95,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.45,
+              "gap": 21.95
+            },
+            {
+              "rank": 13,
+              "start_position": 16,
+              "name": "Norrköpings GF Trupp Silver",
+              "fx": {
+                "score": 11.4,
+                "D": 1.9,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.4,
+                "D": 1.9,
+                "E": 7.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 22.0,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.4,
+              "gap": 22.0
+            },
+            {
+              "rank": 14,
+              "start_position": 14,
+              "name": "GF Örebro Trupp blå 4",
+              "fx": {
+                "score": 10.3,
+                "D": 1.8,
+                "E": 6.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.3,
+                "D": 1.8,
+                "E": 6.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 23.1,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.3,
+              "gap": 23.1
+            },
+            {
+              "rank": 15,
+              "start_position": 12,
+              "name": "GCF Uppsala Flicktruppen Lag 1",
+              "fx": {
+                "score": 9.95,
+                "D": 1.65,
+                "E": 6.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.95,
+                "D": 1.65,
+                "E": 6.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 23.45,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 9.95,
+              "gap": 23.45
+            },
+            {
+              "rank": 16,
+              "start_position": 13,
+              "name": "GF Gymnos trupp 3",
+              "fx": {
+                "score": 8.5,
+                "D": 1.8,
+                "E": 5.7,
+                "C": 1.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 8.5,
+                "D": 1.8,
+                "E": 5.7,
+                "C": 1.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 24.9,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 8.5,
+              "gap": 24.9
             }
           ],
           "fx_app": [
             {
               "rank": 1,
+              "start_position": 15,
+              "name": "Nacka GF UT VIT",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 11.45,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 3,
               "name": "GCF Uppsala Flicktruppen Lag A",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 11.3,
-              "gap": 0.0
+              "score": 0.15,
+              "gap": 11.3
             },
             {
-              "rank": 2,
+              "rank": 3,
               "start_position": 2,
               "name": "Borås GS",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 0.15,
+              "score": 0.3,
               "gap": 11.15
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 8,
               "name": "Eksjö GS Trupp 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 0.35,
+              "score": 0.5,
               "gap": 10.95
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 6,
               "name": "GT Vikingarna UT3",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 0.4,
+              "score": 0.55,
               "gap": 10.9
             },
             {
-              "rank": 5,
+              "rank": 6,
+              "start_position": 12,
+              "name": "GCF Uppsala Flicktruppen Lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.5,
+              "gap": 9.95
+            },
+            {
+              "rank": 7,
+              "start_position": 11,
+              "name": "Dackegymnasterna Blå",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.95,
+              "gap": 9.5
+            },
+            {
+              "rank": 8,
               "start_position": 5,
               "name": "GF Örebro Blå 11",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 1.85,
+              "score": 2.0,
               "gap": 9.45
             },
             {
-              "rank": 6,
+              "rank": 9,
               "start_position": 1,
               "name": "GF Göteborgsgymnasterna Röd 13",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 2.3,
+              "score": 2.45,
               "gap": 9.0
             },
             {
-              "rank": 7,
+              "rank": 10,
               "start_position": 4,
               "name": "Huddinge GF Röd 4",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 2.4,
+              "score": 2.55,
               "gap": 8.9
             },
             {
-              "rank": 8,
+              "rank": 11,
               "start_position": 7,
               "name": "Kävlinge GF",
-              "D": 14.0,
+              "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": 2.95,
+              "score": 3.1,
               "gap": 8.35
+            },
+            {
+              "rank": 12,
+              "start_position": 9,
+              "name": "Åmåls GF Salto",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 4.45,
+              "gap": 7.0
             }
           ],
           "tu_app": [
@@ -1135,6 +1787,17 @@
             },
             {
               "rank": 2,
+              "start_position": 16,
+              "name": "Norrköpings GF Trupp Silver",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.5,
+              "gap": 11.4
+            },
+            {
+              "rank": 3,
               "start_position": 2,
               "name": "Borås GS",
               "D": null,
@@ -1145,7 +1808,7 @@
               "gap": 11.2
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 6,
               "name": "GT Vikingarna UT3",
               "D": null,
@@ -1156,7 +1819,18 @@
               "gap": 11.0
             },
             {
-              "rank": 4,
+              "rank": 5,
+              "start_position": 9,
+              "name": "Åmåls GF Salto",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.9,
+              "gap": 10.0
+            },
+            {
+              "rank": 6,
               "start_position": 4,
               "name": "Huddinge GF Röd 4",
               "D": null,
@@ -1167,7 +1841,18 @@
               "gap": 9.85
             },
             {
-              "rank": 5,
+              "rank": 7,
+              "start_position": 10,
+              "name": "Alingsås IF GF Trupp Rosa",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.1,
+              "gap": 9.8
+            },
+            {
+              "rank": 7,
               "start_position": 8,
               "name": "Eksjö GS Trupp 1",
               "D": null,
@@ -1178,7 +1863,7 @@
               "gap": 9.8
             },
             {
-              "rank": 6,
+              "rank": 9,
               "start_position": 7,
               "name": "Kävlinge GF",
               "D": null,
@@ -1189,7 +1874,7 @@
               "gap": 9.7
             },
             {
-              "rank": 7,
+              "rank": 10,
               "start_position": 3,
               "name": "GCF Uppsala Flicktruppen Lag A",
               "D": null,
@@ -1200,15 +1885,26 @@
               "gap": 9.55
             },
             {
-              "rank": 8,
+              "rank": 11,
               "start_position": 1,
               "name": "GF Göteborgsgymnasterna Röd 13",
-              "D": 14.0,
+              "D": null,
               "E": null,
               "C": null,
               "HJ": null,
               "score": 3.05,
               "gap": 8.85
+            },
+            {
+              "rank": 12,
+              "start_position": 13,
+              "name": "GF Gymnos trupp 3",
+              "D": 14.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.4,
+              "gap": 8.5
             }
           ],
           "tr_app": [
@@ -1235,7 +1931,18 @@
               "gap": 11.5
             },
             {
-              "rank": 3,
+              "rank": 2,
+              "start_position": 11,
+              "name": "Dackegymnasterna Blå",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.45,
+              "gap": 11.5
+            },
+            {
+              "rank": 4,
               "start_position": 8,
               "name": "Eksjö GS Trupp 1",
               "D": null,
@@ -1246,7 +1953,7 @@
               "gap": 11.35
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 1,
               "name": "GF Göteborgsgymnasterna Röd 13",
               "D": null,
@@ -1257,7 +1964,7 @@
               "gap": 11.15
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 2,
               "name": "Borås GS",
               "D": null,
@@ -1268,7 +1975,7 @@
               "gap": 11.05
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 6,
               "name": "GT Vikingarna UT3",
               "D": null,
@@ -1279,7 +1986,7 @@
               "gap": 11.0
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 4,
               "name": "Huddinge GF Röd 4",
               "D": null,
@@ -1290,15 +1997,37 @@
               "gap": 10.9
             },
             {
-              "rank": 8,
+              "rank": 9,
+              "start_position": 10,
+              "name": "Alingsås IF GF Trupp Rosa",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.4,
+              "gap": 10.55
+            },
+            {
+              "rank": 10,
               "start_position": 7,
               "name": "Kävlinge GF",
-              "D": 14.0,
+              "D": null,
               "E": null,
               "C": null,
               "HJ": null,
               "score": 1.5,
               "gap": 10.45
+            },
+            {
+              "rank": 11,
+              "start_position": 14,
+              "name": "GF Örebro Trupp blå 4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.65,
+              "gap": 10.3
             }
           ]
         }
@@ -1649,6 +2378,202 @@
               },
               "total": 29.1,
               "gap": 6.1
+            },
+            {
+              "rank": 13,
+              "start_position": 15,
+              "name": "ABGS 3B",
+              "fx": {
+                "score": 10.55,
+                "D": 1.9,
+                "E": 6.85,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.6,
+                "D": 2.4,
+                "E": 7.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 22.15,
+                "D": 1.9,
+                "E": 6.85,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 13.05,
+              "gap": 22.15
+            },
+            {
+              "rank": 14,
+              "start_position": 13,
+              "name": "Sundsvallsgymnasterna GK Rikslaget",
+              "fx": {
+                "score": 12.0,
+                "D": 2.4,
+                "E": 7.8,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.0,
+                "D": 2.7,
+                "E": 5.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 22.0,
+                "D": 2.4,
+                "E": 7.8,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 13.2,
+              "gap": 22.0
+            },
+            {
+              "rank": 15,
+              "start_position": 16,
+              "name": "GT Vikingarna",
+              "fx": {
+                "score": 11.5,
+                "D": 2.1,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.0,
+                "D": 3.0,
+                "E": 5.2,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 21.5,
+                "D": 2.1,
+                "E": 7.4,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 13.7,
+              "gap": 21.5
+            },
+            {
+              "rank": 16,
+              "start_position": 14,
+              "name": "Hudiksvalls GF",
+              "fx": {
+                "score": 10.65,
+                "D": 2.8,
+                "E": 5.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.4,
+                "D": 2.2,
+                "E": 6.3,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 21.05,
+                "D": 2.8,
+                "E": 5.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 14.15,
+              "gap": 21.05
+            },
+            {
+              "rank": 17,
+              "start_position": 18,
+              "name": "Täby GF TT1",
+              "fx": {
+                "score": 12.1,
+                "D": 2.8,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.1,
+                "D": 2.8,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 23.1,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 12.1,
+              "gap": 23.1
+            },
+            {
+              "rank": 18,
+              "start_position": 17,
+              "name": "Göteborgs Turnförening JT-2",
+              "fx": {
+                "score": 10.5,
+                "D": 2.9,
+                "E": 5.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.5,
+                "D": 2.9,
+                "E": 5.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 24.7,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 10.5,
+              "gap": 24.7
+            },
+            {
+              "rank": 19,
+              "start_position": 19,
+              "name": "GF Kungälvsgymnasterna",
+              "fx": {
+                "score": 9.9,
+                "D": 1.3,
+                "E": 7.0,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.9,
+                "D": 1.3,
+                "E": 7.0,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 25.3,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 9.9,
+              "gap": 25.3
             }
           ],
           "fx_app": [
@@ -1665,6 +2590,17 @@
             },
             {
               "rank": 2,
+              "start_position": 13,
+              "name": "Sundsvallsgymnasterna GK Rikslaget",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.05,
+              "gap": 12.0
+            },
+            {
+              "rank": 3,
               "start_position": 7,
               "name": "GF Nissaflickorna",
               "D": null,
@@ -1675,7 +2611,18 @@
               "gap": 11.5
             },
             {
-              "rank": 3,
+              "rank": 4,
+              "start_position": 16,
+              "name": "GT Vikingarna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.55,
+              "gap": 11.5
+            },
+            {
+              "rank": 5,
               "start_position": 2,
               "name": "Wifolka GF T1",
               "D": null,
@@ -1686,7 +2633,7 @@
               "gap": 11.45
             },
             {
-              "rank": 4,
+              "rank": 6,
               "start_position": 10,
               "name": "Borås GS",
               "D": null,
@@ -1697,7 +2644,7 @@
               "gap": 11.4
             },
             {
-              "rank": 5,
+              "rank": 7,
               "start_position": 4,
               "name": "Tranemo GF",
               "D": null,
@@ -1708,7 +2655,7 @@
               "gap": 11.35
             },
             {
-              "rank": 6,
+              "rank": 8,
               "start_position": 12,
               "name": "GF Göteborgsgymnasterna",
               "D": null,
@@ -1719,7 +2666,7 @@
               "gap": 11.15
             },
             {
-              "rank": 7,
+              "rank": 9,
               "start_position": 6,
               "name": "Skövde GF",
               "D": null,
@@ -1730,7 +2677,7 @@
               "gap": 10.85
             },
             {
-              "rank": 8,
+              "rank": 10,
               "start_position": 8,
               "name": "Karlstads GF",
               "D": null,
@@ -1741,7 +2688,7 @@
               "gap": 10.7
             },
             {
-              "rank": 9,
+              "rank": 11,
               "start_position": 9,
               "name": "Sala GF Oldies",
               "D": null,
@@ -1752,7 +2699,29 @@
               "gap": 10.6
             },
             {
-              "rank": 10,
+              "rank": 12,
+              "start_position": 15,
+              "name": "ABGS 3B",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.5,
+              "gap": 10.55
+            },
+            {
+              "rank": 13,
+              "start_position": 19,
+              "name": "GF Kungälvsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.15,
+              "gap": 9.9
+            },
+            {
+              "rank": 14,
               "start_position": 11,
               "name": "Kristinehamns GS",
               "D": null,
@@ -1763,7 +2732,7 @@
               "gap": 9.0
             },
             {
-              "rank": 11,
+              "rank": 15,
               "start_position": 1,
               "name": "Östersundsgymnasterna",
               "D": null,
@@ -1774,7 +2743,7 @@
               "gap": 8.6
             },
             {
-              "rank": 12,
+              "rank": 16,
               "start_position": 3,
               "name": "Jönköpings GF",
               "D": null,
@@ -1865,6 +2834,17 @@
             },
             {
               "rank": 8,
+              "start_position": 14,
+              "name": "Hudiksvalls GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.55,
+              "gap": 10.65
+            },
+            {
+              "rank": 9,
               "start_position": 5,
               "name": "Mälarögymnasterna Juniortruppen",
               "D": null,
@@ -1875,7 +2855,7 @@
               "gap": 10.6
             },
             {
-              "rank": 9,
+              "rank": 10,
               "start_position": 12,
               "name": "GF Göteborgsgymnasterna",
               "D": null,
@@ -1886,7 +2866,18 @@
               "gap": 10.5
             },
             {
-              "rank": 10,
+              "rank": 11,
+              "start_position": 17,
+              "name": "Göteborgs Turnförening JT-2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.7,
+              "gap": 10.5
+            },
+            {
+              "rank": 12,
               "start_position": 3,
               "name": "Jönköpings GF",
               "D": null,
@@ -1897,7 +2888,29 @@
               "gap": 10.1
             },
             {
-              "rank": 11,
+              "rank": 13,
+              "start_position": 13,
+              "name": "Sundsvallsgymnasterna GK Rikslaget",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.2,
+              "gap": 10.0
+            },
+            {
+              "rank": 14,
+              "start_position": 16,
+              "name": "GT Vikingarna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.2,
+              "gap": 10.0
+            },
+            {
+              "rank": 15,
               "start_position": 9,
               "name": "Sala GF Oldies",
               "D": null,
@@ -1908,7 +2921,7 @@
               "gap": 9.75
             },
             {
-              "rank": 12,
+              "rank": 16,
               "start_position": 1,
               "name": "Östersundsgymnasterna",
               "D": null,
@@ -1966,6 +2979,17 @@
             },
             {
               "rank": 5,
+              "start_position": 18,
+              "name": "Täby GF TT1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.5,
+              "gap": 12.1
+            },
+            {
+              "rank": 6,
               "start_position": 12,
               "name": "GF Göteborgsgymnasterna",
               "D": null,
@@ -1976,7 +3000,7 @@
               "gap": 11.9
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 1,
               "name": "Östersundsgymnasterna",
               "D": null,
@@ -1987,7 +3011,7 @@
               "gap": 11.7
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 7,
               "name": "GF Nissaflickorna",
               "D": null,
@@ -1998,7 +3022,7 @@
               "gap": 11.65
             },
             {
-              "rank": 8,
+              "rank": 9,
               "start_position": 6,
               "name": "Skövde GF",
               "D": null,
@@ -2009,7 +3033,18 @@
               "gap": 11.65
             },
             {
-              "rank": 9,
+              "rank": 10,
+              "start_position": 15,
+              "name": "ABGS 3B",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 11.6
+            },
+            {
+              "rank": 11,
               "start_position": 11,
               "name": "Kristinehamns GS",
               "D": null,
@@ -2020,7 +3055,7 @@
               "gap": 11.45
             },
             {
-              "rank": 10,
+              "rank": 12,
               "start_position": 5,
               "name": "Mälarögymnasterna Juniortruppen",
               "D": null,
@@ -2031,7 +3066,7 @@
               "gap": 11.35
             },
             {
-              "rank": 11,
+              "rank": 13,
               "start_position": 4,
               "name": "Tranemo GF",
               "D": null,
@@ -2042,15 +3077,26 @@
               "gap": 11.0
             },
             {
-              "rank": 12,
+              "rank": 14,
               "start_position": 3,
               "name": "Jönköpings GF",
               "D": null,
-              "E": 28.0,
+              "E": null,
               "C": null,
               "HJ": null,
               "score": 1.65,
               "gap": 10.95
+            },
+            {
+              "rank": 15,
+              "start_position": 14,
+              "name": "Hudiksvalls GF",
+              "D": null,
+              "E": 28.0,
+              "C": null,
+              "HJ": null,
+              "score": 2.2,
+              "gap": 10.4
             }
           ]
         }
