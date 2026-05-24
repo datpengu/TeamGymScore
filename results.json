@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T12:15:09.409077Z",
+  "last_updated": "2026-05-24T14:01:52.149771Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -87,7 +87,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -870,6 +870,34 @@
             {
               "rank": 1,
               "start_position": 1,
+              "name": "Norrköpings GF Trupp Silver",
+              "fx": {
+                "score": 10.55,
+                "D": 1.4,
+                "E": 7.15,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.5,
+                "D": 1.9,
+                "E": 8.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.8,
+                "D": 1.8,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 33.85,
+              "gap": 0.0
+            },
+            {
+              "rank": 1,
+              "start_position": 1,
               "name": "Mevalin IF TT2",
               "fx": {
                 "score": 11.25,
@@ -879,60 +907,581 @@
                 "HJ": null
               },
               "tu": {
+                "score": 12.4,
+                "D": 1.9,
+                "E": 8.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.2,
+                "D": 1.8,
+                "E": 6.5,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 33.85,
+              "gap": 0.0
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "Borås GS",
+              "fx": {
                 "score": 11.25,
-                "D": 1.65,
+                "D": 1.7,
+                "E": 7.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.8,
+                "D": 1.7,
+                "E": 8.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.6,
+                "D": 1.8,
+                "E": 6.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 33.65,
+              "gap": 0.2
+            },
+            {
+              "rank": 4,
+              "start_position": 1,
+              "name": "GF Örebro Blå 11",
+              "fx": {
+                "score": 10.45,
+                "D": 1.8,
+                "E": 6.65,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.1,
+                "D": 1.9,
+                "E": 8.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.0,
+                "D": 1.8,
+                "E": 7.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 33.55,
+              "gap": 0.3
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "Eksjö GS Trupp 1",
+              "fx": {
+                "score": 11.45,
+                "D": 1.8,
+                "E": 7.65,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.7,
+                "D": 1.8,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.1,
+                "D": 1.8,
+                "E": 6.4,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 33.25,
+              "gap": 0.6
+            },
+            {
+              "rank": 6,
+              "start_position": 1,
+              "name": "GCF Uppsala Flicktruppen Lag A",
+              "fx": {
+                "score": 10.8,
+                "D": 1.8,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.85,
+                "D": 1.9,
+                "E": 7.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.0,
+                "D": 1.8,
+                "E": 6.6,
+                "C": 1.6,
+                "HJ": null
+              },
+              "total": 32.65,
+              "gap": 1.2
+            },
+            {
+              "rank": 7,
+              "start_position": 1,
+              "name": "GT Vikingarna UT3",
+              "fx": {
+                "score": 10.7,
+                "D": 1.6,
+                "E": 7.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.65,
+                "D": 1.8,
+                "E": 7.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.0,
+                "D": 1.8,
+                "E": 6.4,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 32.35,
+              "gap": 1.5
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "GF Örebro Trupp blå 2",
+              "fx": {
+                "score": 9.5,
+                "D": 1.05,
+                "E": 6.65,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.1,
+                "D": 1.6,
+                "E": 8.5,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.65,
+                "D": 1.8,
+                "E": 6.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 32.25,
+              "gap": 1.6
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "Mälarögymnasterna Ungdomstruppen yngre",
+              "fx": {
+                "score": 10.25,
+                "D": 1.3,
+                "E": 6.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.5,
+                "D": 1.9,
                 "E": 7.6,
                 "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 11.25,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 10.5,
+                "D": 1.8,
+                "E": 6.7,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": null,
-              "gap": null
+              "total": 32.25,
+              "gap": 1.6
+            },
+            {
+              "rank": 10,
+              "start_position": 1,
+              "name": "Brommagymnasterna TT3",
+              "fx": {
+                "score": 10.7,
+                "D": 1.5,
+                "E": 7.6,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.45,
+                "D": 1.5,
+                "E": 7.95,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.0,
+                "D": 1.8,
+                "E": 6.5,
+                "C": 1.7,
+                "HJ": null
+              },
+              "total": 32.15,
+              "gap": 1.7
             }
           ],
           "fx_app": [
             {
               "rank": 1,
               "start_position": 1,
-              "name": "Mevalin IF TT2",
+              "name": "Eksjö GS Trupp 1",
               "D": null,
-              "E": 1.0,
+              "E": null,
               "C": null,
               "HJ": null,
-              "score": 11.25,
+              "score": 11.45,
               "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "Mevalin IF TT2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.2,
+              "gap": 11.25
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "Borås GS",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.2,
+              "gap": 11.25
+            },
+            {
+              "rank": 4,
+              "start_position": 1,
+              "name": "GCF Uppsala Flicktruppen Lag A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 10.8
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "Brommagymnasterna TT3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.75,
+              "gap": 10.7
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "GT Vikingarna UT3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.75,
+              "gap": 10.7
+            },
+            {
+              "rank": 7,
+              "start_position": 1,
+              "name": "Norrköpings GF Trupp Silver",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.9,
+              "gap": 10.55
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "GF Örebro Blå 11",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 10.45
+            },
+            {
+              "rank": 9,
+              "start_position": 1,
+              "name": "Mälarögymnasterna Ungdomstruppen yngre",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.2,
+              "gap": 10.25
+            },
+            {
+              "rank": 10,
+              "start_position": 1,
+              "name": "GF Örebro Trupp blå 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.95,
+              "gap": 9.5
             }
           ],
           "tu_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "1",
+              "start_position": 1,
+              "name": "Norrköpings GF Trupp Silver",
               "D": null,
-              "E": 1.0,
+              "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 12.5,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "Mevalin IF TT2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.1,
+              "gap": 12.4
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "GF Örebro Trupp blå 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.4,
+              "gap": 12.1
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "GF Örebro Blå 11",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.4,
+              "gap": 12.1
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "GCF Uppsala Flicktruppen Lag A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 11.85
+            },
+            {
+              "rank": 6,
+              "start_position": 1,
+              "name": "Borås GS",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.7,
+              "gap": 11.8
+            },
+            {
+              "rank": 7,
+              "start_position": 1,
+              "name": "Eksjö GS Trupp 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.8,
+              "gap": 11.7
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "GT Vikingarna UT3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.85,
+              "gap": 11.65
+            },
+            {
+              "rank": 9,
+              "start_position": 1,
+              "name": "Mälarögymnasterna Ungdomstruppen yngre",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 11.5
+            },
+            {
+              "rank": 10,
+              "start_position": 1,
+              "name": "Brommagymnasterna TT3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.05,
+              "gap": 11.45
             }
           ],
           "tr_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "1",
+              "start_position": 1,
+              "name": "GF Örebro Blå 11",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.0,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "Norrköpings GF Trupp Silver",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.2,
+              "gap": 10.8
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "GF Örebro Trupp blå 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.35,
+              "gap": 10.65
+            },
+            {
+              "rank": 4,
+              "start_position": 1,
+              "name": "Borås GS",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.4,
+              "gap": 10.6
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "Mälarögymnasterna Ungdomstruppen yngre",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.5,
+              "gap": 10.5
+            },
+            {
+              "rank": 6,
+              "start_position": 1,
+              "name": "Mevalin IF TT2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.8,
+              "gap": 10.2
+            },
+            {
+              "rank": 7,
+              "start_position": 1,
+              "name": "Eksjö GS Trupp 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.9,
+              "gap": 10.1
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "Brommagymnasterna TT3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 10.0
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "GCF Uppsala Flicktruppen Lag A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 10.0
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "GT Vikingarna UT3",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 10.0
             }
           ]
         },
