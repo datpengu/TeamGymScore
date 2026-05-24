@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T05:36:07.094372Z",
+  "last_updated": "2026-05-24T08:05:13.806511Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -248,7 +248,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
@@ -278,7 +278,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "1",
+              "name": "4",
               "D": null,
               "E": null,
               "C": null,
@@ -289,9 +289,9 @@
           ],
           "tu_app": [
             {
-              "rank": 1,
+              "rank": 2,
               "start_position": null,
-              "name": "1",
+              "name": "5",
               "D": null,
               "E": null,
               "C": null,
@@ -302,9 +302,9 @@
           ],
           "tr_app": [
             {
-              "rank": 1,
+              "rank": 3,
               "start_position": null,
-              "name": "1",
+              "name": "6",
               "D": null,
               "E": null,
               "C": null,
