@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T11:24:25.614364Z",
+  "last_updated": "2026-05-24T12:15:09.409077Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -87,7 +87,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
@@ -869,24 +869,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 1,
+              "name": "Mevalin IF TT2",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.25,
+                "D": 1.65,
+                "E": 7.6,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.25,
+                "D": 1.65,
+                "E": 7.6,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 11.25,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -899,14 +899,14 @@
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "1",
+              "start_position": 1,
+              "name": "Mevalin IF TT2",
               "D": null,
               "E": 1.0,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.25,
+              "gap": 0.0
             }
           ],
           "tu_app": [
