@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T12:53:56.934780Z",
+  "last_updated": "2026-05-30T14:21:56.337581Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -13,6 +13,90 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 12,
+              "name": "Brommagymnasterna USM 1",
+              "fx": {
+                "score": 13.8,
+                "D": 3.4,
+                "E": 7.4,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.5,
+                "D": 4.9,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 14.65,
+                "D": 5.1,
+                "E": 7.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 42.95,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 16,
+              "name": "Lugi GF lag 1",
+              "fx": {
+                "score": 14.475,
+                "D": 4.075,
+                "E": 7.4,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.5,
+                "D": 4.9,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 13.65,
+                "D": 4.9,
+                "E": 6.85,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 42.625,
+              "gap": 0.325
+            },
+            {
+              "rank": 3,
+              "start_position": 14,
+              "name": "GF Örebro",
+              "fx": {
+                "score": 12.35,
+                "D": 3.3,
+                "E": 6.05,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.8,
+                "D": 4.7,
+                "E": 7.2,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 13.2,
+                "D": 5.2,
+                "E": 6.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 39.35,
+              "gap": 3.6
+            },
+            {
+              "rank": 4,
               "start_position": 7,
               "name": "Järfällagymnasterna",
               "fx": {
@@ -37,10 +121,10 @@
                 "HJ": null
               },
               "total": 38.575,
-              "gap": 0.0
+              "gap": 4.375
             },
             {
-              "rank": 2,
+              "rank": 5,
               "start_position": 2,
               "name": "SOL GF",
               "fx": {
@@ -65,10 +149,10 @@
                 "HJ": null
               },
               "total": 38.45,
-              "gap": 0.125
+              "gap": 4.5
             },
             {
-              "rank": 3,
+              "rank": 6,
               "start_position": 4,
               "name": "GK Splitt lag 1",
               "fx": {
@@ -93,10 +177,38 @@
                 "HJ": null
               },
               "total": 38.375,
-              "gap": 0.2
+              "gap": 4.575
             },
             {
-              "rank": 4,
+              "rank": 7,
+              "start_position": 15,
+              "name": "GK Engelholmsgymnasterna",
+              "fx": {
+                "score": 11.325,
+                "D": 2.375,
+                "E": 6.05,
+                "C": 2.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.7,
+                "D": 4.4,
+                "E": 7.3,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.15,
+                "D": 3.8,
+                "E": 6.55,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 37.175,
+              "gap": 5.775
+            },
+            {
+              "rank": 8,
               "start_position": 11,
               "name": "Södertälje GSF",
               "fx": {
@@ -121,10 +233,38 @@
                 "HJ": null
               },
               "total": 36.775,
-              "gap": 1.8
+              "gap": 6.175
             },
             {
-              "rank": 5,
+              "rank": 9,
+              "start_position": 17,
+              "name": "Karlskrona GF",
+              "fx": {
+                "score": 10.35,
+                "D": 2.35,
+                "E": 5.0,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.8,
+                "D": 4.2,
+                "E": 6.8,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.6,
+                "D": 3.0,
+                "E": 7.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 35.75,
+              "gap": 7.2
+            },
+            {
+              "rank": 10,
               "start_position": 8,
               "name": "GK Motus-Salto lag 1",
               "fx": {
@@ -149,10 +289,10 @@
                 "HJ": null
               },
               "total": 35.675,
-              "gap": 2.9
+              "gap": 7.275
             },
             {
-              "rank": 6,
+              "rank": 11,
               "start_position": 1,
               "name": "Stockholm Top Gymnastics",
               "fx": {
@@ -177,10 +317,94 @@
                 "HJ": null
               },
               "total": 35.625,
-              "gap": 2.95
+              "gap": 7.325
             },
             {
-              "rank": 7,
+              "rank": 12,
+              "start_position": 10,
+              "name": "Saltsjöbadens IF/Sofia GF",
+              "fx": {
+                "score": 10.15,
+                "D": 2.15,
+                "E": 5.1,
+                "C": 2.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.5,
+                "D": 4.0,
+                "E": 7.0,
+                "C": 1.5,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.75,
+                "D": 2.9,
+                "E": 7.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 35.4,
+              "gap": 7.55
+            },
+            {
+              "rank": 13,
+              "start_position": 13,
+              "name": "GF Helios",
+              "fx": {
+                "score": 8.45,
+                "D": 1.3,
+                "E": 4.45,
+                "C": 2.7,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.275,
+                "D": 4.3,
+                "E": 7.275,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.9,
+                "D": 3.1,
+                "E": 7.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 34.625,
+              "gap": 8.325
+            },
+            {
+              "rank": 14,
+              "start_position": 19,
+              "name": "GCF Uppsala Ungdomstruppen",
+              "fx": {
+                "score": 9.7,
+                "D": 2.0,
+                "E": 4.7,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.4,
+                "D": 4.4,
+                "E": 8.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.25,
+                "D": 3.6,
+                "E": 5.25,
+                "C": 1.4,
+                "HJ": null
+              },
+              "total": 34.35,
+              "gap": 8.6
+            },
+            {
+              "rank": 15,
               "start_position": 5,
               "name": "Tyresögymnastiken",
               "fx": {
@@ -205,10 +429,10 @@
                 "HJ": null
               },
               "total": 34.3,
-              "gap": 4.275
+              "gap": 8.65
             },
             {
-              "rank": 8,
+              "rank": 16,
               "start_position": 3,
               "name": "GF FRAM",
               "fx": {
@@ -233,10 +457,10 @@
                 "HJ": null
               },
               "total": 33.825,
-              "gap": 4.75
+              "gap": 9.125
             },
             {
-              "rank": 9,
+              "rank": 17,
               "start_position": 6,
               "name": "Strängnäs GF/Gripsholmsgymnasterna",
               "fx": {
@@ -261,38 +485,38 @@
                 "HJ": null
               },
               "total": 33.725,
-              "gap": 4.85
+              "gap": 9.225
             },
             {
-              "rank": 10,
-              "start_position": 16,
-              "name": "Lugi GF lag 1",
+              "rank": 18,
+              "start_position": 18,
+              "name": "Dackegymnasterna lag Svart",
               "fx": {
-                "score": 14.475,
-                "D": 4.075,
-                "E": 7.4,
+                "score": 8.9,
+                "D": 1.6,
+                "E": 4.3,
                 "C": 3.0,
                 "HJ": null
               },
               "tu": {
-                "score": 14.5,
-                "D": 4.9,
-                "E": 7.6,
-                "C": 2.0,
+                "score": 12.6,
+                "D": 3.9,
+                "E": 6.9,
+                "C": 1.8,
                 "HJ": null
               },
               "tr": {
-                "score": 28.975,
-                "D": 4.075,
-                "E": 7.4,
-                "C": 3.0,
+                "score": 11.15,
+                "D": 2.7,
+                "E": 6.65,
+                "C": 1.8,
                 "HJ": null
               },
-              "total": 9.6,
-              "gap": 28.975
+              "total": 32.65,
+              "gap": 10.3
             },
             {
-              "rank": 11,
+              "rank": 19,
               "start_position": 9,
               "name": "Öjersjö GF",
               "fx": {
@@ -317,231 +541,147 @@
                 "HJ": null
               },
               "total": 28.875,
-              "gap": 9.7
+              "gap": 14.075
             },
             {
-              "rank": 12,
-              "start_position": 12,
-              "name": "Brommagymnasterna USM 1",
+              "rank": 20,
+              "start_position": 21,
+              "name": "Täby GF",
               "fx": {
-                "score": 13.8,
-                "D": 3.4,
-                "E": 7.4,
-                "C": 3.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.65,
-                "D": 5.1,
-                "E": 7.55,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 28.45,
-                "D": 3.4,
-                "E": 7.4,
-                "C": 3.0,
-                "HJ": null
-              },
-              "total": 10.125,
-              "gap": 28.45
-            },
-            {
-              "rank": 13,
-              "start_position": 14,
-              "name": "GF Örebro",
-              "fx": {
-                "score": 13.8,
-                "D": 4.7,
-                "E": 7.2,
-                "C": 1.9,
-                "HJ": null
-              },
-              "tu": {
-                "score": 13.2,
-                "D": 5.2,
-                "E": 6.0,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 27.0,
-                "D": 4.7,
-                "E": 7.2,
-                "C": 1.9,
-                "HJ": null
-              },
-              "total": 11.575,
-              "gap": 27.0
-            },
-            {
-              "rank": 14,
-              "start_position": 17,
-              "name": "Karlskrona GF",
-              "fx": {
-                "score": 12.8,
-                "D": 4.2,
-                "E": 6.8,
-                "C": 1.8,
-                "HJ": null
-              },
-              "tu": {
-                "score": 12.6,
-                "D": 3.0,
-                "E": 7.6,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 25.4,
-                "D": 4.2,
-                "E": 6.8,
-                "C": 1.8,
-                "HJ": null
-              },
-              "total": 13.175,
-              "gap": 25.4
-            },
-            {
-              "rank": 15,
-              "start_position": 19,
-              "name": "GCF Uppsala Ungdomstruppen",
-              "fx": {
-                "score": 9.7,
-                "D": 2.0,
-                "E": 4.7,
-                "C": 3.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 14.4,
+                "score": 14.3,
                 "D": 4.4,
-                "E": 8.0,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 14.3,
+                "D": 4.4,
+                "E": 7.9,
                 "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 24.1,
-                "D": 2.0,
-                "E": 4.7,
-                "C": 3.0,
+                "score": 28.65,
+                "D": null,
+                "E": null,
+                "C": null,
                 "HJ": null
               },
-              "total": 14.475,
-              "gap": 24.1
+              "total": 14.3,
+              "gap": 28.65
             },
             {
-              "rank": 16,
-              "start_position": 15,
-              "name": "GK Engelholmsgymnasterna",
+              "rank": 21,
+              "start_position": 24,
+              "name": "GK Motus-Salto lag A",
               "fx": {
-                "score": 11.325,
-                "D": 2.375,
-                "E": 6.05,
-                "C": 2.9,
+                "score": 13.25,
+                "D": 4.4,
+                "E": 6.95,
+                "C": 1.9,
                 "HJ": null
               },
               "tu": {
-                "score": 12.15,
-                "D": 3.8,
-                "E": 6.55,
-                "C": 1.8,
+                "score": 13.25,
+                "D": 4.4,
+                "E": 6.95,
+                "C": 1.9,
                 "HJ": null
               },
               "tr": {
-                "score": 23.475,
-                "D": 2.375,
-                "E": 6.05,
-                "C": 2.9,
+                "score": 29.7,
+                "D": null,
+                "E": null,
+                "C": null,
                 "HJ": null
               },
-              "total": 15.1,
-              "gap": 23.475
+              "total": 13.25,
+              "gap": 29.7
             },
             {
-              "rank": 17,
-              "start_position": 10,
-              "name": "Saltsjöbadens IF/Sofia GF",
+              "rank": 22,
+              "start_position": 22,
+              "name": "Karlstads GF",
               "fx": {
-                "score": 10.15,
-                "D": 2.15,
-                "E": 5.1,
-                "C": 2.9,
+                "score": 12.25,
+                "D": 3.2,
+                "E": 7.35,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": 12.5,
-                "D": 4.0,
-                "E": 7.0,
-                "C": 1.5,
+                "score": 12.25,
+                "D": 3.2,
+                "E": 7.35,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": 22.65,
-                "D": 2.15,
-                "E": 5.1,
-                "C": 2.9,
+                "score": 30.7,
+                "D": null,
+                "E": null,
+                "C": null,
                 "HJ": null
               },
-              "total": 15.925,
-              "gap": 22.65
+              "total": 12.25,
+              "gap": 30.7
             },
             {
-              "rank": 18,
-              "start_position": 13,
-              "name": "GF Helios",
+              "rank": 23,
+              "start_position": 23,
+              "name": "Huddinge GF",
               "fx": {
-                "score": 8.45,
-                "D": 1.3,
-                "E": 4.45,
-                "C": 2.7,
-                "HJ": null
-              },
-              "tu": {
-                "score": 13.275,
-                "D": 4.3,
-                "E": 7.275,
-                "C": 1.7,
-                "HJ": null
-              },
-              "tr": {
-                "score": 21.725,
-                "D": 1.3,
-                "E": 4.45,
-                "C": 2.7,
-                "HJ": null
-              },
-              "total": 16.85,
-              "gap": 21.725
-            },
-            {
-              "rank": 19,
-              "start_position": 18,
-              "name": "Dackegymnasterna lag Svart",
-              "fx": {
-                "score": 8.9,
-                "D": 1.6,
-                "E": 4.3,
+                "score": 11.3,
+                "D": 2.2,
+                "E": 6.1,
                 "C": 3.0,
                 "HJ": null
               },
               "tu": {
-                "score": 11.15,
-                "D": 2.7,
-                "E": 6.65,
-                "C": 1.8,
-                "HJ": null
-              },
-              "tr": {
-                "score": 20.05,
-                "D": 1.6,
-                "E": 4.3,
+                "score": 11.3,
+                "D": 2.2,
+                "E": 6.1,
                 "C": 3.0,
                 "HJ": null
               },
-              "total": 18.525,
-              "gap": 20.05
+              "tr": {
+                "score": 31.65,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.3,
+              "gap": 31.65
+            },
+            {
+              "rank": 24,
+              "start_position": 20,
+              "name": "Strängnäs GF Trupp 13",
+              "fx": {
+                "score": 9.125,
+                "D": 1.725,
+                "E": 4.4,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.125,
+                "D": 1.725,
+                "E": 4.4,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 33.825,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 9.125,
+              "gap": 33.825
             }
           ],
           "fx_app": [
@@ -591,6 +731,17 @@
             },
             {
               "rank": 5,
+              "start_position": 14,
+              "name": "GF Örebro",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.125,
+              "gap": 12.35
+            },
+            {
+              "rank": 6,
               "start_position": 7,
               "name": "Järfällagymnasterna",
               "D": null,
@@ -601,7 +752,7 @@
               "gap": 12.325
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 8,
               "name": "GK Motus-Salto lag 1",
               "D": null,
@@ -612,7 +763,7 @@
               "gap": 12.075
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 15,
               "name": "GK Engelholmsgymnasterna",
               "D": null,
@@ -623,7 +774,29 @@
               "gap": 11.325
             },
             {
-              "rank": 8,
+              "rank": 9,
+              "start_position": 23,
+              "name": "Huddinge GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.175,
+              "gap": 11.3
+            },
+            {
+              "rank": 10,
+              "start_position": 17,
+              "name": "Karlskrona GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 4.125,
+              "gap": 10.35
+            },
+            {
+              "rank": 10,
               "start_position": 5,
               "name": "Tyresögymnastiken",
               "D": null,
@@ -634,7 +807,7 @@
               "gap": 10.35
             },
             {
-              "rank": 9,
+              "rank": 12,
               "start_position": 10,
               "name": "Saltsjöbadens IF/Sofia GF",
               "D": null,
@@ -645,7 +818,7 @@
               "gap": 10.15
             },
             {
-              "rank": 10,
+              "rank": 13,
               "start_position": 1,
               "name": "Stockholm Top Gymnastics",
               "D": null,
@@ -656,7 +829,7 @@
               "gap": 10.075
             },
             {
-              "rank": 11,
+              "rank": 14,
               "start_position": 19,
               "name": "GCF Uppsala Ungdomstruppen",
               "D": null,
@@ -667,7 +840,7 @@
               "gap": 9.7
             },
             {
-              "rank": 12,
+              "rank": 15,
               "start_position": 6,
               "name": "Strängnäs GF/Gripsholmsgymnasterna",
               "D": null,
@@ -678,7 +851,7 @@
               "gap": 9.225
             },
             {
-              "rank": 12,
+              "rank": 15,
               "start_position": 11,
               "name": "Södertälje GSF",
               "D": null,
@@ -689,7 +862,18 @@
               "gap": 9.225
             },
             {
-              "rank": 14,
+              "rank": 17,
+              "start_position": 20,
+              "name": "Strängnäs GF Trupp 13",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 5.35,
+              "gap": 9.125
+            },
+            {
+              "rank": 18,
               "start_position": 18,
               "name": "Dackegymnasterna lag Svart",
               "D": null,
@@ -700,7 +884,7 @@
               "gap": 8.9
             },
             {
-              "rank": 15,
+              "rank": 19,
               "start_position": 3,
               "name": "GF FRAM",
               "D": null,
@@ -711,7 +895,7 @@
               "gap": 8.825
             },
             {
-              "rank": 16,
+              "rank": 20,
               "start_position": 13,
               "name": "GF Helios",
               "D": null,
@@ -722,7 +906,7 @@
               "gap": 8.45
             },
             {
-              "rank": 17,
+              "rank": 21,
               "start_position": 9,
               "name": "Öjersjö GF",
               "D": 34.0,
@@ -736,6 +920,17 @@
           "tu_app": [
             {
               "rank": 1,
+              "start_position": 12,
+              "name": "Brommagymnasterna USM 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 14.5,
+              "gap": 0.0
+            },
+            {
+              "rank": 1,
               "start_position": 16,
               "name": "Lugi GF lag 1",
               "D": null,
@@ -746,7 +941,7 @@
               "gap": 0.0
             },
             {
-              "rank": 2,
+              "rank": 3,
               "start_position": 19,
               "name": "GCF Uppsala Ungdomstruppen",
               "D": null,
@@ -757,7 +952,18 @@
               "gap": 14.4
             },
             {
-              "rank": 3,
+              "rank": 4,
+              "start_position": 21,
+              "name": "Täby GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.2,
+              "gap": 14.3
+            },
+            {
+              "rank": 5,
               "start_position": 1,
               "name": "Stockholm Top Gymnastics",
               "D": null,
@@ -768,7 +974,7 @@
               "gap": 13.95
             },
             {
-              "rank": 4,
+              "rank": 6,
               "start_position": 11,
               "name": "Södertälje GSF",
               "D": null,
@@ -779,7 +985,7 @@
               "gap": 13.9
             },
             {
-              "rank": 5,
+              "rank": 7,
               "start_position": 14,
               "name": "GF Örebro",
               "D": null,
@@ -790,7 +996,18 @@
               "gap": 13.8
             },
             {
-              "rank": 6,
+              "rank": 8,
+              "start_position": 15,
+              "name": "GK Engelholmsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.8,
+              "gap": 13.7
+            },
+            {
+              "rank": 8,
               "start_position": 2,
               "name": "SOL GF",
               "D": null,
@@ -801,7 +1018,7 @@
               "gap": 13.7
             },
             {
-              "rank": 7,
+              "rank": 10,
               "start_position": 4,
               "name": "GK Splitt lag 1",
               "D": null,
@@ -812,7 +1029,7 @@
               "gap": 13.45
             },
             {
-              "rank": 7,
+              "rank": 10,
               "start_position": 7,
               "name": "Järfällagymnasterna",
               "D": null,
@@ -823,7 +1040,7 @@
               "gap": 13.45
             },
             {
-              "rank": 9,
+              "rank": 12,
               "start_position": 13,
               "name": "GF Helios",
               "D": null,
@@ -834,7 +1051,18 @@
               "gap": 13.275
             },
             {
-              "rank": 10,
+              "rank": 13,
+              "start_position": 24,
+              "name": "GK Motus-Salto lag A",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.25,
+              "gap": 13.25
+            },
+            {
+              "rank": 14,
               "start_position": 3,
               "name": "GF FRAM",
               "D": null,
@@ -845,7 +1073,7 @@
               "gap": 13.2
             },
             {
-              "rank": 11,
+              "rank": 15,
               "start_position": 17,
               "name": "Karlskrona GF",
               "D": null,
@@ -856,7 +1084,7 @@
               "gap": 12.8
             },
             {
-              "rank": 12,
+              "rank": 16,
               "start_position": 6,
               "name": "Strängnäs GF/Gripsholmsgymnasterna",
               "D": null,
@@ -867,7 +1095,18 @@
               "gap": 12.7
             },
             {
-              "rank": 13,
+              "rank": 17,
+              "start_position": 18,
+              "name": "Dackegymnasterna lag Svart",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.9,
+              "gap": 12.6
+            },
+            {
+              "rank": 18,
               "start_position": 8,
               "name": "GK Motus-Salto lag 1",
               "D": null,
@@ -878,7 +1117,7 @@
               "gap": 12.55
             },
             {
-              "rank": 14,
+              "rank": 19,
               "start_position": 10,
               "name": "Saltsjöbadens IF/Sofia GF",
               "D": null,
@@ -889,7 +1128,7 @@
               "gap": 12.5
             },
             {
-              "rank": 15,
+              "rank": 20,
               "start_position": 5,
               "name": "Tyresögymnastiken",
               "D": null,
@@ -900,7 +1139,7 @@
               "gap": 12.2
             },
             {
-              "rank": 16,
+              "rank": 21,
               "start_position": 9,
               "name": "Öjersjö GF",
               "D": 34.0,
@@ -935,7 +1174,18 @@
               "gap": 13.65
             },
             {
-              "rank": 3,
+              "rank": 2,
+              "start_position": 16,
+              "name": "Lugi GF lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 13.65
+            },
+            {
+              "rank": 4,
               "start_position": 14,
               "name": "GF Örebro",
               "D": null,
@@ -946,7 +1196,18 @@
               "gap": 13.2
             },
             {
-              "rank": 4,
+              "rank": 5,
+              "start_position": 13,
+              "name": "GF Helios",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.75,
+              "gap": 12.9
+            },
+            {
+              "rank": 6,
               "start_position": 7,
               "name": "Järfällagymnasterna",
               "D": null,
@@ -957,7 +1218,18 @@
               "gap": 12.8
             },
             {
-              "rank": 5,
+              "rank": 7,
+              "start_position": 10,
+              "name": "Saltsjöbadens IF/Sofia GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.9,
+              "gap": 12.75
+            },
+            {
+              "rank": 8,
               "start_position": 17,
               "name": "Karlskrona GF",
               "D": null,
@@ -968,7 +1240,7 @@
               "gap": 12.6
             },
             {
-              "rank": 6,
+              "rank": 9,
               "start_position": 4,
               "name": "GK Splitt lag 1",
               "D": null,
@@ -979,7 +1251,18 @@
               "gap": 12.45
             },
             {
-              "rank": 7,
+              "rank": 10,
+              "start_position": 22,
+              "name": "Karlstads GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.4,
+              "gap": 12.25
+            },
+            {
+              "rank": 11,
               "start_position": 2,
               "name": "SOL GF",
               "D": null,
@@ -990,7 +1273,7 @@
               "gap": 12.2
             },
             {
-              "rank": 8,
+              "rank": 12,
               "start_position": 15,
               "name": "GK Engelholmsgymnasterna",
               "D": null,
@@ -1001,7 +1284,7 @@
               "gap": 12.15
             },
             {
-              "rank": 9,
+              "rank": 13,
               "start_position": 3,
               "name": "GF FRAM",
               "D": null,
@@ -1012,7 +1295,7 @@
               "gap": 11.8
             },
             {
-              "rank": 9,
+              "rank": 13,
               "start_position": 6,
               "name": "Strängnäs GF/Gripsholmsgymnasterna",
               "D": null,
@@ -1023,7 +1306,7 @@
               "gap": 11.8
             },
             {
-              "rank": 11,
+              "rank": 15,
               "start_position": 5,
               "name": "Tyresögymnastiken",
               "D": null,
@@ -1034,7 +1317,7 @@
               "gap": 11.75
             },
             {
-              "rank": 12,
+              "rank": 16,
               "start_position": 1,
               "name": "Stockholm Top Gymnastics",
               "D": null,
@@ -1045,7 +1328,7 @@
               "gap": 11.6
             },
             {
-              "rank": 13,
+              "rank": 17,
               "start_position": 9,
               "name": "Öjersjö GF",
               "D": null,
@@ -1056,7 +1339,7 @@
               "gap": 11.25
             },
             {
-              "rank": 14,
+              "rank": 18,
               "start_position": 18,
               "name": "Dackegymnasterna lag Svart",
               "D": null,
@@ -1067,15 +1350,26 @@
               "gap": 11.15
             },
             {
-              "rank": 15,
+              "rank": 19,
               "start_position": 8,
               "name": "GK Motus-Salto lag 1",
-              "D": 34.0,
+              "D": null,
               "E": null,
               "C": null,
               "HJ": null,
               "score": 3.6,
               "gap": 11.05
+            },
+            {
+              "rank": 20,
+              "start_position": 19,
+              "name": "GCF Uppsala Ungdomstruppen",
+              "D": 34.0,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 4.4,
+              "gap": 10.25
             }
           ]
         },
