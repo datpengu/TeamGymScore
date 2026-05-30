@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T08:40:42.524068Z",
+  "last_updated": "2026-05-30T10:27:48.829740Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -13,70 +13,558 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 7,
+              "name": "Järfällagymnasterna",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 12.325,
+                "D": 3.275,
+                "E": 6.05,
+                "C": 3.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 13.45,
+                "D": 4.5,
+                "E": 6.95,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 12.8,
+                "D": 3.3,
+                "E": 7.6,
+                "C": 1.9,
                 "HJ": null
               },
-              "total": null,
-              "gap": null
+              "total": 38.575,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "SOL GF",
+              "fx": {
+                "score": 12.55,
+                "D": 2.9,
+                "E": 6.65,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.7,
+                "D": 4.5,
+                "E": 7.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.2,
+                "D": 3.2,
+                "E": 7.2,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 38.45,
+              "gap": 0.125
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "GK Splitt lag 1",
+              "fx": {
+                "score": 12.475,
+                "D": 2.675,
+                "E": 6.8,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.45,
+                "D": 4.5,
+                "E": 7.15,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 12.45,
+                "D": 3.95,
+                "E": 6.55,
+                "C": 1.95,
+                "HJ": null
+              },
+              "total": 38.375,
+              "gap": 0.2
+            },
+            {
+              "rank": 4,
+              "start_position": 8,
+              "name": "GK Motus-Salto lag 1",
+              "fx": {
+                "score": 12.075,
+                "D": 2.525,
+                "E": 6.55,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.55,
+                "D": 4.0,
+                "E": 6.65,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.05,
+                "D": 2.8,
+                "E": 6.45,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 35.675,
+              "gap": 2.9
+            },
+            {
+              "rank": 5,
+              "start_position": 1,
+              "name": "Stockholm Top Gymnastics",
+              "fx": {
+                "score": 10.075,
+                "D": 2.825,
+                "E": 4.25,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.95,
+                "D": 4.9,
+                "E": 7.05,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.6,
+                "D": 3.7,
+                "E": 6.0,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 35.625,
+              "gap": 2.95
+            },
+            {
+              "rank": 6,
+              "start_position": 5,
+              "name": "Tyresögymnastiken",
+              "fx": {
+                "score": 10.35,
+                "D": 3.0,
+                "E": 4.35,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.2,
+                "D": 4.1,
+                "E": 6.3,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.75,
+                "D": 3.4,
+                "E": 6.45,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 34.3,
+              "gap": 4.275
+            },
+            {
+              "rank": 7,
+              "start_position": 3,
+              "name": "GF FRAM",
+              "fx": {
+                "score": 8.825,
+                "D": 2.075,
+                "E": 3.75,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.2,
+                "D": 4.2,
+                "E": 7.0,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.8,
+                "D": 3.0,
+                "E": 6.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 33.825,
+              "gap": 4.75
+            },
+            {
+              "rank": 8,
+              "start_position": 6,
+              "name": "Strängnäs GF/Gripsholmsgymnasterna",
+              "fx": {
+                "score": 9.225,
+                "D": 1.275,
+                "E": 4.95,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.7,
+                "D": 4.1,
+                "E": 7.2,
+                "C": 1.4,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.8,
+                "D": 3.6,
+                "E": 6.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 33.725,
+              "gap": 4.85
+            },
+            {
+              "rank": 9,
+              "start_position": 9,
+              "name": "Öjersjö GF",
+              "fx": {
+                "score": 6.475,
+                "D": 1.075,
+                "E": 2.4,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.15,
+                "D": 3.5,
+                "E": 5.95,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 11.25,
+                "D": 2.5,
+                "E": 7.05,
+                "C": 1.7,
+                "HJ": null
+              },
+              "total": 28.875,
+              "gap": 9.7
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 2,
+              "name": "SOL GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 12.55,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 4,
+              "name": "GK Splitt lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.075,
+              "gap": 12.475
+            },
+            {
+              "rank": 3,
+              "start_position": 7,
+              "name": "Järfällagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.225,
+              "gap": 12.325
+            },
+            {
+              "rank": 4,
+              "start_position": 8,
+              "name": "GK Motus-Salto lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.475,
+              "gap": 12.075
+            },
+            {
+              "rank": 5,
+              "start_position": 5,
+              "name": "Tyresögymnastiken",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.2,
+              "gap": 10.35
+            },
+            {
+              "rank": 6,
+              "start_position": 1,
+              "name": "Stockholm Top Gymnastics",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.475,
+              "gap": 10.075
+            },
+            {
+              "rank": 7,
+              "start_position": 6,
+              "name": "Strängnäs GF/Gripsholmsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.325,
+              "gap": 9.225
+            },
+            {
+              "rank": 8,
+              "start_position": 3,
+              "name": "GF FRAM",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.725,
+              "gap": 8.825
+            },
+            {
+              "rank": 9,
+              "start_position": 9,
+              "name": "Öjersjö GF",
               "D": 34.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 6.075,
+              "gap": 6.475
             }
           ],
           "tu_app": [
             {
+              "rank": 1,
+              "start_position": 1,
+              "name": "Stockholm Top Gymnastics",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 13.95,
+              "gap": 0.0
+            },
+            {
               "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "start_position": 2,
+              "name": "SOL GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.25,
+              "gap": 13.7
+            },
+            {
+              "rank": 3,
+              "start_position": 4,
+              "name": "GK Splitt lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.5,
+              "gap": 13.45
+            },
+            {
+              "rank": 3,
+              "start_position": 7,
+              "name": "Järfällagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.5,
+              "gap": 13.45
+            },
+            {
+              "rank": 5,
+              "start_position": 3,
+              "name": "GF FRAM",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.75,
+              "gap": 13.2
+            },
+            {
+              "rank": 6,
+              "start_position": 6,
+              "name": "Strängnäs GF/Gripsholmsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.25,
+              "gap": 12.7
+            },
+            {
+              "rank": 7,
+              "start_position": 8,
+              "name": "GK Motus-Salto lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.4,
+              "gap": 12.55
+            },
+            {
+              "rank": 8,
+              "start_position": 5,
+              "name": "Tyresögymnastiken",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.75,
+              "gap": 12.2
+            },
+            {
+              "rank": 9,
+              "start_position": 9,
+              "name": "Öjersjö GF",
               "D": 34.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 2.8,
+              "gap": 11.15
             }
           ],
           "tr_app": [
             {
+              "rank": 1,
+              "start_position": 7,
+              "name": "Järfällagymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 12.8,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 4,
+              "name": "GK Splitt lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.35,
+              "gap": 12.45
+            },
+            {
               "rank": 3,
-              "start_position": null,
-              "name": "6",
+              "start_position": 2,
+              "name": "SOL GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.6,
+              "gap": 12.2
+            },
+            {
+              "rank": 4,
+              "start_position": 3,
+              "name": "GF FRAM",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 11.8
+            },
+            {
+              "rank": 4,
+              "start_position": 6,
+              "name": "Strängnäs GF/Gripsholmsgymnasterna",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 11.8
+            },
+            {
+              "rank": 6,
+              "start_position": 5,
+              "name": "Tyresögymnastiken",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.05,
+              "gap": 11.75
+            },
+            {
+              "rank": 7,
+              "start_position": 1,
+              "name": "Stockholm Top Gymnastics",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.2,
+              "gap": 11.6
+            },
+            {
+              "rank": 8,
+              "start_position": 9,
+              "name": "Öjersjö GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.55,
+              "gap": 11.25
+            },
+            {
+              "rank": 9,
+              "start_position": 8,
+              "name": "GK Motus-Salto lag 1",
               "D": 34.0,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 1.75,
+              "gap": 11.05
             }
           ]
         },
