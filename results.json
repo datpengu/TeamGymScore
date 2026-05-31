@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T14:14:43.544734Z",
+  "last_updated": "2026-05-31T15:40:55.351698Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -2977,6 +2977,34 @@
           "teams": [
             {
               "rank": 1,
+              "start_position": 10,
+              "name": "Brommagymnasterna USM 1",
+              "fx": {
+                "score": 14.275,
+                "D": 3.575,
+                "E": 7.7,
+                "C": 3.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 15.15,
+                "D": 5.1,
+                "E": 8.05,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 15.0,
+                "D": 5.1,
+                "E": 7.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 44.425,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
               "start_position": 1,
               "name": "Lugi GF lag 1",
               "fx": {
@@ -3001,10 +3029,10 @@
                 "HJ": null
               },
               "total": 44.025,
-              "gap": 0.0
+              "gap": 0.4
             },
             {
-              "rank": 2,
+              "rank": 3,
               "start_position": 7,
               "name": "GF Örebro",
               "fx": {
@@ -3029,10 +3057,10 @@
                 "HJ": null
               },
               "total": 41.975,
-              "gap": 2.05
+              "gap": 2.45
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 9,
               "name": "ABGS",
               "fx": {
@@ -3057,10 +3085,10 @@
                 "HJ": null
               },
               "total": 40.825,
-              "gap": 3.2
+              "gap": 3.6
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 4,
               "name": "GK Motus-Salto lag A",
               "fx": {
@@ -3085,10 +3113,10 @@
                 "HJ": null
               },
               "total": 40.825,
-              "gap": 3.2
+              "gap": 3.6
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 3,
               "name": "GT Vikingarna",
               "fx": {
@@ -3113,10 +3141,10 @@
                 "HJ": null
               },
               "total": 40.8,
-              "gap": 3.225
+              "gap": 3.625
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 5,
               "name": "Brommagymnasterna USM 2",
               "fx": {
@@ -3141,10 +3169,10 @@
                 "HJ": null
               },
               "total": 40.3,
-              "gap": 3.725
+              "gap": 4.125
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 8,
               "name": "Lugi GF lag 2",
               "fx": {
@@ -3169,10 +3197,10 @@
                 "HJ": null
               },
               "total": 39.825,
-              "gap": 4.2
+              "gap": 4.6
             },
             {
-              "rank": 8,
+              "rank": 9,
               "start_position": 6,
               "name": "Järfällagymnasterna",
               "fx": {
@@ -3197,10 +3225,10 @@
                 "HJ": null
               },
               "total": 39.125,
-              "gap": 4.9
+              "gap": 5.3
             },
             {
-              "rank": 9,
+              "rank": 10,
               "start_position": 2,
               "name": "Täby GF",
               "fx": {
@@ -3225,35 +3253,7 @@
                 "HJ": null
               },
               "total": 37.15,
-              "gap": 6.875
-            },
-            {
-              "rank": 10,
-              "start_position": 10,
-              "name": "Brommagymnasterna USM 1",
-              "fx": {
-                "score": 14.275,
-                "D": 3.575,
-                "E": 7.7,
-                "C": 3.0,
-                "HJ": null
-              },
-              "tu": {
-                "score": 15.15,
-                "D": 5.1,
-                "E": 8.05,
-                "C": 2.0,
-                "HJ": null
-              },
-              "tr": {
-                "score": 29.425,
-                "D": 3.575,
-                "E": 7.7,
-                "C": 3.0,
-                "HJ": null
-              },
-              "total": 14.6,
-              "gap": 29.425
+              "gap": 7.275
             }
           ],
           "fx_app": [
@@ -3494,6 +3494,17 @@
             },
             {
               "rank": 2,
+              "start_position": 10,
+              "name": "Brommagymnasterna USM 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.1,
+              "gap": 15.0
+            },
+            {
+              "rank": 3,
               "start_position": 7,
               "name": "GF Örebro",
               "D": null,
@@ -3504,7 +3515,7 @@
               "gap": 14.75
             },
             {
-              "rank": 3,
+              "rank": 4,
               "start_position": 9,
               "name": "ABGS",
               "D": null,
@@ -3515,7 +3526,7 @@
               "gap": 13.85
             },
             {
-              "rank": 4,
+              "rank": 5,
               "start_position": 6,
               "name": "Järfällagymnasterna",
               "D": null,
@@ -3526,7 +3537,7 @@
               "gap": 13.4
             },
             {
-              "rank": 5,
+              "rank": 6,
               "start_position": 3,
               "name": "GT Vikingarna",
               "D": null,
@@ -3537,7 +3548,7 @@
               "gap": 13.15
             },
             {
-              "rank": 6,
+              "rank": 7,
               "start_position": 8,
               "name": "Lugi GF lag 2",
               "D": null,
@@ -3548,7 +3559,7 @@
               "gap": 12.8
             },
             {
-              "rank": 7,
+              "rank": 8,
               "start_position": 5,
               "name": "Brommagymnasterna USM 2",
               "D": null,
@@ -3559,7 +3570,7 @@
               "gap": 12.5
             },
             {
-              "rank": 8,
+              "rank": 9,
               "start_position": 4,
               "name": "GK Motus-Salto lag A",
               "D": null,
@@ -3570,7 +3581,7 @@
               "gap": 12.25
             },
             {
-              "rank": 9,
+              "rank": 10,
               "start_position": 2,
               "name": "Täby GF",
               "D": null,
