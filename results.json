@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T06:05:42.513875Z",
+  "last_updated": "2026-05-31T09:20:32.112080Z",
   "competitions": [
     {
       "competition": "USM - VT26",
@@ -2404,24 +2404,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 1,
+              "name": "GF FRAM",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 8.9,
+                "D": 1.7,
+                "E": 4.2,
+                "C": 3.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 8.9,
+                "D": 1.7,
+                "E": 4.2,
+                "C": 3.0,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 8.9,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -2429,19 +2429,58 @@
               },
               "total": null,
               "gap": null
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "Jönköpings GF",
+              "fx": {
+                "score": 8.875,
+                "D": 1.675,
+                "E": 4.6,
+                "C": 2.6,
+                "HJ": null
+              },
+              "tu": {
+                "score": 8.875,
+                "D": 1.675,
+                "E": 4.6,
+                "C": 2.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 0.025,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 8.875,
+              "gap": null
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "2",
+              "start_position": 1,
+              "name": "GF FRAM",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 8.9,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "Jönköpings GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.025,
+              "gap": 8.875
             }
           ],
           "tu_app": [
@@ -2477,31 +2516,143 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 2,
+              "name": "Brommagymnasterna Herr",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 13.95,
+                "D": 5.2,
+                "E": 6.85,
+                "C": 1.9,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 14.9,
+                "D": 6.2,
+                "E": 7.0,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 28.85,
+                "D": 5.2,
+                "E": 6.85,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 13.95,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "Team Öst (Järfälla/Mälarö)",
+              "fx": {
+                "score": 13.85,
+                "D": 4.1,
+                "E": 7.85,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.05,
+                "D": 3.6,
+                "E": 7.55,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 26.9,
+                "D": 4.1,
+                "E": 7.85,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 1.95,
+              "gap": 12.0
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "GCF Uppsala Pojktruppen",
+              "fx": {
+                "score": 11.425,
+                "D": 4.5,
+                "E": 5.225,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tu": {
+                "score": 13.5,
+                "D": 4.9,
+                "E": 6.7,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 24.925,
+                "D": 4.5,
+                "E": 5.225,
+                "C": 1.7,
+                "HJ": null
+              },
+              "total": 3.925,
+              "gap": 10.025
+            },
+            {
+              "rank": 4,
+              "start_position": 5,
+              "name": "KFUM GA",
+              "fx": {
+                "score": 12.05,
+                "D": 4.0,
+                "E": 6.35,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tu": {
+                "score": 12.05,
+                "D": 4.0,
+                "E": 6.35,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 16.8,
                 "D": null,
                 "E": null,
                 "C": null,
                 "HJ": null
               },
-              "total": null,
-              "gap": null
+              "total": 12.05,
+              "gap": 1.9
+            },
+            {
+              "rank": 5,
+              "start_position": 4,
+              "name": "GK Motus-Salto/Lugi GF",
+              "fx": {
+                "score": 11.8,
+                "D": 4.1,
+                "E": 5.9,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tu": {
+                "score": 11.8,
+                "D": 4.1,
+                "E": 5.9,
+                "C": 1.8,
+                "HJ": null
+              },
+              "tr": {
+                "score": 17.05,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": 11.8,
+              "gap": 2.15
             }
           ],
           "fx_app": [
@@ -2520,27 +2671,93 @@
           "tu_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "3",
+              "start_position": 2,
+              "name": "Brommagymnasterna Herr",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 13.95,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 1,
+              "name": "Team Öst (Järfälla/Mälarö)",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.1,
+              "gap": 13.85
+            },
+            {
+              "rank": 3,
+              "start_position": 5,
+              "name": "KFUM GA",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.9,
+              "gap": 12.05
+            },
+            {
+              "rank": 4,
+              "start_position": 3,
+              "name": "GCF Uppsala Pojktruppen",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.525,
+              "gap": 11.425
             }
           ],
           "tr_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "4",
+              "rank": 1,
+              "start_position": 2,
+              "name": "Brommagymnasterna Herr",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 14.9,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 3,
+              "name": "GCF Uppsala Pojktruppen",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.4,
+              "gap": 13.5
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "Team Öst (Järfälla/Mälarö)",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.85,
+              "gap": 13.05
+            },
+            {
+              "rank": 4,
+              "start_position": 4,
+              "name": "GK Motus-Salto/Lugi GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 3.1,
+              "gap": 11.8
             }
           ]
         },
