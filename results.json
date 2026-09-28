@@ -1,6 +1,175 @@
 {
-  "last_updated": "2026-09-28T07:10:52.146022Z",
+  "last_updated": "2026-09-28T15:23:50.417950Z",
   "competitions": [
+    {
+      "competition": "Nordfemman Blå Öppen klass 13 år+",
+      "date_from": "2026-10-17",
+      "date_to": "2026-10-18",
+      "place": "Hudiksvall",
+      "classes": [
+        {
+          "class_name": "Nordfemman Blå",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3751?f=8214&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "7",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "8",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "9",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "GF Syd: RegionTrean HT-26",
+      "date_from": "2026-10-11",
+      "date_to": "2026-10-11",
+      "place": "Ängelholm",
+      "classes": []
+    },
+    {
+      "competition": "SöderFemman Öppen klass 13 år och äldre",
+      "date_from": "2026-10-10",
+      "date_to": "2026-10-11",
+      "place": "Ängelholm",
+      "classes": [
+        {
+          "class_name": "SöderFemman",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3752?f=8215&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": 24.0,
+              "E": 21.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": 24.0,
+              "E": 11.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": 24.0,
+              "E": 11.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "competition": "USM-VT26",
       "date_from": "2026-05-30",
