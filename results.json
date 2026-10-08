@@ -1,6 +1,87 @@
 {
-  "last_updated": "2026-10-08T13:06:16.246980Z",
+  "last_updated": "2026-10-08T19:15:45.845515Z",
   "competitions": [
+    {
+      "competition": "Rikstvåan Dam 13-16 år - HT26",
+      "date_from": "2026-10-24",
+      "date_to": "2026-10-25",
+      "place": "Sandviken",
+      "classes": [
+        {
+          "class_name": "Rikstvåan Dam",
+          "url": "https://live.sporteventsystems.se/Score/WebScore/3759?f=8218&country=swe&year=2026",
+          "teams": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "FX",
+              "fx": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tu": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "tr": {
+                "score": null,
+                "D": null,
+                "E": null,
+                "C": null,
+                "HJ": null
+              },
+              "total": null,
+              "gap": null
+            }
+          ],
+          "fx_app": [
+            {
+              "rank": 1,
+              "start_position": null,
+              "name": "4",
+              "D": null,
+              "E": 12.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tu_app": [
+            {
+              "rank": 2,
+              "start_position": null,
+              "name": "5",
+              "D": null,
+              "E": 12.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ],
+          "tr_app": [
+            {
+              "rank": 3,
+              "start_position": null,
+              "name": "6",
+              "D": null,
+              "E": 12.0,
+              "C": null,
+              "HJ": null,
+              "score": null,
+              "gap": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "competition": "Nordfemman Blå Öppen klass 13 år+",
       "date_from": "2026-10-17",
