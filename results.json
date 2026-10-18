@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T06:33:12.904925Z",
+  "last_updated": "2026-10-18T11:38:03.869370Z",
   "competitions": [
     {
       "competition": "Nordfemman Gul Öppen klass - HT26",
@@ -879,70 +879,497 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 4,
+              "name": "Söderhamns GF",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.3,
+                "D": 1.7,
+                "E": 7.6,
+                "C": 2.0,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 11.6,
+                "D": 1.8,
+                "E": 7.8,
+                "C": 2.0,
                 "HJ": null
               },
               "tr": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 10.95,
+                "D": 1.8,
+                "E": 7.15,
+                "C": 2.0,
                 "HJ": null
               },
-              "total": null,
-              "gap": null
+              "total": 33.85,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 6,
+              "name": "Gefle GF Lag 1",
+              "fx": {
+                "score": 11.7,
+                "D": 1.6,
+                "E": 8.2,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.65,
+                "D": 1.8,
+                "E": 7.65,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.9,
+                "D": 1.8,
+                "E": 7.1,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 33.25,
+              "gap": 0.6
+            },
+            {
+              "rank": 3,
+              "start_position": 2,
+              "name": "Nacka GF UT Cerise",
+              "fx": {
+                "score": 11.5,
+                "D": 1.7,
+                "E": 7.9,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.6,
+                "D": 1.8,
+                "E": 7.6,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.3,
+                "D": 1.7,
+                "E": 6.7,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 32.4,
+              "gap": 1.45
+            },
+            {
+              "rank": 4,
+              "start_position": 5,
+              "name": "Umeå GF Rikslaget",
+              "fx": {
+                "score": 11.35,
+                "D": 1.3,
+                "E": 8.15,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.5,
+                "D": 1.7,
+                "E": 7.2,
+                "C": 1.6,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.5,
+                "D": 1.7,
+                "E": 6.8,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 32.35,
+              "gap": 1.5
+            },
+            {
+              "rank": 5,
+              "start_position": 3,
+              "name": "Hudiksvalls GF",
+              "fx": {
+                "score": 10.8,
+                "D": 1.6,
+                "E": 7.2,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.7,
+                "D": 1.9,
+                "E": 6.9,
+                "C": 1.9,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.55,
+                "D": 1.8,
+                "E": 6.85,
+                "C": 1.9,
+                "HJ": null
+              },
+              "total": 32.05,
+              "gap": 1.8
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "Huddinge GF Lag 4",
+              "fx": {
+                "score": 11.05,
+                "D": 1.2,
+                "E": 7.85,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.95,
+                "D": 1.7,
+                "E": 7.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tr": {
+                "score": 9.7,
+                "D": 1.8,
+                "E": 5.9,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 31.7,
+              "gap": 2.15
+            },
+            {
+              "rank": 7,
+              "start_position": 8,
+              "name": "GF Örnarna Lag 1",
+              "fx": {
+                "score": 10.6,
+                "D": 1.35,
+                "E": 7.25,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 10.3,
+                "D": 1.8,
+                "E": 7.3,
+                "C": 1.2,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.4,
+                "D": 1.8,
+                "E": 6.6,
+                "C": 2.0,
+                "HJ": null
+              },
+              "total": 31.3,
+              "gap": 2.55
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "GF Örebro Trupp Röd 2",
+              "fx": {
+                "score": 11.35,
+                "D": 1.8,
+                "E": 7.55,
+                "C": 2.0,
+                "HJ": null
+              },
+              "tu": {
+                "score": 9.5,
+                "D": 1.4,
+                "E": 6.4,
+                "C": 1.7,
+                "HJ": null
+              },
+              "tr": {
+                "score": 10.35,
+                "D": 1.8,
+                "E": 6.75,
+                "C": 1.8,
+                "HJ": null
+              },
+              "total": 31.2,
+              "gap": 2.65
             }
           ],
           "fx_app": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "4",
+              "start_position": 6,
+              "name": "Gefle GF Lag 1",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.7,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 2,
+              "name": "Nacka GF UT Cerise",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.2,
+              "gap": 11.5
+            },
+            {
+              "rank": 3,
+              "start_position": 5,
+              "name": "Umeå GF Rikslaget",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.35,
+              "gap": 11.35
+            },
+            {
+              "rank": 3,
+              "start_position": 1,
+              "name": "GF Örebro Trupp Röd 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.35,
+              "gap": 11.35
+            },
+            {
+              "rank": 5,
+              "start_position": 4,
+              "name": "Söderhamns GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.4,
+              "gap": 11.3
+            },
+            {
+              "rank": 6,
+              "start_position": 7,
+              "name": "Huddinge GF Lag 4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 11.05
+            },
+            {
+              "rank": 7,
+              "start_position": 3,
+              "name": "Hudiksvalls GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.9,
+              "gap": 10.8
+            },
+            {
+              "rank": 8,
+              "start_position": 8,
+              "name": "GF Örnarna Lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.1,
+              "gap": 10.6
             }
           ],
           "tu_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "rank": 1,
+              "start_position": 4,
+              "name": "Söderhamns GF",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 11.6,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 7,
+              "name": "Huddinge GF Lag 4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 10.95
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "Hudiksvalls GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.9,
+              "gap": 10.7
+            },
+            {
+              "rank": 4,
+              "start_position": 6,
+              "name": "Gefle GF Lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.95,
+              "gap": 10.65
+            },
+            {
+              "rank": 5,
+              "start_position": 2,
+              "name": "Nacka GF UT Cerise",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.0,
+              "gap": 10.6
+            },
+            {
+              "rank": 6,
+              "start_position": 5,
+              "name": "Umeå GF Rikslaget",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.1,
+              "gap": 10.5
+            },
+            {
+              "rank": 7,
+              "start_position": 8,
+              "name": "GF Örnarna Lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.3,
+              "gap": 10.3
+            },
+            {
+              "rank": 8,
+              "start_position": 1,
+              "name": "GF Örebro Trupp Röd 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 2.1,
+              "gap": 9.5
             }
           ],
           "tr_app": [
             {
-              "rank": 3,
-              "start_position": null,
-              "name": "6",
+              "rank": 1,
+              "start_position": 4,
+              "name": "Söderhamns GF",
               "D": null,
               "E": null,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 10.95,
+              "gap": 0.0
+            },
+            {
+              "rank": 2,
+              "start_position": 6,
+              "name": "Gefle GF Lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.05,
+              "gap": 10.9
+            },
+            {
+              "rank": 3,
+              "start_position": 3,
+              "name": "Hudiksvalls GF",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.4,
+              "gap": 10.55
+            },
+            {
+              "rank": 4,
+              "start_position": 5,
+              "name": "Umeå GF Rikslaget",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.45,
+              "gap": 10.5
+            },
+            {
+              "rank": 5,
+              "start_position": 8,
+              "name": "GF Örnarna Lag 1",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.55,
+              "gap": 10.4
+            },
+            {
+              "rank": 6,
+              "start_position": 1,
+              "name": "GF Örebro Trupp Röd 2",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.6,
+              "gap": 10.35
+            },
+            {
+              "rank": 7,
+              "start_position": 2,
+              "name": "Nacka GF UT Cerise",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 0.65,
+              "gap": 10.3
+            },
+            {
+              "rank": 8,
+              "start_position": 7,
+              "name": "Huddinge GF Lag 4",
+              "D": null,
+              "E": null,
+              "C": null,
+              "HJ": null,
+              "score": 1.25,
+              "gap": 9.7
             }
           ]
         }
