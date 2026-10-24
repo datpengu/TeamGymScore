@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T09:04:12.223218Z",
+  "last_updated": "2026-10-24T10:07:39.797704Z",
   "competitions": [
     {
       "competition": "Rikstrean Dam 13-16 år - HT26",
@@ -249,7 +249,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "VA",
+              "name": "FX",
               "fx": {
                 "score": null,
                 "D": null,
@@ -350,24 +350,24 @@
           "teams": [
             {
               "rank": 1,
-              "start_position": null,
-              "name": "FX",
+              "start_position": 2,
+              "name": "Tyresögymnastiken",
               "fx": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 13.0,
+                "D": 5.0,
+                "E": 6.2,
+                "C": 1.8,
                 "HJ": null
               },
               "tu": {
-                "score": null,
-                "D": null,
-                "E": null,
-                "C": null,
+                "score": 13.0,
+                "D": 5.0,
+                "E": 6.2,
+                "C": 1.8,
                 "HJ": null
               },
               "tr": {
-                "score": null,
+                "score": 13.0,
                 "D": null,
                 "E": null,
                 "C": null,
@@ -392,15 +392,15 @@
           ],
           "tu_app": [
             {
-              "rank": 2,
-              "start_position": null,
-              "name": "5",
+              "rank": 1,
+              "start_position": 2,
+              "name": "Tyresögymnastiken",
               "D": null,
               "E": 12.0,
               "C": null,
               "HJ": null,
-              "score": null,
-              "gap": null
+              "score": 13.0,
+              "gap": 0.0
             }
           ],
           "tr_app": [
