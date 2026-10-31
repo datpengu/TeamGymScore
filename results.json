@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T01:38:07.384935Z",
+  "last_updated": "2026-10-31T07:29:35.471483Z",
   "competitions": [
     {
       "competition": "Rikstrean Dam 13-16 år - HT26",
@@ -14,7 +14,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
@@ -176,7 +176,7 @@
             {
               "rank": 1,
               "start_position": null,
-              "name": "FX",
+              "name": "VA",
               "fx": {
                 "score": null,
                 "D": null,
